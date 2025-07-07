@@ -8,8 +8,6 @@ NativeScript provides platform APIs directly to the JavaScript runtime (with str
 
 - [Official Resources](#official-resources)
 - [Flavors](#flavors)
-- [Official Flavors](#official-flavors)
-- [Community Flavors](#community-flavors)
 - [Platforms](#platforms)
 - [Community](#community)
 - [Plugins](#plugins)
@@ -30,12 +28,12 @@ NativeScript provides platform APIs directly to the JavaScript runtime (with str
 
 NativeScript offers various flavors you can try, which are generally divided into two types: the official version and the community-developed version.
 
-## Official Flavors
+#### Official Flavors
 
 - [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript) - Official JavaScript flavor with plain JS and no build step.
 - [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript) - Official TypeScript flavor with native class support.
 
-## Community Flavors
+#### Community Flavors
 
 - [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) - Popular flavor using Angular framework.
   - [Portal](https://nativescript-vue.org/) - Community site for NativeScript-Vue.
