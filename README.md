@@ -31,24 +31,24 @@ A curated list of awesome plugins, and resources for NativeScript.
 
 NativeScript offers various flavors you can try, which are generally divided into two types: the official version and the community-developed version.
 
-#### Official Flavors
+## Official Flavors
 
-- [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript)
-- [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript)
+- [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript) – Official JavaScript flavor with plain JS and no build step.
+- [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript) – Official TypeScript flavor with native class support.
 
-#### Community Flavors
+## Community Flavors
 
-- [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular)
-- [Vue](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue)
-  - [Portal](https://nativescript-vue.org/)
-- [SolidJS](https://github.com/nativescript-community/solid-js)
-- [ReactJS](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-react)
-  - [Portal](https://react-nativescript.netlify.app/)
-- [Svelte](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-svelte)
-  - [Portal](https://svelte.nativescript.org/)
-- [CapacitorJS](https://github.com/NativeScript/capacitor)
-  - [Portal](https://capacitor.nativescript.org/)
-- [Ionic](https://v8.docs.nativescript.org/plugins/ionic-portals.html)
+- [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) – Popular flavor using Angular framework.
+  - [Portal](https://nativescript-vue.org/) – Community site for NativeScript-Vue.
+- [Vue](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue) – Build apps using Vue.js and NativeScript runtime.
+- [SolidJS](https://github.com/nativescript-community/solid-js) – Community-driven integration with SolidJS.
+- [ReactJS](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-react) – Use React to build native mobile apps.
+  - [Portal](https://react-nativescript.netlify.app/) – Documentation site for React + NativeScript.
+- [Svelte](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-svelte) – Use Svelte to compile native apps with NativeScript.
+  - [Portal](https://svelte.nativescript.org/) – Official portal for NativeScript-Svelte.
+- [CapacitorJS](https://github.com/NativeScript/capacitor) – Integration of CapacitorJS with NativeScript runtime.
+  - [Portal](https://capacitor.nativescript.org/) – Website for NativeScript-Capacitor integration.
+- [Ionic](https://v8.docs.nativescript.org/plugins/ionic-portals.html) – Use Ionic Portals inside NativeScript apps.
 
 ## Platforms
 
@@ -65,18 +65,18 @@ Available platform runtimes:
 
 ## Plugins
 
-- [Official plugins of Nativescript](https://github.com/NativeScript/plugins)
-- [UI Kit plugins of Nativescript](https://github.com/NativeScript/ui-kit)
-- [Nativescript Community](https://nativescript-community.github.io/) - All plugins by Nativescript Community
-- [Community Plugin for integrating AI models](https://github.com/erick-marro/ns-ai-plugin) - AI plugin by Erick Marroquín
-- [nstudio](https://github.com/nstudio/nativescript-plugins) - All plugins by nstudio
-- [Osei Fortune](https://github.com/triniwiz/nativescript-plugins) - All plugins by Osei Fortune
-- [Angel Engineering](https://github.com/AngelEngineering/nativescript-plugins) - All plugins by Angel Engineering
-- [VoiceThread](https://github.com/VoiceThread/nativescript-plugins) - All plugins by VoiceThread
-- [Valor Software](https://github.com/valor-software/nativescript-plugins) - All plugins by Valor Software
-- [mleleux-heykiddo](https://github.com/mleleux-heykiddo/nativescript-plugins) - All plugins by mleleux-heykiddo
-- [Wuilmer Medrano](https://github.com/wuilmerj24/nativescript-plugins) - All plugins by Wuilmer Medrano
-- For more plugins [NativeScript Market](https://market.nativescript.org) or [NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score)
+- [Official plugins of Nativescript](https://github.com/NativeScript/plugins) - All official plugins by NativeScript.
+- [UI Kit plugins of Nativescript](https://github.com/NativeScript/ui-kit) - All UI Kit plugins by NativeScript.
+- [Nativescript Community](https://nativescript-community.github.io/) - All plugins by Nativescript Community.
+- [Community Plugin for integrating AI models](https://github.com/erick-marro/ns-ai-plugin) - AI plugin by Erick Marroquín.
+- [nstudio](https://github.com/nstudio/nativescript-plugins) - All plugins by nstudio.
+- [Osei Fortune](https://github.com/triniwiz/nativescript-plugins) - All plugins by Osei Fortune.
+- [Angel Engineering](https://github.com/AngelEngineering/nativescript-plugins) - All plugins by Angel Engineering.
+- [VoiceThread](https://github.com/VoiceThread/nativescript-plugins) - All plugins by VoiceThread.
+- [Valor Software](https://github.com/valor-software/nativescript-plugins) - All plugins by Valor Software.
+- [mleleux-heykiddo](https://github.com/mleleux-heykiddo/nativescript-plugins) - All plugins by mleleux-heykiddo.
+- [Wuilmer Medrano](https://github.com/wuilmerj24/nativescript-plugins) - All plugins by Wuilmer Medrano.
+- For more plugins [NativeScript Market](https://market.nativescript.org) or [NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score).
 
 ## Tools
 
