@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />
 
-NativeScript provides platform APIs directly to the JavaScript runtime (with strong types) for a rich TypeScript development experience.
+Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, Android, and VisionOS—entirely in JavaScript.
 
 ## Contents
 
