@@ -1,6 +1,8 @@
+# Awesome Nativescript [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NativeScript_Logo.png/960px-NativeScript_Logo.png" width="128" />
 
-# Awesome Nativescript [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+> Empower JavaScript with native APIs. Liberate your development by using platform APIs directly without leaving your ❤️ of JavaScript.
 
 A curated list of awesome plugins, and resources for NativeScript.
 
