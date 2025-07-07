@@ -10,6 +10,7 @@ Empower JavaScript with native APIs. NativeScript provides direct access to plat
 - [Flavors](#flavors)
 - [Platforms](#platforms)
 - [Community](#community)
+- [Templates](#templates)
 - [Plugins](#plugins)
 - [Tools](#tools)
 
@@ -60,6 +61,13 @@ Available platform runtimes:
 - [Nativescript Community on Discord](https://nativescript.org/discord)
 - [Nativescript Community on GitHub](https://github.com/nativescript-community/)
 
+## Templates
+
+- [Blank Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-blank) - A basic template with a single page and no custom styles.
+- [Drawer Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-drawer-navigation) - A template with a side drawer.
+- [Tabs Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-tab-navigation) - A template with multiple tabs.
+- [List & Details Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-master-detail) - A template with a ListView and a details screen.
+
 ## Plugins
 
 - [Official plugins of Nativescript](https://github.com/NativeScript/plugins) - All official plugins by NativeScript.
@@ -78,7 +86,6 @@ Available platform runtimes:
 
 ## Tools
 
-- NativeScript Project Template on [GitHub](https://github.com/NativeScript/nativescript-app-templates) or [NPM](https://www.npmjs.com/search?q=%40nativescript%20template)
-- NativeScript online directly on StackBlitz by [NativeScript Preview](https://preview.nativescript.org/)
+- [NativeScript online directly on StackBlitz by NativeScript Preview](https://preview.nativescript.org/)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
