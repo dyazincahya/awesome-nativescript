@@ -1,6 +1,6 @@
 # Awesome Nativescript [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NativeScript_Logo.png/960px-NativeScript_Logo.png" width="128" />
+<img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />
 
 > Empower JavaScript with native APIs. Liberate your development by using platform APIs directly without leaving your ❤️ of JavaScript.
 
