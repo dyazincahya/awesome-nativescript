@@ -76,6 +76,7 @@ Available platform runtimes:
 - [Community Plugin for integrating AI models](https://github.com/erick-marro/ns-ai-plugin) - AI plugin by Erick Marroquín.
 - [nstudio](https://github.com/nstudio/nativescript-plugins) - All plugins by nstudio.
 - [Osei Fortune](https://github.com/triniwiz/nativescript-plugins) - All plugins by Osei Fortune.
+- [NativeScript-Use](https://github.com/NativeScript-Use/NativeScript-Use) - All plugins by NativeScript-Use
 - [Angel Engineering](https://github.com/AngelEngineering/nativescript-plugins) - All plugins by Angel Engineering.
 - [VoiceThread](https://github.com/VoiceThread/nativescript-plugins) - All plugins by VoiceThread.
 - [Valor Software](https://github.com/valor-software/nativescript-plugins) - All plugins by Valor Software.
