@@ -2,9 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />
 
-> Empower JavaScript with native APIs. Liberate your development by using platform APIs directly without leaving your ❤️ of JavaScript.
-
-A curated list of awesome plugins, and resources for NativeScript.
+NativeScript provides platform APIs directly to the JavaScript runtime (with strong types) for a rich TypeScript development experience.
 
 ## Contents
 
