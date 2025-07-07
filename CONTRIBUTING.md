@@ -5,7 +5,7 @@
 <p>Click the <strong>“Fork”</strong> button in the top-right corner to create your own copy.</p>
 
 <h3>💻 2. Clone Your Fork</h3>
-<pre><code>git clone https://github.com/your-username/awesome-nativescript.git
+<pre><code>git clone https://github.com/dyazincahya/awesome-nativescript.git
 cd awesome-nativescript
 </code></pre>
 
