@@ -8,8 +8,8 @@ A curated list of awesome plugins, and resources for NativeScript.
 
 - [Official Resources](#official-resources)
 - [Flavors](#flavors)
-  - [Official Flavors](#official-flavors)
-  - [Community Flavors](#community-flavors)
+- [Official Flavors](#official-flavors)
+- [Community Flavors](#community-flavors)
 - [Platforms](#platforms)
 - [Community](#community)
 - [Plugins](#plugins)
