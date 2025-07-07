@@ -31,12 +31,12 @@ A curated list of awesome plugins, and resources for NativeScript.
 
 NativeScript offers various flavors you can try, which are generally divided into two types: the official version and the community-developed version.
 
-#### Official Flavors
+## Official Flavors
 
 - [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript) - Official JavaScript flavor with plain JS and no build step.
 - [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript) - Official TypeScript flavor with native class support.
 
-#### Community Flavors
+## Community Flavors
 
 - [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) - Popular flavor using Angular framework.
   - [Portal](https://nativescript-vue.org/) - Community site for NativeScript-Vue.
@@ -67,7 +67,7 @@ Available platform runtimes:
 
 - [Official plugins of Nativescript](https://github.com/NativeScript/plugins) - All official plugins by NativeScript.
 - [UI Kit plugins of Nativescript](https://github.com/NativeScript/ui-kit) - All UI Kit plugins by NativeScript.
-- [Nativescript Community](https://nativescript-community.github.io/) - All plugins by Nativescript Community.
+- [Nativescript Community](https://nativescript-community.github.io/) - All plugins by the NativeScript Community.
 - [Community Plugin for integrating AI models](https://github.com/erick-marro/ns-ai-plugin) - AI plugin by Erick Marroquín.
 - [nstudio](https://github.com/nstudio/nativescript-plugins) - All plugins by nstudio.
 - [Osei Fortune](https://github.com/triniwiz/nativescript-plugins) - All plugins by Osei Fortune.
@@ -76,7 +76,8 @@ Available platform runtimes:
 - [Valor Software](https://github.com/valor-software/nativescript-plugins) - All plugins by Valor Software.
 - [mleleux-heykiddo](https://github.com/mleleux-heykiddo/nativescript-plugins) - All plugins by mleleux-heykiddo.
 - [Wuilmer Medrano](https://github.com/wuilmerj24/nativescript-plugins) - All plugins by Wuilmer Medrano.
-- For more plugins [NativeScript Market](https://market.nativescript.org) or [NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score).
+- [NativeScript Market](https://market.nativescript.org) - Community plugin directory.
+- [NativeScript on NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score) - Plugin list sorted by popularity.
 
 ## Tools
 
