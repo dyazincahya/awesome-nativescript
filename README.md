@@ -11,6 +11,7 @@ Empower JavaScript with native APIs. NativeScript provides direct access to plat
 - [Platforms](#platforms)
 - [Community](#community)
 - [Templates](#templates)
+- [Layouts](#Layouts)
 - [Plugins](#plugins)
 - [Tools](#tools)
 
@@ -37,8 +38,8 @@ NativeScript offers various flavors you can try, which are generally divided int
 #### Community Flavors
 
 - [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) - Popular flavor using Angular framework.
-  - [Portal](https://nativescript-vue.org/) - Community site for NativeScript-Vue.
 - [Vue](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue) - Build apps using Vue.js and NativeScript runtime.
+  - [Portal](https://nativescript-vue.org/) - Community site for NativeScript-Vue.
 - [SolidJS](https://github.com/nativescript-community/solid-js) - Community-driven integration with SolidJS.
 - [ReactJS](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-react) - Use React to build native mobile apps.
   - [Portal](https://react-nativescript.netlify.app/) - Documentation site for React + NativeScript.
@@ -67,6 +68,18 @@ Available platform runtimes:
 - [Drawer Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-drawer-navigation) - A template with a side drawer.
 - [Tabs Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-tab-navigation) - A template with multiple tabs.
 - [List & Details Template](https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-master-detail) - A template with a ListView and a details screen.
+
+## Layouts
+
+- [Stack Layout](https://docs.nativescript.org/ui/stack-layout) - A layout container that arranges child views in a horizontal or vertical stack.
+- [Grid Layout](https://docs.nativescript.org/ui/grid-layout) - A layout container that lets you arrange its child elements in a table-like manner.
+- [Root Layout](https://docs.nativescript.org/ui/root-layout) - Layout container for dynamically layering views with a programmatic API.
+- [Flexbox Layout](https://docs.nativescript.org/ui/flexbox-layout) - A layout container that implements (close-to-spec) CSS Flexbox.
+- [Wrap Layout](https://docs.nativescript.org/ui/wrap-layout) - Layout Container that wraps it's items once there's no more space to fit them.
+- [Dock Layout](https://docs.nativescript.org/ui/dock-layout) - Layout container for docking views to the sides or the middle.
+- [Absolute Layout](https://docs.nativescript.org/ui/absolute-layout) - A simple layout container for positioning elements at top/left coordinates.
+- [Yoga Layout](https://github.com/nativescript-community/yoga) - Facebook's yoga layout engine, ported to NativeScript.
+- [Universal layout views (via Taffy)](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - Taffy is a flexible, high-performance, cross-platform UI layout library written in Rust.
 
 ## Plugins
 
