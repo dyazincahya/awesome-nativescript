@@ -33,12 +33,12 @@ Empower JavaScript with native APIs. NativeScript provides direct access to plat
 
 NativeScript offers various flavors you can try, which are generally divided into two types: the official version and the community-developed version.
 
-#### Official Flavors
+### Official Flavors
 
 - [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript) - Official JavaScript flavor with plain JS and no build step.
 - [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript) - Official TypeScript flavor with native class support.
 
-#### Community Flavors
+### Community Flavors
 
 - [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) - Popular flavor using Angular framework.
 - [Vue](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue) - Build apps using Vue.js and NativeScript runtime.
@@ -117,11 +117,11 @@ Available platform runtimes:
 
 ## Plugins
 
-#### AI Plugin
+### AI Plugin
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App Created By Erick Marroquín.
 
-#### ML Plugin
+### ML Plugin
 
 - [@nativescript/mlkit-core](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-core) - A plugin that provides a UI component to access the different functionalities of [Google's ML Kit](https://developers.google.com/ml-kit) SDK.
 - [@nativescript/mlkit-barcode-scanning](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning) - This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.
