@@ -16,6 +16,7 @@ Empower JavaScript with native APIs. NativeScript provides direct access to plat
 - [Components](#components)
 - [Plugins](#plugins)
 - [More Plugins](#more-plugins)
+- [Unit Testing](#unit-testing)
 - [Tools](#tools)
 
 ## Official Resources
@@ -156,6 +157,11 @@ Available platform runtimes:
 - [Wuilmer Medrano](https://github.com/wuilmerj24/nativescript-plugins) - All plugins by Wuilmer Medrano.
 - [NativeScript Market](https://market.nativescript.org) - Community plugin directory.
 - [NativeScript on NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score) - Plugin list sorted by popularity.
+
+## Unit Testing
+
+- [Detox](https://github.com/NativeScript/plugins/tree/main/packages/detox) - Gray box end-to-end testing and automation framework for mobile apps.
+- [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) - Maestro is the simplest and most effective UI testing framework.
 
 ## Tools
 
