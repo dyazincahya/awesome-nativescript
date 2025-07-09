@@ -88,8 +88,6 @@ Available platform runtimes:
 - [Frame](https://docs.nativescript.org/ui/frame) - UI component for displaying and navigating between Pages.
 - [Page](https://docs.nativescript.org/ui/page) - UI component for representing application screens the users can navigate to.
 - [ActionBar](https://docs.nativescript.org/ui/action-bar) - UI component abstracting the Android ActionBar, and the iOS NavigationBar.
-- [ActionItem](https://docs.nativescript.org/ui/action-bar#action-item) - `<ActionItem>` is a UI component for adding action buttons to the ActionBar.
-- [NavigationButton](https://docs.nativescript.org/ui/action-bar#navigation-button) - `<NavigationButton>` is a UI component providing an abstraction for the Android navigation button and the iOS back button.
 
 ## Components
 
