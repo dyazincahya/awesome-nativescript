@@ -11,7 +11,9 @@ Empower JavaScript with native APIs. NativeScript provides direct access to plat
 - [Platforms](#platforms)
 - [Community](#community)
 - [Templates](#templates)
-- [Layouts](#Layouts)
+- [Layouts](#layouts)
+- [Navigations](#navigations)
+- [Components](#components)
 - [Plugins](#plugins)
 - [Tools](#tools)
 
@@ -71,15 +73,47 @@ Available platform runtimes:
 
 ## Layouts
 
-- [Stack Layout](https://docs.nativescript.org/ui/stack-layout) - A layout container that arranges child views in a horizontal or vertical stack.
-- [Grid Layout](https://docs.nativescript.org/ui/grid-layout) - A layout container that lets you arrange its child elements in a table-like manner.
-- [Root Layout](https://docs.nativescript.org/ui/root-layout) - Layout container for dynamically layering views with a programmatic API.
-- [Flexbox Layout](https://docs.nativescript.org/ui/flexbox-layout) - A layout container that implements (close-to-spec) CSS Flexbox.
-- [Wrap Layout](https://docs.nativescript.org/ui/wrap-layout) - Layout Container that wraps it's items once there's no more space to fit them.
-- [Dock Layout](https://docs.nativescript.org/ui/dock-layout) - Layout container for docking views to the sides or the middle.
-- [Absolute Layout](https://docs.nativescript.org/ui/absolute-layout) - A simple layout container for positioning elements at top/left coordinates.
+- [StackLayout](https://docs.nativescript.org/ui/stack-layout) - A layout container that arranges child views in a horizontal or vertical stack.
+- [GridLayout](https://docs.nativescript.org/ui/grid-layout) - A layout container that lets you arrange its child elements in a table-like manner.
+- [RootLayout](https://docs.nativescript.org/ui/root-layout) - Layout container for dynamically layering views with a programmatic API.
+- [FlexboxLayout](https://docs.nativescript.org/ui/flexbox-layout) - A layout container that implements (close-to-spec) CSS Flexbox.
+- [WrapLayout](https://docs.nativescript.org/ui/wrap-layout) - Layout Container that wraps it's items once there's no more space to fit them.
+- [DockLayout](https://docs.nativescript.org/ui/dock-layout) - Layout container for docking views to the sides or the middle.
+- [AbsoluteLayout](https://docs.nativescript.org/ui/absolute-layout) - A simple layout container for positioning elements at top/left coordinates.
 - [Yoga Layout](https://github.com/nativescript-community/yoga) - Facebook's yoga layout engine, ported to NativeScript.
 - [Universal layout views (via Taffy)](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - Taffy is a flexible, high-performance, cross-platform UI layout library written in Rust.
+
+## Navigations
+
+- [Frame](https://docs.nativescript.org/ui/frame) - UI component for displaying and navigating between Pages.
+- [Page](https://docs.nativescript.org/ui/page) - UI component for representing application screens the users can navigate to.
+- [ActionBar](https://docs.nativescript.org/ui/action-bar) - UI component abstracting the Android ActionBar, and the iOS NavigationBar.
+- [ActionItem](https://docs.nativescript.org/ui/action-bar#action-item) - `<ActionItem>` is a UI component for adding action buttons to the ActionBar.
+- [NavigationButton](https://docs.nativescript.org/ui/action-bar#navigation-button) - `<NavigationButton>` is a UI component providing an abstraction for the Android navigation button and the iOS back button.
+
+## Components
+
+- [ActivityIndicator](https://docs.nativescript.org/ui/activity-indicator) - UI component for signaling activity.
+- [Button](https://docs.nativescript.org/ui/button) - A basic native button that reacts to user gestures.
+- [DatePicker](https://docs.nativescript.org/ui/date-picker) - UI component for selecting a date.
+- [Dialogs](https://docs.nativescript.org/ui/dialogs) - UI for grabbing the users attention, prompting for confirmation, choice, input, or credentials.
+- [HtmlView](https://docs.nativescript.org/ui/html-view) - UI component for rendering simple HTML content.
+- [Image](https://docs.nativescript.org/ui/image) - UI component for rendering images.
+- [Label](https://docs.nativescript.org/ui/label) - UI component for displaying text.
+- [ListPicker](https://docs.nativescript.org/ui/list-picker) - UI component for selecting a value from a list.
+- [ListView](https://docs.nativescript.org/ui/list-view) - UI component for rendering large lists using view recycling.
+- [Placeholder](https://docs.nativescript.org/ui/placeholder) - Helper UI component for rendering native views.
+- [Progress](https://docs.nativescript.org/ui/progress) - UI component to indicate the progress of a task.
+- [ScrollView](https://docs.nativescript.org/ui/scroll-view) - UI component for rendering scrollable content (horizontal or vertical).
+- [SearchBar](https://docs.nativescript.org/ui/search-bar) - UI component for entering search queries.
+- [SegmentedBar](https://docs.nativescript.org/ui/segmented-bar) - UI component for discrete slection.
+- [Slider](https://docs.nativescript.org/ui/slider) - UI component for picking numeric values from a range.
+- [Switch](https://docs.nativescript.org/ui/switch) - UI component for toggling state on or off.
+- [TabView](https://docs.nativescript.org/ui/tab-view) - UI component for grouping content into tabs and let users switch between them.
+- [TextField](https://docs.nativescript.org/ui/text-field) - UI component for single-line text entry.
+- [TextView](https://docs.nativescript.org/ui/text-view) - UI component for multi-line text entry.
+- [TimePicker](https://docs.nativescript.org/ui/time-picker) - UI component that lets users select time.
+- [WebView](https://docs.nativescript.org/ui/web-view) - UI component for rendering web content.
 
 ## Plugins
 
