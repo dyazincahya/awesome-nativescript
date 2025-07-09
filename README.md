@@ -119,7 +119,7 @@ Available platform runtimes:
 
 ### AI Plugin
 
-- [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App Created By Erick Marroquín.
+- [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
 
 ### ML Plugin
 
