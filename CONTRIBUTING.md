@@ -25,7 +25,7 @@ cd awesome-nativescript
   <pre><code>npm install --global awesome-lint</code></pre>
 
   <li>Run the linter (make sure you're inside the repo folder):</li>
-  <pre><code>npx awesome-lint</code></pre>
+  <pre><code>npx awesome-lint https://github.com/[username]/awesome-nativescript</code></pre>
 
   <li>Ensure the output shows <code>✔ Linting</code> with no errors or warnings.</li>
 </ol>
