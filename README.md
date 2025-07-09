@@ -124,23 +124,53 @@ Available platform runtimes:
 
 ### ML Plugin
 
-- [@nativescript/mlkit-core](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-core) - A plugin that provides a UI component to access the different functionalities of [Google's ML Kit](https://developers.google.com/ml-kit) SDK.
-- [@nativescript/mlkit-barcode-scanning](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning) - This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.
-- [@nativescript/mlkit-face-detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-face-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable face detection and provide the FaceResult type for the data of the face detection event.
-- [@nativescript/mlkit-image-labeling](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-image-labeling) - A plugin that is used with `@nativescript/mlkit-core` to enable Image Labeling and provide the ImageLabelingResult type for the image labeling event data.
-- [@nativescript/mlkit-object-detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-object-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Object Detection and provide the ObjectResult type for the object detection event data.
-- [@nativescript/mlkit-pose-detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Pose Detection and provide the PoseResult type for the Pose Detection event data.
-- [@nativescript/mlkit-text-recognition](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition) - A plugin used with `@nativescript/mlkit-core` to enable Text Recognition in your app and provide TextResult type for the text recognition event data.
+- [Core](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-core) - A plugin that provides a UI component to access the different functionalities of [Google's ML Kit](https://developers.google.com/ml-kit) SDK.
+- [Barcode Scanning](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning) - This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.
+- [Face Detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-face-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable face detection and provide the FaceResult type for the data of the face detection event.
+- [Image Labeling](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-image-labeling) - A plugin that is used with `@nativescript/mlkit-core` to enable Image Labeling and provide the ImageLabelingResult type for the image labeling event data.
+- [Object Detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-object-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Object Detection and provide the ObjectResult type for the object detection event data.
+- [Pose Detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Pose Detection and provide the PoseResult type for the Pose Detection event data.
+- [Text Recognition](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition) - A plugin used with `@nativescript/mlkit-core` to enable Text Recognition in your app and provide TextResult type for the text recognition event data.
 
 ### UI Kit Plugin
 
-- [@nativescript/flutter](https://github.com/NativeScript/ui-kit/tree/main/packages/flutter) - Use Flutter with NativeScript projects by creating a [Flutter module](https://docs.flutter.dev/add-to-app) in the root of your project.
-- [@nativescript/ionic-portals](https://github.com/NativeScript/ui-kit/tree/main/packages/ionic-portals) - A plugin that allows you to use [Ionic Portals](https://ionic.io/docs/portals) in NativeScript.
-- [@nativescript/jetpack-compose](https://github.com/NativeScript/ui-kit/tree/main/packages/jetpack-compose) - A plugin that allows you to use Jetpack Compose in NativeScript.
-- [@nativescript/morph-modal-kit](https://github.com/NativeScript/ui-kit/tree/main/packages/morph-modal-kit) - Is a lightweight, flexible UIKit package for building card-stack modals with smooth `morph` (replace) animations and support for sticky elements.
-- [@nativescript/rive](https://github.com/NativeScript/ui-kit/tree/main/packages/rive) - Rive for NativeScript, allows setup and interaction with the native implementation of the Rive runtime on iOS and Android.
-- [@nativescript/swift-ui](https://github.com/NativeScript/ui-kit/tree/main/packages/swift-ui) - Use SwiftUI with NativeScript.
-- [@nativescript/ui-charts](https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts) - Highcharts SDK for NativeScript
+- [Flutter](https://github.com/NativeScript/ui-kit/tree/main/packages/flutter) - Use Flutter with NativeScript projects by creating a [Flutter module](https://docs.flutter.dev/add-to-app) in the root of your project.
+- [Ionic Portals](https://github.com/NativeScript/ui-kit/tree/main/packages/ionic-portals) - A plugin that allows you to use [Ionic Portals](https://ionic.io/docs/portals) in NativeScript.
+- [Jetpack Compose](https://github.com/NativeScript/ui-kit/tree/main/packages/jetpack-compose) - A plugin that allows you to use Jetpack Compose in NativeScript.
+- [Morph Modal Kit](https://github.com/NativeScript/ui-kit/tree/main/packages/morph-modal-kit) - Is a lightweight, flexible UIKit package for building card-stack modals with smooth `morph` (replace) animations and support for sticky elements.
+- [Rive](https://github.com/NativeScript/ui-kit/tree/main/packages/rive) - Rive for NativeScript, allows setup and interaction with the native implementation of the Rive runtime on iOS and Android.
+- [Swift UI](https://github.com/NativeScript/ui-kit/tree/main/packages/swift-ui) - Use SwiftUI with NativeScript.
+- [UI Charts](https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts) - Highcharts SDK for NativeScript
+
+### UI Material Plugin
+
+Build beautiful, usable products using [Material Design Components](https://m2.material.io/design) for NativeScript.
+
+- [Activity Indicator](https://github.com/nativescript-community/ui-material-components/tree/master/packages/activityindicator) - Material Design's Circular progress indicator component for NativeScript.
+- [Bottom Navigation](https://github.com/nativescript-community/ui-material-components/tree/master/packages/bottom-navigation) - Material Design's Bottom navigation component for NativeScript.
+- [Bottom Sheet](https://github.com/nativescript-community/ui-material-components/tree/master/packages/bottomsheet) - Material Design's Bottom sheet component for NativeScript.
+- [Button](https://github.com/nativescript-community/ui-material-components/tree/master/packages/button) - Material Design's Button component for NativeScript.
+- [Card](https://github.com/nativescript-community/ui-material-components/tree/master/packages/cardview) - Material Design's Card component for NativeScript.
+- [Dialogs](https://github.com/nativescript-community/ui-material-components/tree/master/packages/dialogs) - Material Design's Dialogs component for NativeScript.
+- [Floating Action Button](https://github.com/nativescript-community/ui-material-components/tree/master/packages/floatingactionbutton) - Material Design's Floating action button component for NativeScript.
+- [Progress](https://github.com/nativescript-community/ui-material-components/tree/master/packages/progress) - Material Design's Linear progress indicator component for NativeScript.
+- [Ripple](https://github.com/nativescript-community/ui-material-components/tree/master/packages/ripple) - Material Design's Ripple component for NativeScript.
+- [Slider](https://github.com/nativescript-community/ui-material-components/tree/master/packages/slider) - Material Design's Slider component for NativeScript.
+- [Snackbar](https://github.com/nativescript-community/ui-material-components/tree/master/packages/snackbar) - Material Design's Snackbar component for NativeScript.
+- [Speed Dial](https://github.com/nativescript-community/ui-material-components/tree/master/packages/speeddial) - Material Design's Speed dial component for NativeScript.
+- [Switch](https://github.com/nativescript-community/ui-material-components/tree/master/packages/switch) - Material Design's Switch component for NativeScript.
+- [Tabs](https://github.com/nativescript-community/ui-material-components/tree/master/packages/tabs) - Material Design's Tabs component for NativeScript.
+- [Text Field](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textfield) - Material Design's Text field component for NativeScript.
+- [Text View](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textview) - Material Design's Text view component for NativeScript.
+
+### UI Plugin
+
+- [Drawingpad](https://github.com/nativescript-community/nativescript-drawingpad) - NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.
+-
+
+### Reporting Plugin
+
+- [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
 
 ## More Plugins
 
@@ -169,5 +199,6 @@ Available platform runtimes:
 - [Plugin Seed for Build NativeScript Plugins Fast ⚡](https://github.com/NativeScript/plugin-seed)
 - [Nx: Smart Repos and Fast Builds](https://github.com/NativeScript/nx)
 - [Development Workflow with Unit Testing](https://docs.nativescript.org/guide/testing)
+- [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
