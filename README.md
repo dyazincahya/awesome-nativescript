@@ -15,6 +15,7 @@ Empower JavaScript with native APIs. NativeScript provides direct access to plat
 - [Navigations](#navigations)
 - [Components](#components)
 - [Plugins](#plugins)
+- [More Plugins](#more-plugins)
 - [Tools](#tools)
 
 ## Official Resources
@@ -116,10 +117,25 @@ Available platform runtimes:
 
 ## Plugins
 
+#### AI Plugin
+
+- [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App Created By Erick Marroquín.
+
+#### ML Plugin
+
+- [@nativescript/mlkit-core](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-core) - A plugin that provides a UI component to access the different functionalities of [Google's ML Kit](https://developers.google.com/ml-kit) SDK.
+- [@nativescript/mlkit-barcode-scanning](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning) - This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.
+- [@nativescript/mlkit-face-detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-face-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable face detection and provide the FaceResult type for the data of the face detection event.
+- [@nativescript/mlkit-image-labeling](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-image-labeling) - A plugin that is used with `@nativescript/mlkit-core` to enable Image Labeling and provide the ImageLabelingResult type for the image labeling event data.
+- [@nativescript/mlkit-object-detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-object-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Object Detection and provide the ObjectResult type for the object detection event data.
+- [@nativescript/mlkit-pose-detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Pose Detection and provide the PoseResult type for the Pose Detection event data.
+- [@nativescript/mlkit-text-recognition](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition) - A plugin used with `@nativescript/mlkit-core` to enable Text Recognition in your app and provide TextResult type for the text recognition event data.
+
+## More Plugins
+
 - [Official plugins of Nativescript](https://github.com/NativeScript/plugins) - All official plugins by NativeScript.
 - [UI Kit plugins of Nativescript](https://github.com/NativeScript/ui-kit) - All UI Kit plugins by NativeScript.
 - [Nativescript Community](https://nativescript-community.github.io/) - All plugins by the NativeScript Community.
-- [Community Plugin for integrating AI models](https://github.com/erick-marro/ns-ai-plugin) - AI plugin by Erick Marroquín.
 - [nstudio](https://github.com/nstudio/nativescript-plugins) - All plugins by nstudio.
 - [Osei Fortune](https://github.com/triniwiz/nativescript-plugins) - All plugins by Osei Fortune.
 - [NativeScript-Use](https://github.com/NativeScript-Use/NativeScript-Use) - All plugins by NativeScript-Use.
@@ -134,5 +150,6 @@ Available platform runtimes:
 ## Tools
 
 - [NativeScript online directly on StackBlitz by NativeScript Preview](https://preview.nativescript.org/)
+- [Plugin Seed for Build NativeScript Plugins Fast ⚡](https://github.com/NativeScript/plugin-seed)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
