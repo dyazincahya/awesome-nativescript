@@ -5,7 +5,7 @@
 <p>Click the <strong>“Fork”</strong> button in the top-right corner to create your own copy.</p>
 
 <h3>💻 2. Clone Your Fork</h3>
-<pre><code>git clone https://github.com/dyazincahya/awesome-nativescript.git
+<pre><code>git clone https://github.com/YOUR_USERNAME/awesome-nativescript.git
 cd awesome-nativescript
 </code></pre>
 
@@ -18,8 +18,17 @@ cd awesome-nativescript
   <li>Ensure your entry is relevant to NativeScript and consistent with the existing style.</li>
 </ul>
 
-<h3>✅ 4. Run Checks (Optional but Recommended)</h3>
-<p>If the repo includes linting or formatting tools, run them before committing.</p>
+<h3>🔍 4. Run Lint Check</h3>
+<p>We recommend checking your changes with <a href="https://www.npmjs.com/package/awesome-lint">awesome-lint</a> to ensure they follow the <em>awesome list</em> standard.</p>
+<ol>
+  <li>Install <code>awesome-lint</code> (optional if using <code>npx</code>):</li>
+  <pre><code>npm install --global awesome-lint</code></pre>
+
+  <li>Run the linter (make sure you're inside the repo folder):</li>
+  <pre><code>npx awesome-lint</code></pre>
+
+  <li>Ensure the output shows <code>✔ Linting</code> with no errors or warnings.</li>
+</ol>
 
 <h3>📦 5. Commit Your Changes</h3>
 <pre><code>git add .
@@ -27,8 +36,8 @@ git commit -m "Add [Plugin Name] to [Section Name]"
 </code></pre>
 
 <h3>🚀 6. Push to Your Fork</h3>
-<pre><code>git push origin master</code></pre>
-<p>Or replace <code>master</code> with <code>main</code> if that's your default branch.</p>
+<pre><code>git push origin main</code></pre>
+<p>Or replace <code>main</code> with <code>master</code> if that's your default branch.</p>
 
 <h3>🔁 7. Open a Pull Request</h3>
 <p>Go to your repository on GitHub and click <strong>“Compare &amp; pull request”</strong> to submit your contribution.</p>
