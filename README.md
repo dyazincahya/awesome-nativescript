@@ -168,5 +168,6 @@ Available platform runtimes:
 - [NativeScript online directly on StackBlitz by NativeScript Preview](https://preview.nativescript.org/)
 - [Plugin Seed for Build NativeScript Plugins Fast ⚡](https://github.com/NativeScript/plugin-seed)
 - [Nx: Smart Repos and Fast Builds](https://github.com/NativeScript/nx)
+- [Development Workflow with Unit Testing](https://docs.nativescript.org/guide/testing)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
