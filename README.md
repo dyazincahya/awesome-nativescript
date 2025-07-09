@@ -81,6 +81,7 @@ Available platform runtimes:
 - [DockLayout](https://docs.nativescript.org/ui/dock-layout) - Layout container for docking views to the sides or the middle.
 - [AbsoluteLayout](https://docs.nativescript.org/ui/absolute-layout) - A simple layout container for positioning elements at top/left coordinates.
 - [Yoga Layout](https://github.com/nativescript-community/yoga) - Facebook's yoga layout engine, ported to NativeScript.
+- [Yoga Layout by Triniwiz](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-yogalayout) - Facebook's yoga layout engine, ported to NativeScript by Triniwiz.
 - [Universal layout views (via Taffy)](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - Taffy is a flexible, high-performance, cross-platform UI layout library written in Rust.
 
 ## Navigations
