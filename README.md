@@ -132,6 +132,13 @@ Available platform runtimes:
 - [Pose Detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Pose Detection and provide the PoseResult type for the Pose Detection event data.
 - [Text Recognition](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition) - A plugin used with `@nativescript/mlkit-core` to enable Text Recognition in your app and provide TextResult type for the text recognition event data.
 
+### Firebase Plugin
+
+- [Firebase Core](https://github.com/NativeScript/firebase/tree/main/packages/firebase-core) - A plugin to initialize [FirebaseApp](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp) in your app.
+- [Firebase Analytics](https://github.com/NativeScript/firebase/tree/main/packages/firebase-analytics) - This plugin allows you to add Google Analytics for Firebase to your app.
+- [Firebase App Check](https://github.com/NativeScript/firebase/tree/main/packages/firebase-app-check) - App Check works alongside other Firebase services to help protect your backend resources from abuse, such as billing fraud or phishing.
+- [Firebase Auth](https://github.com/NativeScript/firebase/tree/main/packages/firebase-auth) - A plugin that allows you to add Firebase Authentification to your NativeScript app.
+
 ### UI Kit Plugin
 
 - [Flutter](https://github.com/NativeScript/ui-kit/tree/main/packages/flutter) - Use Flutter with NativeScript projects by creating a [Flutter module](https://docs.flutter.dev/add-to-app) in the root of your project.
@@ -203,6 +210,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [NativeScript online directly on StackBlitz by NativeScript Preview](https://preview.nativescript.org/)
 - [Plugin Seed for Build NativeScript Plugins Fast ⚡](https://github.com/NativeScript/plugin-seed)
 - [Nx: Smart Repos and Fast Builds](https://github.com/NativeScript/nx)
+- [Cross-platform (xplat) tools for Nx workspaces](https://github.com/nstudio/xplat)
 - [Development Workflow with Unit Testing](https://docs.nativescript.org/guide/testing)
 - [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
