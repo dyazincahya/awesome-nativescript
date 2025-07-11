@@ -150,7 +150,7 @@ Available platform runtimes:
 - [Morph Modal Kit](https://github.com/NativeScript/ui-kit/tree/main/packages/morph-modal-kit) - Is a lightweight, flexible UIKit package for building card-stack modals with smooth `morph` (replace) animations and support for sticky elements.
 - [Rive](https://github.com/NativeScript/ui-kit/tree/main/packages/rive) - Rive for NativeScript, allows setup and interaction with the native implementation of the Rive runtime on iOS and Android.
 - [Swift UI](https://github.com/NativeScript/ui-kit/tree/main/packages/swift-ui) - Use SwiftUI with NativeScript.
-- [UI Charts](https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts) - Highcharts SDK for NativeScript
+- [UI Charts](https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts) - Highcharts SDK for NativeScript.
 
 ### UI Material Plugin
 
