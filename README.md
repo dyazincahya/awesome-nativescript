@@ -141,6 +141,19 @@ Available platform runtimes:
 - [Firebase Analytics](https://github.com/NativeScript/firebase/tree/main/packages/firebase-analytics) - This plugin allows you to add Google Analytics for Firebase to your app.
 - [Firebase App Check](https://github.com/NativeScript/firebase/tree/main/packages/firebase-app-check) - App Check works alongside other Firebase services to help protect your backend resources from abuse, such as billing fraud or phishing.
 - [Firebase Auth](https://github.com/NativeScript/firebase/tree/main/packages/firebase-auth) - A plugin that allows you to add Firebase Authentification to your NativeScript app.
+- [Firebase Crashlytics](https://github.com/NativeScript/firebase/tree/main/packages/firebase-crashlytics) - A plugin that allows you to add Firebase Crashlytics to your NativeScript app.
+- [Firebase Database](https://github.com/NativeScript/firebase/tree/main/packages/firebase-database) - A plugin that allows you to add Firebase Realtime Databse to your NativeScript app.
+- [Firebase Dynamic Links](https://github.com/NativeScript/firebase/tree/main/packages/firebase-dynamic-links) - This plugin allows you to add the Firebase Dynamic Links SDK to your app, create dynamic links and receive links that launch a screen on your app.
+- [Firebase Firestore](https://github.com/NativeScript/firebase/tree/main/packages/firebase-firestore) - This plugin allows you to add Firebase Cloud Firestore to your NativeScript app.
+- [Firebase Functions](https://github.com/NativeScript/firebase/tree/main/packages/firebase-functions) - This plugin allows you to use Firebase Cloud Functions with NativeScript.
+- [Firebase In App Messaging](https://github.com/NativeScript/firebase/tree/main/packages/firebase-in-app-messaging) - This plugin allows you to use the Firebase In-App Messaging SDK in your NativeScript app.
+- [Firebase Installations](https://github.com/NativeScript/firebase/tree/main/packages/firebase-installations) - Provides a Firebase installation ID (FID) for each installed instance of a Firebase app.
+- [Firebase Messaging Core](https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging-core) - Firebase Messaging Core is a lite package which enables you to use a third-party push service on Android and iOS.
+- [Firebase Messaging](https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging) - This plugin allows you to use Firebase Cloud Messaging in your NativeScript app.
+- [Firebase Performance](https://github.com/NativeScript/firebase/tree/main/packages/firebase-performance) - This plugin allows you to use the Firebase Performance Monitoring API in your NativeScript app.
+- [Firebase Remote Config](https://github.com/NativeScript/firebase/tree/main/packages/firebase-remote-config) - This plugin allows you to use the Firebase Remote Config API in your NativeScript app.
+- [Firebase Storage](https://github.com/NativeScript/firebase/tree/main/packages/firebase-storage) - This plugin allows you to use the native Firebase SDKs for Cloud Storage in your Nativescript app.
+- [Firebase UI](https://github.com/NativeScript/firebase/tree/main/packages/firebase-ui) - With this plugin, you can use the FirebaseUI for Auth library in your NativeScript app. FirebaseUI for Auth is a library that provides a drop-in auth solution that handles the UI flows for signing up and signing in users with email and password, phone number, Google, Facebook, Twitter, and more.
 
 ### UI Kit Plugin
 
