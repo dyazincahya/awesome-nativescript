@@ -18,6 +18,7 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Components](#components)
 - [Plugins](#plugins)
 - [More Plugins](#more-plugins)
+- [Font and Font Icon](#font-and-font-icon)
 - [Unit Testing](#unit-testing)
 - [Tools](#tools)
 
@@ -201,6 +202,12 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Wuilmer Medrano](https://github.com/wuilmerj24/nativescript-plugins) - All plugins by Wuilmer Medrano.
 - [NativeScript Market](https://market.nativescript.org) - Community plugin directory.
 - [NativeScript on NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score) - Plugin list sorted by popularity.
+
+## Font and Font Icon
+
+- [Fontawesome](https://www.kang-cahya.com/2025/07/how-to-install-and-use-font-awesome-in.html#google_vignette) - How to Install and Use Fontawesome in NativeScript.
+- [Material Design Symbols](https://nstudio.io/blog/using-material-design-symbols-in-nativescript) - Using Material Design Symbols in NativeScript.
+- [Fonts](https://docs.nativescript.org/project-structure/src/fonts) - How to add fonts type in NativeScript.
 
 ## Unit Testing
 
