@@ -190,11 +190,11 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Audio](https://github.com/nstudio/nativescript-audio) - NativeScript plugin to play and record audio files for Android and iOS.
 - [Drawingpad](https://github.com/nativescript-community/nativescript-drawingpad) - NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.
+- [Exo Player](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer) - NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.
 - [Video Player](https://github.com/nstudio/nativescript-videoplayer) - A NativeScript plugin to provide the ability to play local and remote videos.
 - [YouTube Player](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-youtubeplayer) - Video Player only for YouTube.
 - [Video Recorder](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-videorecorder) - Video recording plugin for NativeScript.
 - [Video Editor](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-video-editor) - A plugin for editing video.
-- [Exo Player](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer) - NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.
 
 ### Payment Plugin
 
