@@ -196,6 +196,14 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Video Editor](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-video-editor) - A plugin for editing video.
 - [Exo Player](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer) - NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.
 
+### Payment Plugin
+
+- [Apple Pay](https://github.com/NativeScript/payments/tree/main/packages/apple-pay) - A plugin that allows you to offer Apple Pay in your iOS apps.
+- [Google Pay](https://github.com/NativeScript/payments/tree/main/packages/google-pay) - A plugin that allows you to offer Google Pay in your Android app.
+- [Payments](https://github.com/NativeScript/payments/tree/main/packages/payments) - A plugin that allows your app to use in-app purchases and subscriptions using Apple AppStore and Google PlayStore purchasing systems.
+- [Square In App Payments](https://github.com/NativeScript/payments/tree/main/packages/square-in-app-payments) - Build remarkable payments experiences in your own apps with Square's In-App Payments SDK for NativeScript.
+- [Stripe](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-stripe) - Is a financial infrastructure platform that enables businesses to accept and manage online payments, as well as handle recurring billing and other financial operations.
+
 ### Reporting Plugin
 
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
