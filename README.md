@@ -205,7 +205,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Font and Font Icon
 
-- [Fontawesome](https://www.kang-cahya.com/2025/07/how-to-install-and-use-font-awesome-in.html#google_vignette) - How to Install and Use Fontawesome in NativeScript.
+- [Fontawesome](https://www.kang-cahya.com/2025/07/how-to-install-and-use-font-awesome-in.html) - How to Install and Use Fontawesome in NativeScript.
 - [Material Design Symbols](https://nstudio.io/blog/using-material-design-symbols-in-nativescript) - Using Material Design Symbols in NativeScript.
 - [Fonts](https://docs.nativescript.org/project-structure/src/fonts) - How to add fonts type in NativeScript.
 
