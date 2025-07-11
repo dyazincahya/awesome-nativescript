@@ -12,8 +12,6 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Flavors](#flavors)
 - [Platforms](#platforms)
 - [Community](#community)
-  - [Official Flavors](#official-flavors)
-  - [Community Flavors](#community-flavors)
 - [Templates](#templates)
 - [Layouts](#layouts)
 - [Navigations](#navigations)
@@ -39,12 +37,12 @@ A curated list of awesome plugins, and resources for NativeScript.
 
 NativeScript offers various flavors you can try, which are generally divided into two types: the official version and the community-developed version.
 
-#### Official Flavors
+### Official Flavors
 
 - [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript) - Official JavaScript flavor with plain JS and no build step.
 - [TypeScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript) - Official TypeScript flavor with native class support.
 
-#### Community Flavors
+### Community Flavors
 
 - [Angular](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular) - Popular flavor using Angular framework.
 - [Vue](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue) - Build apps using Vue.js and NativeScript runtime.
