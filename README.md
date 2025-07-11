@@ -12,6 +12,8 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Flavors](#flavors)
 - [Platforms](#platforms)
 - [Community](#community)
+  - [Official Flavors](#official-flavors)
+  - [Community Flavors](#community-flavors)
 - [Templates](#templates)
 - [Layouts](#layouts)
 - [Navigations](#navigations)
