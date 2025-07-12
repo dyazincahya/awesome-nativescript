@@ -19,14 +19,19 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Navigations](#navigations)
 - [Components](#components)
 - [Plugins](#plugins)
-  - [AI Plugin](#ai-plugin)
-  - [ML Plugin](#ml-plugin)
-  - [Firebase Plugin](#firebase-plugin)
-  - [UI Kit Plugin](#ui-kit-plugin)
-  - [UI Material Plugin](#ui-material-plugin)
-  - [Multimedia Plugin](#multimedia-plugin)
-  - [Payment Plugin](#payment-plugin)
-  - [Reporting Plugin](#reporting-plugin)
+  - [AI Plugins](#ai-plugins)
+  - [ML Plugins](#ml-plugins)
+  - [Firebase Plugins](#firebase-plugins)
+  - [UI Plugins](#ui-plugins)
+  - [UI Kit Plugins](#ui-kit-plugins)
+  - [UI Material Plugins](#ui-material-plugins)
+  - [Multimedia Plugins](#multimedia-plugins)
+  - [Payment Plugins](#payment-plugins)
+  - [Utility Plugins](#utility-plugins)
+  - [Geo Plugins](#geo-plugins)
+  - [Authentication Plugins](#authentication-plugins)
+  - [Advertising Plugins](#advertising-plugins)
+  - [Reporting Plugins](#reporting-plugins)
 - [More Plugins](#more-plugins)
 - [Font and Font Icon](#font-and-font-icon)
 - [Unit Testing](#unit-testing)
@@ -131,11 +136,11 @@ Available platform runtimes:
 
 ## Plugins
 
-### AI Plugin
+### AI Plugins
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
 
-### ML Plugin
+### ML Plugins
 
 - [Core](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-core) - A plugin that provides a UI component to access the different functionalities of [Google's ML Kit](https://developers.google.com/ml-kit) SDK.
 - [Barcode Scanning](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning) - This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.
@@ -145,7 +150,7 @@ Available platform runtimes:
 - [Pose Detection](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection) - A plugin that is used with `@nativescript/mlkit-core` to enable Pose Detection and provide the PoseResult type for the Pose Detection event data.
 - [Text Recognition](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition) - A plugin used with `@nativescript/mlkit-core` to enable Text Recognition in your app and provide TextResult type for the text recognition event data.
 
-### Firebase Plugin
+### Firebase Plugins
 
 - [Firebase Core](https://github.com/NativeScript/firebase/tree/main/packages/firebase-core) - A plugin to initialize [FirebaseApp](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp) in your app.
 - [Firebase Analytics](https://github.com/NativeScript/firebase/tree/main/packages/firebase-analytics) - This plugin allows you to add Google Analytics for Firebase to your app.
@@ -165,7 +170,12 @@ Available platform runtimes:
 - [Firebase Storage](https://github.com/NativeScript/firebase/tree/main/packages/firebase-storage) - This plugin allows you to use the native Firebase SDKs for Cloud Storage in your Nativescript app.
 - [Firebase UI](https://github.com/NativeScript/firebase/tree/main/packages/firebase-ui) - With this plugin, you can use the FirebaseUI for Auth library in your NativeScript app. FirebaseUI for Auth is a library that provides a drop-in auth solution that handles the UI flows for signing up and signing in users with email and password, phone number, Google, Facebook, Twitter, and more.
 
-### UI Kit Plugin
+### UI Plugins
+
+- [Auto Fit Text](https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text) - A plugin that extends the Nativescript Label with the functionality to adjust the font size according to the label's width.
+- [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
+
+### UI Kit Plugins
 
 - [Flutter](https://github.com/NativeScript/ui-kit/tree/main/packages/flutter) - Use Flutter with NativeScript projects by creating a [Flutter module](https://docs.flutter.dev/add-to-app) in the root of your project.
 - [Ionic Portals](https://github.com/NativeScript/ui-kit/tree/main/packages/ionic-portals) - A plugin that allows you to use [Ionic Portals](https://ionic.io/docs/portals) in NativeScript.
@@ -175,7 +185,7 @@ Available platform runtimes:
 - [Swift UI](https://github.com/NativeScript/ui-kit/tree/main/packages/swift-ui) - Use SwiftUI with NativeScript.
 - [UI Charts](https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts) - Highcharts SDK for NativeScript.
 
-### UI Material Plugin
+### UI Material Plugins
 
 Build beautiful, usable products using [Material Design Components](https://m2.material.io/design) for NativeScript.
 
@@ -196,7 +206,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Text Field](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textfield) - Material Design's Text field component for NativeScript.
 - [Text View](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textview) - Material Design's Text view component for NativeScript.
 
-### Multimedia Plugin
+### Multimedia Plugins
 
 - [Audio](https://github.com/nstudio/nativescript-audio) - NativeScript plugin to play and record audio files for Android and iOS.
 - [Drawingpad](https://github.com/nativescript-community/nativescript-drawingpad) - NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.
@@ -206,7 +216,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Video Recorder](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-videorecorder) - Video recording plugin for NativeScript.
 - [Video Editor](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-video-editor) - A plugin for editing video.
 
-### Payment Plugin
+### Payment Plugins
 
 - [Apple Pay](https://github.com/NativeScript/payments/tree/main/packages/apple-pay) - A plugin that allows you to offer Apple Pay in your iOS apps.
 - [Google Pay](https://github.com/NativeScript/payments/tree/main/packages/google-pay) - A plugin that allows you to offer Google Pay in your Android app.
@@ -214,7 +224,48 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Square In App Payments](https://github.com/NativeScript/payments/tree/main/packages/square-in-app-payments) - Build remarkable payments experiences in your own apps with Square's In-App Payments SDK for NativeScript.
 - [Stripe](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-stripe) - Is a financial infrastructure platform that enables businesses to accept and manage online payments, as well as handle recurring billing and other financial operations.
 
-### Reporting Plugin
+### Utility Plugins
+
+- [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
+- [Background HTTP](https://github.com/NativeScript/plugins/blob/main/packages/background-http) - A plugin that allows you to make background HTTP uploads.
+- [Biometrics](https://github.com/NativeScript/plugins/blob/main/packages/biometrics) - A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
+- [Brightness](https://github.com/NativeScript/plugins/blob/main/packages/brightness) - A plugin that get and set the device's brightness level.
+- [Camera](https://github.com/NativeScript/plugins/blob/main/packages/camera) - A plugin that allows you to take a picture and optionally save it on the device storage.
+- [Contacts](https://github.com/NativeScript/plugins/blob/main/packages/contacts) - A plugin that allows you to access Contacts directory on iOS and Android. You can pick a contact, update it, delete it, or add a new one.
+- [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
+- [Haptics](https://github.com/NativeScript/plugins/blob/main/packages/haptics) - A plugin that allows you to add haptics to your app. Playing haptics can engage people's sense of touch and bring their familiarity with the physical world into your app or game.
+- [Image Picker](https://github.com/NativeScript/plugins/blob/main/packages/imagepicker) - Imagepicker plugin supporting both single and multiple selection.
+- [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript. [iOS Security Suite](https://github.com/securing/IOSSecuritySuite) is an advanced and easy-to-use platform security & anti-tampering library.
+- [IQ Keyboard Manager](https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager) - A NativeScript wrapper for the popular [IQKeyboardManager](https://cocoapods.org/pods/IQKeyboardManager) iOS framework, which provides an elegant solution for preventing the iOS keyboard from covering UITextView controls.
+- [Local Notifications](https://github.com/NativeScript/plugins/blob/main/packages/local-notifications) - A plugin that allows your app to show notifications when the app is not running. Just like remote push notifications, but a few orders of magnitude easier to set up.
+- [Localize](https://github.com/NativeScript/plugins/tree/main/packages/localize) - A plugin that implements internationalization (i18n) using the native capabilities of each platform.
+- [Pdf](https://github.com/NativeScript/plugins/blob/main/packages/pdf) - A simple PDF viewer. It conveniently uses the iOS WKWebView, and for Android it uses [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer).
+- [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
+- [Secure Storage](https://github.com/NativeScript/plugins/blob/main/packages/secure-storage) - Secure Storage using [SAMKeychain](https://github.com/soffes/SAMKeychain) on iOS and [Hawk](https://github.com/orhanobut/hawk) on Android.
+- [Shared Notification Delegate](https://github.com/NativeScript/plugins/blob/main/packages/shared-notification-delegate) - This project aims to prevent the shortcomings that come from the iOS implementation of only allowing a single delegate.
+- [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
+- [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from [@nativescript/theme](https://github.com/NativeScript/theme).
+- [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
+
+### Geo Plugins
+
+- [Directions](https://github.com/NativeScript/plugins/blob/main/packages/directions) - A plugin that allows you to launch the Google Maps app, if it's installed on the device, with some directions. For more information, visit [Directions action](https://developers.google.com/maps/documentation/urls/get-started#directions-action).
+- [Geo Location](https://github.com/NativeScript/plugins/blob/main/packages/geolocation) - A geolocation plugin to use for getting current location, monitor movement, etc.
+- [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
+- [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @nativescript/google-maps_.
+
+### Authentication Plugins
+
+- [Apple Sign In](https://github.com/NativeScript/plugins/blob/main/packages/apple-sign-in) - A plugin that allows you to authenticate users with Sign In with Apple.
+- [Facebook](https://github.com/NativeScript/plugins/blob/main/packages/facebook) - A plugin that allows you to integrate Facebook Login with your app using the Facebook SDK.
+- [Google Signin](https://github.com/NativeScript/plugins/blob/main/packages/google-signin) - A plugin that allows you to authenticate users with Google Sign-In.
+- [Twitter](https://github.com/NativeScript/plugins/blob/main/packages/twitter) - A plugin that allows you to authenticate a user with their Twitter account.
+
+### Advertising Plugins
+
+- [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
+
+### Reporting Plugins
 
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
 
