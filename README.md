@@ -31,6 +31,7 @@ A curated list of awesome plugins, and resources for NativeScript.
   - [Geo Plugins](#geo-plugins)
   - [Authentication Plugins](#authentication-plugins)
   - [Advertising Plugins](#advertising-plugins)
+  - [Backend Service Plugins](#backend-service-plugins)
   - [Reporting Plugins](#reporting-plugins)
 - [More Plugins](#more-plugins)
 - [Font and Font Icon](#font-and-font-icon)
@@ -46,6 +47,7 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [NativeScript on Twitter (@nativescript)](https://twitter.com/nativescript)
 - [NativeScript on YouTube (@NativeScriptVideos)](https://www.youtube.com/@NativeScriptVideos/videos)
 - [NativeScript on GitHub](https://github.com/NativeScript)
+- [NativeScript on Stack Overflow](http://stackoverflow.com/questions/tagged/nativescript)
 - [NativeScript RFC](https://github.com/NativeScript/rfcs/discussions)
 
 ## Flavors
@@ -265,6 +267,14 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 ### Advertising Plugins
 
 - [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
+
+### Backend Service Plugins
+
+- [Appwrite](https://github.com/NativeScript/appwrite) - Is an open-source backend as a service server that abstract and simplify complex and repetitive development tasks behind a very simple to use REST API.
+- [Firebase](#firebase-plugins) - Modular Firebase 🔥 implementation for NativeScript. Supports both iOS & Android platforms for all Firebase services.
+- [Supabase](https://github.com/NativeScript/supabase) - ⚡️ Supabase for NativeScript: Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+- [AWS](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk) - It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.
+- [Couchbase](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase) - Is an embedded, NoSQL JSON Document Style database for your mobile apps.
 
 ### Reporting Plugins
 
