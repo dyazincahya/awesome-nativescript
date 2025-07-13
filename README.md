@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />
 
-A curated list of awesome plugins, and resources for NativeScript.
+A curated list of plugins, and resources for NativeScript.
 
 > Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, Android, and VisionOS—entirely in JavaScript.
 
