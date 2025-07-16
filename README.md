@@ -25,6 +25,7 @@ A curated list of awesome plugins, and resources for NativeScript.
   - [UI Plugins](#ui-plugins)
   - [UI Kit Plugins](#ui-kit-plugins)
   - [UI Material Plugins](#ui-material-plugins)
+  - [Styling and Theme Plugins](#styling-and-theme-plugins)
   - [Multimedia Plugins](#multimedia-plugins)
   - [Payment Plugins](#payment-plugins)
   - [Utility Plugins](#utility-plugins)
@@ -212,7 +213,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Text Field](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textfield) - Material Design's Text field component for NativeScript.
 - [Text View](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textview) - Material Design's Text view component for NativeScript.
 
-### Styling & Theme Plugins
+### Styling and Theme Plugins
 
 - [NativeScript Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
 - [NativeScript Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
