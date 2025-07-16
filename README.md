@@ -212,6 +212,11 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Text Field](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textfield) - Material Design's Text field component for NativeScript.
 - [Text View](https://github.com/nativescript-community/ui-material-components/tree/master/packages/textview) - Material Design's Text view component for NativeScript.
 
+### Styling & Theme Plugins
+
+- [NativeScript Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
+- [NativeScript Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
+
 ### Multimedia Plugins
 
 - [Audio](https://github.com/nstudio/nativescript-audio) - NativeScript plugin to play and record audio files for Android and iOS.
@@ -290,11 +295,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 ### Reporting Plugins
 
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
-
-### Styling & Theme Plugins
-
-- [NativeScript Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
-- [NativeScript Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
 
 ## More Plugins
 
