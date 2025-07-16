@@ -291,6 +291,11 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
 
+### Styling & Theme Plugins
+
+- [NativeScript Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
+- [NativeScript Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
+
 ## More Plugins
 
 - [Official plugins of Nativescript](https://github.com/NativeScript/plugins) - All official plugins by NativeScript.
