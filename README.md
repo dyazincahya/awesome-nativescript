@@ -312,6 +312,10 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Material Design Symbols](https://nstudio.io/blog/using-material-design-symbols-in-nativescript) - Using Material Design Symbols in NativeScript.
 - [Fonts](https://docs.nativescript.org/project-structure/src/fonts) - How to add fonts type in NativeScript.
 
+## Security
+
+- [JavaScript obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code.
+
 ## Unit Testing
 
 - [Detox](https://github.com/NativeScript/plugins/tree/main/packages/detox) - Gray box end-to-end testing and automation framework for mobile apps.
