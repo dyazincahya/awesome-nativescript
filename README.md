@@ -35,6 +35,7 @@ A curated list of awesome plugins, and resources for NativeScript.
   - [Reporting Plugins](#reporting-plugins)
 - [More Plugins](#more-plugins)
 - [Font and Font Icon](#font-and-font-icon)
+- [Security](#security)
 - [Unit Testing](#unit-testing)
 - [Tools](#tools)
 
