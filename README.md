@@ -215,8 +215,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Styling and Theme Plugins
 
-- [NativeScript Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
-- [NativeScript Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
+- [Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
+- [Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
 
 ### Multimedia Plugins
 
