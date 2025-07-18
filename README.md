@@ -33,7 +33,7 @@ A curated list of awesome plugins, and resources for NativeScript.
   - [Authentication Plugins](#authentication-plugins)
   - [Advertising Plugins](#advertising-plugins)
   - [Backend Service Plugins](#backend-service-plugins)
-  - [Real-time Plugins](#real-time-plugins)
+  - [Networking Plugins](#networking-plugins)
   - [Reporting Plugins](#reporting-plugins)
 - [More Plugins](#more-plugins)
 - [Font and Font Icon](#font-and-font-icon)
@@ -205,6 +205,8 @@ Available platform runtimes:
 - [UI Checkbox](https://github.com/nativescript-community/ui-checkbox) - A NativeScript plugin for checkbox UI component.
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
+- [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
+- [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it, using Play Store and App Store APIs.
 
 ### UI Kit Plugins
 
@@ -287,6 +289,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices for powerful media processing such as converting formats, compressing files, extracting audio, editing video, adding watermarks, and more.
 - [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications, especially when handling large images, while maintaining performance and memory efficiency.
 - [Messenger](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger) - A NativeScript plugin for sending SMS or MMS.
+- [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
 
 ### Geo Plugins
 
@@ -305,7 +308,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Google Signin](https://github.com/NativeScript/plugins/blob/main/packages/google-signin) - A plugin that allows you to authenticate users with Google Sign-In.
 - [Twitter](https://github.com/NativeScript/plugins/blob/main/packages/twitter) - A plugin that allows you to authenticate a user with their Twitter account.
 - [Descope](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-descope) - The Descope SDK for NativeScript provides convenient access to Descope for an application written on top of NativeScript.
-- [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
 
 ### Advertising Plugins
 
@@ -319,10 +321,13 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [AWS](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk) - It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.
 - [Couchbase](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase) - Is an embedded, NoSQL JSON Document Style database for your mobile apps.
 
-### Real-time Plugins
+### Networking Plugins
 
-- [socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
+- [Nativescript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for Nativescript - iOS/Android.
+- [Klippa Nativescript Http](https://github.com/klippa-app/nativescript-http) - The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.
+- [Socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
 - [websockets](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-websockets) - For web-compatible WebSockets.
+- [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
 
 ### Reporting Plugins
 
