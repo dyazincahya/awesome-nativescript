@@ -207,6 +207,7 @@ Available platform runtimes:
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
 - [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
 - [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it, using Play Store and App Store APIs.
+- [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection (for iOS, multiple selection feature depends on OS version) using only native picker approaches. Support Pick `Documents`, `Images`, `Video`, `Audio` and `Archives`.
 
 ### UI Kit Plugins
 
@@ -247,7 +248,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Multimedia Plugins
 
-- [Audio](https://github.com/nstudio/nativescript-audio) - NativeScript plugin to play and record audio files for Android and iOS.
+- [Audio Player](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-player) - This plugin provides an audio player for Android and iOS that supports playback of both local files and remote URL audio files.
+- [Audio Recorder](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-recorder) - This plugin provides an audio recorder for Android and iOS that supports recording of audio from a device microphone input and saved to an MP4/AAC audio file. It also provides a function to merge multiple audio recordings together.
+- [Trans Coder](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-transcoder) - This plugin provides a few `audio` or `video` transcoding functions for Android API 21+ and iOS 4+.
 - [Drawingpad](https://github.com/nativescript-community/nativescript-drawingpad) - NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.
 - [Exo Player](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer) - NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.
 - [Video Player](https://github.com/nstudio/nativescript-videoplayer) - A NativeScript plugin to provide the ability to play local and remote videos.
