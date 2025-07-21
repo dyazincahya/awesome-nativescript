@@ -84,6 +84,7 @@ Available platform runtimes:
 - [Android](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
 - [iOS](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
 - [VisionOS](https://docs.nativescript.org/guide/visionos)
+- [WearOS](https://github.com/bradmartin/nativescript-wear-os)
 
 ## Community
 
