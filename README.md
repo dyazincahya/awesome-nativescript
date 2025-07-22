@@ -209,6 +209,9 @@ Available platform runtimes:
 - [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
 - [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it, using Play Store and App Store APIs.
 - [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection (for iOS, multiple selection feature depends on OS version) using only native picker approaches. Support Pick `Documents`, `Images`, `Video`, `Audio` and `Archives`.
+- [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
+- [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
+- [Time Range](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range) - A NativeScript plugin for selecting a time range using a time picker.
 
 ### UI Kit Plugins
 
@@ -266,6 +269,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Payments](https://github.com/NativeScript/payments/tree/main/packages/payments) - A plugin that allows your app to use in-app purchases and subscriptions using Apple AppStore and Google PlayStore purchasing systems.
 - [Square In App Payments](https://github.com/NativeScript/payments/tree/main/packages/square-in-app-payments) - Build remarkable payments experiences in your own apps with Square's In-App Payments SDK for NativeScript.
 - [Stripe](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-stripe) - Is a financial infrastructure platform that enables businesses to accept and manage online payments, as well as handle recurring billing and other financial operations.
+- [Revenuecat](https://github.com/mleleux-heykiddo/nativescript-plugins/tree/main/packages/nativescript-revenuecat) - A powerful and reliable in-app purchase server that makes it easy to build, analyze, and grow your subscriber base whether you're just starting out or already have millions of customers.
 
 ### Utility Plugins
 
