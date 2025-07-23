@@ -39,6 +39,7 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Font and Font Icon](#font-and-font-icon)
 - [Security](#security)
 - [Unit Testing](#unit-testing)
+- [Background Service](#background-service)
 - [Tools](#tools)
 
 ## Official Resources
@@ -349,17 +350,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## More Plugins
 
-- [Official plugins of Nativescript](https://github.com/NativeScript/plugins) - All official plugins by NativeScript.
-- [UI Kit plugins of Nativescript](https://github.com/NativeScript/ui-kit) - All UI Kit plugins by NativeScript.
-- [Nativescript Community](https://nativescript-community.github.io/) - All plugins by the NativeScript Community.
-- [nstudio](https://github.com/nstudio/nativescript-plugins) - All plugins by nstudio.
-- [Osei Fortune](https://github.com/triniwiz/nativescript-plugins) - All plugins by Osei Fortune.
-- [NativeScript-Use](https://github.com/NativeScript-Use/NativeScript-Use) - All plugins by NativeScript-Use.
-- [Angel Engineering](https://github.com/AngelEngineering/nativescript-plugins) - All plugins by Angel Engineering.
-- [VoiceThread](https://github.com/VoiceThread/nativescript-plugins) - All plugins by VoiceThread.
-- [Valor Software](https://github.com/valor-software/nativescript-plugins) - All plugins by Valor Software.
-- [mleleux-heykiddo](https://github.com/mleleux-heykiddo/nativescript-plugins) - All plugins by mleleux-heykiddo.
-- [Wuilmer Medrano](https://github.com/wuilmerj24/nativescript-plugins) - All plugins by Wuilmer Medrano.
 - [NativeScript Market](https://market.nativescript.org) - Community plugin directory.
 - [NativeScript on NPM](https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score) - Plugin list sorted by popularity.
 
@@ -377,6 +367,11 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Detox](https://github.com/NativeScript/plugins/tree/main/packages/detox) - Gray box end-to-end testing and automation framework for mobile apps.
 - [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) - Maestro is the simplest and most effective UI testing framework.
+
+## Background Service
+
+- [Workers by Web Workers API](https://docs.nativescript.org/guide/multithreading) - The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).
+- [Workers by JSch](https://github.com/NathanWalker/android-jsch-example) - NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.
 
 ## Tools
 
