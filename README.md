@@ -33,6 +33,7 @@ A curated list of awesome plugins, and resources for NativeScript.
   - [Authentication Plugins](#authentication-plugins)
   - [Advertising Plugins](#advertising-plugins)
   - [Backend Service Plugins](#backend-service-plugins)
+  - [Client-side Database Plugins](#client-side-database-plugins)
   - [Networking Plugins](#networking-plugins)
   - [Reporting Plugins](#reporting-plugins)
 - [More Plugins](#more-plugins)
@@ -334,7 +335,12 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Firebase](#firebase-plugins) - Modular Firebase 🔥 implementation for NativeScript. Supports both iOS & Android platforms for all Firebase services.
 - [Supabase](https://github.com/NativeScript/supabase) - ⚡️ Supabase for NativeScript: Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
 - [AWS](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk) - It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.
+
+### Client-side Database Plugins
+
 - [Couchbase](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase) - Is an embedded, NoSQL JSON Document Style database for your mobile apps.
+- [RxDB](https://github.com/herefishyfish/rxdb-nativescript) - Are a set of plugins that enable RxDB support for NativeScript. This set of plugins includes a core plugin and adapters for different databases.
+- [SQLite](https://github.com/nativescript-community/sqlite) - A SQLite plugin for NativeScript.
 
 ### Networking Plugins
 
