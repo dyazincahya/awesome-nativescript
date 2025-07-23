@@ -208,6 +208,7 @@ Available platform runtimes:
 - [UI Checkbox](https://github.com/nativescript-community/ui-checkbox) - A NativeScript plugin for checkbox UI component.
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
+- [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
 - [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
 - [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it, using Play Store and App Store APIs.
 - [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection (for iOS, multiple selection feature depends on OS version) using only native picker approaches. Support Pick `Documents`, `Images`, `Video`, `Audio` and `Archives`.
@@ -387,5 +388,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Cross-platform (xplat) tools for Nx workspaces](https://github.com/nstudio/xplat)
 - [Development Workflow with Unit Testing](https://docs.nativescript.org/guide/testing)
 - [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
+- [NativeScript Initializr is a Community tool to quickly generate NativeScript projects with associated plugins.](https://nativescript-initializr.jmarvall.com/)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
