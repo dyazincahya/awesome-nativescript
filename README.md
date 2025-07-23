@@ -370,8 +370,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Background Service
 
-- [Workers by Web Workers API](https://docs.nativescript.org/guide/multithreading) - The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).
-- [Workers by JSch](https://github.com/NathanWalker/android-jsch-example) - NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.
+- [Web Workers API](https://docs.nativescript.org/guide/multithreading) - The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).
+- [JSch](https://github.com/NathanWalker/android-jsch-example) - NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.
 
 ## Tools
 
