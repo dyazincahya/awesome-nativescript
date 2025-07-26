@@ -410,6 +410,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## visionOS (Vision Pro)
 
+- [What happens when a SwiftUI and NativeScript developer embrace each other?](https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/)
+- [How to add visionOS to an existing app?](https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/)
+- [Particle Systems via RealityKit and Multiple Scenes during Vision Pro development with NativeScript](https://blog.nativescript.org/particles-and-multiple-scenes-vision-pro-development/)
 - Fastlane visionOS deployments with NativeScript: https://x.com/NativeScript/status/1923249210343723019
   - https://x.com/NativeScript/status/1923249210343723019
 
