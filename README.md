@@ -174,7 +174,7 @@ Run NativeScript on the following platforms:
 - [Appwrite](https://github.com/NativeScript/appwrite) - Is an open-source backend as a service server that abstract and simplify complex and repetitive development tasks behind a very simple to use REST API.
 - [AWS](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk) - It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.
 - [Firebase](#firebase-plugins) - Modular Firebase 🔥 implementation for NativeScript. Supports both iOS & Android platforms for all Firebase services.
-- [Supabase](https://github.com/NativeScript/supabase) - ⚡️ Supabase for NativeScript: Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+- [Supabase](https://github.com/NativeScript/supabase) - Supabase for NativeScript: Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
 
 ### Client-side Database Plugins
 
@@ -210,7 +210,7 @@ Run NativeScript on the following platforms:
 - [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
 - [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @nativescript/google-maps_.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
-- [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox
+- [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.
 
 ### ML Plugins
 
@@ -447,9 +447,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Apple FoundationModels
 
-- [Apple FoundationModels Documentation](https://developer.apple.com/documentation/foundationmodels) - Official Apple documentation for on-device AI
-- [Stream AI Responses using iOS 26 FoundationModels](https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels) - Tutorial on implementing streaming AI responses
-- [ns-ios-foundationmodels](https://github.com/NathanWalker/ns-ios-foundationmodels) - Example NativeScript app using iOS 26+ FoundationModels
+- [Apple FoundationModels Documentation](https://developer.apple.com/documentation/foundationmodels) - Official Apple documentation for on-device AI.
+- [Stream AI Responses using iOS 26 FoundationModels](https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels) - Tutorial on implementing streaming AI responses.
+- [ns-ios-foundationmodels](https://github.com/NathanWalker/ns-ios-foundationmodels) - Example NativeScript app using iOS 26+ FoundationModels.
 
 ## Tools
 
