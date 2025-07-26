@@ -4,44 +4,54 @@
 
 A curated list of awesome plugins, and resources for NativeScript.
 
-> Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, Android, and VisionOS—entirely in JavaScript.
+> Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, macOS, visionOS, Android, and Meta Quest—entirely in JavaScript.
 
 ## Contents
 
-- [Official Resources](#official-resources)
-- [Flavors](#flavors)
-  - [Official Flavors](#official-flavors)
-  - [Community Flavors](#community-flavors)
-- [Platforms](#platforms)
-- [Community](#community)
-- [Templates](#templates)
-- [Layouts](#layouts)
-- [Navigations](#navigations)
-- [Components](#components)
-- [Plugins](#plugins)
-  - [Advertising Plugins](#advertising-plugins)
-  - [AI Plugins](#ai-plugins)
-  - [Authentication Plugins](#authentication-plugins)
-  - [Backend Service Plugins](#backend-service-plugins)
-  - [Client-side Database Plugins](#client-side-database-plugins)
-  - [Firebase Plugins](#firebase-plugins)
-  - [Geo Plugins](#geo-plugins)
-  - [ML Plugins](#ml-plugins)
-  - [Multimedia Plugins](#multimedia-plugins)
-  - [Networking Plugins](#networking-plugins)
-  - [Payment Plugins](#payment-plugins)
-  - [Reporting Plugins](#reporting-plugins)
-  - [Styling and Theme Plugins](#styling-and-theme-plugins)
-  - [UI Kit Plugins](#ui-kit-plugins)
-  - [UI Material Plugins](#ui-material-plugins)
-  - [UI Plugins](#ui-plugins)
-  - [Utility Plugins](#utility-plugins)
-- [More Plugins](#more-plugins)
-- [Font and Font Icon](#font-and-font-icon)
-- [Security](#security)
-- [Unit Testing](#unit-testing)
-- [Background Service](#background-service)
-- [Tools](#tools)
+- [Awesome NativeScript ](#awesome-nativescript-)
+  - [Contents](#contents)
+  - [Official Resources](#official-resources)
+  - [Flavors](#flavors)
+    - [Official Flavors](#official-flavors)
+    - [Community Flavors](#community-flavors)
+  - [Platforms](#platforms)
+  - [Community](#community)
+  - [Templates](#templates)
+  - [Layouts](#layouts)
+  - [Navigations](#navigations)
+  - [Components](#components)
+  - [Plugins](#plugins)
+    - [Advertising Plugins](#advertising-plugins)
+    - [Artifical Intelligence (AI)](#artifical-intelligence-ai)
+      - [Apple FoundationModels](#apple-foundationmodels)
+    - [Authentication Plugins](#authentication-plugins)
+    - [Backend Service Plugins](#backend-service-plugins)
+    - [Client-side Database Plugins](#client-side-database-plugins)
+    - [Firebase Plugins](#firebase-plugins)
+    - [Geo Plugins](#geo-plugins)
+    - [ML Plugins](#ml-plugins)
+    - [Multimedia Plugins](#multimedia-plugins)
+    - [Networking Plugins](#networking-plugins)
+    - [Payment Plugins](#payment-plugins)
+    - [Reporting Plugins](#reporting-plugins)
+    - [Styling and Theme Plugins](#styling-and-theme-plugins)
+    - [UI Kit Plugins](#ui-kit-plugins)
+    - [UI Material Plugins](#ui-material-plugins)
+    - [UI Plugins](#ui-plugins)
+    - [Utility Plugins](#utility-plugins)
+  - [More Plugins](#more-plugins)
+  - [Font and Font Icon](#font-and-font-icon)
+  - [Security](#security)
+  - [Testing](#testing)
+    - [Unit Testing](#unit-testing)
+    - [End-to-end Integration Testing](#end-to-end-integration-testing)
+  - [Background Service](#background-service)
+  - [macOS](#macos)
+  - [visionOS (Vision Pro)](#visionos-vision-pro)
+  - [Talks, Podcasts, Streams, Video Content etc.](#talks-podcasts-streams-video-content-etc)
+  - [Misc](#misc)
+    - [iOS 26 Liquid Glass](#ios-26-liquid-glass)
+  - [Tools](#tools)
 
 ## Official Resources
 
@@ -81,11 +91,12 @@ NativeScript offers various flavors you can try, which are generally divided int
 
 ## Platforms
 
-Available platform runtimes:
+Run NativeScript on the following platforms:
 
 - [Android](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
 - [iOS](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
 - [VisionOS](https://docs.nativescript.org/guide/visionos)
+- [macOS](https://blog.nativescript.org/macos-node-api-preview/)
 - [WearOS](https://github.com/bradmartin/nativescript-wear-os)
 
 ## Community
@@ -149,9 +160,17 @@ Available platform runtimes:
 
 - [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
 
-### AI Plugins
+### Artifical Intelligence (AI) 
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
+- [Cursor](https://cursor.com) rules: https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc
+- Use [Gemini Pro](https://gemini.google.com/): https://x.com/NativeScript/status/1940163248051167399
+  - https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html
+- [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript)
+
+#### [Apple FoundationModels](https://developer.apple.com/documentation/foundationmodels)
+  - https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels
+  - https://github.com/NathanWalker/ns-ios-foundationmodels
 
 ### Authentication Plugins
 
@@ -372,15 +391,63 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [JavaScript obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code. ([Tutorial](https://www.kang-cahya.com/2025/07/securing-javascript-code-in.html))
 
-## Unit Testing
+## Testing
 
-- [Detox](https://github.com/NativeScript/plugins/tree/main/packages/detox) - Gray box end-to-end testing and automation framework for mobile apps.
+### Unit Testing
+
+- [ns test init](https://docs.nativescript.org/guide/testing)
+- [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/)
+- [@nativescript/unit-test-runner v3 release details - test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud](https://blog.nativescript.org/unit-testing-with-v3-runner/)
+- 
+
+### End-to-end Integration Testing
+
+- [Detox](https://docs.nativescript.org/plugins/detox) - Gray box end-to-end testing and automation framework for mobile apps.
 - [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) - Maestro is the simplest and most effective UI testing framework.
 
 ## Background Service
 
 - [Web Workers API](https://docs.nativescript.org/guide/multithreading) - The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).
 - [JSch](https://github.com/NathanWalker/android-jsch-example) - NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.
+
+## macOS
+
+- [Solidjs for macOS with NativeScript](https://github.com/ammarahm-ed/nativescript-macos-solid)
+  - [Try yourself with Solid Desktop on macOS](https://apps.apple.com/us/app/solid-desktop/id6737216890?mt=12)
+- [NativeScript macOS Node-API Preview](https://blog.nativescript.org/macos-node-api-preview/)
+  
+## visionOS (Vision Pro)
+
+- [What happens when a SwiftUI and NativeScript developer embrace each other?](https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/)
+- [How to add visionOS to an existing app?](https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/)
+- [Particle Systems via RealityKit and Multiple Scenes during Vision Pro development with NativeScript](https://blog.nativescript.org/particles-and-multiple-scenes-vision-pro-development/)
+- Fastlane visionOS deployments with NativeScript: https://x.com/NativeScript/status/1923249210343723019
+  - https://x.com/NativeScript/status/1923249210343723019
+
+## Talks, Podcasts, Streams, Video Content etc.
+
+- [High Fidelity Platform APIs with v8 and NativeScript](https://www.youtube.com/watch?v=Mzy1jWxrSiw)
+- [How NativeScript with Angular lit up Vegas in the Professional Lighting Industry](https://www.youtube.com/watch?v=3GT86zwEkSU)
+- [Embedding V8 in the real world by Stanimira Vlaeva](https://www.youtube.com/watch?v=wz7Znu6tqFw)
+- [Lightning Talk: Understanding how NativeScript works plus how to add your own Flavor](https://www.youtube.com/watch?v=iweVLGNzx1A)
+- Frontend Nation 2025: Native API Security with NativeScript:
+  - https://www.youtube.com/watch?v=iD_QWvJAiSI
+- Why NativeScript?
+  - https://x.com/frontendnation/status/1936113360702980351
+- Real Native Vue Apps with NativeScript-Vue | VueConf US 2024:
+  - https://www.youtube.com/watch?v=6jmU1EfKWF0
+- [Use Native APIs in JS with Eduardo Speroni and Nathan Walker](https://www.youtube.com/watch?v=kzdq7GvXzAo)
+- [Dive into NativeScript w/Nathan Walker & Ammar Ahmed](https://www.youtube.com/watch?v=j0s8w34Xh9o)
+- [Kyohei Hamaguchi - Svelte Native in production](https://www.youtube.com/watch?v=0UwwJSQlKOM)
+- [Alex Ziskind NativeScript Highlights](https://www.youtube.com/@AZisk/search?query=nativescript)
+- [NativeScript 8.9 Q&A](https://www.youtube.com/watch?v=42dS4SwBKvw)
+  
+## Misc
+
+### iOS 26 Liquid Glass
+
+- https://x.com/NativeScript/status/1932904031070097498
+- Configure build.xcconfig: https://x.com/NativeScript/status/1932904032454214131
 
 ## Tools
 
