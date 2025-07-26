@@ -361,7 +361,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Shared Notification Delegate](https://github.com/NativeScript/plugins/blob/main/packages/shared-notification-delegate) - This project aims to prevent the shortcomings that come from the iOS implementation of only allowing a single delegate.
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
 - [Task](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-task) - A NativeScript module for simply handling background tasks via web workers.
-- [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from [@nativescript/theme](https://github.com/NativeScript/theme).
+- [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from @nativescript/theme.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
 - [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
 
@@ -412,7 +412,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - Fastlane visionOS deployments with NativeScript: https://x.com/NativeScript/status/1923249210343723019
   - https://x.com/NativeScript/status/1923249210343723019
 
-## Talks, Podcasts, Streams, Video Content etc.
+## Talks, Podcasts, Streams, Video Content etc
 
 - [High Fidelity Platform APIs with v8 and NativeScript](https://www.youtube.com/watch?v=Mzy1jWxrSiw)
 - [How NativeScript with Angular lit up Vegas in the Professional Lighting Industry](https://www.youtube.com/watch?v=3GT86zwEkSU)
@@ -441,9 +441,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### AI Integration Examples
 
-- [Use Gemini Pro with NativeScript](https://x.com/NativeScript/status/1940163248051167399) - Official demo showcasing Gemini Pro AI integration
-  - [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html) - Try it live on StackBlitz
-- [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript) - Advanced tutorial on converting Swift code to TypeScript using AI
+- [Use Gemini Pro with NativeScript](https://x.com/NativeScript/status/1940163248051167399) - Official demo showcasing Gemini Pro AI integration.
+  - [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html) - Try it live on StackBlitz.
+- [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript) - Advanced tutorial on converting Swift code to TypeScript using AI.
 
 ### Apple FoundationModels
 
@@ -457,7 +457,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Plugin Seed for Build NativeScript Plugins Fast ⚡](https://github.com/NativeScript/plugin-seed)
 - [Nx: Smart Repos and Fast Builds](https://github.com/NativeScript/nx)
 - [Cross-platform (xplat) tools for Nx workspaces](https://github.com/nstudio/xplat)
-- [Development Workflow with Unit Testing](https://docs.nativescript.org/guide/testing)
 - [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
 - [NativeScript Initializr is a Community tool to quickly generate NativeScript projects with associated plugins.](https://nativescript-initializr.jmarvall.com/)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
