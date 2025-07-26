@@ -47,6 +47,7 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Talks, Podcasts, Streams, Video Content etc.](#talks-podcasts-streams-video-content-etc)
 - [Misc](#misc)
   - [iOS 26 Liquid Glass](#ios-26-liquid-glass)
+- [Examples and Tutorials](#examples-and-tutorials)
 - [Tools](#tools)
 
 ## Official Resources
@@ -436,7 +437,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - https://x.com/NativeScript/status/1932904031070097498
 - Configure build.xcconfig: https://x.com/NativeScript/status/1932904032454214131
 
-## Examples & Tutorials
+## Examples and Tutorials
 
 ### AI Integration Examples
 
