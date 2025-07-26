@@ -419,6 +419,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 ## Talks, Podcasts, Streams, Video Content etc.
 
 - [High Fidelity Platform APIs with v8 and NativeScript](https://www.youtube.com/watch?v=Mzy1jWxrSiw)
+- [How NativeScript with Angular lit up Vegas in the Professional Lighting Industry](https://www.youtube.com/watch?v=3GT86zwEkSU)
 - [Embedding V8 in the real world by Stanimira Vlaeva](https://www.youtube.com/watch?v=wz7Znu6tqFw)
 - [Lightning Talk: Understanding how NativeScript works plus how to add your own Flavor](https://www.youtube.com/watch?v=iweVLGNzx1A)
 - Frontend Nation 2025: Native API Security with NativeScript:
