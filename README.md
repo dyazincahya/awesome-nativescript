@@ -44,7 +44,7 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [Background Service](#background-service)
 - [macOS](#macos)
 - [visionOS (Vision Pro)](#visionos-vision-pro)
-- [Talks, Podcasts, Streams, Video Content etc.](#talks-podcasts-streams-video-content-etc)
+- [Videos and Podcasts](#videos-and-podcasts)
 - [Misc](#misc)
   - [iOS 26 Liquid Glass](#ios-26-liquid-glass)
 - [Examples and Tutorials](#examples-and-tutorials)
@@ -412,7 +412,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - Fastlane visionOS deployments with NativeScript: https://x.com/NativeScript/status/1923249210343723019
   - https://x.com/NativeScript/status/1923249210343723019
 
-## Talks, Podcasts, Streams, Video Content etc
+## Videos and Podcasts
 
 - [High Fidelity Platform APIs with v8 and NativeScript](https://www.youtube.com/watch?v=Mzy1jWxrSiw)
 - [How NativeScript with Angular lit up Vegas in the Professional Lighting Industry](https://www.youtube.com/watch?v=3GT86zwEkSU)
