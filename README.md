@@ -4,7 +4,7 @@
 
 A curated list of awesome plugins, and resources for NativeScript.
 
-> Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, Android, and VisionOS—entirely in JavaScript.
+> Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, macOS, visionOS, Android, and Meta Quest—entirely in JavaScript.
 
 ## Contents
 
@@ -46,6 +46,7 @@ A curated list of awesome plugins, and resources for NativeScript.
     - [Unit Testing](#unit-testing)
     - [End-to-end Integration Testing](#end-to-end-integration-testing)
   - [Background Service](#background-service)
+  - [macOS](#macos)
   - [visionOS (Vision Pro)](#visionos-vision-pro)
   - [Talks, Podcasts, Streams, Video Content etc.](#talks-podcasts-streams-video-content-etc)
   - [Misc](#misc)
@@ -90,11 +91,12 @@ NativeScript offers various flavors you can try, which are generally divided int
 
 ## Platforms
 
-Available platform runtimes:
+Run NativeScript on the following platforms:
 
 - [Android](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
 - [iOS](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
 - [VisionOS](https://docs.nativescript.org/guide/visionos)
+- [macOS](https://blog.nativescript.org/macos-node-api-preview/)
 - [WearOS](https://github.com/bradmartin/nativescript-wear-os)
 
 ## Community
@@ -408,6 +410,12 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Web Workers API](https://docs.nativescript.org/guide/multithreading) - The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).
 - [JSch](https://github.com/NathanWalker/android-jsch-example) - NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.
 
+## macOS
+
+- [Solidjs for macOS with NativeScript](https://github.com/ammarahm-ed/nativescript-macos-solid)
+  - [Try yourself with Solid Desktop on macOS](https://apps.apple.com/us/app/solid-desktop/id6737216890?mt=12)
+- [NativeScript macOS Node-API Preview](https://blog.nativescript.org/macos-node-api-preview/)
+  
 ## visionOS (Vision Pro)
 
 - [What happens when a SwiftUI and NativeScript developer embrace each other?](https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/)
