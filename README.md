@@ -160,14 +160,6 @@ Run NativeScript on the following platforms:
 ### Artifical Intelligence (AI) Plugins
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
-- [Cursor](https://cursor.com) rules: https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc
-- Use [Gemini Pro](https://gemini.google.com/): https://x.com/NativeScript/status/1940163248051167399
-  - https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html
-- [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript)
-
-#### [Apple FoundationModels](https://developer.apple.com/documentation/foundationmodels)
-  - https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels
-  - https://github.com/NathanWalker/ns-ios-foundationmodels
 
 ### Authentication Plugins
 
@@ -411,7 +403,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Solidjs for macOS with NativeScript](https://github.com/ammarahm-ed/nativescript-macos-solid)
   - [Try yourself with Solid Desktop on macOS](https://apps.apple.com/us/app/solid-desktop/id6737216890?mt=12)
-- [NativeScript macOS Node-API Preview](https://blog.nativescript.org/macos-node-api-preview/)
   
 ## visionOS (Vision Pro)
 
@@ -446,6 +437,20 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - https://x.com/NativeScript/status/1932904031070097498
 - Configure build.xcconfig: https://x.com/NativeScript/status/1932904032454214131
 
+## Examples & Tutorials
+
+### AI Integration Examples
+
+- [Use Gemini Pro with NativeScript](https://x.com/NativeScript/status/1940163248051167399) - Official demo showcasing Gemini Pro AI integration
+  - [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html) - Try it live on StackBlitz
+- [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript) - Advanced tutorial on converting Swift code to TypeScript using AI
+
+### Apple FoundationModels
+
+- [Apple FoundationModels Documentation](https://developer.apple.com/documentation/foundationmodels) - Official Apple documentation for on-device AI
+- [Stream AI Responses using iOS 26 FoundationModels](https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels) - Tutorial on implementing streaming AI responses
+- [ns-ios-foundationmodels](https://github.com/NathanWalker/ns-ios-foundationmodels) - Example NativeScript app using iOS 26+ FoundationModels
+
 ## Tools
 
 - [NativeScript online directly on StackBlitz by NativeScript Preview](https://preview.nativescript.org/)
@@ -457,3 +462,4 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [NativeScript Initializr is a Community tool to quickly generate NativeScript projects with associated plugins.](https://nativescript-initializr.jmarvall.com/)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
+- [Cursor Editor Rules for NativeScript](https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc)
