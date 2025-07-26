@@ -1,6 +1,6 @@
 # Awesome NativeScript [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-# [<img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />](https://github.com/dyazincahya/awesome-nativescript)
+<img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />
 
 A curated list of awesome plugins, and resources for NativeScript.
 
