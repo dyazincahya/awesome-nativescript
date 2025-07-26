@@ -7,9 +7,6 @@ A curated list of awesome plugins, and resources for NativeScript.
 > Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, macOS, visionOS, Android, and Meta Quest—entirely in JavaScript.
 
 ## Contents
-
-- [Awesome NativeScript ](#awesome-nativescript-)
-  - [Contents](#contents)
   - [Official Resources](#official-resources)
   - [Flavors](#flavors)
     - [Official Flavors](#official-flavors)
