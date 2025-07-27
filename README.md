@@ -45,9 +45,9 @@ A curated list of awesome plugins, and resources for NativeScript.
 - [macOS](#macos)
 - [visionOS (Vision Pro)](#visionos-vision-pro)
 - [Videos and Podcasts](#videos-and-podcasts)
+- [Examples and Tutorials](#examples-and-tutorials)
 - [Misc](#misc)
   - [iOS 26 Liquid Glass](#ios-26-liquid-glass)
-- [Examples and Tutorials](#examples-and-tutorials)
 - [Tools](#tools)
 
 ## Official Resources
@@ -437,13 +437,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Kyohei Hamaguchi - Svelte Native in production](https://www.youtube.com/watch?v=0UwwJSQlKOM)
 - [Alex Ziskind NativeScript Highlights](https://www.youtube.com/@AZisk/search?query=nativescript)
 - [NativeScript 8.9 Q&A](https://www.youtube.com/watch?v=42dS4SwBKvw)
-  
-## Misc
-
-### iOS 26 Liquid Glass
-
-- https://x.com/NativeScript/status/1932904031070097498
-- Configure build.xcconfig: https://x.com/NativeScript/status/1932904032454214131
 
 ## Examples and Tutorials
 
@@ -458,6 +451,13 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Apple FoundationModels Documentation](https://developer.apple.com/documentation/foundationmodels) - Official Apple documentation for on-device AI.
 - [Stream AI Responses using iOS 26 FoundationModels](https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels) - Tutorial on implementing streaming AI responses.
 - [ns-ios-foundationmodels](https://github.com/NathanWalker/ns-ios-foundationmodels) - Example NativeScript app using iOS 26+ FoundationModels.
+
+## Misc
+
+### iOS 26 Liquid Glass
+
+- https://x.com/NativeScript/status/1932904031070097498
+- Configure build.xcconfig: https://x.com/NativeScript/status/1932904032454214131
 
 ## Tools
 
