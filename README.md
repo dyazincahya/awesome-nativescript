@@ -428,8 +428,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [What happens when a SwiftUI and NativeScript developer embrace each other?](https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/)
 - [How to add visionOS to an existing app?](https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/)
 - [Particle Systems via RealityKit and Multiple Scenes during Vision Pro development with NativeScript](https://blog.nativescript.org/particles-and-multiple-scenes-vision-pro-development/)
-- Fastlane visionOS deployments with NativeScript: https://x.com/NativeScript/status/1923249210343723019
-  - https://x.com/NativeScript/status/1923249210343723019
+- [Fastlane visionOS deployments with NativeScript](https://x.com/NativeScript/status/1923249210343723019)
 
 ## Videos and Podcasts
 
@@ -437,12 +436,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [How NativeScript with Angular lit up Vegas in the Professional Lighting Industry](https://www.youtube.com/watch?v=3GT86zwEkSU)
 - [Embedding V8 in the real world by Stanimira Vlaeva](https://www.youtube.com/watch?v=wz7Znu6tqFw)
 - [Lightning Talk: Understanding how NativeScript works plus how to add your own Flavor](https://www.youtube.com/watch?v=iweVLGNzx1A)
-- Frontend Nation 2025: Native API Security with NativeScript:
-  - https://www.youtube.com/watch?v=iD_QWvJAiSI
-- Why NativeScript?
-  - https://x.com/frontendnation/status/1936113360702980351
-- Real Native Vue Apps with NativeScript-Vue | VueConf US 2024:
-  - https://www.youtube.com/watch?v=6jmU1EfKWF0
+- [Frontend Nation 2025: Native API Security with NativeScript](https://www.youtube.com/watch?v=iD_QWvJAiSI)
+- [Why NativeScript? Why it’s worth learning today, tips for avoiding common pitfalls, and what’s coming next](https://x.com/frontendnation/status/1936113360702980351)
+- [Real Native Vue Apps with NativeScript-Vue | VueConf US 2024](https://www.youtube.com/watch?v=6jmU1EfKWF0)
 - [Use Native APIs in JS with Eduardo Speroni and Nathan Walker](https://www.youtube.com/watch?v=kzdq7GvXzAo)
 - [Dive into NativeScript w/Nathan Walker & Ammar Ahmed](https://www.youtube.com/watch?v=j0s8w34Xh9o)
 - [Kyohei Hamaguchi - Svelte Native in production](https://www.youtube.com/watch?v=0UwwJSQlKOM)
@@ -465,10 +461,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Misc
 
-### iOS 26 Liquid Glass
-
-- https://x.com/NativeScript/status/1932904031070097498
-- Configure build.xcconfig: https://x.com/NativeScript/status/1932904032454214131
+- [iOS 26 Liquid Glass](https://x.com/NativeScript/status/1932904031070097498)
+- [Configure build.xcconfig for iOS 26 Liquid Glass](https://x.com/NativeScript/status/1932904032454214131)
 
 ## Tools
 
