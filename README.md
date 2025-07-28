@@ -315,6 +315,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Time Range](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range) - A NativeScript plugin for selecting a time range using a time picker.
 - [Toasty](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-toasty) - A NativeScript plugin to make Toast.
 - [Tooltip](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-tooltip) - A NativeScript plugin to make Tooltip.
+- [Tweeen](https://github.com/nativescript-community/tween) - A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.
 - [UI Image](https://github.com/nativescript-community/ui-image) - Advanced and efficient image display plugin which uses `Fresco` (Android) and `SDWebImage` (iOS) to implement caching, placeholders, image effects, and much more.
 - [UI Label](https://github.com/nativescript-community/ui-label) - Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.
 - [UI Pager](https://github.com/nativescript-community/ui-pager) - Pager / Carousel component that allows the user to swipe left and right through pages of data.
@@ -355,6 +356,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices for powerful media processing such as converting formats, compressing files, extracting audio, editing video, adding watermarks, and more.
 - [Flashlight](https://github.com/it-serve/nativescript-ui-kit/tree/main/packages/flashlight) - A NativeScript plugin that allows you to control the device's flashlight.
 - [Gesture Handler](https://github.com/nativescript-community/gesturehandler) - Declarative API exposing platform native touch and gesture system to NativeScript.
+- [GPS](https://github.com/nativescript-community/gps) - Tracks GPS location updates regardless of the app state. Does not depend on Google Play Services.
 - [Haptics](https://github.com/NativeScript/plugins/blob/main/packages/haptics) - A plugin that allows you to add haptics to your app. Playing haptics can engage people's sense of touch and bring their familiarity with the physical world into your app or game.
 - [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A nativeScript image cropping plugin.
 - [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications, especially when handling large images, while maintaining performance and memory efficiency.
