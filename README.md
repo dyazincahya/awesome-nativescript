@@ -308,6 +308,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for IOS and Android.
 - [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
 - [Ripple](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-ripple) - This plugin aims to bring a native (or close to native) ripple implementation on Android and iOS. The android version uses a `RippleDrawable` and conserves the previous background, as well as CSS styles.
+- [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
 - [Star Ratings](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-star-ratings) - A NativeScript plugin that provides a customizable star rating component for displaying and collecting user ratings in mobile apps.
 - [SVG](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg) - A NativeScript plugin that allows you to use SVG images in your NativeScript apps.
 - [Time Range](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range) - A NativeScript plugin for selecting a time range using a time picker.
@@ -332,6 +333,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
 - [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
+- [Windowed Modal](https://github.com/mukaschultze/nativescript-windowed-modal) - Consistent modals for NativeScript in Android and iOS.
 
 ### Utility Plugins
 
@@ -339,21 +341,25 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
 - [Background HTTP](https://github.com/NativeScript/plugins/blob/main/packages/background-http) - A plugin that allows you to make background HTTP uploads.
 - [Biometrics](https://github.com/NativeScript/plugins/blob/main/packages/biometrics) - A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
+- [Bitmap Factory](https://github.com/oliverphaser/nativescript-bitmap-factory) - A NativeScript plugin for creating and manipulating bitmap images.
 - [Ble](https://github.com/nativescript-community/ble) - Connect to and interact with Bluetooth LE peripherals.
 - [Brightness](https://github.com/NativeScript/plugins/blob/main/packages/brightness) - A plugin that get and set the device's brightness level.
 - [Camera](https://github.com/NativeScript/plugins/blob/main/packages/camera) - A plugin that allows you to take a picture and optionally save it on the device storage.
 - [Clipboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-clipboard) - A NativeScript plugin that provides simple APIs to copy to and read from the system clipboard on Android and iOS.
 - [Compass](https://github.com/modos189/nativescript-compass) - A NativeScript plugin that provides native compass functionality for both Android and iOS platforms. The plugin uses native sensor fusion algorithms and optimizes performance by minimizing JavaScript ↔ Native bridge calls.
 - [Contacts](https://github.com/NativeScript/plugins/blob/main/packages/contacts) - A plugin that allows you to access Contacts directory on iOS and Android. You can pick a contact, update it, delete it, or add a new one.
+- [Device Info](https://github.com/DeepakArora76/nativescript-dna-deviceinfo) - The plugin offers cross-platform utility APIs to retrieve or query device-related information. The utility APIs are available for iOS and Android platforms.
 - [Downloader](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader) - Is a NativeScript plugin used to download files from the internet directly to the user's device, with support for a progress bar, pause/resume functionality, and management of downloaded files.
 - [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
 - [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices for powerful media processing such as converting formats, compressing files, extracting audio, editing video, adding watermarks, and more.
 - [Flashlight](https://github.com/it-serve/nativescript-ui-kit/tree/main/packages/flashlight) - A NativeScript plugin that allows you to control the device's flashlight.
 - [Gesture Handler](https://github.com/nativescript-community/gesturehandler) - Declarative API exposing platform native touch and gesture system to NativeScript.
 - [Haptics](https://github.com/NativeScript/plugins/blob/main/packages/haptics) - A plugin that allows you to add haptics to your app. Playing haptics can engage people's sense of touch and bring their familiarity with the physical world into your app or game.
+- [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A nativeScript image cropping plugin.
 - [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications, especially when handling large images, while maintaining performance and memory efficiency.
 - [Image Picker](https://github.com/NativeScript/plugins/blob/main/packages/imagepicker) - Imagepicker plugin supporting both single and multiple selection.
 - [Intersection Observer](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-intersection-observer) - A NativeScript plugin that detects when a UI element enters or exits the viewport, similar to the IntersectionObserver API on the web.
+- [InAppBrowser](https://github.com/proyecto26/nativescript-inappbrowser) - A NativeScript plugin that allows you to open URLs in an in-app browser.
 - [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript. [iOS Security Suite](https://github.com/securing/IOSSecuritySuite) is an advanced and easy-to-use platform security & anti-tampering library.
 - [IQ Keyboard Manager](https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager) - A NativeScript wrapper for the popular [IQKeyboardManager](https://cocoapods.org/pods/IQKeyboardManager) iOS framework, which provides an elegant solution for preventing the iOS keyboard from covering UITextView controls.
 - [Keyboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-keyboard) - A NativeScript plugin that allows programmatically showing and hiding the virtual keyboard on Android and iOS.
@@ -364,12 +370,15 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Nordic Semiconductor's DFU](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/nordic-dfu) - A NativeScript plugin that integrates Nordic Semiconductor's DFU (Device Firmware Update) library, enabling seamless Bluetooth OTA firmware updates for compatible BLE devices.
 - [Orientation](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-orientation) - A NativeScript plugin to control and listen for device screen orientation changes on Android and iOS.
 - [Pdf](https://github.com/NativeScript/plugins/blob/main/packages/pdf) - A simple PDF viewer. It conveniently uses the iOS WKWebView, and for Android it uses [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer).
+- [Printer](https://github.com/oliverphaser/nativescript-printer) - A NativeScript plugin for sending an image, PDF or the screen contents to a physical printer.
 - [Secure Storage](https://github.com/NativeScript/plugins/blob/main/packages/secure-storage) - Secure Storage using [SAMKeychain](https://github.com/soffes/SAMKeychain) on iOS and [Hawk](https://github.com/orhanobut/hawk) on Android.
 - [Shared Notification Delegate](https://github.com/NativeScript/plugins/blob/main/packages/shared-notification-delegate) - This project aims to prevent the shortcomings that come from the iOS implementation of only allowing a single delegate.
 - [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on android phone inbox using undocumented android api.
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
+- [Speech Recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) - Speech to text, using the awesome engines readily available on the device.
 - [Task](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-task) - A NativeScript module for simply handling background tasks via web workers.
 - [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from `@nativescript/theme`.
+- [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
 - [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
 
