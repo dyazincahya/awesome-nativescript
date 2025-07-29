@@ -25,6 +25,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
   - [Client-side Database Plugins](#client-side-database-plugins)
   - [Firebase Plugins](#firebase-plugins)
   - [Geo Plugins](#geo-plugins)
+  - [Graphics Plugins](#graphics-plugins)
   - [ML Plugins](#ml-plugins)
   - [Multimedia Plugins](#multimedia-plugins)
   - [Networking Plugins](#networking-plugins)
@@ -212,6 +213,15 @@ Run NativeScript on the following platforms:
 - [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @nativescript/google-maps_.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
 - [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.
+
+### Graphics Plugins
+
+- [Canvas](https://github.com/NativeScript/canvas/tree/master/packages/canvas) - A NativeScript plugin that brings the HTML5 Canvas API to native mobile apps, enabling 2D drawing and animation with high-performance rendering on iOS and Android.
+- [Canvas Phaser](https://github.com/NativeScript/canvas/tree/master/packages/canvas-phaser) - A NativeScript integration for the Phaser game engine using native canvas rendering, enabling high-performance mobile game development with web-like APIs.
+- [Canvas Phaser CE](https://github.com/NativeScript/canvas/tree/master/packages/canvas-phaser-ce) - A NativeScript integration for Phaser CE (Community Edition) using native canvas rendering to build cross-platform mobile games.
+- [Canvas Pixi](https://github.com/NativeScript/canvas/tree/master/packages/canvas-pixi) - A NativeScript integration for [PixiJS](https://pixijs.com/) using native canvas rendering, enabling advanced 2D graphics and animation in mobile apps.
+- [Canvas Polyfill](https://github.com/NativeScript/canvas/tree/master/packages/canvas-polyfill) - DOM-like polyfill for NativeScript canvas, enabling compatibility with standard HTML5 canvas APIs and web libraries.
+- [Canvas Three](https://github.com/NativeScript/canvas/tree/master/packages/canvas-three) - Use Three.js for 3D rendering inside NativeScript apps via native canvas integration.
 
 ### ML Plugins
 
