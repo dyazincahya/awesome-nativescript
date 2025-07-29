@@ -222,6 +222,7 @@ Run NativeScript on the following platforms:
 - [Canvas Pixi](https://github.com/NativeScript/canvas/tree/master/packages/canvas-pixi) - A NativeScript integration for [PixiJS](https://pixijs.com/) using native canvas rendering, enabling advanced 2D graphics and animation in mobile apps.
 - [Canvas Polyfill](https://github.com/NativeScript/canvas/tree/master/packages/canvas-polyfill) - DOM-like polyfill for NativeScript canvas, enabling compatibility with standard HTML5 canvas APIs and web libraries.
 - [Canvas Three](https://github.com/NativeScript/canvas/tree/master/packages/canvas-three) - Use Three.js for 3D rendering inside NativeScript apps via native canvas integration.
+- [TroisJS](https://github.com/ArthurMJ96/nativescript-troisjs) - Use TroisJS for 3D rendering inside NativeScript apps via native canvas integration. Only for `NativeScript-Vue`.
 
 ### ML Plugins
 
