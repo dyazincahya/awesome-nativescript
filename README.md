@@ -19,6 +19,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [Components](#components)
 - [Plugins](#plugins)
   - [Advertising Plugins](#advertising-plugins)
+  - [Analytics and Monitoring Plugins](#analytics-and-monitoring-plugins)
   - [Artifical Intelligence (AI) Plugins](#artifical-intelligence-ai-plugins)
   - [Authentication Plugins](#authentication-plugins)
   - [Backend Service Plugins](#backend-service-plugins)
@@ -30,7 +31,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
   - [Multimedia Plugins](#multimedia-plugins)
   - [Networking Plugins](#networking-plugins)
   - [Payment Plugins](#payment-plugins)
-  - [Reporting Plugins](#reporting-plugins)
   - [Styling and Theme Plugins](#styling-and-theme-plugins)
   - [UI Kit Plugins](#ui-kit-plugins)
   - [UI Material Plugins](#ui-material-plugins)
@@ -158,6 +158,11 @@ Run NativeScript on the following platforms:
 
 - [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
 
+### Analytics and Monitoring Plugins
+
+- [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-nativescript-plugin) -  A NativeScript plugin for AppsFlyer mobile attribution and analytics. Track installs, measure user behavior, and optimize marketing performance.
+- [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
+
 ### Artifical Intelligence (AI) Plugins
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
@@ -262,10 +267,6 @@ Run NativeScript on the following platforms:
 - [Revenuecat](https://github.com/mleleux-heykiddo/nativescript-plugins/tree/main/packages/nativescript-revenuecat) - A powerful and reliable in-app purchase server that makes it easy to build, analyze, and grow your subscriber base whether you're just starting out or already have millions of customers.
 - [Square In App Payments](https://github.com/NativeScript/payments/tree/main/packages/square-in-app-payments) - Build remarkable payments experiences in your own apps with Square's In-App Payments SDK for NativeScript.
 - [Stripe](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-stripe) - Is a financial infrastructure platform that enables businesses to accept and manage online payments, as well as handle recurring billing and other financial operations.
-
-### Reporting Plugins
-
-- [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
 
 ### Styling and Theme Plugins
 
@@ -407,7 +408,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on android phone inbox using undocumented android api.
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
 - [Speech Recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) - Speech to text, using the awesome engines readily available on the device.
+- [System UI](https://github.com/nativescript-community/systemui) - Provides API for changing the styles of SystemUI (StatusBar, NavigationBar...) on iOS.
 - [Task](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-task) - A NativeScript module for simply handling background tasks via web workers.
+- [TextToSpeech](https://github.com/nativescript-community/texttospeech) - A Text to Speech NativeScript plugin for Android & iOS.
 - [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from `@nativescript/theme`.
 - [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
