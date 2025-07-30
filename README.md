@@ -19,7 +19,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [Components](#components)
 - [Plugins](#plugins)
   - [Advertising Plugins](#advertising-plugins)
-  - [Analytics and Monitoring Plugins](#analytics-and-monitoring-plugins)
+  - [Analytics, Engagement and Monitoring Plugins](#analytics-engagement-and-monitoring-plugins)
   - [Artifical Intelligence (AI) Plugins](#artifical-intelligence-ai-plugins)
   - [Authentication Plugins](#authentication-plugins)
   - [Backend Service Plugins](#backend-service-plugins)
@@ -158,10 +158,14 @@ Run NativeScript on the following platforms:
 
 - [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
 
-### Analytics and Monitoring Plugins
+### Analytics, Engagement and Monitoring Plugins
 
+- [Adobe Experience Cloud](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-adobe-experience-cloud) - A NativeScript plugin for Adobe Experience Cloud.
 - [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-nativescript-plugin) -  A NativeScript plugin for AppsFlyer mobile attribution and analytics. Track installs, measure user behavior, and optimize marketing performance.
+- [IAdvize](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-iadvize) - A NativeScript plugin that integrates the iAdvize SDK, enabling live chat and real-time customer engagement features within NativeScript applications.
+- [Medallia](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-medallia) - A NativeScript plugin integrating the Medallia SDK to gather insights and improve customer, employee, and digital experiences.
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
+- [UXCam](https://github.com/uxcam/nativescript-uxcam) - A NativeScript plugin for UXCam. An analytics platform that offers in-depth dashboards, heatmaps, and session recordings to optimize your product.
 
 ### Artifical Intelligence (AI) Plugins
 
@@ -214,6 +218,7 @@ Run NativeScript on the following platforms:
 - [Directions](https://github.com/NativeScript/plugins/blob/main/packages/directions) - A plugin that allows you to launch the Google Maps app, if it's installed on the device, with some directions. For more information, visit [Directions action](https://developers.google.com/maps/documentation/urls/get-started#directions-action).
 - [Geo Coding](https://github.com/nativescript-community/geocoding) - Provides access to native geocoding APIs for NativeScript apps (android.location.Geocoder for Android, CLGeocoder for iOS).
 - [Geo Location](https://github.com/NativeScript/plugins/blob/main/packages/geolocation) - A geolocation plugin to use for getting current location, monitor movement, etc.
+- [Geofence Manager](https://github.com/PeterStaev/nativescript-geofence-manager) - A NativeScript plugin to work with Geofences.
 - [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
 - [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @nativescript/google-maps_.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
@@ -376,6 +381,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Clipboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-clipboard) - A NativeScript plugin that provides simple APIs to copy to and read from the system clipboard on Android and iOS.
 - [Compass](https://github.com/modos189/nativescript-compass) - A NativeScript plugin that provides native compass functionality for both Android and iOS platforms. The plugin uses native sensor fusion algorithms and optimizes performance by minimizing JavaScript ↔ Native bridge calls.
 - [Contacts](https://github.com/NativeScript/plugins/blob/main/packages/contacts) - A plugin that allows you to access Contacts directory on iOS and Android. You can pick a contact, update it, delete it, or add a new one.
+- [Context APIs](https://github.com/GeoTecINIT/nativescript-context-apis) - A nativescript plugin to ease the access to mobile phone's real-world context.
 - [Device Info](https://github.com/DeepakArora76/nativescript-dna-deviceinfo) - The plugin offers cross-platform utility APIs to retrieve or query device-related information. The utility APIs are available for iOS and Android platforms.
 - [Downloader](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader) - Is a NativeScript plugin used to download files from the internet directly to the user's device, with support for a progress bar, pause/resume functionality, and management of downloaded files.
 - [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
@@ -392,6 +398,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript. [iOS Security Suite](https://github.com/securing/IOSSecuritySuite) is an advanced and easy-to-use platform security & anti-tampering library.
 - [IQ Keyboard Manager](https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager) - A NativeScript wrapper for the popular [IQKeyboardManager](https://cocoapods.org/pods/IQKeyboardManager) iOS framework, which provides an elegant solution for preventing the iOS keyboard from covering UITextView controls.
 - [Keyboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-keyboard) - A NativeScript plugin that allows programmatically showing and hiding the virtual keyboard on Android and iOS.
+- [Keyboard Opening](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-keyboard-opening) - A plugin that allows you to track keyboard opening, changing, closing and returns keyboard height.
+- [Licenses](https://github.com/nativescript-community/licenses) - A Nativescript plugin to generate licenses JSON files.
 - [Local Notifications](https://github.com/NativeScript/plugins/blob/main/packages/local-notifications) - A plugin that allows your app to show notifications when the app is not running. Just like remote push notifications, but a few orders of magnitude easier to set up.
 - [Localize](https://github.com/NativeScript/plugins/tree/main/packages/localize) - A plugin that implements internationalization (i18n) using the native capabilities of each platform.
 - [MD5](https://github.com/nativescript-community/md5) - A NativeScript plugin for fast MD5 computation for files.
@@ -410,10 +418,13 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Speech Recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) - Speech to text, using the awesome engines readily available on the device.
 - [System UI](https://github.com/nativescript-community/systemui) - Provides API for changing the styles of SystemUI (StatusBar, NavigationBar...) on iOS.
 - [Task](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-task) - A NativeScript module for simply handling background tasks via web workers.
+- [Task Dispatcher](https://github.com/GeoTecINIT/nativescript-task-dispatcher) - Task Dispatcher is a NativeScript plugin aimed to ease the execution of mobile app's task definition and execution workflows in the background, regardless of whether the app is visible to the user or not.
 - [TextToSpeech](https://github.com/nativescript-community/texttospeech) - A Text to Speech NativeScript plugin for Android & iOS.
 - [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from `@nativescript/theme`.
 - [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
+- [Video Thumbnail](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-video-thumbnail) - A plugin that allows you to extract a thumbnail from a video.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
+- [WearOS Sensors](https://github.com/GeoTecINIT/nativescript-wearos-sensors) - A NativeScript plugin that provides access to various sensors on `Wear OS` devices, such as heart rate, accelerometer, and gyroscope — enabling seamless integration of wearable sensor data into your app.
 - [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
 
 ## More Plugins
@@ -481,7 +492,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Interactive Examples
 
-- [Sample Code by NativeScript OSS](https://stackblitz.com/@nativescript-oss)
+- [Sample Code by NativeScript OSS on StackBlitz](https://stackblitz.com/@nativescript-oss)
+- [Swipeout implementation in NativeScript for Angular](https://github.com/Bezlepkin/nativescript-angular-listvew-swipeout-actions)
+
 
 ### AI & Machine Learning
 
