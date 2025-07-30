@@ -467,13 +467,17 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Examples and Tutorials
 
-### AI Integration Examples
+### Interactive Examples
+
+- [Sample Code by NativeScript OSS](https://stackblitz.com/@nativescript-oss)
+
+### AI & Machine Learning
 
 - [Use Gemini Pro with NativeScript](https://x.com/NativeScript/status/1940163248051167399) - Official demo showcasing Gemini Pro AI integration.
   - [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html) - Try it live on StackBlitz.
 - [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript) - Advanced tutorial on converting Swift code to TypeScript using AI.
 
-### Apple FoundationModels
+### Platform-Specific
 
 - [Apple FoundationModels Documentation](https://developer.apple.com/documentation/foundationmodels) - Official Apple documentation for on-device AI.
 - [Stream AI Responses using iOS 26 FoundationModels](https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels) - Tutorial on implementing streaming AI responses.
