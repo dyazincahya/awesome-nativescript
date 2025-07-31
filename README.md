@@ -370,127 +370,55 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Utility Plugins
 
-#### 📱 Device & Hardware Access
-
-A collection of NativeScript plugins that provide access to native device hardware and sensors.
-
----
-
-##### Sensors & Motion
+#### Device & Hardware Access
 - [Accelerometer](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accelerometer) - An acceleration sensor measures the acceleration applied to the device, including the force of gravity.
-- [Compass](https://github.com/modos189/nativescript-compass) - A NativeScript plugin that provides native compass functionality for both Android and iOS platforms.
-- [Haptics](https://github.com/NativeScript/plugins/blob/main/packages/haptics) - A plugin that allows you to add haptics to your app.
-- [Orientation](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-orientation) - A NativeScript plugin to control and listen for device screen orientation changes.
-- [WearOS Sensors](https://github.com/GeoTecINIT/nativescript-wearos-sensors) - A NativeScript plugin that provides access to various sensors on Wear OS devices.
-
-##### Authentication & Security
 - [Biometrics](https://github.com/NativeScript/plugins/blob/main/packages/biometrics) - A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
-- [NFC](https://github.com/ontrackms/nativescript-nfc) - A NativeScript plugin to discover, read, and write NFC tags.
-- [Device Info](https://github.com/DeepakArora76/nativescript-dna-deviceinfo) - The plugin offers cross-platform utility APIs to retrieve or query device-related information.
-
-##### Connectivity & Communication
 - [Ble](https://github.com/nativescript-community/ble) - Connect to and interact with Bluetooth LE peripherals.
-- [GPS](https://github.com/nativescript-community/gps) - Tracks GPS location updates regardless of the app state. Does not depend on Google Play Services.
-- [Nordic Semiconductor's DFU](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/nordic-dfu) - A NativeScript plugin that integrates Nordic Semiconductor's DFU library.
-
-##### Device Control
 - [Brightness](https://github.com/NativeScript/plugins/blob/main/packages/brightness) - A plugin that get and set the device's brightness level.
 - [Camera](https://github.com/NativeScript/plugins/blob/main/packages/camera) - A plugin that allows you to take a picture and optionally save it on the device storage.
+- [Compass](https://github.com/modos189/nativescript-compass) - A NativeScript plugin that provides native compass functionality for both Android and iOS platforms.
+- [Device Info](https://github.com/DeepakArora76/nativescript-dna-deviceinfo) - The plugin offers cross-platform utility APIs to retrieve or query device-related information.
 - [Flashlight](https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/flashlight) - This plugin allows you to enable/disable the flashlight/torch on your iOS/Android device.
+- [GPS](https://github.com/nativescript-community/gps) - Tracks GPS location updates regardless of the app state. Does not depend on Google Play Services.
+- [Haptics](https://github.com/NativeScript/plugins/blob/main/packages/haptics) - A plugin that allows you to add haptics to your app.
+- [NFC](https://github.com/ontrackms/nativescript-nfc) - A NativeScript plugin to discover, read, and write NFC tags.
+- [Nordic Semiconductor's DFU](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/nordic-dfu) - A NativeScript plugin that integrates Nordic Semiconductor's DFU library.
+- [Orientation](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-orientation) - A NativeScript plugin to control and listen for device screen orientation changes.
 - [Sleep Control](https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/sleepcontrol) - This plugin allows you to keep your device awake while the current app is running.
+- [WearOS Sensors](https://github.com/GeoTecINIT/nativescript-wearos-sensors) - A NativeScript plugin that provides access to various sensors on Wear OS devices.
 
-
-#### 🧩 User Interface & Interaction
-
-A collection of plugins to enhance and interact with the user interface elements in NativeScript applications.
-
----
-
-##### Gestures & Interaction
-
+#### User Interface & Interaction
 - [Gesture Handler](https://github.com/nativescript-community/gesturehandler) - Declarative API exposing platform native touch and gesture system to NativeScript.
-
----
-
-##### Keyboard Management
-
 - [IQ Keyboard Manager](https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager) - A NativeScript wrapper for the popular IQKeyboardManager iOS framework.
 - [Keyboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-keyboard) - A NativeScript plugin that allows programmatically showing and hiding the virtual keyboard.
 - [Keyboard Opening](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-keyboard-opening) - A plugin that allows you to track keyboard opening, changing, closing and returns keyboard height.
-
----
-
-##### System UI & View
-
 - [System UI](https://github.com/nativescript-community/systemui) - Provides API for changing the styles of SystemUI (StatusBar, NavigationBar...) on iOS.
 - [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from @nativescript/theme.
 - [Intersection Observer](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-intersection-observer) - A NativeScript plugin that detects when a UI element enters or exits the viewport.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
 
-
-#### 🎞️ Media & File Processing
-
-A set of plugins for handling media content and file manipulation in NativeScript apps.
-
----
-
-##### Image Processing
-
+#### Media & File Processing
 - [Bitmap Factory](https://github.com/oliverphaser/nativescript-bitmap-factory) - A NativeScript plugin for creating and manipulating bitmap images.
+- [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.
 - [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A nativeScript image cropping plugin.
 - [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications.
 - [Image Picker](https://github.com/NativeScript/plugins/blob/main/packages/imagepicker) - Imagepicker plugin supporting both single and multiple selection.
-
----
-
-##### Video & Audio
-
-- [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.
-- [Video Thumbnail](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-video-thumbnail) - A plugin that allows you to extract a thumbnail from a video.
-
----
-
-##### Document & Printing
-
 - [Pdf](https://github.com/NativeScript/plugins/blob/main/packages/pdf) - A simple PDF viewer.
 - [Printer](https://github.com/oliverphaser/nativescript-printer) - A NativeScript plugin for sending an image, PDF or the screen contents to a physical printer.
-
----
-
-##### File Compression
-
+- [Video Thumbnail](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-video-thumbnail) - A plugin that allows you to extract a thumbnail from a video.
 - [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
 
-
-#### 🌐 Communication & Networking
-
-Plugins that handle various forms of communication, networking, and content sharing in NativeScript apps.
-
----
-
-##### Network Communication
-
+#### Communication & Networking
 - [Background HTTP](https://github.com/NativeScript/plugins/blob/main/packages/background-http) - A plugin that allows you to make background HTTP uploads.
 - [Downloader](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader) - Is a NativeScript plugin used to download files from the internet directly to the user's device.
-- [MQTT](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt) - A cross-platform NativeScript plugin for MQTT communication.
-- [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
-- [InAppBrowser](https://github.com/proyecto26/nativescript-inappbrowser) - A NativeScript plugin that allows you to open URLs in an in-app browser.
-
----
-
-##### Messaging
-
 - [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
+- [InAppBrowser](https://github.com/proyecto26/nativescript-inappbrowser) - A NativeScript plugin that allows you to open URLs in an in-app browser.
 - [Messenger](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger) - A NativeScript plugin for sending SMS or MMS.
+- [MQTT](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt) - A cross-platform NativeScript plugin for MQTT communication.
 - [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on android phone inbox.
 - [SMS Receiver](https://github.com/comporell/nativescript-plugins/tree/master/packages/nativescript-sms-receiver) - A NativeScript plugin to receive SMS messages on android phone.
-
----
-
-##### Social & Sharing
-
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
-
+- [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
 
 #### Data & Storage
 - [Array Buffers](https://github.com/nativescript-community/arraybuffers) - Utility methods to work with Array Buffers in Nativescript.
