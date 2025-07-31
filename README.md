@@ -193,7 +193,7 @@ Run NativeScript on the following platforms:
 - [SQLite](https://github.com/nativescript-community/sqlite) - A SQLite plugin for NativeScript.
 
 ### Firebase Plugins
-
+- [Batch Notifications](https://github.com/alexcode/ns8-plugins/tree/main/packages/ns8-batch-notifications) - Batch is a full-featured mobile engagement platform for executing CRM tactics on iOS, Android, and mobile websites. This plugin enables push notifications, in-app messages, and more. Requires `@nativescript/firebase` for push notification support.
 - [Firebase Analytics](https://github.com/NativeScript/firebase/tree/main/packages/firebase-analytics) - This plugin allows you to add Google Analytics for Firebase to your app.
 - [Firebase App Check](https://github.com/NativeScript/firebase/tree/main/packages/firebase-app-check) - App Check works alongside other Firebase services to help protect your backend resources from abuse, such as billing fraud or phishing.
 - [Firebase Auth](https://github.com/NativeScript/firebase/tree/main/packages/firebase-auth) - A plugin that allows you to add Firebase Authentification to your NativeScript app.
