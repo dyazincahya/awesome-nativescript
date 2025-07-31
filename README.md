@@ -65,7 +65,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [Videos & Podcasts](#videos--podcasts)
 - [Examples & Tutorials](#examples--tutorials)
 - [Misc](#misc)
-  - [iOS 26 Liquid Glass](#ios-26-liquid-glass)
 - [Tools](#tools)
 
 ## Official Resources
@@ -479,7 +478,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Intersection Observer](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-intersection-observer) - A NativeScript plugin that detects when a UI element enters or exits the viewport.
 - [Keyboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-keyboard) - A NativeScript plugin that allows programmatically showing and hiding the virtual keyboard.
 - [Keyboard Opening](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-keyboard-opening) - A plugin that allows you to track keyboard opening, changing, closing and returns keyboard height.
-- [System UI](https://github.com/nativescript-community/systemui) - Provides API for changing the styles of SystemUI (StatusBar, NavigationBar...) on iOS.
+- [System UI](https://github.com/nativescript-community/systemui) - Provides API for changing the styles of SystemUI (StatusBar, NavigationBar, Etc) on iOS.
 - [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from @nativescript/theme.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
 
@@ -536,7 +535,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Embedding V8 in the real world by Stanimira Vlaeva](https://www.youtube.com/watch?v=wz7Znu6tqFw)
 - [Lightning Talk: Understanding how NativeScript works plus how to add your own Flavor](https://www.youtube.com/watch?v=iweVLGNzx1A)
 - [Frontend Nation 2025: Native API Security with NativeScript](https://www.youtube.com/watch?v=iD_QWvJAiSI)
-- [Why NativeScript? Why it’s worth learning today, tips for avoiding common pitfalls, and what’s coming next](https://x.com/frontendnation/status/1936113360702980351)
+- [Why NativeScript? Why it's worth learning today, tips for avoiding common pitfalls, and what's coming next](https://x.com/frontendnation/status/1936113360702980351)
 - [Real Native Vue Apps with NativeScript-Vue | VueConf US 2024](https://www.youtube.com/watch?v=6jmU1EfKWF0)
 - [Use Native APIs in JS with Eduardo Speroni and Nathan Walker](https://www.youtube.com/watch?v=kzdq7GvXzAo)
 - [Dive into NativeScript w/Nathan Walker & Ammar Ahmed](https://www.youtube.com/watch?v=j0s8w34Xh9o)
