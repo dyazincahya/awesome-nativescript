@@ -487,7 +487,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [ns test init](https://docs.nativescript.org/guide/testing)
 - [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/)
 - [@nativescript/unit-test-runner v3 release details - test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud](https://blog.nativescript.org/unit-testing-with-v3-runner/)
-- 
 
 ### End-to-end Integration Testing
 
