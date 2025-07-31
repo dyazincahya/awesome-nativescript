@@ -313,60 +313,75 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### UI Plugins
 
+#### Layout & Container Components
 - [Accordion](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accordion) - A NativeScript plugin for Accordion UI.
-- [App Tour](https://github.com/hamdiwanis/nativescript-app-tour) - A NativeScript plugin that allows you to create an app tour for your users. This Plugin based on [MaterialShowcase](https://github.com/hamdiwanis/material-showcase-ios) for IOS and [TapTargetView](https://github.com/KeepSafe/TapTargetView) for Android.
+- [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
+- [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
+- [UI Canvas](https://github.com/nativescript-community/ui-canvas) - Implement Canvas into your NativeScript apps.
+- [UI Collectionview](https://github.com/nativescript-community/ui-collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
+- [UI Drawer](https://github.com/nativescript-community/ui-drawer) - A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.
+- [UI Pager](https://github.com/nativescript-community/ui-pager) - Pager / Carousel component that allows the user to swipe left and right through pages of data.
+- [UI Persistent Bottomsheet](https://github.com/nativescript-community/ui-persistent-bottomsheet) - A NativeScript plugin that allows you to easily add a persistent bottomsheet to your projects.
+- [UI Popover](https://github.com/nativescript-community/ui-popover) - A NativeScript plugin to make Popover.
+- [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
+- [Windowed Modal](https://github.com/mukaschultze/nativescript-windowed-modal) - Consistent modals for NativeScript in Android and iOS.
+
+#### Text & Typography
 - [Auto Fit Text](https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text) - A plugin that extends the Nativescript Label with the functionality to adjust the font size according to the label's width.
-- [Coachmarks](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks) - A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI. This approach leverages your actual UI as part of the onboarding process for your user. This plugin similar with `App Tour` plugin but different UI.
+- [Label Marquee](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee) - A Label which can scroll with a marquee effect when the text outgrows the available width.
+- [Markdown View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-markdown-view) - A NativeScript view for displaying natively rendered Markdown.
+- [UI Label](https://github.com/nativescript-community/ui-label) - Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.
+
+#### Input & Selection Components
 - [Color Wheel](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-color-wheel) - A NativeScript plugin that allows you to use a color wheel to select colors.
 - [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
 - [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
-- [Document Scanner](https://github.com/nativescript-community/document-scanner) - A NativeScript plugin to scan documents.
-- [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
-- [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection (for iOS, multiple selection feature depends on OS version) using only native picker approaches. Support Pick `Documents`, `Images`, `Video`, `Audio` and `Archives`.
-- [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - Fluid Segmented Bar to liven up any standard SegmentedBar control.
-- [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
-- [Image Cache It](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it) - A NativeScript plugin that automatically caches images for faster loading and better performance. It uses `SDWebImage` on iOS and `Glide` on android.
-- [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it, using Play Store and App Store APIs.
-- [Label Marquee](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee) - A Label which can scroll with a marquee effect when the text outgrows the available width.
-- [Markdown View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-markdown-view) - A NativeScript view for displaying natively rendered Markdown. Uses [Markwon](https://github.com/noties/Markwon) on Android and [TSMarkdownParser](https://github.com/laptobbe/TSMarkdownParser) on iOS.
-- [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - This plugin is cloned from [nativescript-multi-select](https://github.com/skhye05/nativescript-multi-select). Nativescript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
-- [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies. Only compatible with `NativeScript-React` as it relies on `JSX` syntax.
-- [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
+- [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection.
+- [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - Nativescript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
 - [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for IOS and Android.
-- [Parallax](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-parallax) - A NativeScript plugin to create a parallax effect for any view.
 - [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
 - [Radio Dialog](https://github.com/modos189/nativescript-radio-dialog) - A NativeScript plugin that provides radio button dialogs.
-- [Ripple](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-ripple) - This plugin aims to bring a native (or close to native) ripple implementation on Android and iOS. The android version uses a `RippleDrawable` and conserves the previous background, as well as CSS styles.
-- [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
-- [Shimmer](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-shimmer) - A NativeScript plugin to create a shimmer effect for any view.
 - [Star Ratings](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-star-ratings) - A NativeScript plugin that provides a customizable star rating component for displaying and collecting user ratings in mobile apps.
-- [SVG](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg) - A NativeScript plugin that allows you to use SVG images in your NativeScript apps.
 - [Time Range](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range) - A NativeScript plugin for selecting a time range using a time picker.
-- [Toasty](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-toasty) - A NativeScript plugin to make Toast.
-- [Tooltip](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-tooltip) - A NativeScript plugin to make Tooltip.
-- [Tweeen](https://github.com/nativescript-community/tween) - A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.
-- [UI Image](https://github.com/nativescript-community/ui-image) - Advanced and efficient image display plugin which uses `Fresco` (Android) and `SDWebImage` (iOS) to implement caching, placeholders, image effects, and much more.
-- [UI Label](https://github.com/nativescript-community/ui-label) - Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.
-- [UI Pager](https://github.com/nativescript-community/ui-pager) - Pager / Carousel component that allows the user to swipe left and right through pages of data.
-- [UI Chart](https://github.com/nativescript-community/ui-chart) - A powerful chart / graph plugin, supporting line, bar, pie, radar, bubble, and candlestick charts as well as scaling, panning and animations.
-- [UI Canvas](https://github.com/nativescript-community/ui-canvas) - Implement Canvas into your NativeScript apps.
-- [UI Persistent Bottomsheet](https://github.com/nativescript-community/ui-persistent-bottomsheet) - A NativeScript plugin that allows you to easily add a persistent bottomsheet to your projects.
-- [UI Collectionview](https://github.com/nativescript-community/ui-collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
-- [UI Lottie](https://github.com/nativescript-community/ui-lottie) - A NativeScript plugin to expose AirBnB Lottie library.
-- [UI PullToRefresh](https://github.com/nativescript-community/ui-pulltorefresh) - A NativeScript plugin to provide the Pull to Refresh control on any view.
-- [UI Drawer](https://github.com/nativescript-community/ui-drawer) - A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.
-- [UI Popover](https://github.com/nativescript-community/ui-popover) - A NativeScript plugin to make Popover.
-- [UI Webview](https://github.com/nativescript-community/ui-webview) - Extended WebView which adds many options such as custom scheme handlers, JavaScript execution, URL capturing, and more.
-- [UI Cameraview](https://github.com/nativescript-community/ui-cameraview) - A CameraView allowing custom live processing for NativeScript.
-- [UI Share File](https://github.com/nativescript-community/ui-share-file) - Send/share file to other apps.
-- [UI Document Picker](https://github.com/nativescript-community/ui-document-picker) - A NativeScript plugin that allows you to select files from the device.
 - [UI Checkbox](https://github.com/nativescript-community/ui-checkbox) - A NativeScript plugin for checkbox UI component.
+- [UI Document Picker](https://github.com/nativescript-community/ui-document-picker) - A NativeScript plugin that allows you to select files from the device.
+- [UI Range Seek Bar](https://github.com/nativescript-community/ui-range-seek-bar) - A NativeScript Range Seek Bar widget.
+
+#### Media & Visual Components
+- [Document Scanner](https://github.com/nativescript-community/document-scanner) - A NativeScript plugin to scan documents.
+- [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
+- [Image Cache It](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it) - A NativeScript plugin that automatically caches images for faster loading and better performance.
+- [SVG](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg) - A NativeScript plugin that allows you to use SVG images in your NativeScript apps.
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
-- [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
-- [UI Range Seek Bar](https://github.com/nativescript-community/ui-range-seek-bar) - A NativeScript Range Seek Bar widget.
-- [Variable Blur View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-variable-blur-view) - A NativeScript plugin that creates a variable blur view. Inspired by [@jtrivedi](https://github.com/jtrivedi), [@aheze](https://github.com/aheze/VariableBlurView), and [@candlefinance](https://github.com/candlefinance/blur-view).
-- [Windowed Modal](https://github.com/mukaschultze/nativescript-windowed-modal) - Consistent modals for NativeScript in Android and iOS.
+- [UI Cameraview](https://github.com/nativescript-community/ui-cameraview) - A CameraView allowing custom live processing for NativeScript.
+- [UI Chart](https://github.com/nativescript-community/ui-chart) - A powerful chart / graph plugin, supporting line, bar, pie, radar, bubble, and candlestick charts as well as scaling, panning and animations.
+- [UI Image](https://github.com/nativescript-community/ui-image) - Advanced and efficient image display plugin which uses Fresco (Android) and SDWebImage (iOS) to implement caching, placeholders, image effects, and much more.
+- [UI Lottie](https://github.com/nativescript-community/ui-lottie) - A NativeScript plugin to expose AirBnB Lottie library.
+- [UI Webview](https://github.com/nativescript-community/ui-webview) - Extended WebView which adds many options such as custom scheme handlers, JavaScript execution, URL capturing, and more.
+- [Variable Blur View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-variable-blur-view) - A NativeScript plugin that creates a variable blur view.
+
+#### Navigation & User Guidance
+- [App Tour](https://github.com/hamdiwanis/nativescript-app-tour) - A NativeScript plugin that allows you to create an app tour for your users.
+- [Coachmarks](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks) - A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI.
+- [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - Fluid Segmented Bar to liven up any standard SegmentedBar control.
+- [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.
+
+#### Feedback & Notifications
+- [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
+- [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it.
+- [Toasty](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-toasty) - A NativeScript plugin to make Toast.
+- [Tooltip](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-tooltip) - A NativeScript plugin to make Tooltip.
+
+#### Animation & Visual Effects
+- [Parallax](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-parallax) - A NativeScript plugin to create a parallax effect for any view.
+- [Ripple](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-ripple) - This plugin aims to bring a native (or close to native) ripple implementation on Android and iOS.
+- [Shimmer](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-shimmer) - A NativeScript plugin to create a shimmer effect for any view.
+- [Tweeen](https://github.com/nativescript-community/tween) - A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.
+
+#### Utility & Enhancement
+- [UI PullToRefresh](https://github.com/nativescript-community/ui-pulltorefresh) - A NativeScript plugin to provide the Pull to Refresh control on any view.
+- [UI Share File](https://github.com/nativescript-community/ui-share-file) - Send/share file to other apps.
 
 ### Utility Plugins
 
