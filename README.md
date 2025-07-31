@@ -316,7 +316,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Parallax](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-parallax) - A NativeScript plugin to create a parallax effect for any view.
 - [Ripple](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-ripple) - This plugin aims to bring a native (or close to native) ripple implementation on Android and iOS.
 - [Shimmer](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-shimmer) - A NativeScript plugin to create a shimmer effect for any view.
-- [Tweeen](https://github.com/nativescript-community/tween) - A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.
+- [Tween](https://github.com/nativescript-community/tween) - A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.
 
 #### Feedback & Notifications
 - [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
