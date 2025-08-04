@@ -531,6 +531,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Sample Code by NativeScript OSS on StackBlitz](https://stackblitz.com/@nativescript-oss)
 - [Swipeout implementation in NativeScript for Angular](https://github.com/Bezlepkin/nativescript-angular-listvew-swipeout-actions)
+- [Sticky Countries](https://stackblitz.com/edit/nativescript-sticky-countries-ts?file=app%2Fmain-view-model.ts)
 
 
 ### AI & Machine Learning
