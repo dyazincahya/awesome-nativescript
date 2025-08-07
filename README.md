@@ -190,6 +190,7 @@ Run NativeScript on the following platforms:
 - [Couchbase](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase) - Is an embedded, NoSQL JSON Document Style database for your mobile apps.
 - [RxDB](https://github.com/herefishyfish/rxdb-nativescript) - Are a set of plugins that enable RxDB support for NativeScript. This set of plugins includes a core plugin and adapters for different databases.
 - [SQLite](https://github.com/nativescript-community/sqlite) - A SQLite plugin for NativeScript.
+- [SQLite Secure](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure) - This a library for nativescript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.
 
 ### Firebase Plugins
 - [Batch Notifications](https://github.com/alexcode/ns8-plugins/tree/main/packages/ns8-batch-notifications) - Batch is a full-featured mobile engagement platform for executing CRM tactics on iOS, Android, and mobile websites. This plugin enables push notifications, in-app messages, and more. Requires `@nativescript/firebase` for push notification support.
@@ -221,6 +222,7 @@ Run NativeScript on the following platforms:
 - [Geofence Manager](https://github.com/PeterStaev/nativescript-geofence-manager) - A NativeScript plugin to work with Geofences.
 - [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
 - [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @nativescript/google-maps_.
+- [Launch Navigator](https://github.com/wuilmerj24/nativescript-plugins/blob/main/packages/launch-navigator) - Easily launch turn-by-turn navigation from your NativeScript app using popular mapping apps like Google Maps, Waze, Apple Maps, and more.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
 - [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.
 
@@ -364,6 +366,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [UI Image](https://github.com/nativescript-community/ui-image) - Advanced and efficient image display plugin which uses Fresco (Android) and SDWebImage (iOS) to implement caching, placeholders, image effects, and much more.
 - [UI Lottie](https://github.com/nativescript-community/ui-lottie) - A NativeScript plugin to expose AirBnB Lottie library.
 - [UI Webview](https://github.com/nativescript-community/ui-webview) - Extended WebView which adds many options such as custom scheme handlers, JavaScript execution, URL capturing, and more.
+- [URL Preview](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/url-preview) - This plugin allows you to configure various aspects of the UI, including colors, border radius, and the type of view. Below is a table listing the available attributes and their respective types.
 - [Variable Blur View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-variable-blur-view) - A NativeScript plugin that creates a variable blur view.
 
 #### Navigation & User Guidance
@@ -398,6 +401,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [InAppBrowser](https://github.com/proyecto26/nativescript-inappbrowser) - A NativeScript plugin that allows you to open URLs in an in-app browser.
 - [Messenger](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger) - A NativeScript plugin for sending SMS or MMS.
 - [MQTT](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt) - A cross-platform NativeScript plugin for MQTT communication.
+- [SignalR](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/signalr) - This is a NativeScript plugin that integrates SignalR—Microsoft's real-time communication library—into your mobile apps for iOS and Android.
 - [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on android phone inbox.
 - [SMS Receiver](https://github.com/comporell/nativescript-plugins/tree/master/packages/nativescript-sms-receiver) - A NativeScript plugin to receive SMS messages on android phone.
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
@@ -431,7 +435,10 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [NFC](https://github.com/ontrackms/nativescript-nfc) - A NativeScript plugin to discover, read, and write NFC tags.
 - [Nordic Semiconductor's DFU](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/nordic-dfu) - A NativeScript plugin that integrates Nordic Semiconductor's DFU library.
 - [Orientation](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-orientation) - A NativeScript plugin to control and listen for device screen orientation changes.
+- [Screen Orientation](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/screen-orientation) - This NativeScript plugin provides an easy and effective way to manage screen orientation across platforms. You can both read the current orientation and programmatically set a new orientation (including reverse modes).
+- [Screen Protector](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/screen-protector) - A NativeScript plugin to protect sensitive content from screen capture and recording. This plugin provides API methods to block screenshots and detect screen recording events — with native support for both iOS and Android.
 - [Sleep Control](https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/sleepcontrol) - This plugin allows you to keep your device awake while the current app is running.
+- [Store Update](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/store-update) - A NativeScript plugin that provides useful methods to retrieve version information and check for updates in NativeScript applications (Android and iOS).
 - [WearOS Sensors](https://github.com/GeoTecINIT/nativescript-wearos-sensors) - A NativeScript plugin that provides access to various sensors on Wear OS devices.
 
 #### Media & File Processing
