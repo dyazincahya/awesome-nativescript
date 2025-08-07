@@ -47,6 +47,9 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [visionOS (Vision Pro)](#visionos-vision-pro)
 - [Videos & Podcasts](#videos--podcasts)
 - [Examples & Tutorials](#examples--tutorials)
+  - [Interactive Examples](#interactive-examples)
+  - [AI & Machine Learning](#ai--machine-learning)
+  - [Platform-Specific](#platform-specific)
 - [Misc](#misc)
 - [Tools](#tools)
 
