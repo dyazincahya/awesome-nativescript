@@ -525,7 +525,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Lightning Talk: Understanding how NativeScript works plus how to add your own Flavor](https://www.youtube.com/watch?v=iweVLGNzx1A)
 - [Frontend Nation 2025: Native API Security with NativeScript](https://www.youtube.com/watch?v=iD_QWvJAiSI)
 - [Why NativeScript? Why it's worth learning today, tips for avoiding common pitfalls, and what's coming next](https://x.com/frontendnation/status/1936113360702980351)
-- [Real Native Vue Apps with NativeScript-Vue | VueConf US 2024](https://www.youtube.com/watch?v=6jmU1EfKWF0)
+- [Real Native Vue Apps with NativeScript-Vue — VueConf US 2024](https://www.youtube.com/watch?v=6jmU1EfKWF0)
 - [Use Native APIs in JS with Eduardo Speroni and Nathan Walker](https://www.youtube.com/watch?v=kzdq7GvXzAo)
 - [Dive into NativeScript w/Nathan Walker & Ammar Ahmed](https://www.youtube.com/watch?v=j0s8w34Xh9o)
 - [Kyohei Hamaguchi - Svelte Native in production](https://www.youtube.com/watch?v=0UwwJSQlKOM)
