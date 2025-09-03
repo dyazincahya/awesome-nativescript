@@ -420,6 +420,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 #### Development & Configuration
 - [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
+- [DOM Types](https://github.com/nativescript-dom/types) - Single, centralized TypeScript types for NativeScript web frameworks providing better auto-complete/intellisense for Vue, React, Angular, Svelte, and SolidJS.
 - [Dotenv](https://github.com/ontrackms/nativescript-dotenv) - A NativeScript plugin that enables the use of environment variables in your app.
 - [Licenses](https://github.com/nativescript-community/licenses) - A Nativescript plugin to generate licenses JSON files.
 - [Localize](https://github.com/NativeScript/plugins/tree/main/packages/localize) - A plugin that implements internationalization (i18n) using the native capabilities of each platform.
