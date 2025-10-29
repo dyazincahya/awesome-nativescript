@@ -49,7 +49,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [Videos & Podcasts](#videos--podcasts)
 - [Interactive Demos & Examples](#interactive-demos--examples)
 - [Tutorials](#tutorials)
-  - [Interactive Examples](#interactive-examples)
   - [AI & Machine Learning](#ai--machine-learning)
   - [Platform-Specific](#platform-specific)
 - [Misc](#misc)
