@@ -7,6 +7,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 > Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, macOS, visionOS, Android, and Meta Quest—entirely in JavaScript.
 
 ## Contents
+
 - [Official Resources](#official-resources)
 - [Flavors](#flavors)
   - [Official Flavors](#official-flavors)
@@ -46,7 +47,8 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [macOS](#macos)
 - [visionOS (Vision Pro)](#visionos-vision-pro)
 - [Videos & Podcasts](#videos--podcasts)
-- [Examples & Tutorials](#examples--tutorials)
+- [Interactive Demos & Examples](#interactive-demos--examples)
+- [Tutorials](#tutorials)
   - [Interactive Examples](#interactive-examples)
   - [AI & Machine Learning](#ai--machine-learning)
   - [Platform-Specific](#platform-specific)
@@ -163,7 +165,7 @@ Run NativeScript on the following platforms:
 ### Analytics, Engagement & Monitoring Plugins
 
 - [Adobe Experience Cloud](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-adobe-experience-cloud) - A NativeScript plugin for Adobe Experience Cloud.
-- [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-nativescript-plugin) -  A NativeScript plugin for AppsFlyer mobile attribution and analytics. Track installs, measure user behavior, and optimize marketing performance.
+- [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-nativescript-plugin) - A NativeScript plugin for AppsFlyer mobile attribution and analytics. Track installs, measure user behavior, and optimize marketing performance.
 - [IAdvize](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-iadvize) - A NativeScript plugin that integrates the iAdvize SDK, enabling live chat and real-time customer engagement features within NativeScript applications.
 - [Medallia](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-medallia) - A NativeScript plugin integrating the Medallia SDK to gather insights and improve customer, employee, and digital experiences.
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
@@ -196,6 +198,7 @@ Run NativeScript on the following platforms:
 - [SQLite Secure](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure) - This a library for nativescript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.
 
 ### Firebase Plugins
+
 - [Batch Notifications](https://github.com/alexcode/ns8-plugins/tree/main/packages/ns8-batch-notifications) - Batch is a full-featured mobile engagement platform for executing CRM tactics on iOS, Android, and mobile websites. This plugin enables push notifications, in-app messages, and more. Requires `@nativescript/firebase` for push notification support.
 - [Firebase Analytics](https://github.com/NativeScript/firebase/tree/main/packages/firebase-analytics) - This plugin allows you to add Google Analytics for Firebase to your app.
 - [Firebase App Check](https://github.com/NativeScript/firebase/tree/main/packages/firebase-app-check) - App Check works alongside other Firebase services to help protect your backend resources from abuse, such as billing fraud or phishing.
@@ -318,18 +321,21 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 ### UI Plugins
 
 #### Animation & Visual Effects
+
 - [Parallax](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-parallax) - A NativeScript plugin to create a parallax effect for any view.
 - [Ripple](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-ripple) - This plugin aims to bring a native (or close to native) ripple implementation on Android and iOS.
 - [Shimmer](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-shimmer) - A NativeScript plugin to create a shimmer effect for any view.
 - [Tween](https://github.com/nativescript-community/tween) - A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.
 
 #### Feedback & Notifications
+
 - [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
 - [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it.
 - [Toasty](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-toasty) - A NativeScript plugin to make Toast.
 - [Tooltip](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-tooltip) - A NativeScript plugin to make Tooltip.
 
 #### Input & Selection Components
+
 - [Color Wheel](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-color-wheel) - A NativeScript plugin that allows you to use a color wheel to select colors.
 - [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
 - [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
@@ -345,6 +351,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [UI Range Seek Bar](https://github.com/nativescript-community/ui-range-seek-bar) - A NativeScript Range Seek Bar widget.
 
 #### Layout & Container Components
+
 - [Accordion](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accordion) - A NativeScript plugin for Accordion UI.
 - [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
 - [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
@@ -358,6 +365,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Windowed Modal](https://github.com/mukaschultze/nativescript-windowed-modal) - Consistent modals for NativeScript in Android and iOS.
 
 #### Media & Visual Components
+
 - [Document Scanner](https://github.com/nativescript-community/document-scanner) - A NativeScript plugin to scan documents.
 - [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
 - [Image Cache It](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it) - A NativeScript plugin that automatically caches images for faster loading and better performance.
@@ -373,24 +381,28 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Variable Blur View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-variable-blur-view) - A NativeScript plugin that creates a variable blur view.
 
 #### Navigation & User Guidance
+
 - [App Tour](https://github.com/hamdiwanis/nativescript-app-tour) - A NativeScript plugin that allows you to create an app tour for your users.
 - [Coachmarks](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks) - A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI.
 - [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - Fluid Segmented Bar to liven up any standard SegmentedBar control.
 - [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.
 
 #### Text & Typography
+
 - [Auto Fit Text](https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text) - A plugin that extends the Nativescript Label with the functionality to adjust the font size according to the label's width.
 - [Label Marquee](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee) - A Label which can scroll with a marquee effect when the text outgrows the available width.
 - [Markdown View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-markdown-view) - A NativeScript view for displaying natively rendered Markdown.
 - [UI Label](https://github.com/nativescript-community/ui-label) - Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.
 
 #### Utility & Enhancement
+
 - [UI PullToRefresh](https://github.com/nativescript-community/ui-pulltorefresh) - A NativeScript plugin to provide the Pull to Refresh control on any view.
 - [UI Share File](https://github.com/nativescript-community/ui-share-file) - Send/share file to other apps.
 
 ### Utility Plugins
 
 #### Background Tasks & Notifications
+
 - [Fetch Task](https://github.com/AthiraLekshmiCV/background-fetch/tree/main/packages/fetch-task) - Background Fetch is a very simple plugin which will awaken an app in the background about every 15 minutes.
 - [Local Notifications](https://github.com/NativeScript/plugins/blob/main/packages/local-notifications) - A plugin that allows your app to show notifications when the app is not running.
 - [Shared Notification Delegate](https://github.com/NativeScript/plugins/blob/main/packages/shared-notification-delegate) - This project aims to prevent the shortcomings that come from the iOS implementation of only allowing a single delegate.
@@ -398,6 +410,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Task Dispatcher](https://github.com/GeoTecINIT/nativescript-task-dispatcher) - Task Dispatcher is a NativeScript plugin aimed to ease the execution of mobile app's task definition and execution workflows in the background.
 
 #### Communication & Networking
+
 - [Background HTTP](https://github.com/NativeScript/plugins/blob/main/packages/background-http) - A plugin that allows you to make background HTTP uploads.
 - [Downloader](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader) - Is a NativeScript plugin used to download files from the internet directly to the user's device.
 - [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
@@ -411,6 +424,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
 
 #### Data & Storage
+
 - [Array Buffers](https://github.com/nativescript-community/arraybuffers) - Utility methods to work with Array Buffers in Nativescript.
 - [Clipboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-clipboard) - A NativeScript plugin that provides simple APIs to copy to and read from the system clipboard.
 - [Contacts](https://github.com/NativeScript/plugins/blob/main/packages/contacts) - A plugin that allows you to access Contacts directory on iOS and Android.
@@ -419,6 +433,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Secure Storage](https://github.com/NativeScript/plugins/blob/main/packages/secure-storage) - Secure Storage using SAMKeychain on iOS and Hawk on Android.
 
 #### Development & Configuration
+
 - [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
 - [DOM Types](https://github.com/nativescript-dom/types) - Single, centralized TypeScript types for NativeScript web frameworks providing better auto-complete/intellisense for Vue, React, Angular, Svelte, and SolidJS.
 - [Dotenv](https://github.com/ontrackms/nativescript-dotenv) - A NativeScript plugin that enables the use of environment variables in your app.
@@ -426,6 +441,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Localize](https://github.com/NativeScript/plugins/tree/main/packages/localize) - A plugin that implements internationalization (i18n) using the native capabilities of each platform.
 
 #### Device & Hardware Access
+
 - [Accelerometer](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accelerometer) - An acceleration sensor measures the acceleration applied to the device, including the force of gravity.
 - [Biometrics](https://github.com/NativeScript/plugins/blob/main/packages/biometrics) - A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
 - [Ble](https://github.com/nativescript-community/ble) - Connect to and interact with Bluetooth LE peripherals.
@@ -446,6 +462,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [WearOS Sensors](https://github.com/GeoTecINIT/nativescript-wearos-sensors) - A NativeScript plugin that provides access to various sensors on Wear OS devices.
 
 #### Media & File Processing
+
 - [Bitmap Factory](https://github.com/oliverphaser/nativescript-bitmap-factory) - A NativeScript plugin for creating and manipulating bitmap images.
 - [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.
 - [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A nativeScript image cropping plugin.
@@ -457,16 +474,19 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
 
 #### Search & AI
+
 - [Algolia](https://github.com/nativescript-community/algolia) - A NativeScript plugin for Algolia search.
 - [Speech Recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) - Speech to text, using the awesome engines readily available on the device.
 - [TextToSpeech](https://github.com/nativescript-community/texttospeech) - A Text to Speech NativeScript plugin for Android & iOS.
 
 #### Security & Context
+
 - [Awarns Framework](https://github.com/GeoTecINIT/awarns-framework) - Easing the development of context-aware apps.
 - [Context APIs](https://github.com/GeoTecINIT/nativescript-context-apis) - A nativescript plugin to ease the access to mobile phone's real-world context.
 - [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript.
 
 #### User Interface & Interaction
+
 - [Gesture Handler](https://github.com/nativescript-community/gesturehandler) - Declarative API exposing platform native touch and gesture system to NativeScript.
 - [IQ Keyboard Manager](https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager) - A NativeScript wrapper for the popular IQKeyboardManager iOS framework.
 - [Intersection Observer](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-intersection-observer) - A NativeScript plugin that detects when a UI element enters or exits the viewport.
@@ -489,15 +509,15 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Security
 
-- [JavaScript obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code. ([Tutorial](https://www.kang-cahya.com/2025/07/securing-javascript-code-in.html))
+- [JavaScript obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - This is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code. ([Tutorial](https://www.kang-cahya.com/2025/07/securing-javascript-code-in.html))
 
 ## Testing
 
 ### Unit Testing
 
-- [ns test init](https://docs.nativescript.org/guide/testing)
-- [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/)
-- [@nativescript/unit-test-runner v3 release details - test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud](https://blog.nativescript.org/unit-testing-with-v3-runner/)
+- [E2E Testing](https://docs.nativescript.org/guide/testing) - For end-to-end testing, consider using Maestro or the @nativescript/detox plugin.
+- [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/) - An article on unit testing NativeScript-Vue applications with Vitest.
+- [Unit Test Runner v3 Release Details](https://blog.nativescript.org/unit-testing-with-v3-runner/) - Details on testing apps, plugins, and platform APIs with integration extras like SonarCloud.
 
 ### End-to-end Integration Testing
 
@@ -513,7 +533,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Solidjs for macOS with NativeScript](https://github.com/ammarahm-ed/nativescript-macos-solid)
   - [Try yourself with Solid Desktop on macOS](https://apps.apple.com/us/app/solid-desktop/id6737216890?mt=12)
-  
+
 ## visionOS (Vision Pro)
 
 - [What happens when a SwiftUI and NativeScript developer embrace each other?](https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/)
@@ -536,14 +556,17 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Alex Ziskind NativeScript Highlights](https://www.youtube.com/@AZisk/search?query=nativescript)
 - [NativeScript 8.9 Q&A](https://www.youtube.com/watch?v=42dS4SwBKvw)
 
-## Examples & Tutorials
+## Interactive Demos & Examples
 
-### Interactive Examples
+### ReactJS
 
+- [ArrayBuffers with NativeScript](https://x.com/NativeScript/status/1965123372368662560)
+  - [https://stackblitz.com/edit/nativescript-arraybuffers]
 - [Sample Code by NativeScript OSS on StackBlitz](https://stackblitz.com/@nativescript-oss)
 - [Swipeout implementation in NativeScript for Angular](https://github.com/Bezlepkin/nativescript-angular-listvew-swipeout-actions)
 - [Sticky Countries](https://stackblitz.com/edit/nativescript-sticky-countries-ts?file=app%2Fmain-view-model.ts)
 
+## Tutorials
 
 ### AI & Machine Learning
 
