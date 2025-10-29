@@ -61,9 +61,9 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [NativeScript Blog](https://blog.nativescript.org/)
 - [NativeScript Snacks](https://docs.nativescript.org/snacks/)
 - [NativeScript Show Case Apps](https://www.nativescript.org/showcases)
-- [NativeScript on X (@nativescript)](https://x.com/nativescript)
-- [NativeScript on Bsky (@nativescript.bsky.social)](https://bsky.app/profile/nativescript.bsky.social)
-- [NativeScript on YouTube (@NativeScriptVideos)](https://www.youtube.com/@NativeScriptVideos/videos)
+- [NativeScript on X](https://x.com/nativescript)
+- [NativeScript on Bsky](https://bsky.app/profile/nativescript.bsky.social)
+- [NativeScript on YouTube](https://www.youtube.com/@NativeScriptVideos/videos)
 - [NativeScript on GitHub](https://github.com/NativeScript)
 - [NativeScript on Stack Overflow](http://stackoverflow.com/questions/tagged/nativescript)
 - [NativeScript RFC](https://github.com/NativeScript/rfcs/discussions)
@@ -103,8 +103,8 @@ Run NativeScript on the following platforms:
 
 ## Community
 
-- [Nativescript Community on Discord](https://nativescript.org/discord)
-- [Nativescript Community on GitHub](https://github.com/nativescript-community/)
+- [NativeScript Community on Discord](https://nativescript.org/discord)
+- [NativeScript Community on GitHub](https://github.com/nativescript-community/)
 
 ## Templates
 
@@ -188,14 +188,14 @@ Run NativeScript on the following platforms:
 - [Appwrite](https://github.com/NativeScript/appwrite) - Is an open-source backend as a service server that abstract and simplify complex and repetitive development tasks behind a very simple to use REST API.
 - [AWS](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk) - It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.
 - [Firebase](https://docs.nativescript.org/plugins/firebase-core) - Modular Firebase 🔥 implementation for NativeScript. Supports both iOS & Android platforms for all Firebase services.
-- [Supabase](https://github.com/NativeScript/supabase) - Supabase for NativeScript: Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+- [Supabase](https://github.com/NativeScript/supabase) - Start your project with a PostgreSQL, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
 
 ### Client-side Database Plugins
 
 - [Couchbase](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase) - Is an embedded, NoSQL JSON Document Style database for your mobile apps.
 - [RxDB](https://github.com/herefishyfish/rxdb-nativescript) - Are a set of plugins that enable RxDB support for NativeScript. This set of plugins includes a core plugin and adapters for different databases.
 - [SQLite](https://github.com/nativescript-community/sqlite) - A SQLite plugin for NativeScript.
-- [SQLite Secure](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure) - This a library for nativescript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.
+- [SQLite Secure](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure) - This a library for NativeScript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.
 
 ### Firebase Plugins
 
@@ -212,11 +212,11 @@ Run NativeScript on the following platforms:
 - [Firebase In App Messaging](https://github.com/NativeScript/firebase/tree/main/packages/firebase-in-app-messaging) - This plugin allows you to use the Firebase In-App Messaging SDK in your NativeScript app.
 - [Firebase Installations](https://github.com/NativeScript/firebase/tree/main/packages/firebase-installations) - Provides a Firebase installation ID (FID) for each installed instance of a Firebase app.
 - [Firebase Messaging](https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging) - This plugin allows you to use Firebase Cloud Messaging in your NativeScript app.
-- [Firebase Messaging Core](https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging-core) - Firebase Messaging Core is a lite package which enables you to use a third-party push service on Android and iOS.
+- [Firebase Messaging Core](https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging-core) - This is a lite package which enables you to use a third-party push service on Android and iOS.
 - [Firebase Messaging Custom Sound](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/fcm-custom-sound) - Custom notification sound of firebase cloud messaging (FCM). Currently only working on Android.
 - [Firebase Performance](https://github.com/NativeScript/firebase/tree/main/packages/firebase-performance) - This plugin allows you to use the Firebase Performance Monitoring API in your NativeScript app.
 - [Firebase Remote Config](https://github.com/NativeScript/firebase/tree/main/packages/firebase-remote-config) - This plugin allows you to use the Firebase Remote Config API in your NativeScript app.
-- [Firebase Storage](https://github.com/NativeScript/firebase/tree/main/packages/firebase-storage) - This plugin allows you to use the native Firebase SDKs for Cloud Storage in your Nativescript app.
+- [Firebase Storage](https://github.com/NativeScript/firebase/tree/main/packages/firebase-storage) - This plugin allows you to use the native Firebase SDKs for Cloud Storage in your NativeScript app.
 - [Firebase UI](https://github.com/NativeScript/firebase/tree/main/packages/firebase-ui) - With this plugin, you can use the FirebaseUI for Auth library in your NativeScript app. FirebaseUI for Auth is a library that provides a drop-in auth solution that handles the UI flows for signing up and signing in users with email and password, phone number, Google, Facebook, Twitter, and more.
 
 ### Geo Plugins
@@ -265,8 +265,8 @@ Run NativeScript on the following platforms:
 
 ### Networking Plugins
 
-- [Klippa Nativescript Http](https://github.com/klippa-app/nativescript-http) - The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.
-- [Nativescript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for Nativescript - iOS/Android.
+- [Klippa NativeScript Http](https://github.com/klippa-app/nativescript-http) - The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.
+- [Nativescript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for NativeScript - iOS/Android.
 - [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
 - [Socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
 - [websockets](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-websockets) - For web-compatible WebSockets.
@@ -283,7 +283,7 @@ Run NativeScript on the following platforms:
 ### Styling & Theme Plugins
 
 - [Change Icon](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/change-icon) - A NativeScript plugin that allows dynamic switching of the app icon at runtime on iOS using alternate icons.
-- [Tailwindcss](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
+- [Tailwind CSS](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
 - [Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
 
 ### UI Kit Plugins
@@ -292,7 +292,7 @@ Run NativeScript on the following platforms:
 - [Ionic Portals](https://github.com/NativeScript/ui-kit/tree/main/packages/ionic-portals) - A plugin that allows you to use [Ionic Portals](https://ionic.io/docs/portals) in NativeScript.
 - [Jetpack Compose](https://github.com/NativeScript/ui-kit/tree/main/packages/jetpack-compose) - A plugin that allows you to use Jetpack Compose in NativeScript.
 - [Morph Modal Kit](https://github.com/NativeScript/ui-kit/tree/main/packages/morph-modal-kit) - Is a lightweight, flexible UIKit package for building card-stack modals with smooth `morph` (replace) animations and support for sticky elements. Only for iOS.
-- [Rive](https://github.com/NativeScript/ui-kit/tree/main/packages/rive) - Rive for NativeScript, allows setup and interaction with the native implementation of the Rive runtime on iOS and Android.
+- [Rive](https://github.com/NativeScript/ui-kit/tree/main/packages/rive) - Allows setup and interaction with the native implementation of the Rive runtime on iOS and Android.
 - [Smartlook](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-smartlook) - A NativeScript plugin for the [Smartlook](https://www.smartlook.com/) SDK. Comprehensive product analytics & visual user insights.
 - [Swift UI](https://github.com/NativeScript/ui-kit/tree/main/packages/swift-ui) - Use SwiftUI with NativeScript.
 - [UI Charts](https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts) - Highcharts SDK for NativeScript.
@@ -340,8 +340,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
 - [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
 - [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection.
-- [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - Nativescript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
-- [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for IOS and Android.
+- [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - NativeScript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
+- [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for iOS and Android.
 - [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
 - [Radio Dialog](https://github.com/modos189/nativescript-radio-dialog) - A NativeScript plugin that provides radio button dialogs.
 - [Star Ratings](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-star-ratings) - A NativeScript plugin that provides a customizable star rating component for displaying and collecting user ratings in mobile apps.
@@ -384,12 +384,12 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [App Tour](https://github.com/hamdiwanis/nativescript-app-tour) - A NativeScript plugin that allows you to create an app tour for your users.
 - [Coachmarks](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks) - A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI.
-- [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - Fluid Segmented Bar to liven up any standard SegmentedBar control.
+- [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - To liven up any standard SegmentedBar control.
 - [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.
 
 #### Text & Typography
 
-- [Auto Fit Text](https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text) - A plugin that extends the Nativescript Label with the functionality to adjust the font size according to the label's width.
+- [Auto Fit Text](https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text) - A plugin that extends the NativeScript Label with the functionality to adjust the font size according to the label's width.
 - [Label Marquee](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee) - A Label which can scroll with a marquee effect when the text outgrows the available width.
 - [Markdown View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-markdown-view) - A NativeScript view for displaying natively rendered Markdown.
 - [UI Label](https://github.com/nativescript-community/ui-label) - Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.
@@ -407,7 +407,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Local Notifications](https://github.com/NativeScript/plugins/blob/main/packages/local-notifications) - A plugin that allows your app to show notifications when the app is not running.
 - [Shared Notification Delegate](https://github.com/NativeScript/plugins/blob/main/packages/shared-notification-delegate) - This project aims to prevent the shortcomings that come from the iOS implementation of only allowing a single delegate.
 - [Task](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-task) - A NativeScript module for simply handling background tasks via web workers.
-- [Task Dispatcher](https://github.com/GeoTecINIT/nativescript-task-dispatcher) - Task Dispatcher is a NativeScript plugin aimed to ease the execution of mobile app's task definition and execution workflows in the background.
+- [Task Dispatcher](https://github.com/GeoTecINIT/nativescript-task-dispatcher) - This is a NativeScript plugin aimed to ease the execution of mobile app's task definition and execution workflows in the background.
 
 #### Communication & Networking
 
@@ -418,10 +418,10 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Messenger](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger) - A NativeScript plugin for sending SMS or MMS.
 - [MQTT](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt) - A cross-platform NativeScript plugin for MQTT communication.
 - [SignalR](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/signalr) - This is a NativeScript plugin that integrates SignalR—Microsoft's real-time communication library—into your mobile apps for iOS and Android.
-- [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on android phone inbox.
-- [SMS Receiver](https://github.com/comporell/nativescript-plugins/tree/master/packages/nativescript-sms-receiver) - A NativeScript plugin to receive SMS messages on android phone.
+- [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on Android phone inbox.
+- [SMS Receiver](https://github.com/comporell/nativescript-plugins/tree/master/packages/nativescript-sms-receiver) - A NativeScript plugin to receive SMS messages on Android phone.
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
-- [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Universal links (IOS) and App Links (Android) support for NativeScript.
+- [Universal Links](https://www.npmjs.com/package/@nativescript-community/universal-links) - Provides Universal Links (iOS) and App Links (Android) support for NativeScript.
 
 #### Data & Storage
 
@@ -570,8 +570,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### AI & Machine Learning
 
-- [Use Gemini Pro with NativeScript](https://x.com/NativeScript/status/1940163248051167399) - Official demo showcasing Gemini Pro AI integration.
-  - [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html) - Try it live on StackBlitz.
+- [Use Gemini Pro with NativeScript](https://x.com/NativeScript/status/1940163248051167399) - Official demo showcasing Gemini Pro AI integration. [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html), Try it live on StackBlitz.
 - [Morphing Swift to 100% TypeScript with NativeScript + AI](https://nstudio.io/blog/morphing-swift-to-nativescript) - Advanced tutorial on converting Swift code to TypeScript using AI.
 
 ### Platform-Specific
