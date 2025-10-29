@@ -227,7 +227,7 @@ Run NativeScript on the following platforms:
 - [Geo Location](https://github.com/NativeScript/plugins/blob/main/packages/geolocation) - A geolocation plugin to use for getting current location, monitor movement, etc.
 - [Geofence Manager](https://github.com/PeterStaev/nativescript-geofence-manager) - A NativeScript plugin to work with Geofences.
 - [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
-- [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @nativescript/google-maps_.
+- [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @NativeScript/google-maps_.
 - [Launch Navigator](https://github.com/wuilmerj24/nativescript-plugins/blob/main/packages/launch-navigator) - Easily launch turn-by-turn navigation from your NativeScript app using popular mapping apps like Google Maps, Waze, Apple Maps, and more.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
 - [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.
@@ -266,7 +266,7 @@ Run NativeScript on the following platforms:
 ### Networking Plugins
 
 - [Klippa NativeScript Http](https://github.com/klippa-app/nativescript-http) - The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.
-- [Nativescript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for NativeScript - iOS/Android.
+- [NativeScript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for NativeScript - iOS/Android.
 - [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
 - [Socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
 - [websockets](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-websockets) - For web-compatible WebSockets.
@@ -430,14 +430,14 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Contacts](https://github.com/NativeScript/plugins/blob/main/packages/contacts) - A plugin that allows you to access Contacts directory on iOS and Android.
 - [MD5](https://github.com/nativescript-community/md5) - A NativeScript plugin for fast MD5 computation for files.
 - [preferences](https://github.com/nativescript-community/preferences) - This plugin allows native preference saving/loading on iOS and Android.
-- [Secure Storage](https://github.com/NativeScript/plugins/blob/main/packages/secure-storage) - Secure Storage using SAMKeychain on iOS and Hawk on Android.
+- [Secure Storage](https://github.com/NativeScript/plugins/blob/main/packages/secure-storage) - Provides secure storage using SAMKeychain on iOS and Hawk on Android.
 
 #### Development & Configuration
 
 - [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
 - [DOM Types](https://github.com/nativescript-dom/types) - Single, centralized TypeScript types for NativeScript web frameworks providing better auto-complete/intellisense for Vue, React, Angular, Svelte, and SolidJS.
 - [Dotenv](https://github.com/ontrackms/nativescript-dotenv) - A NativeScript plugin that enables the use of environment variables in your app.
-- [Licenses](https://github.com/nativescript-community/licenses) - A Nativescript plugin to generate licenses JSON files.
+- [Licenses](https://github.com/nativescript-community/licenses) - A NativeScript plugin to generate licenses JSON files.
 - [Localize](https://github.com/NativeScript/plugins/tree/main/packages/localize) - A plugin that implements internationalization (i18n) using the native capabilities of each platform.
 
 #### Device & Hardware Access
@@ -464,8 +464,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Media & File Processing
 
 - [Bitmap Factory](https://github.com/oliverphaser/nativescript-bitmap-factory) - A NativeScript plugin for creating and manipulating bitmap images.
-- [ffmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.
-- [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A nativeScript image cropping plugin.
+- [FFmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.
+- [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A NativeScript image cropping plugin.
 - [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications.
 - [Image Picker](https://github.com/NativeScript/plugins/blob/main/packages/imagepicker) - Imagepicker plugin supporting both single and multiple selection.
 - [Pdf](https://github.com/NativeScript/plugins/blob/main/packages/pdf) - A simple PDF viewer.
@@ -482,7 +482,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Security & Context
 
 - [Awarns Framework](https://github.com/GeoTecINIT/awarns-framework) - Easing the development of context-aware apps.
-- [Context APIs](https://github.com/GeoTecINIT/nativescript-context-apis) - A nativescript plugin to ease the access to mobile phone's real-world context.
+- [Context APIs](https://github.com/GeoTecINIT/nativescript-context-apis) - A NativeScript plugin to ease the access to mobile phone's real-world context.
 - [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript.
 
 #### User Interface & Interaction
@@ -493,7 +493,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Keyboard](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-keyboard) - A NativeScript plugin that allows programmatically showing and hiding the virtual keyboard.
 - [Keyboard Opening](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-keyboard-opening) - A plugin that allows you to track keyboard opening, changing, closing and returns keyboard height.
 - [System UI](https://github.com/nativescript-community/systemui) - Provides API for changing the styles of SystemUI (StatusBar, NavigationBar, Etc) on iOS.
-- [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from @nativescript/theme.
+- [Theme Switcher](https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher) - A plugin that allows you to switch themes based on the theme from @NativeScript/theme.
 - [View Shot](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot) - Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.
 
 ## More Plugins
@@ -515,14 +515,14 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Unit Testing
 
-- [E2E Testing](https://docs.nativescript.org/guide/testing) - For end-to-end testing, consider using Maestro or the @nativescript/detox plugin.
+- [E2E Testing](https://docs.nativescript.org/guide/testing) - For end-to-end testing, consider using Maestro or the @NativeScript/detox plugin.
 - [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/) - An article on unit testing NativeScript-Vue applications with Vitest.
 - [NativeScript Unit Test Runner v3](https://blog.nativescript.org/unit-testing-with-v3-runner/) - Test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud.
 
 ### End-to-end Integration Testing
 
 - [Detox](https://docs.nativescript.org/plugins/detox) - Gray box end-to-end testing and automation framework for mobile apps.
-- [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) - Maestro is the simplest and most effective UI testing framework.
+- [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) - This is the simplest and most effective UI testing framework.
 
 ## Background Service
 
