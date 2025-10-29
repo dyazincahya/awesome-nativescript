@@ -517,7 +517,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [E2E Testing](https://docs.nativescript.org/guide/testing) - For end-to-end testing, consider using Maestro or the @nativescript/detox plugin.
 - [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/) - An article on unit testing NativeScript-Vue applications with Vitest.
-- [Unit Test Runner v3 Release Details](https://blog.nativescript.org/unit-testing-with-v3-runner/) - Details on testing apps, plugins, and platform APIs with integration extras like SonarCloud.
+- [NativeScript Unit Test Runner v3](https://blog.nativescript.org/unit-testing-with-v3-runner/) - Test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud.
 
 ### End-to-end Integration Testing
 
