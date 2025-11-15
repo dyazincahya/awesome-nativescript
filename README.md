@@ -560,7 +560,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 ### ReactJS
 
 - [ArrayBuffers with NativeScript](https://x.com/NativeScript/status/1965123372368662560)
-  - [https://stackblitz.com/edit/nativescript-arraybuffers]
+  - https://stackblitz.com/edit/nativescript-arraybuffers
 - [Sample Code by NativeScript OSS on StackBlitz](https://stackblitz.com/@nativescript-oss)
 - [Swipeout implementation in NativeScript for Angular](https://github.com/Bezlepkin/nativescript-angular-listvew-swipeout-actions)
 - [Sticky Countries](https://stackblitz.com/edit/nativescript-sticky-countries-ts?file=app%2Fmain-view-model.ts)
