@@ -75,7 +75,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 
 ## Official Resources
 
-- [NativeScript Homepage](http://nativescript.org/)
+- [NativeScript Homepage](https://nativescript.org/)
 - [NativeScript Blog](https://blog.nativescript.org/)
 - [NativeScript Snacks](https://docs.nativescript.org/snacks/)
 - [NativeScript Show Case Apps](https://www.nativescript.org/showcases)
@@ -83,7 +83,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [NativeScript on Bsky](https://bsky.app/profile/nativescript.bsky.social)
 - [NativeScript on YouTube](https://www.youtube.com/@NativeScriptVideos/videos)
 - [NativeScript on GitHub](https://github.com/NativeScript)
-- [NativeScript on Stack Overflow](http://stackoverflow.com/questions/tagged/nativescript)
+- [NativeScript on Stack Overflow](https://stackoverflow.com/questions/tagged/nativescript)
 - [NativeScript RFC](https://github.com/NativeScript/rfcs/discussions)
 
 ## Flavors
