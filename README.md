@@ -557,12 +557,12 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Interactive Demos & Examples
 
-- [Core](examples/core) - Example using pure NativeScript with TypeScript/JavaScript.
-- [Angular](examples/angular) - Example using NativeScript with Angular.
-- [Vue](examples/vue) - Example using NativeScript with Vue.
-- [React](examples/react) - Example using NativeScript with React.
-- [Solid](examples/solid) - Example using NativeScript with Solid.
-- [Svelte](examples/svelte) - Example using NativeScript with Svelte.
+- [Core](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/core) - Example using pure NativeScript with TypeScript/JavaScript.
+- [Angular](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/angular) - Example using NativeScript with Angular.
+- [Vue](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/vue) - Example using NativeScript with Vue.
+- [React](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/react) - Example using NativeScript with React.
+- [Solid](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/solid) - Example using NativeScript with Solid.
+- [Svelte](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/svelte) - Example using NativeScript with Svelte.
 
 ## Tutorials
 
