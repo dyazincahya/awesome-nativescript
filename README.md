@@ -8,7 +8,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 
 ## Contents
 
-- [Contents](#contents)
 - [Official Resources](#official-resources)
 - [Flavors](#flavors)
   - [Official Flavors](#official-flavors)
