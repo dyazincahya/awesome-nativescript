@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Awesome NativeScript — Search</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070a12;
+      --surface: rgba(255, 255, 255, 0.04);
+      --surface-2: rgba(255, 255, 255, 0.06);
+      --border: rgba(255, 255, 255, 0.10);
+      --text: rgba(255, 255, 255, 0.92);
+      --muted: rgba(255, 255, 255, 0.70);
+      --subtle: rgba(255, 255, 255, 0.55);
+      --accent: #4cc2ff;
+      --accent-2: #7b61ff;
+      --success: #37d67a;
+      --shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+      --radius: 16px;
+      --radius-sm: 12px;
+      --max: 1100px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+        "Segoe UI Emoji";
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--text);
+      background: radial-gradient(900px 500px at 30% -10%, rgba(76, 194, 255, 0.25), transparent 55%),
+        radial-gradient(900px 500px at 70% -10%, rgba(123, 97, 255, 0.22), transparent 55%),
+        linear-gradient(180deg, rgba(9, 12, 24, 0.8), rgba(7, 10, 18, 1));
+      min-height: 100vh;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 18px 60px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 0 22px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .mark {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.95), rgba(123, 97, 255, 0.92));
+      box-shadow: 0 12px 30px rgba(76, 194, 255, 0.18);
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .title h1 {
+      font-size: 16px;
+      margin: 0;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .title p {
+      margin: 0;
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .pillrow {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .pill code {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 18px 16px 18px;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .hero h2 {
+      margin: 0 0 8px 0;
+      font-size: 22px;
+      letter-spacing: 0.2px;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .controls {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    @media (min-width: 900px) {
+      .controls {
+        grid-template-columns: 1.2fr 0.45fr 0.45fr;
+        align-items: end;
+      }
+    }
+
+    label {
+      font-size: 12px;
+      color: var(--muted);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 12px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.2);
+      color: var(--text);
+      outline: none;
+    }
+
+    input[type="text"]::placeholder {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .meta {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .counts {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--success);
+      box-shadow: 0 0 0 4px rgba(55, 214, 122, 0.13);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+
+    button:hover {
+      background: var(--surface-2);
+    }
+
+    .grid {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 14px 14px;
+      box-shadow: 0 14px 60px rgba(0, 0, 0, 0.22);
+    }
+
+    .row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .main {
+      min-width: 0;
+    }
+
+    .name {
+      font-weight: 650;
+      letter-spacing: 0.1px;
+      line-height: 1.25;
+    }
+
+    .desc {
+      margin-top: 6px;
+      color: var(--muted);
+      line-height: 1.4;
+      font-size: 13px;
+    }
+
+    .badges {
+      margin-top: 10px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 11px;
+      color: var(--subtle);
+      border: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.18);
+      border-radius: 999px;
+      padding: 6px 10px;
+      white-space: nowrap;
+    }
+
+    .badge strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .link {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 10px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.18), rgba(123, 97, 255, 0.16));
+      border: 1px solid rgba(120, 160, 255, 0.28);
+      color: var(--text);
+      font-size: 12px;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      text-decoration: none;
+      border-color: rgba(120, 160, 255, 0.45);
+    }
+
+    .link span {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    .empty {
+      padding: 22px 16px;
+      border-radius: var(--radius);
+      border: 1px dashed rgba(255, 255, 255, 0.20);
+      color: var(--muted);
+      background: rgba(0, 0, 0, 0.15);
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .footer code {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.78);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="mark"></div>
+        <div class="title">
+          <h1>Awesome NativeScript — Search</h1>
+          <p>Fast search over README.md categories and plugin lists</p>
+        </div>
+      </div>
+      <div class="pillrow">
+        <div class="pill">Data source: <code>README.md</code></div>
+        <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">Official site</a>
+        <a class="pill" href="./README.md" target="_blank" rel="noreferrer">Open README</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h2>Search resources, plugins, and examples</h2>
+      <p>
+        Type a keyword to search by name, description, URL, or section. Use filters to narrow results by top-level
+        category.
+      </p>
+
+      <div class="controls">
+        <div>
+          <label for="q">Search</label>
+          <input id="q" type="text" placeholder="e.g. firebase, pdf, camera, vue, visionOS, stripe..."
+            autocomplete="off" />
+        </div>
+        <div>
+          <label for="top">Top category</label>
+          <select id="top">
+            <option value="">All</option>
+          </select>
+        </div>
+        <div>
+          <label for="sub">Sub category</label>
+          <select id="sub" disabled>
+            <option value="">All</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="meta">
+        <div class="counts">
+          <div class="dot" id="statusDot"></div>
+          <div id="statusText">Loading README.md…</div>
+        </div>
+        <div class="actions">
+          <button id="clear">Clear</button>
+          <button id="copy">Copy filtered links</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="footer">
+      <div>Tip: search also matches section path like <code>Plugins / Firebase Plugins</code></div>
+      <div id="footerMeta"></div>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      items: [],
+      filtered: [],
+      tops: [],
+      subsByTop: new Map(),
+      readmeUrl: null,
+      readmeLastModified: null,
+    };
+
+    const el = {
+      q: document.getElementById("q"),
+      top: document.getElementById("top"),
+      sub: document.getElementById("sub"),
+      grid: document.getElementById("grid"),
+      statusDot: document.getElementById("statusDot"),
+      statusText: document.getElementById("statusText"),
+      clear: document.getElementById("clear"),
+      copy: document.getElementById("copy"),
+      footerMeta: document.getElementById("footerMeta"),
+    };
+
+    function setStatus(text, ok) {
+      el.statusText.textContent = text;
+      el.statusDot.style.background = ok ? "var(--success)" : "rgba(255,255,255,0.35)";
+      el.statusDot.style.boxShadow = ok ? "0 0 0 4px rgba(55, 214, 122, 0.13)" : "0 0 0 4px rgba(255,255,255,0.08)";
+    }
+
+    function getDomain(url) {
+      try {
+        const u = new URL(url);
+        return u.hostname.replace(/^www\./, "");
+      } catch {
+        return "";
+      }
+    }
+
+    function normalizeHeadingText(text) {
+      return text.replace(/\s+/g, " ").trim();
+    }
+
+    function parseReadme(markdown) {
+      const lines = markdown.split(/\r?\n/);
+      const stack = [];
+      const items = [];
+
+      for (const rawLine of lines) {
+        const line = rawLine.replace(/\t/g, "  ");
+        const h = line.match(/^(#{2,4})\s+(.*)$/);
+        if (h) {
+          const level = h[1].length;
+          const text = normalizeHeadingText(h[2]);
+          while (stack.length && stack[stack.length - 1].level >= level) stack.pop();
+          stack.push({ level, text });
+          continue;
+        }
+
+        const m = line.match(/^\s*-\s+\[([^\]]+)\]\(([^)]+)\)\s*(?:-\s*(.+))?\s*$/);
+        if (!m) continue;
+
+        const name = normalizeHeadingText(m[1]);
+        const url = m[2].trim();
+        const description = normalizeHeadingText(m[3] || "");
+
+        if (!url || url.startsWith("#")) continue;
+
+        const path = stack.map((s) => s.text).filter(Boolean);
+        if (path.length && path[0].toLowerCase() === "contents") continue;
+
+        const top = path[0] || "Uncategorized";
+        const sub = path[1] || "";
+        const fullPath = path.join(" / ");
+
+        items.push({
+          name,
+          url,
+          description,
+          top,
+          sub,
+          path: fullPath,
+          domain: getDomain(url),
+        });
+      }
+
+      return items;
+    }
+
+    function uniqueSorted(values) {
+      return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+    }
+
+    function buildFilters(items) {
+      const tops = uniqueSorted(items.map((i) => i.top));
+      const subsByTop = new Map();
+      for (const top of tops) {
+        const subs = uniqueSorted(items.filter((i) => i.top === top).map((i) => i.sub).filter(Boolean));
+        subsByTop.set(top, subs);
+      }
+      state.tops = tops;
+      state.subsByTop = subsByTop;
+    }
+
+    function setSelectOptions(select, values, includeAll) {
+      select.innerHTML = "";
+      if (includeAll) {
+        const opt = document.createElement("option");
+        opt.value = "";
+        opt.textContent = "All";
+        select.appendChild(opt);
+      }
+      for (const v of values) {
+        const opt = document.createElement("option");
+        opt.value = v;
+        opt.textContent = v;
+        select.appendChild(opt);
+      }
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+
+    function scoreItem(item, q) {
+      if (!q) return 1;
+      const needle = q.toLowerCase();
+      const name = item.name.toLowerCase();
+      const desc = item.description.toLowerCase();
+      const url = item.url.toLowerCase();
+      const path = item.path.toLowerCase();
+
+      let s = 0;
+      if (name.includes(needle)) s += 20;
+      if (desc.includes(needle)) s += 10;
+      if (path.includes(needle)) s += 6;
+      if (url.includes(needle)) s += 4;
+      if (item.domain.toLowerCase().includes(needle)) s += 2;
+      return s;
+    }
+
+    function applyFilters() {
+      const q = el.q.value.trim();
+      const top = el.top.value;
+      const sub = el.sub.value;
+
+      const filtered = state.items
+        .filter((i) => (top ? i.top === top : true))
+        .filter((i) => (sub ? i.sub === sub : true))
+        .map((i) => ({ item: i, score: scoreItem(i, q) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
+        .slice(0, 800)
+        .map((x) => x.item);
+
+      state.filtered = filtered;
+      render();
+
+      const baseText = `${filtered.length.toLocaleString()} result(s)`;
+      const suffix = q ? ` for "${q}"` : "";
+      setStatus(`${baseText}${suffix}`, true);
+    }
+
+    function render() {
+      if (!state.items.length) {
+        el.grid.innerHTML = `<div class="empty">No data loaded. Ensure <code>README.md</code> is available next to this page.</div>`;
+        return;
+      }
+
+      if (!state.filtered.length) {
+        el.grid.innerHTML = `<div class="empty">No results. Try a different keyword or clear filters.</div>`;
+        el.footerMeta.textContent = "";
+        return;
+      }
+
+      const html = state.filtered
+        .map((i) => {
+          const name = escapeHtml(i.name);
+          const desc = escapeHtml(i.description || "");
+          const path = escapeHtml(i.path || "");
+          const domain = escapeHtml(i.domain || "");
+          const url = escapeHtml(i.url);
+
+          return `
+              <div class="card">
+                <div class="row">
+                  <div class="main">
+                    <div class="name">${name}</div>
+                    ${desc ? `<div class="desc">${desc}</div>` : ""}
+                    <div class="badges">
+                      <div class="badge"><strong>Section</strong> ${path}</div>
+                      ${domain ? `<div class="badge"><strong>Domain</strong> ${domain}</div>` : ""}
+                    </div>
+                  </div>
+                  <a class="link" href="${url}" target="_blank" rel="noreferrer">
+                    Open <span>${domain || "link"}</span>
+                  </a>
+                </div>
+              </div>
+            `;
+        })
+        .join("");
+
+      el.grid.innerHTML = html;
+
+      const readmeMeta = state.readmeLastModified ? `Last-Modified: ${state.readmeLastModified}` : "";
+      el.footerMeta.textContent = `${state.filtered.length.toLocaleString()} shown • ${state.items.length.toLocaleString()} total • ${readmeMeta}`;
+    }
+
+    function syncSubFilter() {
+      const top = el.top.value;
+      const subs = top ? state.subsByTop.get(top) || [] : [];
+      el.sub.disabled = !top;
+      setSelectOptions(el.sub, subs, true);
+    }
+
+    function buildReadmeCandidates() {
+      const candidates = ["./README.md", "./readme.md", "../README.md", "../readme.md"];
+      const host = location.hostname;
+      if (host.endsWith(".github.io")) {
+        const username = host.split(".")[0] || "";
+        const pathParts = location.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+        const repo = pathParts[0] || `${username}.github.io`;
+        if (username && repo) {
+          candidates.unshift(`https://raw.githubusercontent.com/${username}/${repo}/main/README.md`);
+        }
+      }
+      return candidates;
+    }
+
+    async function loadReadme() {
+      const candidates = buildReadmeCandidates();
+
+      let lastError = null;
+      for (const candidate of candidates) {
+        try {
+          const res = await fetch(candidate, { cache: "no-store" });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const markdown = await res.text();
+          state.readmeUrl = candidate;
+          state.readmeLastModified = res.headers.get("last-modified");
+
+          const items = parseReadme(markdown);
+          state.items = items;
+          buildFilters(items);
+
+          setSelectOptions(el.top, state.tops, true);
+          syncSubFilter();
+
+          applyFilters();
+          return;
+        } catch (e) {
+          lastError = e;
+        }
+      }
+
+      state.items = [];
+      render();
+      setStatus(`Failed to load README.md (${lastError ? String(lastError) : "unknown error"})`, false);
+    }
+
+    function copyFilteredLinks() {
+      const lines = state.filtered.map((i) => i.url);
+      const text = lines.join("\n");
+      if (!text) return;
+      navigator.clipboard.writeText(text).then(
+        () => {
+          const n = lines.length.toLocaleString();
+          setStatus(`Copied ${n} link(s) to clipboard`, true);
+        },
+        () => {
+          setStatus("Clipboard copy failed", false);
+        }
+      );
+    }
+
+    el.q.addEventListener("input", () => applyFilters());
+    el.top.addEventListener("change", () => {
+      syncSubFilter();
+      applyFilters();
+    });
+    el.sub.addEventListener("change", () => applyFilters());
+    el.clear.addEventListener("click", () => {
+      el.q.value = "";
+      el.top.value = "";
+      syncSubFilter();
+      applyFilters();
+      el.q.focus();
+    });
+    el.copy.addEventListener("click", () => copyFilteredLinks());
+
+    loadReadme();
+  </script>
+</body>
+
+</html>
