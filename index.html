@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Awesome NativeScript — Search</title>
+  <link rel="icon" type="image/png" href="assets/images/ns-favicon-new.png" />
   <style>
     :root {
       color-scheme: dark;
@@ -75,7 +76,8 @@
       width: 40px;
       height: 40px;
       border-radius: 12px;
-      background: linear-gradient(135deg, rgba(76, 194, 255, 0.95), rgba(123, 97, 255, 0.92));
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.22), rgba(123, 97, 255, 0.20));
+      object-fit: contain;
       box-shadow: 0 12px 30px rgba(76, 194, 255, 0.18);
     }
 
@@ -348,7 +350,7 @@
   <div class="wrap">
     <div class="topbar">
       <div class="brand">
-        <div class="mark"></div>
+        <img class="mark" src="assets/images/ns-new.png" alt="NativeScript" />
         <div class="title">
           <h1>Awesome NativeScript — Search</h1>
           <p>Fast search over README.md categories and plugin lists</p>
@@ -449,7 +451,93 @@
       return text.replace(/\s+/g, " ").trim();
     }
 
-    function parseReadme(markdown) {
+    function titleize(s) {
+      return (s || "")
+        .replace(/[-_]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()
+        .replace(/\b\w/g, (m) => m.toUpperCase());
+    }
+
+    function getSourceFile(origin) {
+      if (!origin) return "";
+      const mainMatch = origin.match(/\/main\/(.+)$/);
+      if (mainMatch && mainMatch[1]) return mainMatch[1];
+      return origin.replace(/^\.\//, "").replace(/^\.\.\//, "");
+    }
+
+    function getSourceLabel(origin) {
+      const file = getSourceFile(origin).toLowerCase();
+      const m = file.match(/^examples\/([^/]+)\/readme\.md$/);
+      if (m && m[1]) return `Example of ${titleize(m[1])}`;
+      if (file === "examples/readme.md") return "Examples Directory";
+      if (file === "readme.md") return "Main README";
+      return "";
+    }
+
+    function computeLocation(origin, headingPath) {
+      const file = getSourceFile(origin);
+      const lower = file.toLowerCase();
+      if (lower.startsWith("examples/")) {
+        const m = lower.match(/^examples\/([^/]+)\//);
+        const sub = m && m[1] ? titleize(m[1]) : "";
+        return {
+          top: "Examples",
+          sub,
+          path: sub ? `Examples / ${sub}` : "Examples",
+        };
+      }
+      const top = headingPath[0] || "Uncategorized";
+      const sub = headingPath[1] || "";
+      const fullPath = headingPath.join(" / ");
+      return { top, sub, path: fullPath };
+    }
+
+    function parseListItemLine(line) {
+      const m = line.match(/^\s*-\s+\[([^\]]+)\]\(([^)]+)\)\s*(?:-\s*(.+))?\s*$/);
+      if (!m) return null;
+      return {
+        name: normalizeHeadingText(m[1]),
+        url: m[2].trim(),
+        description: normalizeHeadingText(m[3] || ""),
+      };
+    }
+
+    function stripBackticks(s) {
+      return (s || "").replace(/`/g, "").trim();
+    }
+
+    function parseAuthorCell(cell) {
+      const m = (cell || "").match(/\[([^\]]+)\]\(([^)]+)\)/);
+      if (!m) return { authorName: stripBackticks(cell), authorUrl: "" };
+      return { authorName: normalizeHeadingText(m[1]), authorUrl: m[2].trim() };
+    }
+
+    function parseTableLine(line) {
+      if (!/^\s*\|/.test(line)) return null;
+      if (!line.includes("](")) return null;
+      const cells = line
+        .split("|")
+        .slice(1, -1)
+        .map((c) => c.trim());
+      if (cells.length < 3) return null;
+
+      const name = normalizeHeadingText(stripBackticks(cells[0] || ""));
+      const description = normalizeHeadingText(cells[1] || "");
+
+      const linkCell = cells[cells.length - 1] || "";
+      const linkMatch = linkCell.match(/\[([^\]]+)\]\(([^)]+)\)/);
+      const url = linkMatch ? linkMatch[2].trim() : "";
+      if (!url) return null;
+
+      const platform = normalizeHeadingText(cells[2] || "");
+      const source = normalizeHeadingText(cells[4] || "");
+      const { authorName, authorUrl } = parseAuthorCell(cells[3] || "");
+
+      return { name, url, description, meta: { platform, source, authorName, authorUrl } };
+    }
+
+    function parseReadme(markdown, origin) {
       const lines = markdown.split(/\r?\n/);
       const stack = [];
       const items = [];
@@ -465,30 +553,26 @@
           continue;
         }
 
-        const m = line.match(/^\s*-\s+\[([^\]]+)\]\(([^)]+)\)\s*(?:-\s*(.+))?\s*$/);
-        if (!m) continue;
+        const row = parseListItemLine(line) || parseTableLine(line);
+        if (!row) continue;
+        if (!row.url || row.url.startsWith("#")) continue;
 
-        const name = normalizeHeadingText(m[1]);
-        const url = m[2].trim();
-        const description = normalizeHeadingText(m[3] || "");
+        const headingPath = stack.map((s) => s.text).filter(Boolean);
+        if (headingPath.length && headingPath[0].toLowerCase() === "contents") continue;
 
-        if (!url || url.startsWith("#")) continue;
-
-        const path = stack.map((s) => s.text).filter(Boolean);
-        if (path.length && path[0].toLowerCase() === "contents") continue;
-
-        const top = path[0] || "Uncategorized";
-        const sub = path[1] || "";
-        const fullPath = path.join(" / ");
+        const loc = computeLocation(origin, headingPath);
 
         items.push({
-          name,
-          url,
-          description,
-          top,
-          sub,
-          path: fullPath,
-          domain: getDomain(url),
+          name: row.name,
+          url: row.url,
+          description: row.description,
+          top: loc.top,
+          sub: loc.sub,
+          path: loc.path,
+          domain: getDomain(row.url),
+          sourceLabel: getSourceLabel(origin),
+          sourceFile: getSourceFile(origin),
+          meta: row.meta || null,
         });
       }
 
