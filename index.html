@@ -76,7 +76,7 @@
       width: 40px;
       height: 40px;
       border-radius: 12px;
-      background: linear-gradient(135deg, rgba(76, 194, 255, 0.22), rgba(123, 97, 255, 0.20));
+      background: #e5e5e5;
       object-fit: contain;
       box-shadow: 0 12px 30px rgba(76, 194, 255, 0.18);
     }
@@ -180,7 +180,13 @@
       border: 1px solid var(--border);
       background: rgba(0, 0, 0, 0.2);
       color: var(--text);
+      color-scheme: dark;
       outline: none;
+    }
+
+    select option {
+      background: #0b1020;
+      color: var(--text);
     }
 
     input[type="text"]::placeholder {
@@ -350,7 +356,7 @@
   <div class="wrap">
     <div class="topbar">
       <div class="brand">
-        <img class="mark" src="assets/images/ns-new.png" alt="NativeScript" />
+        <img class="mark" src="assets/images/ns-favicon-new.png" alt="NativeScript" />
         <div class="title">
           <h1>Awesome NativeScript — Search</h1>
           <p>Fast search over README.md categories and plugin lists</p>
