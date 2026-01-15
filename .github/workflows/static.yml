@@ -6,6 +6,8 @@ on:
     paths:
       - "index.html"
       - "README.md"
+      - "examples/**"
+      - "assets/**"
       - "awesome-nativescript.png"
       - "_includes/**"
       - "_config.yml"
@@ -39,6 +41,8 @@ jobs:
           cp index.html site/
           cp README.md site/
           cp awesome-nativescript.png site/
+          cp -r examples site/
+          cp -r assets site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

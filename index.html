@@ -357,7 +357,7 @@
         </div>
       </div>
       <div class="pillrow">
-        <div class="pill">Data source: <code>README.md</code></div>
+        <div class="pill">Data sources: <code>README.md</code> + <code>examples/*/README.md</code></div>
         <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">Official site</a>
         <a class="pill" href="./README.md" target="_blank" rel="noreferrer">Open README</a>
       </div>
@@ -393,7 +393,7 @@
       <div class="meta">
         <div class="counts">
           <div class="dot" id="statusDot"></div>
-          <div id="statusText">Loading README.md…</div>
+          <div id="statusText">Loading sources…</div>
         </div>
         <div class="actions">
           <button id="clear">Clear</button>
@@ -416,8 +416,8 @@
       filtered: [],
       tops: [],
       subsByTop: new Map(),
-      readmeUrl: null,
-      readmeLastModified: null,
+      sourcesLoaded: 0,
+      sourcesFailed: 0,
     };
 
     const el = {
@@ -670,6 +670,12 @@
           const name = escapeHtml(i.name);
           const desc = escapeHtml(i.description || "");
           const path = escapeHtml(i.path || "");
+          const sourceLabel = escapeHtml(i.sourceLabel || "");
+          const sourceFile =
+            i.sourceFile && i.sourceFile.toLowerCase().startsWith("examples/") ? escapeHtml(i.sourceFile) : "";
+          const platform = escapeHtml((i.meta && i.meta.platform) || "");
+          const source = escapeHtml((i.meta && i.meta.source) || "");
+          const authorName = escapeHtml((i.meta && i.meta.authorName) || "");
           const domain = escapeHtml(i.domain || "");
           const url = escapeHtml(i.url);
 
@@ -681,6 +687,11 @@
                     ${desc ? `<div class="desc">${desc}</div>` : ""}
                     <div class="badges">
                       <div class="badge"><strong>Section</strong> ${path}</div>
+                      ${sourceLabel ? `<div class="badge"><strong>Source</strong> ${sourceLabel}</div>` : ""}
+                      ${sourceFile ? `<div class="badge"><strong>File</strong> ${sourceFile}</div>` : ""}
+                      ${platform ? `<div class="badge"><strong>Platform</strong> ${platform}</div>` : ""}
+                      ${source ? `<div class="badge"><strong>Type</strong> ${source}</div>` : ""}
+                      ${authorName ? `<div class="badge"><strong>Author</strong> ${authorName}</div>` : ""}
                       ${domain ? `<div class="badge"><strong>Domain</strong> ${domain}</div>` : ""}
                     </div>
                   </div>
@@ -695,8 +706,11 @@
 
       el.grid.innerHTML = html;
 
-      const readmeMeta = state.readmeLastModified ? `Last-Modified: ${state.readmeLastModified}` : "";
-      el.footerMeta.textContent = `${state.filtered.length.toLocaleString()} shown • ${state.items.length.toLocaleString()} total • ${readmeMeta}`;
+      const srcMeta =
+        state.sourcesLoaded || state.sourcesFailed
+          ? `${state.sourcesLoaded.toLocaleString()} source(s) loaded${state.sourcesFailed ? ` • ${state.sourcesFailed.toLocaleString()} failed` : ""}`
+          : "";
+      el.footerMeta.textContent = `${state.filtered.length.toLocaleString()} shown • ${state.items.length.toLocaleString()} total${srcMeta ? ` • ${srcMeta}` : ""}`;
     }
 
     function syncSubFilter() {
@@ -720,35 +734,76 @@
       return candidates;
     }
 
-    async function loadReadme() {
-      const candidates = buildReadmeCandidates();
+    function getGithubRepoInfo() {
+      const host = location.hostname;
+      if (!host.endsWith(".github.io")) return null;
+      const username = host.split(".")[0] || "";
+      const pathParts = location.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+      const repo = pathParts[0] || `${username}.github.io`;
+      if (!username || !repo) return null;
+      return { username, repo };
+    }
 
+    function buildCandidatesForPath(relPath) {
+      const candidates = [`./${relPath}`, `../${relPath}`];
+      const info = getGithubRepoInfo();
+      if (info) {
+        candidates.unshift(`https://raw.githubusercontent.com/${info.username}/${info.repo}/main/${relPath}`);
+      }
+      return candidates;
+    }
+
+    async function loadAllSources() {
+      const relPaths = [
+        "README.md",
+        "examples/README.md",
+        "examples/core/README.md",
+        "examples/angular/README.md",
+        "examples/vue/README.md",
+        "examples/react/README.md",
+        "examples/solid/README.md",
+        "examples/svelte/README.md",
+      ];
+
+      const sources = relPaths.map((p) => ({ relPath: p, candidates: p === "README.md" ? buildReadmeCandidates() : buildCandidatesForPath(p) }));
+
+      const allItems = [];
+      let loaded = 0;
+      let failed = 0;
       let lastError = null;
-      for (const candidate of candidates) {
-        try {
-          const res = await fetch(candidate, { cache: "no-store" });
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const markdown = await res.text();
-          state.readmeUrl = candidate;
-          state.readmeLastModified = res.headers.get("last-modified");
 
-          const items = parseReadme(markdown);
-          state.items = items;
-          buildFilters(items);
-
-          setSelectOptions(el.top, state.tops, true);
-          syncSubFilter();
-
-          applyFilters();
-          return;
-        } catch (e) {
-          lastError = e;
+      for (const src of sources) {
+        let ok = false;
+        for (const candidate of src.candidates) {
+          try {
+            const res = await fetch(candidate, { cache: "no-store" });
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const markdown = await res.text();
+            allItems.push(...parseReadme(markdown, candidate));
+            loaded += 1;
+            ok = true;
+            break;
+          } catch (e) {
+            lastError = e;
+          }
         }
+        if (!ok) failed += 1;
       }
 
-      state.items = [];
+      state.items = allItems;
+      state.sourcesLoaded = loaded;
+      state.sourcesFailed = failed;
+
+      if (allItems.length) {
+        buildFilters(allItems);
+        setSelectOptions(el.top, state.tops, true);
+        syncSubFilter();
+        applyFilters();
+        return;
+      }
+
       render();
-      setStatus(`Failed to load README.md (${lastError ? String(lastError) : "unknown error"})`, false);
+      setStatus(`Failed to load sources (${lastError ? String(lastError) : "unknown error"})`, false);
     }
 
     function copyFilteredLinks() {
@@ -781,7 +836,7 @@
     });
     el.copy.addEventListener("click", () => copyFilteredLinks());
 
-    loadReadme();
+    loadAllSources();
   </script>
 </body>
 
