@@ -1,6 +1,0 @@
-title: Awesome NativeScript
-theme: jekyll-theme-cayman  # atau ganti dengan minimal, hacker, dll
-
-# Enable custom head includes
-include:
-  - _includes/head-custom.html
