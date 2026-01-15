@@ -5,6 +5,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Awesome NativeScript — Search</title>
+  <meta name="description"
+    content="Search across Awesome NativeScript resources, plugins, and examples from README.md and examples/*/README.md." />
+  <meta name="keywords"
+    content="NativeScript, Awesome NativeScript, NativeScript plugins, NativeScript examples, NativeScript resources, TypeScript, JavaScript, iOS, Android, Angular, Vue, React, Svelte, SolidJS, Firebase" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#070a12" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Awesome NativeScript — Search" />
+  <meta property="og:description"
+    content="Search across Awesome NativeScript resources, plugins, and examples from README.md and examples/*/README.md." />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/main/awesome-nativescript.png" />
+  <meta property="og:image:alt" content="Awesome NativeScript" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Awesome NativeScript — Search" />
+  <meta name="twitter:description"
+    content="Search across Awesome NativeScript resources, plugins, and examples from README.md and examples/*/README.md." />
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/main/awesome-nativescript.png" />
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebPage","name":"Awesome NativeScript — Search","description":"Search across Awesome NativeScript resources, plugins, and examples from README.md and examples/*/README.md.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Awesome NativeScript","url":"https://github.com/dyazincahya/awesome-nativescript"},"about":{"@type":"SoftwareApplication","name":"NativeScript","applicationCategory":"DeveloperApplication"},"image":"https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/main/awesome-nativescript.png"}
+  </script>
   <link rel="icon" type="image/png" href="assets/images/ns-favicon-new.png" />
   <style>
     :root {
@@ -332,11 +354,10 @@
     }
 
     .row {
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr auto;
       gap: 12px;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      align-items: start;
     }
 
     .main {
@@ -376,23 +397,25 @@
       word-break: break-word;
     }
 
-    .badgePrimary {
-      color: rgba(255, 255, 255, 0.84);
-      background: linear-gradient(135deg, rgba(76, 194, 255, 0.18), rgba(123, 97, 255, 0.16));
-      border-color: rgba(120, 160, 255, 0.38);
+    .badgeSection {
+      color: rgba(255, 255, 255, 0.86);
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(120, 160, 255, 0.28);
+      box-shadow: inset 0 0 0 1px rgba(76, 194, 255, 0.10);
     }
 
-    .badgeKind {
-      color: rgba(255, 255, 255, 0.82);
-      background: rgba(0, 0, 0, 0.28);
-      border-color: rgba(255, 255, 255, 0.14);
+    .badgeTypePrimary {
+      color: rgba(255, 255, 255, 0.92);
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.22), rgba(123, 97, 255, 0.20));
+      border-color: rgba(120, 160, 255, 0.48);
+      box-shadow: 0 10px 26px rgba(76, 194, 255, 0.10);
     }
 
-    .badgeKind strong {
+    .badgeTypePrimary strong {
       letter-spacing: 0.6px;
       text-transform: uppercase;
       font-size: 10px;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 0.72);
     }
 
     .badge strong {
@@ -401,7 +424,6 @@
     }
 
     .link {
-      flex: 0 0 auto;
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -412,9 +434,7 @@
       color: var(--text);
       font-size: 12px;
       text-decoration: none;
-      max-width: 100%;
-      white-space: normal;
-      overflow-wrap: anywhere;
+      white-space: nowrap;
     }
 
     .link:hover {
@@ -431,7 +451,7 @@
 
     @media (max-width: 520px) {
       .row {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         align-items: stretch;
       }
 
@@ -495,7 +515,7 @@
 
 <body>
   <div class="wrap">
-    <div class="topbar">
+    <header class="topbar">
       <div class="brand">
         <img class="mark" src="assets/images/ns-favicon-new.png" alt="NativeScript" />
         <div class="title">
@@ -511,57 +531,59 @@
         <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">Official site</a>
         <a class="pill" href="./README.md" target="_blank" rel="noreferrer">Open README</a>
       </div>
-    </div>
+    </header>
 
-    <div class="hero" id="searchCard">
-      <button id="toggleFilters" class="toggle" type="button" aria-label="Collapse filters"
-        title="Collapse filters">&#x2212;</button>
-      <h2>Search resources, plugins, and examples</h2>
-      <p class="heroIntro">
-        Type a keyword to search by name, description, URL, or section. Use filters to narrow results by top-level
-        category.
-      </p>
+    <main>
+      <div class="hero" id="searchCard">
+        <button id="toggleFilters" class="toggle" type="button" aria-label="Collapse filters"
+          title="Collapse filters">&#x2212;</button>
+        <h2>Search resources, plugins, and examples</h2>
+        <p class="heroIntro">
+          Type a keyword to search by name, description, URL, or section. Use filters to narrow results by top-level
+          category.
+        </p>
 
-      <div class="summary" id="summary" aria-live="polite"></div>
+        <div class="summary" id="summary" aria-live="polite"></div>
 
-      <div class="controls">
-        <div>
-          <label for="q">Search</label>
-          <input id="q" type="text" placeholder="e.g. firebase, pdf, camera, vue, visionOS, stripe..."
-            autocomplete="off" />
+        <div class="controls">
+          <div>
+            <label for="q">Search</label>
+            <input id="q" type="text" placeholder="e.g. firebase, pdf, camera, vue, visionOS, stripe..."
+              autocomplete="off" />
+          </div>
+          <div>
+            <label for="top">Top category</label>
+            <select id="top">
+              <option value="">All</option>
+            </select>
+          </div>
+          <div>
+            <label for="sub">Sub category</label>
+            <select id="sub" disabled>
+              <option value="">All</option>
+            </select>
+          </div>
         </div>
-        <div>
-          <label for="top">Top category</label>
-          <select id="top">
-            <option value="">All</option>
-          </select>
-        </div>
-        <div>
-          <label for="sub">Sub category</label>
-          <select id="sub" disabled>
-            <option value="">All</option>
-          </select>
+
+        <div class="meta">
+          <div class="counts">
+            <div class="dot" id="statusDot"></div>
+            <div id="statusText">Loading sources…</div>
+          </div>
+          <div class="actions">
+            <button id="clear">Clear</button>
+            <button id="copy">Copy filtered links</button>
+          </div>
         </div>
       </div>
 
-      <div class="meta">
-        <div class="counts">
-          <div class="dot" id="statusDot"></div>
-          <div id="statusText">Loading sources…</div>
-        </div>
-        <div class="actions">
-          <button id="clear">Clear</button>
-          <button id="copy">Copy filtered links</button>
-        </div>
-      </div>
-    </div>
+      <div class="grid" id="grid"></div>
+    </main>
 
-    <div class="grid" id="grid"></div>
-
-    <div class="footer">
+    <footer class="footer">
       <div>Tip: search also matches section path like <code>Plugins / Firebase Plugins</code></div>
       <div id="footerMeta"></div>
-    </div>
+    </footer>
   </div>
 
   <script>
@@ -609,6 +631,45 @@
       } catch { }
     }
 
+    function parseUrlParams() {
+      const params = new URLSearchParams(location.search || "");
+      const q = (params.get("q") || "").trim();
+      const top = (params.get("top") || "").trim();
+      const sub = (params.get("sub") || "").trim();
+      const collapsed = params.get("collapsed");
+      return { q, top, sub, collapsed };
+    }
+
+    function replaceUrlParams() {
+      const { q, top, sub } = getActiveParams();
+      const params = new URLSearchParams();
+      if (q) params.set("q", q);
+      if (top) params.set("top", top);
+      if (sub) params.set("sub", sub);
+      if (el.searchCard.classList.contains("collapsed")) params.set("collapsed", "1");
+
+      const qs = params.toString();
+      const next = `${location.pathname}${qs ? `?${qs}` : ""}${location.hash || ""}`;
+      const current = `${location.pathname}${location.search || ""}${location.hash || ""}`;
+      if (next !== current) {
+        try {
+          history.replaceState(null, "", next);
+        } catch { }
+      }
+    }
+
+    function setSelectValueCaseInsensitive(select, value) {
+      if (!value) return false;
+      const needle = value.toLowerCase();
+      for (const opt of select.options) {
+        if ((opt.value || "").toLowerCase() === needle) {
+          select.value = opt.value;
+          return true;
+        }
+      }
+      return false;
+    }
+
     function getActiveParams() {
       const q = el.q.value.trim();
       const top = el.top.value;
@@ -642,6 +703,7 @@
       el.toggleFilters.setAttribute("aria-label", nextCollapsed ? "Expand filters" : "Collapse filters");
       el.toggleFilters.setAttribute("title", nextCollapsed ? "Expand filters" : "Collapse filters");
       safeSetLocalStorage("ns_search_collapsed", nextCollapsed ? "1" : "0");
+      replaceUrlParams();
       renderSummary();
     }
 
@@ -867,6 +929,7 @@
       const baseText = `${filtered.length.toLocaleString()} result(s)`;
       const suffix = q ? ` for "${q}"` : "";
       setStatus(`${baseText}${suffix}`, true);
+      replaceUrlParams();
       renderSummary();
     }
 
@@ -904,8 +967,8 @@
                     <div class="name">${name}</div>
                     ${desc ? `<div class="desc">${desc}</div>` : ""}
                     <div class="badges">
-                      <div class="badge badgeKind"><strong>Type</strong> ${kind}</div>
-                      <div class="badge badgePrimary"><strong>Section</strong> ${path}</div>
+                      <div class="badge badgeTypePrimary"><strong>Type</strong> ${kind}</div>
+                      <div class="badge badgeSection"><strong>Section</strong> ${path}</div>
                       ${sourceLabel ? `<div class="badge"><strong>Source</strong> ${sourceLabel}</div>` : ""}
                       ${sourceFile ? `<div class="badge"><strong>File</strong> ${sourceFile}</div>` : ""}
                       ${platform ? `<div class="badge"><strong>Platform</strong> ${platform}</div>` : ""}
@@ -1016,7 +1079,11 @@
       if (allItems.length) {
         buildFilters(allItems);
         setSelectOptions(el.top, state.tops, true);
+        if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
         syncSubFilter();
+        if (state.urlSub) setSelectValueCaseInsensitive(el.sub, state.urlSub);
+        state.urlTop = "";
+        state.urlSub = "";
         applyFilters();
         return;
       }
@@ -1059,8 +1126,15 @@
     });
     el.copy.addEventListener("click", () => copyFilteredLinks());
 
-    const initialCollapsed = safeGetLocalStorage("ns_search_collapsed") === "1";
+    const urlParams = parseUrlParams();
+    if (urlParams.q) el.q.value = urlParams.q;
+    state.urlTop = urlParams.top || "";
+    state.urlSub = urlParams.sub || "";
+    const initialCollapsed =
+      urlParams.collapsed != null ? urlParams.collapsed === "1" || urlParams.collapsed === "true" : safeGetLocalStorage("ns_search_collapsed") === "1";
     setCollapsed(initialCollapsed);
     loadAllSources();
   </script>
 </body>
+
+</html>
