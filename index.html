@@ -123,20 +123,54 @@
       border-radius: 999px;
       font-size: 12px;
       color: var(--muted);
+      max-width: 100%;
     }
 
     .pill code {
       font-family: var(--mono);
       font-size: 11px;
       color: var(--text);
+      overflow-wrap: anywhere;
+    }
+
+    .pillShort {
+      display: none;
     }
 
     .hero {
+      position: relative;
       padding: 18px 16px 18px;
       border-radius: var(--radius);
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
       border: 1px solid var(--border);
       box-shadow: var(--shadow);
+    }
+
+    .toggle {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.2);
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 16px;
+      line-height: 1;
+      padding: 0;
+    }
+
+    .toggle:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .toggle:focus-visible {
+      outline: 2px solid rgba(76, 194, 255, 0.55);
+      outline-offset: 2px;
     }
 
     .hero h2 {
@@ -149,6 +183,50 @@
       margin: 0;
       color: var(--muted);
       line-height: 1.45;
+    }
+
+    .hero.collapsed .heroIntro,
+    .hero.collapsed .controls {
+      display: none;
+    }
+
+    .summary {
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .summaryHint {
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 12px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.18);
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 12px;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    .chip strong {
+      color: var(--text);
+      font-weight: 650;
+    }
+
+    .chip code {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.86);
+      overflow-wrap: anywhere;
     }
 
     .controls {
@@ -258,6 +336,7 @@
       gap: 12px;
       align-items: flex-start;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
 
     .main {
@@ -291,7 +370,29 @@
       background: rgba(0, 0, 0, 0.18);
       border-radius: 999px;
       padding: 6px 10px;
-      white-space: nowrap;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .badgePrimary {
+      color: rgba(255, 255, 255, 0.84);
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.18), rgba(123, 97, 255, 0.16));
+      border-color: rgba(120, 160, 255, 0.38);
+    }
+
+    .badgeKind {
+      color: rgba(255, 255, 255, 0.82);
+      background: rgba(0, 0, 0, 0.28);
+      border-color: rgba(255, 255, 255, 0.14);
+    }
+
+    .badgeKind strong {
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.7);
     }
 
     .badge strong {
@@ -311,6 +412,9 @@
       color: var(--text);
       font-size: 12px;
       text-decoration: none;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
 
     .link:hover {
@@ -322,6 +426,18 @@
       font-family: var(--mono);
       font-size: 11px;
       color: rgba(255, 255, 255, 0.75);
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 520px) {
+      .row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .link {
+        width: fit-content;
+      }
     }
 
     .empty {
@@ -349,6 +465,31 @@
       font-size: 11px;
       color: rgba(255, 255, 255, 0.78);
     }
+
+    @media (max-width: 720px) {
+      .topbar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 8px 0 14px;
+      }
+
+      .pillrow {
+        justify-content: flex-start;
+      }
+
+      .title h1,
+      .title p {
+        white-space: normal;
+      }
+
+      .pillLong {
+        display: none;
+      }
+
+      .pillShort {
+        display: inline;
+      }
+    }
   </style>
 </head>
 
@@ -363,18 +504,25 @@
         </div>
       </div>
       <div class="pillrow">
-        <div class="pill">Data sources: <code>README.md</code> + <code>examples/*/README.md</code></div>
+        <div class="pill">
+          <span class="pillLong">Data sources: <code>README.md</code> + <code>examples/*/README.md</code></span>
+          <span class="pillShort">Sources: <code>README</code> + <code>examples</code></span>
+        </div>
         <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">Official site</a>
         <a class="pill" href="./README.md" target="_blank" rel="noreferrer">Open README</a>
       </div>
     </div>
 
-    <div class="hero">
+    <div class="hero" id="searchCard">
+      <button id="toggleFilters" class="toggle" type="button" aria-label="Collapse filters"
+        title="Collapse filters">&#x2212;</button>
       <h2>Search resources, plugins, and examples</h2>
-      <p>
+      <p class="heroIntro">
         Type a keyword to search by name, description, URL, or section. Use filters to narrow results by top-level
         category.
       </p>
+
+      <div class="summary" id="summary" aria-live="polite"></div>
 
       <div class="controls">
         <div>
@@ -433,6 +581,9 @@
       grid: document.getElementById("grid"),
       statusDot: document.getElementById("statusDot"),
       statusText: document.getElementById("statusText"),
+      searchCard: document.getElementById("searchCard"),
+      summary: document.getElementById("summary"),
+      toggleFilters: document.getElementById("toggleFilters"),
       clear: document.getElementById("clear"),
       copy: document.getElementById("copy"),
       footerMeta: document.getElementById("footerMeta"),
@@ -442,6 +593,56 @@
       el.statusText.textContent = text;
       el.statusDot.style.background = ok ? "var(--success)" : "rgba(255,255,255,0.35)";
       el.statusDot.style.boxShadow = ok ? "0 0 0 4px rgba(55, 214, 122, 0.13)" : "0 0 0 4px rgba(255,255,255,0.08)";
+    }
+
+    function safeGetLocalStorage(key) {
+      try {
+        return localStorage.getItem(key);
+      } catch {
+        return null;
+      }
+    }
+
+    function safeSetLocalStorage(key, value) {
+      try {
+        localStorage.setItem(key, value);
+      } catch { }
+    }
+
+    function getActiveParams() {
+      const q = el.q.value.trim();
+      const top = el.top.value;
+      const sub = el.sub.value;
+      return { q, top, sub };
+    }
+
+    function renderSummary() {
+      const { q, top, sub } = getActiveParams();
+      const chips = [];
+      if (q) chips.push(`<span class="chip"><strong>Search</strong> <code>${escapeHtml(q)}</code></span>`);
+      if (top) chips.push(`<span class="chip"><strong>Top</strong> <code>${escapeHtml(top)}</code></span>`);
+      if (sub) chips.push(`<span class="chip"><strong>Sub</strong> <code>${escapeHtml(sub)}</code></span>`);
+
+      const collapsed = el.searchCard.classList.contains("collapsed");
+      if (!chips.length) {
+        el.summary.innerHTML = collapsed
+          ? `<span class="summaryHint">No active filters. Expand to search.</span>`
+          : "";
+        return;
+      }
+
+      el.summary.innerHTML = chips.join("");
+    }
+
+    function setCollapsed(nextCollapsed) {
+      if (nextCollapsed) el.searchCard.classList.add("collapsed");
+      else el.searchCard.classList.remove("collapsed");
+
+      el.toggleFilters.innerHTML = nextCollapsed ? "&#x2b;" : "&#x2212;";
+      el.toggleFilters.setAttribute("aria-label", nextCollapsed ? "Expand filters" : "Collapse filters");
+      el.toggleFilters.setAttribute("title", nextCollapsed ? "Expand filters" : "Collapse filters");
+      safeSetLocalStorage("ns_search_collapsed", nextCollapsed ? "1" : "0");
+      renderSummary();
     }
 
     function getDomain(url) {
@@ -637,6 +838,15 @@
       return s;
     }
 
+    function getKind(item) {
+      const top = (item.top || "").toLowerCase();
+      const path = (item.path || "").toLowerCase();
+      const sourceFile = (item.sourceFile || "").toLowerCase();
+      if (top === "examples" || sourceFile.startsWith("examples/")) return "Example";
+      if (top.includes("plugin") || path.includes("plugins")) return "Plugin";
+      return "Resource";
+    }
+
     function applyFilters() {
       const q = el.q.value.trim();
       const top = el.top.value;
@@ -657,6 +867,7 @@
       const baseText = `${filtered.length.toLocaleString()} result(s)`;
       const suffix = q ? ` for "${q}"` : "";
       setStatus(`${baseText}${suffix}`, true);
+      renderSummary();
     }
 
     function render() {
@@ -684,6 +895,7 @@
           const authorName = escapeHtml((i.meta && i.meta.authorName) || "");
           const domain = escapeHtml(i.domain || "");
           const url = escapeHtml(i.url);
+          const kind = escapeHtml(getKind(i));
 
           return `
               <div class="card">
@@ -692,11 +904,12 @@
                     <div class="name">${name}</div>
                     ${desc ? `<div class="desc">${desc}</div>` : ""}
                     <div class="badges">
-                      <div class="badge"><strong>Section</strong> ${path}</div>
+                      <div class="badge badgeKind"><strong>Type</strong> ${kind}</div>
+                      <div class="badge badgePrimary"><strong>Section</strong> ${path}</div>
                       ${sourceLabel ? `<div class="badge"><strong>Source</strong> ${sourceLabel}</div>` : ""}
                       ${sourceFile ? `<div class="badge"><strong>File</strong> ${sourceFile}</div>` : ""}
                       ${platform ? `<div class="badge"><strong>Platform</strong> ${platform}</div>` : ""}
-                      ${source ? `<div class="badge"><strong>Type</strong> ${source}</div>` : ""}
+                      ${source ? `<div class="badge"><strong>Source</strong> ${source}</div>` : ""}
                       ${authorName ? `<div class="badge"><strong>Author</strong> ${authorName}</div>` : ""}
                       ${domain ? `<div class="badge"><strong>Domain</strong> ${domain}</div>` : ""}
                     </div>
@@ -833,6 +1046,10 @@
       applyFilters();
     });
     el.sub.addEventListener("change", () => applyFilters());
+    el.toggleFilters.addEventListener("click", () => {
+      const collapsed = el.searchCard.classList.contains("collapsed");
+      setCollapsed(!collapsed);
+    });
     el.clear.addEventListener("click", () => {
       el.q.value = "";
       el.top.value = "";
@@ -842,8 +1059,8 @@
     });
     el.copy.addEventListener("click", () => copyFilteredLinks());
 
+    const initialCollapsed = safeGetLocalStorage("ns_search_collapsed") === "1";
+    setCollapsed(initialCollapsed);
     loadAllSources();
   </script>
 </body>
-
-</html>
