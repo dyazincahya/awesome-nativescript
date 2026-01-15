@@ -429,6 +429,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Contacts](https://github.com/NativeScript/plugins/blob/main/packages/contacts) - A plugin that allows you to access Contacts directory on iOS and Android.
 - [MD5](https://github.com/nativescript-community/md5) - A NativeScript plugin for fast MD5 computation for files.
 - [preferences](https://github.com/nativescript-community/preferences) - This plugin allows native preference saving/loading on iOS and Android.
+- [Pinia Persisted State](https://github.com/kakha13/nativescript-plugins/tree/main/packages/pinia-persistedstate) - A NativeScript plugin that persists Pinia stores using configurable storage in Vue/Pinia apps.
 - [Secure Storage](https://github.com/NativeScript/plugins/blob/main/packages/secure-storage) - Provides secure storage using SAMKeychain on iOS and Hawk on Android.
 
 #### Development & Configuration
@@ -468,6 +469,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications.
 - [Image Picker](https://github.com/NativeScript/plugins/blob/main/packages/imagepicker) - Imagepicker plugin supporting both single and multiple selection.
 - [Pdf](https://github.com/NativeScript/plugins/blob/main/packages/pdf) - A simple PDF viewer.
+- [EPUB Reader](https://github.com/kakha13/nativescript-plugins/tree/main/packages/epub-reader) - A NativeScript plugin for reading EPUB books with a native FolioReader-based UI on iOS and Android.
 - [Printer](https://github.com/oliverphaser/nativescript-printer) - A NativeScript plugin for sending an image, PDF or the screen contents to a physical printer.
 - [Video Thumbnail](https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-video-thumbnail) - A plugin that allows you to extract a thumbnail from a video.
 - [Zip](https://github.com/NativeScript/plugins/blob/main/packages/zip) - A plugin to zip and unzip files.
