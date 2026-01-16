@@ -552,7 +552,7 @@
               autocomplete="off" />
           </div>
           <div>
-            <label for="top">Top category</label>
+            <label for="top">Category</label>
             <select id="top">
               <option value="">All</option>
             </select>
@@ -572,7 +572,6 @@
           </div>
           <div class="actions">
             <button id="clear">Clear</button>
-            <button id="copy">Copy filtered links</button>
           </div>
         </div>
       </div>
@@ -607,7 +606,7 @@
       summary: document.getElementById("summary"),
       toggleFilters: document.getElementById("toggleFilters"),
       clear: document.getElementById("clear"),
-      copy: document.getElementById("copy"),
+      // copy: document.getElementById("copy"),
       footerMeta: document.getElementById("footerMeta"),
     };
 
@@ -1092,21 +1091,6 @@
       setStatus(`Failed to load sources (${lastError ? String(lastError) : "unknown error"})`, false);
     }
 
-    function copyFilteredLinks() {
-      const lines = state.filtered.map((i) => i.url);
-      const text = lines.join("\n");
-      if (!text) return;
-      navigator.clipboard.writeText(text).then(
-        () => {
-          const n = lines.length.toLocaleString();
-          setStatus(`Copied ${n} link(s) to clipboard`, true);
-        },
-        () => {
-          setStatus("Clipboard copy failed", false);
-        }
-      );
-    }
-
     el.q.addEventListener("input", () => applyFilters());
     el.top.addEventListener("change", () => {
       syncSubFilter();
@@ -1124,7 +1108,6 @@
       applyFilters();
       el.q.focus();
     });
-    el.copy.addEventListener("click", () => copyFilteredLinks());
 
     const urlParams = parseUrlParams();
     if (urlParams.q) el.q.value = urlParams.q;
