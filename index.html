@@ -325,12 +325,17 @@
     }
 
     .pager {
-      margin-top: 12px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+      padding: 10px 12px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 10px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: rgba(0, 0, 0, 0.18);
     }
 
     .pagerLeft,
@@ -342,6 +347,11 @@
     }
 
     .pagerInfo {
+      color: rgba(255, 255, 255, 0.62);
+      font-size: 12px;
+    }
+
+    .pagerLabel {
       color: rgba(255, 255, 255, 0.62);
       font-size: 12px;
     }
@@ -608,20 +618,21 @@
           </div>
         </div>
 
-        <div class="pager" id="pager">
-          <div class="pagerLeft">
-            <button id="pagePrev" type="button">Prev</button>
-            <button id="pageNext" type="button">Next</button>
-            <div class="pagerInfo" id="pageInfo"></div>
-          </div>
-          <div class="pagerRight">
-            <label style="margin: 0; color: rgba(255, 255, 255, 0.62); font-size: 12px;" for="pageSize">Per page</label>
-            <select id="pageSize">
-              <option value="25">25</option>
-              <option value="50">50</option>
-              <option value="100">100</option>
-            </select>
-          </div>
+      </div>
+
+      <div class="pager" id="pager">
+        <div class="pagerLeft">
+          <button id="pagePrev" type="button">Prev</button>
+          <button id="pageNext" type="button">Next</button>
+          <div class="pagerInfo" id="pageInfo"></div>
+        </div>
+        <div class="pagerRight">
+          <label class="pagerLabel" for="pageSize">Per page</label>
+          <select id="pageSize">
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
         </div>
       </div>
 
