@@ -324,6 +324,33 @@
       flex-wrap: wrap;
     }
 
+    .pager {
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pagerLeft,
+    .pagerRight {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .pagerInfo {
+      color: rgba(255, 255, 255, 0.62);
+      font-size: 12px;
+    }
+
+    .pager select {
+      width: auto;
+      padding: 10px 10px;
+    }
+
     button {
       cursor: pointer;
       border: 1px solid var(--border);
@@ -336,6 +363,11 @@
 
     button:hover {
       background: var(--surface-2);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
     }
 
     .grid {
@@ -572,6 +604,23 @@
           </div>
           <div class="actions">
             <button id="clear">Clear</button>
+            <button id="copy">Copy filtered links</button>
+          </div>
+        </div>
+
+        <div class="pager" id="pager">
+          <div class="pagerLeft">
+            <button id="pagePrev" type="button">Prev</button>
+            <button id="pageNext" type="button">Next</button>
+            <div class="pagerInfo" id="pageInfo"></div>
+          </div>
+          <div class="pagerRight">
+            <label style="margin: 0; color: rgba(255, 255, 255, 0.62); font-size: 12px;" for="pageSize">Per page</label>
+            <select id="pageSize">
+              <option value="25">25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
           </div>
         </div>
       </div>
@@ -589,10 +638,14 @@
     const state = {
       items: [],
       filtered: [],
+      filteredAll: [],
       tops: [],
       subsByTop: new Map(),
       sourcesLoaded: 0,
       sourcesFailed: 0,
+      page: 1,
+      pageSize: 25,
+      totalMatches: 0,
     };
 
     const el = {
@@ -606,7 +659,12 @@
       summary: document.getElementById("summary"),
       toggleFilters: document.getElementById("toggleFilters"),
       clear: document.getElementById("clear"),
-      // copy: document.getElementById("copy"),
+      copy: document.getElementById("copy"),
+      pager: document.getElementById("pager"),
+      pagePrev: document.getElementById("pagePrev"),
+      pageNext: document.getElementById("pageNext"),
+      pageInfo: document.getElementById("pageInfo"),
+      pageSize: document.getElementById("pageSize"),
       footerMeta: document.getElementById("footerMeta"),
     };
 
@@ -636,7 +694,16 @@
       const top = (params.get("top") || "").trim();
       const sub = (params.get("sub") || "").trim();
       const collapsed = params.get("collapsed");
-      return { q, top, sub, collapsed };
+      const page = parseInt(params.get("page") || "", 10);
+      const size = parseInt(params.get("size") || "", 10);
+      return {
+        q,
+        top,
+        sub,
+        collapsed,
+        page: Number.isFinite(page) && page > 0 ? page : null,
+        size: Number.isFinite(size) && size > 0 ? size : null,
+      };
     }
 
     function replaceUrlParams() {
@@ -645,6 +712,8 @@
       if (q) params.set("q", q);
       if (top) params.set("top", top);
       if (sub) params.set("sub", sub);
+      if (state.page > 1) params.set("page", String(state.page));
+      if (state.pageSize !== 25) params.set("size", String(state.pageSize));
       if (el.searchCard.classList.contains("collapsed")) params.set("collapsed", "1");
 
       const qs = params.toString();
@@ -882,20 +951,62 @@
       return str.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     }
 
+    function indexItem(item) {
+      const name = item.name || "";
+      const description = item.description || "";
+      const url = item.url || "";
+      const path = item.path || "";
+      const domain = item.domain || "";
+      const top = item.top || "";
+      const sub = item.sub || "";
+      const sourceLabel = item.sourceLabel || "";
+      const sourceFile = item.sourceFile || "";
+      const platform = (item.meta && item.meta.platform) || "";
+      const tableSource = (item.meta && item.meta.source) || "";
+      const authorName = (item.meta && item.meta.authorName) || "";
+
+      return {
+        ...item,
+        _name: name.toLowerCase(),
+        _desc: description.toLowerCase(),
+        _url: url.toLowerCase(),
+        _path: path.toLowerCase(),
+        _domain: domain.toLowerCase(),
+        _top: top.toLowerCase(),
+        _sub: sub.toLowerCase(),
+        _sourceLabel: sourceLabel.toLowerCase(),
+        _sourceFile: sourceFile.toLowerCase(),
+        _platform: platform.toLowerCase(),
+        _tableSource: tableSource.toLowerCase(),
+        _author: authorName.toLowerCase(),
+      };
+    }
+
     function scoreItem(item, q) {
       if (!q) return 1;
       const needle = q.toLowerCase();
-      const name = item.name.toLowerCase();
-      const desc = item.description.toLowerCase();
-      const url = item.url.toLowerCase();
-      const path = item.path.toLowerCase();
+      const name = item._name || (item.name || "").toLowerCase();
+      const desc = item._desc || (item.description || "").toLowerCase();
+      const url = item._url || (item.url || "").toLowerCase();
+      const path = item._path || (item.path || "").toLowerCase();
+      const domain = item._domain || (item.domain || "").toLowerCase();
+      const sourceLabel = item._sourceLabel || (item.sourceLabel || "").toLowerCase();
+      const sourceFile = item._sourceFile || (item.sourceFile || "").toLowerCase();
+      const platform = item._platform || "";
+      const tableSource = item._tableSource || "";
+      const author = item._author || "";
 
       let s = 0;
       if (name.includes(needle)) s += 20;
       if (desc.includes(needle)) s += 10;
       if (path.includes(needle)) s += 6;
       if (url.includes(needle)) s += 4;
-      if (item.domain.toLowerCase().includes(needle)) s += 2;
+      if (domain.includes(needle)) s += 2;
+      if (sourceLabel.includes(needle)) s += 2;
+      if (sourceFile.includes(needle)) s += 1;
+      if (platform.includes(needle)) s += 1;
+      if (tableSource.includes(needle)) s += 1;
+      if (author.includes(needle)) s += 1;
       return s;
     }
 
@@ -908,26 +1019,92 @@
       return "Resource";
     }
 
+    function debounce(fn, waitMs) {
+      let t = null;
+      return () => {
+        if (t) clearTimeout(t);
+        t = setTimeout(() => fn(), waitMs);
+      };
+    }
+
+    function getMaxPage() {
+      const total = state.totalMatches || 0;
+      const size = state.pageSize || 25;
+      return Math.max(1, Math.ceil(total / size));
+    }
+
+    function setPage(nextPage) {
+      const max = getMaxPage();
+      const p = Math.min(Math.max(1, nextPage), max);
+      state.page = p;
+      renderPage();
+      updatePager();
+      replaceUrlParams();
+    }
+
+    function renderPage() {
+      if (!state.filteredAll.length) {
+        state.filtered = [];
+        render();
+        return;
+      }
+
+      const start = (state.page - 1) * state.pageSize;
+      const end = start + state.pageSize;
+      state.filtered = state.filteredAll.slice(start, end);
+      render();
+    }
+
+    function updatePager() {
+      if (!el.pager) return;
+      const total = state.totalMatches || 0;
+      const size = state.pageSize || 25;
+      const max = getMaxPage();
+
+      el.pager.style.display = total > 0 ? "flex" : "none";
+
+      const start = total ? (state.page - 1) * size + 1 : 0;
+      const end = total ? Math.min(state.page * size, total) : 0;
+
+      el.pagePrev.disabled = state.page <= 1;
+      el.pageNext.disabled = state.page >= max;
+
+      el.pageInfo.textContent = total ? `Showing ${start}-${end} of ${total.toLocaleString()}` : "";
+      el.pageSize.value = String(size);
+    }
+
     function applyFilters() {
       const q = el.q.value.trim();
       const top = el.top.value;
       const sub = el.sub.value;
 
-      const filtered = state.items
+      const base = state.items
         .filter((i) => (top ? i.top === top : true))
-        .filter((i) => (sub ? i.sub === sub : true))
-        .map((i) => ({ item: i, score: scoreItem(i, q) }))
-        .filter((x) => x.score > 0)
-        .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
-        .slice(0, 800)
-        .map((x) => x.item);
+        .filter((i) => (sub ? i.sub === sub : true));
 
-      state.filtered = filtered;
-      render();
+      let all = [];
+      if (q) {
+        all = base
+          .map((i) => ({ item: i, score: scoreItem(i, q) }))
+          .filter((x) => x.score > 0)
+          .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
+          .map((x) => x.item);
+      } else {
+        all = base.slice().sort((a, b) => a.name.localeCompare(b.name));
+      }
 
-      const baseText = `${filtered.length.toLocaleString()} result(s)`;
+      state.filteredAll = all;
+      state.totalMatches = all.length;
+
+      const max = getMaxPage();
+      if (state.page > max) state.page = max;
+      if (state.page < 1) state.page = 1;
+
+      renderPage();
+      updatePager();
+
       const suffix = q ? ` for "${q}"` : "";
-      setStatus(`${baseText}${suffix}`, true);
+      setStatus(`${state.totalMatches.toLocaleString()} result(s)${suffix}`, true);
       replaceUrlParams();
       renderSummary();
     }
@@ -938,7 +1115,7 @@
         return;
       }
 
-      if (!state.filtered.length) {
+      if (!state.totalMatches) {
         el.grid.innerHTML = `<div class="empty">No results. Try a different keyword or clear filters.</div>`;
         el.footerMeta.textContent = "";
         return;
@@ -991,7 +1168,9 @@
         state.sourcesLoaded || state.sourcesFailed
           ? `${state.sourcesLoaded.toLocaleString()} source(s) loaded${state.sourcesFailed ? ` • ${state.sourcesFailed.toLocaleString()} failed` : ""}`
           : "";
-      el.footerMeta.textContent = `${state.filtered.length.toLocaleString()} shown • ${state.items.length.toLocaleString()} total${srcMeta ? ` • ${srcMeta}` : ""}`;
+      const start = (state.page - 1) * state.pageSize + 1;
+      const end = Math.min(state.page * state.pageSize, state.totalMatches);
+      el.footerMeta.textContent = `${start}-${end} of ${state.totalMatches.toLocaleString()} match(es) • ${state.items.length.toLocaleString()} items${srcMeta ? ` • ${srcMeta}` : ""}`;
     }
 
     function syncSubFilter() {
@@ -1071,18 +1250,20 @@
         if (!ok) failed += 1;
       }
 
-      state.items = allItems;
+      const indexed = allItems.map((i) => indexItem(i));
+      state.items = indexed;
       state.sourcesLoaded = loaded;
       state.sourcesFailed = failed;
 
-      if (allItems.length) {
-        buildFilters(allItems);
+      if (indexed.length) {
+        buildFilters(indexed);
         setSelectOptions(el.top, state.tops, true);
         if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
         syncSubFilter();
         if (state.urlSub) setSelectValueCaseInsensitive(el.sub, state.urlSub);
         state.urlTop = "";
         state.urlSub = "";
+        setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
         applyFilters();
         return;
       }
@@ -1091,12 +1272,31 @@
       setStatus(`Failed to load sources (${lastError ? String(lastError) : "unknown error"})`, false);
     }
 
-    el.q.addEventListener("input", () => applyFilters());
+    function copyFilteredLinks() {
+      const urls = Array.from(new Set(state.filteredAll.map((i) => i.url))).slice(0, 5000);
+      const text = urls.join("\n");
+      if (!text) return;
+      navigator.clipboard.writeText(text).then(
+        () => setStatus(`Copied ${urls.length.toLocaleString()} link(s)`, true),
+        () => setStatus("Clipboard copy failed", false)
+      );
+    }
+
+    const applyFiltersDebounced = debounce(() => applyFilters(), 140);
+
+    el.q.addEventListener("input", () => {
+      state.page = 1;
+      applyFiltersDebounced();
+    });
     el.top.addEventListener("change", () => {
       syncSubFilter();
+      state.page = 1;
       applyFilters();
     });
-    el.sub.addEventListener("change", () => applyFilters());
+    el.sub.addEventListener("change", () => {
+      state.page = 1;
+      applyFilters();
+    });
     el.toggleFilters.addEventListener("click", () => {
       const collapsed = el.searchCard.classList.contains("collapsed");
       setCollapsed(!collapsed);
@@ -1105,14 +1305,28 @@
       el.q.value = "";
       el.top.value = "";
       syncSubFilter();
+      state.page = 1;
       applyFilters();
       el.q.focus();
+    });
+    el.copy.addEventListener("click", () => copyFilteredLinks());
+
+    el.pagePrev.addEventListener("click", () => setPage(state.page - 1));
+    el.pageNext.addEventListener("click", () => setPage(state.page + 1));
+    el.pageSize.addEventListener("change", () => {
+      const size = parseInt(el.pageSize.value, 10);
+      if (Number.isFinite(size) && size > 0) state.pageSize = size;
+      state.page = 1;
+      applyFilters();
     });
 
     const urlParams = parseUrlParams();
     if (urlParams.q) el.q.value = urlParams.q;
     state.urlTop = urlParams.top || "";
     state.urlSub = urlParams.sub || "";
+    if (urlParams.size) state.pageSize = urlParams.size;
+    if (urlParams.page) state.page = urlParams.page;
+    setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
     const initialCollapsed =
       urlParams.collapsed != null ? urlParams.collapsed === "1" || urlParams.collapsed === "true" : safeGetLocalStorage("ns_search_collapsed") === "1";
     setCollapsed(initialCollapsed);
