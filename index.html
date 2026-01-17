@@ -179,14 +179,28 @@
     .pill {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 8px 10px;
+      gap: 6px;
+      padding: 8px 12px;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 999px;
       font-size: 12px;
       color: var(--muted);
       max-width: 100%;
+      transition: all 0.2s ease;
+    }
+
+    .pill:hover {
+      background: var(--surface-2);
+      border-color: var(--accent);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .pill svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
     }
 
     .pill code {
@@ -272,6 +286,22 @@
       margin: 0 0 8px 0;
       font-size: 22px;
       letter-spacing: 0.2px;
+      padding-right: 44px;
+      /* Space for the toggle button */
+    }
+
+    @media (max-width: 520px) {
+      .hero h2 {
+        font-size: 18px;
+        padding-right: 40px;
+      }
+
+      .toggle {
+        width: 32px;
+        height: 32px;
+        top: 14px;
+        right: 14px;
+      }
     }
 
     .hero p {
@@ -543,24 +573,35 @@
     .link {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 10px 10px;
+      gap: 6px;
+      padding: 10px 14px;
       border-radius: 999px;
       background: linear-gradient(135deg, rgba(76, 194, 255, 0.18), rgba(123, 97, 255, 0.16));
       border: 1px solid rgba(120, 160, 255, 0.28);
       color: var(--text);
-      font-size: 12px;
+      font-size: 13px;
+      font-weight: 500;
       text-decoration: none;
       white-space: nowrap;
-    }
-
-    .light-mode .link {
-      background: linear-gradient(135deg, rgba(76, 194, 255, 0.10), rgba(123, 97, 255, 0.08));
+      transition: all 0.2s ease;
     }
 
     .link:hover {
       text-decoration: none;
       border-color: rgba(120, 160, 255, 0.45);
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.25), rgba(123, 97, 255, 0.22));
+      transform: translateY(-1px);
+    }
+
+    .link svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
+      transition: transform 0.2s ease;
+    }
+
+    .link:hover svg {
+      transform: translateX(2px);
     }
 
     .link span {
@@ -591,14 +632,37 @@
     }
 
     .footer {
-      margin-top: 18px;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
       color: var(--subtle);
       font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footerRow {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 10px;
+    }
+
+    .credit {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .credit a {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .credit a:hover {
+      text-decoration: underline;
     }
 
     .footer code {
@@ -649,8 +713,20 @@
           <span class="pillLong">Data sources: <code>README.md</code> + <code>examples/*/README.md</code></span>
           <span class="pillShort">Sources: <code>README</code> + <code>examples</code></span>
         </div>
-        <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">Official site</a>
-        <a class="pill" href="./README.md" target="_blank" rel="noreferrer">Open README</a>
+        <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+          </svg>
+          Official site
+        </a>
+        <a class="pill" href="./README.md" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
+          </svg>
+          Open README
+        </a>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark/light mode"
           title="Toggle dark/light mode">
           <span class="moon">&#x1F319;</span>
@@ -723,8 +799,17 @@
     </main>
 
     <footer class="footer">
-      <div>Tip: search also matches section path like <code>Plugins / Firebase Plugins</code></div>
-      <div id="footerMeta"></div>
+      <div class="footerRow">
+        <div>Tip: search also matches section path like <code>Plugins / Firebase Plugins</code></div>
+        <div id="footerMeta"></div>
+      </div>
+      <div class="footerRow">
+        <div class="credit">
+          Made with ❤️ for the <a href="https://nativescript.org" target="_blank">NativeScript</a> community by <a
+            href="https://github.com/kang-cahya" target="_blank">Kang Cahya</a>
+        </div>
+        <div id="footerYear">&copy; 2025-2026 Awesome NativeScript</div>
+      </div>
     </footer>
   </div>
 
@@ -769,12 +854,20 @@
       pageSize: document.getElementById("pageSize"),
       footerMeta: document.getElementById("footerMeta"),
       themeToggle: document.getElementById("themeToggle"),
+      footerYear: document.getElementById("footerYear"),
     };
 
     function toggleTheme() {
       const isLight = document.documentElement.classList.toggle("light-mode");
       localStorage.setItem("theme", isLight ? "light" : "dark");
       document.querySelector('meta[name="theme-color"]').setAttribute("content", isLight ? "#f1f5f9" : "#070a12");
+    }
+
+    function updateFooterYear() {
+      if (el.footerYear) {
+        const year = new Date().getFullYear();
+        el.footerYear.innerHTML = `&copy; 2025-${year} Awesome NativeScript`;
+      }
     }
 
     function setStatus(text, ok) {
@@ -1263,7 +1356,8 @@
                     </div>
                   </div>
                   <a class="link" href="${url}" target="_blank" rel="noreferrer">
-                    Open <span>${domain || "link"}</span>
+                    <span>Open ${domain || "link"}</span>
+                    <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                   </a>
                 </div>
               </div>
@@ -1440,6 +1534,7 @@
     const initialCollapsed =
       urlParams.collapsed != null ? urlParams.collapsed === "1" || urlParams.collapsed === "true" : safeGetLocalStorage("ns_search_collapsed") === "1";
     setCollapsed(initialCollapsed);
+    updateFooterYear();
     loadAllSources();
   </script>
 </body>
