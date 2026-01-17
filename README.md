@@ -28,6 +28,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
   - [Firebase Plugins](#firebase-plugins)
   - [Geo Plugins](#geo-plugins)
   - [Graphics Plugins](#graphics-plugins)
+  - [Mason Plugins](#mason-plugins)
   - [ML Plugins](#ml-plugins)
   - [Multimedia Plugins](#multimedia-plugins)
   - [Networking Plugins](#networking-plugins)
@@ -240,6 +241,10 @@ Run NativeScript on the following platforms:
 - [Canvas Polyfill](https://github.com/NativeScript/canvas/tree/master/packages/canvas-polyfill) - DOM-like polyfill for NativeScript canvas, enabling compatibility with standard HTML5 canvas APIs and web libraries.
 - [Canvas Three](https://github.com/NativeScript/canvas/tree/master/packages/canvas-three) - Use Three.js for 3D rendering inside NativeScript apps via native canvas integration.
 - [TroisJS](https://github.com/ArthurMJ96/nativescript-troisjs) - Use TroisJS for 3D rendering inside NativeScript apps via native canvas integration. Only for `NativeScript-Vue`.
+
+### Mason Plugins
+
+- [MasonKit](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - This plugin is a wrap of `Taffy` layout engine for NativeScript. It provides a high performance rust-powered UI layout library for NativeScript.
 
 ### ML Plugins
 
