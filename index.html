@@ -623,12 +623,39 @@
     }
 
     .empty {
-      padding: 22px 16px;
+      padding: 40px 16px;
       border-radius: var(--radius);
       border: 1px dashed var(--border);
       color: var(--muted);
       background: var(--surface);
       line-height: 1.5;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .loader {
+      width: 48px;
+      height: 48px;
+      border: 3px solid var(--border);
+      border-bottom-color: var(--accent);
+      border-radius: 50%;
+      display: inline-block;
+      box-sizing: border-box;
+      animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
 
     .footer {
@@ -833,6 +860,7 @@
       page: 1,
       pageSize: 25,
       totalMatches: 0,
+      isLoading: false,
     };
 
     const el = {
@@ -1312,6 +1340,16 @@
     }
 
     function render() {
+      if (state.isLoading) {
+        el.grid.innerHTML = `
+          <div class="empty">
+            <span class="loader"></span>
+            <div>Loading Awesome resources...</div>
+          </div>
+        `;
+        return;
+      }
+
       if (!state.items.length) {
         el.grid.innerHTML = `<div class="empty">No data loaded. Ensure <code>README.md</code> is available next to this page.</div>`;
         return;
@@ -1417,6 +1455,9 @@
     }
 
     async function loadAllSources() {
+      state.isLoading = true;
+      render();
+
       const relPaths = [
         "README.md",
         "examples/README.md",
@@ -1453,10 +1494,12 @@
         if (!ok) failed += 1;
       }
 
+      state.isLoading = false;
       const indexed = allItems.map((i) => indexItem(i));
       state.items = indexed;
       state.sourcesLoaded = loaded;
       state.sourcesFailed = failed;
+      state.isLoading = false;
 
       if (indexed.length) {
         buildFilters(indexed);
