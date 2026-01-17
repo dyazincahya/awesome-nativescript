@@ -174,6 +174,7 @@ Run NativeScript on the following platforms:
 ### Artifical Intelligence (AI) Plugins
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
+- [nstreamdown](https://github.com/nstudio/nstreamdown) - Native streaming markdown for NativeScript apps, inspired by streamdown.ai. Ideal for AI-powered chat interfaces.
 
 ### Authentication Plugins
 
