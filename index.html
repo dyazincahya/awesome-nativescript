@@ -29,6 +29,7 @@
     {"@context":"https://schema.org","@type":"WebPage","name":"Awesome NativeScript — Search","description":"Search across Awesome NativeScript resources, plugins, and examples from README.md and examples/*/README.md.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Awesome NativeScript","url":"https://github.com/dyazincahya/awesome-nativescript"},"about":{"@type":"SoftwareApplication","name":"NativeScript","applicationCategory":"DeveloperApplication"},"image":"https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/main/awesome-nativescript.png"}
   </script>
   <link rel="icon" type="image/png" href="assets/images/ns-favicon-new.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
   <style>
     :root {
       color-scheme: dark;
@@ -222,10 +223,8 @@
       text-decoration: none;
     }
 
-    .pill svg {
-      width: 18px;
-      height: 18px;
-      fill: currentColor;
+    .pill i {
+      font-size: 18px;
     }
 
     .pill code {
@@ -651,14 +650,12 @@
       transform: translateY(-1px);
     }
 
-    .link svg {
-      width: 14px;
-      height: 14px;
-      fill: currentColor;
+    .link i {
+      font-size: 14px;
       transition: transform 0.2s ease;
     }
 
-    .link:hover svg {
+    .link:hover i {
       transform: translateX(2px);
     }
 
@@ -717,11 +714,23 @@
       font-weight: 700;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: 8px;
       padding-bottom: 12px;
       border-bottom: 1px solid var(--border);
       color: var(--primary);
       letter-spacing: -0.01em;
+    }
+
+    .total-counter {
+      font-size: 12px;
+      font-weight: 600;
+      background: var(--surface-2);
+      color: var(--muted);
+      padding: 2px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-family: var(--mono);
     }
 
     .recent-grid-single {
@@ -797,6 +806,73 @@
       animation: sparkleAnim 2s infinite;
     }
 
+    /* Icon Colors */
+    .icon-globe {
+      color: var(--accent);
+    }
+
+    .icon-github {
+      color: var(--text);
+    }
+
+    .icon-discord {
+      color: #5865f2 !important;
+    }
+
+    .icon-moon {
+      color: #f1c40f;
+    }
+
+    .icon-sun {
+      color: #f39c12;
+    }
+
+    .icon-magic {
+      color: #ff7eb3;
+    }
+
+    .icon-rotate {
+      color: var(--success);
+    }
+
+    .icon-list {
+      color: var(--accent-2);
+    }
+
+    .icon-search {
+      color: var(--accent);
+    }
+
+    .icon-new {
+      color: #ffcc00;
+    }
+
+    .icon-heart {
+      color: #ff4d4d;
+    }
+
+    .icon-clear {
+      color: #ff4d4d;
+      opacity: 0.8;
+    }
+
+    .icon-copy {
+      color: var(--accent);
+      opacity: 0.8;
+    }
+
+    .icon-pager {
+      color: var(--text-muted);
+    }
+
+    .icon-plus {
+      color: var(--success);
+    }
+
+    .icon-minus {
+      color: var(--accent);
+    }
+
     @keyframes sparkleAnim {
 
       0%,
@@ -827,24 +903,8 @@
     }
 
     .loader {
-      width: 48px;
-      height: 48px;
-      border: 3px solid var(--border);
-      border-bottom-color: var(--accent);
-      border-radius: 50%;
-      display: inline-block;
-      box-sizing: border-box;
-      animation: rotation 1s linear infinite;
-    }
-
-    @keyframes rotation {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
+      font-size: 48px;
+      color: var(--accent);
     }
 
     .footer {
@@ -937,28 +997,22 @@
         </div>
       </div>
       <div class="pillrow">
-        <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24">
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
-          </svg>
+        <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer"
+          title="NativeScript Official Website">
+          <i class="fa-solid fa-globe icon-globe"></i>
         </a>
-        <a class="pill" href="https://github.com/dyazincahya/awesome-nativescript" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24">
-            <path
-              d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12c0-5.523-4.477-10-10-10z" />
-          </svg>
+        <a class="pill" href="https://github.com/dyazincahya/awesome-nativescript" target="_blank" rel="noreferrer"
+          title="GitHub Repository">
+          <i class="fa-brands fa-github icon-github"></i>
         </a>
-        <a class="pill" href="https://nativescript.org/discord" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24">
-            <path
-              d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.086 2.157 2.419c0 1.334-.947 2.419-2.157 2.419zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.086 2.157 2.419c0 1.334-.946 2.419-2.157 2.419z" />
-          </svg>
+        <a class="pill" href="https://nativescript.org/discord" target="_blank" rel="noreferrer"
+          title="Discord Community">
+          <i class="fa-brands fa-discord icon-discord"></i>
         </a>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark/light mode"
           title="Toggle dark/light mode">
-          <span class="moon">&#x1F319;</span>
-          <span class="sun">&#x2600;&#xFE0F;</span>
+          <span class="moon"><i class="fa-solid fa-moon icon-moon"></i></span>
+          <span class="sun"><i class="fa-solid fa-sun icon-sun"></i></span>
         </button>
       </div>
     </header>
@@ -966,7 +1020,7 @@
     <main>
       <div class="hero" id="searchCard">
         <button id="toggleFilters" class="toggle" type="button" aria-label="Collapse filters"
-          title="Collapse filters">&#x2212;</button>
+          title="Collapse filters"><i class="fa-solid fa-minus icon-minus"></i></button>
         <h2>Search resources, plugins, and examples</h2>
         <p class="heroIntro">
           Type a keyword to search by name, description, URL, or section. Use filters to narrow results by category.
@@ -1000,8 +1054,8 @@
             <div id="statusText">Loading sources…</div>
           </div>
           <div class="actions">
-            <button id="clear">Clear</button>
-            <button id="copy">Copy filtered links</button>
+            <button id="clear"><i class="fa-solid fa-xmark icon-clear"></i> Clear</button>
+            <button id="copy"><i class="fa-solid fa-copy icon-copy"></i> Copy filtered links</button>
           </div>
         </div>
 
@@ -1010,25 +1064,39 @@
       <div id="recentSection" class="recent-section" style="display: none;">
         <div class="featured-sections">
           <div class="featured-column">
-            <h3><span class="sparkle">✨</span> Recently Added</h3>
+            <h3>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span class="sparkle"><i class="fa-solid fa-wand-magic-sparkles icon-magic"></i></span> Recently Added
+              </div>
+            </h3>
             <div id="recentGrid" class="recent-grid-single"></div>
           </div>
           <div class="featured-column">
-            <h3><span class="sparkle">🔄</span> Recently Updated</h3>
+            <h3>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span class="sparkle"><i class="fa-solid fa-rotate icon-rotate"></i></span> Recently Updated
+              </div>
+            </h3>
             <div id="updatedGrid" class="recent-grid-single"></div>
           </div>
         </div>
       </div>
 
       <div class="featured-column main-list-card">
-        <h3 id="mainListHeading"><span class="sparkle">📋</span> All Resources</h3>
+        <h3 id="mainListHeading">
+          <div style="display: flex; align-items: center; gap: 8px;" id="mainListHeadingLeft">
+            <span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span>
+            <span id="mainListHeadingText">All Resources</span>
+          </div>
+          <span id="totalCounter" class="total-counter">0</span>
+        </h3>
         <div class="grid" id="grid"></div>
       </div>
 
       <div class="pager" id="pager">
         <div class="pagerLeft">
-          <button id="pagePrev" type="button">Prev</button>
-          <button id="pageNext" type="button">Next</button>
+          <button id="pagePrev" type="button"><i class="fa-solid fa-chevron-left icon-pager"></i> Prev</button>
+          <button id="pageNext" type="button">Next <i class="fa-solid fa-chevron-right icon-pager"></i></button>
           <div class="pagerInfo" id="pageInfo"></div>
         </div>
         <div class="pagerRight">
@@ -1050,8 +1118,9 @@
       </div>
       <div class="footerRow">
         <div class="credit">
-          Made with ❤️ for the <a href="https://nativescript.org" target="_blank">NativeScript</a> community by <a
-            href="https://github.com/kang-cahya" target="_blank">Kang Cahya</a>
+          Made with <i class="fa-solid fa-heart icon-heart"></i> for the <a href="https://nativescript.org"
+            target="_blank">NativeScript</a> community by <a href="https://github.com/kang-cahya" target="_blank">Kang
+            Cahya</a>
         </div>
         <div id="footerYear">&copy; 2025-2026 Awesome NativeScript</div>
       </div>
@@ -1104,6 +1173,8 @@
       recentSection: document.getElementById("recentSection"),
       recentGrid: document.getElementById("recentGrid"),
       updatedGrid: document.getElementById("updatedGrid"),
+      mainListHeadingLeft: document.getElementById("mainListHeadingLeft"),
+      totalCounter: document.getElementById("totalCounter"),
     };
 
     function toggleTheme() {
@@ -1218,7 +1289,7 @@
       if (nextCollapsed) el.searchCard.classList.add("collapsed");
       else el.searchCard.classList.remove("collapsed");
 
-      el.toggleFilters.innerHTML = nextCollapsed ? "&#x2b;" : "&#x2212;";
+      el.toggleFilters.innerHTML = nextCollapsed ? '<i class="fa-solid fa-plus icon-plus"></i>' : '<i class="fa-solid fa-minus icon-minus"></i>';
       el.toggleFilters.setAttribute("aria-label", nextCollapsed ? "Expand filters" : "Collapse filters");
       el.toggleFilters.setAttribute("title", nextCollapsed ? "Expand filters" : "Collapse filters");
       safeSetLocalStorage("ns_search_collapsed", nextCollapsed ? "1" : "0");
@@ -1626,13 +1697,15 @@
       const resultText = `${state.totalMatches.toLocaleString()} result(s)${suffix}`;
       setStatus(resultText, true);
 
-      const mainHeading = document.getElementById("mainListHeading");
-      if (mainHeading) {
+      if (el.mainListHeadingLeft) {
         if (q || top || sub) {
-          mainHeading.innerHTML = `<span class="sparkle">🔍</span> Found ${resultText}`;
+          el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-magnifying-glass icon-search"></i></span> Found ${state.totalMatches.toLocaleString()} match(es)${suffix}`;
         } else {
-          mainHeading.innerHTML = `<span class="sparkle">📋</span> All Resources`;
+          el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span> All Resources`;
         }
+      }
+      if (el.totalCounter) {
+        el.totalCounter.textContent = state.totalMatches.toLocaleString();
       }
 
       replaceUrlParams();
@@ -1643,7 +1716,7 @@
       if (state.isLoading) {
         el.grid.innerHTML = `
           <div class="empty">
-            <span class="loader"></span>
+            <i class="fa-solid fa-spinner fa-spin loader"></i>
             <div>Loading Awesome resources...</div>
           </div>
         `;
@@ -1682,7 +1755,7 @@
                   <div class="main">
                     <div class="name">
                       ${name}
-                      ${i.isNew ? '<span class="newBadge">New ✨</span>' : ""}
+                      ${i.isNew ? '<span class="newBadge">New <i class="fa-solid fa-bolt icon-new"></i></span>' : ""}
                     </div>
                     ${desc ? `<div class="desc">${desc}</div>` : ""}
                     <div class="badges">
@@ -1698,7 +1771,7 @@
                   </div>
                   <a class="link" href="${url}" target="_blank" rel="noreferrer">
                     <span>Open ${domain || "link"}</span>
-                    <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                    <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
