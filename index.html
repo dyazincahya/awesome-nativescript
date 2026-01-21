@@ -1271,8 +1271,8 @@
       const { q, top, sub } = getActiveParams();
       const chips = [];
       if (q) chips.push(`<span class="chip"><strong>Search</strong> <code>${escapeHtml(q)}</code></span>`);
-      if (top) chips.push(`<span class="chip"><strong>Top</strong> <code>${escapeHtml(top)}</code></span>`);
-      if (sub) chips.push(`<span class="chip"><strong>Sub</strong> <code>${escapeHtml(sub)}</code></span>`);
+      if (top) chips.push(`<span class="chip"><strong>Category</strong> <code>${escapeHtml(top)}</code></span>`);
+      if (sub) chips.push(`<span class="chip"><strong>Sub category</strong> <code>${escapeHtml(sub)}</code></span>`);
 
       const collapsed = el.searchCard.classList.contains("collapsed");
       if (!chips.length) {
