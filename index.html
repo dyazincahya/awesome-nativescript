@@ -1086,7 +1086,7 @@
         <h3 id="mainListHeading">
           <div style="display: flex; align-items: center; gap: 8px;" id="mainListHeadingLeft">
             <span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span>
-            <span id="mainListHeadingText">All Resources</span>
+            <span id="mainListHeadingText">Directory</span>
           </div>
           <span id="totalCounter" class="total-counter">0</span>
         </h3>
@@ -1701,7 +1701,7 @@
         if (q || top || sub) {
           el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-magnifying-glass icon-search"></i></span> Found ${state.totalMatches.toLocaleString()} match(es)${suffix}`;
         } else {
-          el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span> All Resources`;
+          el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span> Directory`;
         }
       }
       if (el.totalCounter) {
