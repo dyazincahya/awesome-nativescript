@@ -1473,7 +1473,9 @@
       const top = (item.top || "").toLowerCase();
       const path = (item.path || "").toLowerCase();
       const sourceFile = (item.sourceFile || "").toLowerCase();
-      if (top === "examples" || sourceFile.startsWith("examples/")) return "Example";
+      if (top === "examples" || sourceFile.startsWith("examples/")) {
+        return item.sub ? `Example of ${item.sub}` : "Example";
+      }
       if (top.includes("plugin") || path.includes("plugins")) return "Plugin";
       return "Resource";
     }
