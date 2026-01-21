@@ -1,7 +1,387 @@
 {
-  "lastUpdated": "2026-01-21T14:00:54.623Z",
-  "total": 395,
+  "lastUpdated": "2026-01-21T21:54:44.999Z",
+  "total": 400,
   "items": [
+    {
+      "name": "Bolt NativeScript Vite Contributors",
+      "url": "https://stackblitz.com/edit/bolt-nativescript-vite-contributors",
+      "description": "Vite-powered NativeScript Angular development demo with Bolt.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "CollectionView Layout Playground",
+      "url": "https://stackblitz.com/edit/nativescript-collectionview-layout-playground",
+      "description": "Interactive playground for exploring various CollectionView layout configurations in NativeScript Angular.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "iOS 26 FoundationModels",
+      "url": "https://github.com/NathanWalker/ns-ios-foundationmodels",
+      "description": "Example showcasing how to leverage streamed responses from Apple Intelligence using FoundationModels.",
+      "meta": {
+        "platform": "iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "Mason Layout",
+      "url": "https://github.com/Triniwiz/nativescript-mason-angular",
+      "description": "Example of using Mason layout in NativeScript for Angular",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "Morph Modal Kit",
+      "url": "https://stackblitz.com/edit/morph-modal-kit-as-total-typescript",
+      "description": "Advanced morphing modal implementation using 100% TypeScript.",
+      "meta": {
+        "platform": "iOS",
+        "source": "Stackblitz",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "NativeScript Gemini Pro",
+      "url": "https://stackblitz.com/edit/nativescript-gemini-pro",
+      "description": "Official demo showcasing Gemini Pro AI integration with NativeScript.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "SplitView",
+      "url": "https://github.com/NativeScript/splitview-examples",
+      "description": "Examples of using SplitView in NativeScript apps",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "Supabase x Platforms",
+      "url": "https://github.com/NathanWalker/supabase-x-platforms/tree/main/apps/nativescript-angular",
+      "description": "Realtime data driving iOS, Android and Vision Pro using NativeScript with Angular.",
+      "meta": {
+        "platform": "iOS & Android",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "Swipeout Action",
+      "url": "https://github.com/Bezlepkin/nativescript-angular-listvew-swipeout-actions",
+      "description": "Swipeout implementation on ListView items in NativeScript for Angular",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Bezlepkin",
+        "authorUrl": "https://github.com/Bezlepkin"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "Tailwind CSS v4",
+      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-angular",
+      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
+      "addedAt": "2026-01-21 22:11:46 +0700"
+    },
+    {
+      "name": "Solid Vibes",
+      "url": "https://stackblitz.com/edit/nativescript-solid-vibes",
+      "description": "A NativeScript Solid demo showcasing reactive UI patterns and components.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Solid",
+      "path": "Examples / Solid",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Solid",
+      "sourceFile": "examples/solid/README.md",
+      "source": "examples/solid/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Supabase x Platforms",
+      "url": "https://github.com/NathanWalker/supabase-x-platforms/tree/main/apps/nativescript-solid",
+      "description": "Realtime data driving iOS, Android and Vision Pro using NativeScript with Solid.",
+      "meta": {
+        "platform": "iOS & Android",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Solid",
+      "path": "Examples / Solid",
+      "domain": "github.com",
+      "sourceLabel": "Example of Solid",
+      "sourceFile": "examples/solid/README.md",
+      "source": "examples/solid/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Tailwind CSS v4",
+      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-solid",
+      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Solid",
+      "path": "Examples / Solid",
+      "domain": "github.com",
+      "sourceLabel": "Example of Solid",
+      "sourceFile": "examples/solid/README.md",
+      "source": "examples/solid/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Conty",
+      "url": "https://github.com/Akylas/conty",
+      "description": "Interactive stories for kids. Download & play offline, anytime!",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Akylas",
+        "authorUrl": "https://github.com/Akylas"
+      },
+      "top": "Examples",
+      "sub": "Svelte",
+      "path": "Examples / Svelte",
+      "domain": "github.com",
+      "sourceLabel": "Example of Svelte",
+      "sourceFile": "examples/svelte/README.md",
+      "source": "examples/svelte/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Mason Layout",
+      "url": "https://github.com/triniwiz/nativescript-mason-vue",
+      "description": "Example of using Mason layout in NativeScript for Vue",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Vue Vite Demo",
+      "url": "https://github.com/NativeScript/ns-vue-vite-demo",
+      "description": "Official demo of NativeScript Vue using Vite build tool with Hot Module Replacement.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Vue2 Demo in NativeScript v9",
+      "url": "https://github.com/Devendra0110/ns-vue-demo",
+      "description": "Demonstration of NativeScript-Vue 2.0 features and compatibility with NativeScript 9.0.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Devendra Gaud",
+        "authorUrl": "https://github.com/Devendra0110"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Supabase x Platforms",
+      "url": "https://github.com/NathanWalker/supabase-x-platforms/tree/main/apps/nativescript-vue",
+      "description": "Realtime data driving iOS, Android and Vision Pro using NativeScript with Vue.",
+      "meta": {
+        "platform": "iOS & Android",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Tailwind CSS v4",
+      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-vue",
+      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
     {
       "name": "SplitView",
       "url": "https://docs.nativescript.org/ui/split-view",
@@ -13,8 +393,8 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-21 20:57:31 +0700",
-      "addedAt": "2026-01-21 20:57:31 +0700"
+      "updatedAt": "2026-01-21 21:27:25 +0700",
+      "addedAt": "2026-01-21 21:27:25 +0700"
     },
     {
       "name": "NativeScript Agentic Coding",
@@ -41,166 +421,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "CollectionView Layout Playground",
-      "url": "https://stackblitz.com/edit/nativescript-collectionview-layout-playground",
-      "description": "Interactive playground for exploring various CollectionView layout configurations in NativeScript Angular.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Stackblitz",
-        "authorName": "NativeScript OSS",
-        "authorUrl": "https://stackblitz.com/@nativescript-oss"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "stackblitz.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "iOS 26 FoundationModels",
-      "url": "https://github.com/NathanWalker/ns-ios-foundationmodels",
-      "description": "Example showcasing how to leverage streamed responses from Apple Intelligence using FoundationModels.",
-      "meta": {
-        "platform": "iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "github.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Mason Layout",
-      "url": "https://github.com/Triniwiz/nativescript-mason-angular",
-      "description": "Example of using Mason layout in NativeScript for Angular",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Triniwiz",
-        "authorUrl": "https://github.com/triniwiz"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "github.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Morph Modal Kit",
-      "url": "https://stackblitz.com/edit/morph-modal-kit-as-total-typescript",
-      "description": "Advanced morphing modal implementation using 100% TypeScript.",
-      "meta": {
-        "platform": "iOS",
-        "source": "Stackblitz",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "stackblitz.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "NativeScript Gemini Pro",
-      "url": "https://stackblitz.com/edit/nativescript-gemini-pro",
-      "description": "Official demo showcasing Gemini Pro AI integration with NativeScript.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Stackblitz",
-        "authorName": "NativeScript OSS",
-        "authorUrl": "https://stackblitz.com/@nativescript-oss"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "stackblitz.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "SplitView",
-      "url": "https://github.com/NativeScript/splitview-examples",
-      "description": "Examples of using SplitView in NativeScript apps",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "NativeScript",
-        "authorUrl": "https://github.com/NativeScript"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "github.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Swipeout Action",
-      "url": "https://github.com/Bezlepkin/nativescript-angular-listvew-swipeout-actions",
-      "description": "Swipeout implementation on ListView items in NativeScript for Angular",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Bezlepkin",
-        "authorUrl": "https://github.com/Bezlepkin"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "github.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Tailwind CSS v4",
-      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-angular",
-      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "github.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
       "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
@@ -385,46 +605,6 @@
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
-      "name": "Solid Vibes",
-      "url": "https://stackblitz.com/edit/nativescript-solid-vibes",
-      "description": "A NativeScript Solid demo showcasing reactive UI patterns and components.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Stackblitz",
-        "authorName": "NativeScript OSS",
-        "authorUrl": "https://stackblitz.com/@nativescript-oss"
-      },
-      "top": "Examples",
-      "sub": "Solid",
-      "path": "Examples / Solid",
-      "domain": "stackblitz.com",
-      "sourceLabel": "Example of Solid",
-      "sourceFile": "examples/solid/README.md",
-      "source": "examples/solid/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Tailwind CSS v4",
-      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-solid",
-      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Solid",
-      "path": "Examples / Solid",
-      "domain": "github.com",
-      "sourceLabel": "Example of Solid",
-      "sourceFile": "examples/solid/README.md",
-      "source": "examples/solid/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
       "name": "Tailwind CSS v4",
       "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-svelte",
       "description": "NativeScript 🎨 Tailwindcss v4 examples.",
@@ -441,86 +621,6 @@
       "sourceLabel": "Example of Svelte",
       "sourceFile": "examples/svelte/README.md",
       "source": "examples/svelte/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Mason Layout",
-      "url": "https://github.com/triniwiz/nativescript-mason-vue",
-      "description": "Example of using Mason layout in NativeScript for Vue",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Triniwiz",
-        "authorUrl": "https://github.com/triniwiz"
-      },
-      "top": "Examples",
-      "sub": "Vue",
-      "path": "Examples / Vue",
-      "domain": "github.com",
-      "sourceLabel": "Example of Vue",
-      "sourceFile": "examples/vue/README.md",
-      "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Vue Vite Demo",
-      "url": "https://github.com/NativeScript/ns-vue-vite-demo",
-      "description": "Official demo of NativeScript Vue using Vite build tool with Hot Module Replacement.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "NativeScript",
-        "authorUrl": "https://github.com/NativeScript"
-      },
-      "top": "Examples",
-      "sub": "Vue",
-      "path": "Examples / Vue",
-      "domain": "github.com",
-      "sourceLabel": "Example of Vue",
-      "sourceFile": "examples/vue/README.md",
-      "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Vue2 Demo in NS9",
-      "url": "https://github.com/Devendra0110/ns-vue-demo",
-      "description": "Demonstration of NativeScript-Vue 2.0 features and compatibility with NativeScript 9.0.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Devendra Gaud",
-        "authorUrl": "https://github.com/Devendra0110"
-      },
-      "top": "Examples",
-      "sub": "Vue",
-      "path": "Examples / Vue",
-      "domain": "github.com",
-      "sourceLabel": "Example of Vue",
-      "sourceFile": "examples/vue/README.md",
-      "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Tailwind CSS v4",
-      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-vue",
-      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Vue",
-      "path": "Examples / Vue",
-      "domain": "github.com",
-      "sourceLabel": "Example of Vue",
-      "sourceFile": "examples/vue/README.md",
-      "source": "examples/vue/README.md",
       "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
@@ -793,7 +893,7 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
+      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -873,7 +973,7 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
+      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
