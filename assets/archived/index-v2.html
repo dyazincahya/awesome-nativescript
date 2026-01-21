@@ -168,29 +168,6 @@
       text-overflow: ellipsis;
     }
 
-    .quick-stats {
-      margin-top: 6px;
-      display: flex;
-      gap: 12px;
-      font-size: 10px;
-      color: var(--muted);
-      font-family: var(--mono);
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .stat-item {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .stat-value {
-      color: var(--primary);
-      font-weight: 600;
-    }
-
     .pillrow {
       display: flex;
       gap: 8px;
@@ -202,17 +179,15 @@
     .pill {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      padding: 0;
+      gap: 6px;
+      padding: 8px 12px;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 50%;
+      border-radius: 999px;
+      font-size: 12px;
       color: var(--muted);
+      max-width: 100%;
       transition: all 0.2s ease;
-      flex-shrink: 0;
-      overflow: hidden;
     }
 
     .pill:hover {
@@ -223,8 +198,8 @@
     }
 
     .pill svg {
-      width: 18px;
-      height: 18px;
+      width: 14px;
+      height: 14px;
       fill: currentColor;
     }
 
@@ -278,7 +253,6 @@
       background: var(--hero-bg);
       border: 1px solid var(--border);
       box-shadow: var(--shadow);
-      margin-bottom: 12px;
     }
 
     .toggle {
@@ -453,8 +427,8 @@
     }
 
     .pager {
-      margin-top: 24px;
-      margin-bottom: 24px;
+      margin-top: 14px;
+      margin-bottom: 14px;
       padding: 10px 12px;
       display: flex;
       align-items: center;
@@ -464,14 +438,6 @@
       border-radius: 14px;
       border: 1px solid var(--border);
       background: var(--pager-bg);
-    }
-
-    .main-list-card {
-      min-height: 200px;
-    }
-
-    #mainListHeading {
-      transition: all 0.3s ease;
     }
 
     .pagerLeft,
@@ -529,30 +495,6 @@
       background: var(--card-bg);
       padding: 14px 14px;
       box-shadow: var(--shadow);
-      transition: all 0.2s ease;
-    }
-
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-lg);
-    }
-
-    .cardNew {
-      border-left: 3px solid var(--primary);
-    }
-
-    .newBadge {
-      font-size: 10px;
-      font-weight: 700;
-      color: var(--primary);
-      background: rgba(76, 194, 255, 0.1);
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-left: 8px;
-      vertical-align: middle;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
 
     .row {
@@ -680,137 +622,6 @@
       }
     }
 
-    /* Recent Section */
-    .recent-section {
-      margin-top: 12px;
-      margin-bottom: 24px;
-      padding: 0;
-      background: transparent;
-      border: none;
-      box-shadow: none;
-    }
-
-    .featured-sections {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-
-    @media (max-width: 900px) {
-      .featured-sections {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .featured-column {
-      background: var(--hero-bg);
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      padding: 20px;
-      box-shadow: var(--shadow);
-    }
-
-    .featured-column h3 {
-      margin-top: 0;
-      margin-bottom: 16px;
-      font-size: 16px;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-      color: var(--primary);
-      letter-spacing: -0.01em;
-    }
-
-    .recent-grid-single {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .recent-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 10px 14px;
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      transition: all 0.2s ease;
-      position: relative;
-    }
-
-    .recent-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--primary);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      z-index: 1;
-    }
-
-    .recent-card .name {
-      font-weight: 700;
-      font-size: 13.5px;
-      color: var(--text);
-      line-height: 1.3;
-    }
-
-    .recent-card .desc {
-      font-size: 11.5px;
-      color: var(--muted);
-      line-height: 1.4;
-      display: -webkit-box;
-      -webkit-line-clamp: 1;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .recent-card .meta {
-      margin-top: 6px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .recent-card .tag {
-      font-size: 9px;
-      background: var(--hero-bg);
-      padding: 1px 6px;
-      border-radius: 4px;
-      border: 1px solid var(--border);
-      font-weight: 700;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .recent-card .date {
-      font-size: 10px;
-      color: var(--accent);
-      font-weight: 600;
-    }
-
-    .sparkle {
-      display: inline-block;
-      animation: sparkleAnim 2s infinite;
-    }
-
-    @keyframes sparkleAnim {
-
-      0%,
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-
-      50% {
-        transform: scale(1.2);
-        opacity: 0.8;
-      }
-    }
-
     .empty {
       padding: 40px 16px;
       border-radius: var(--radius);
@@ -863,14 +674,7 @@
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 16px;
-    }
-
-    .footerPill {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      font-size: 11px;
-      padding: 4px 10px;
+      gap: 10px;
     }
 
     .credit {
@@ -910,11 +714,6 @@
         white-space: normal;
       }
 
-      .quick-stats {
-        flex-wrap: wrap;
-        white-space: normal;
-      }
-
       .pillLong {
         display: none;
       }
@@ -937,23 +736,23 @@
         </div>
       </div>
       <div class="pillrow">
+        <div class="pill">
+          <span class="pillLong">Data sources: <code>README.md</code> + <code>examples/*/README.md</code></span>
+          <span class="pillShort">Sources: <code>README</code> + <code>examples</code></span>
+        </div>
         <a class="pill" href="https://nativescript.org/" target="_blank" rel="noreferrer">
           <svg viewBox="0 0 24 24">
             <path
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
           </svg>
+          Official site
         </a>
         <a class="pill" href="https://github.com/dyazincahya/awesome-nativescript" target="_blank" rel="noreferrer">
           <svg viewBox="0 0 24 24">
             <path
               d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.341-3.369-1.341-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12c0-5.523-4.477-10-10-10z" />
           </svg>
-        </a>
-        <a class="pill" href="https://nativescript.org/discord" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24">
-            <path
-              d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.086 2.157 2.419c0 1.334-.947 2.419-2.157 2.419zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.086 2.157 2.419c0 1.334-.946 2.419-2.157 2.419z" />
-          </svg>
+          GitHub
         </a>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark/light mode"
           title="Toggle dark/light mode">
@@ -1007,24 +806,6 @@
 
       </div>
 
-      <div id="recentSection" class="recent-section" style="display: none;">
-        <div class="featured-sections">
-          <div class="featured-column">
-            <h3><span class="sparkle">✨</span> Recently Added</h3>
-            <div id="recentGrid" class="recent-grid-single"></div>
-          </div>
-          <div class="featured-column">
-            <h3><span class="sparkle">🔄</span> Recently Updated</h3>
-            <div id="updatedGrid" class="recent-grid-single"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-column main-list-card">
-        <h3 id="mainListHeading"><span class="sparkle">📋</span> All Resources</h3>
-        <div class="grid" id="grid"></div>
-      </div>
-
       <div class="pager" id="pager">
         <div class="pagerLeft">
           <button id="pagePrev" type="button">Prev</button>
@@ -1034,13 +815,14 @@
         <div class="pagerRight">
           <label class="pagerLabel" for="pageSize">Per page</label>
           <select id="pageSize">
-            <option value="10">10</option>
             <option value="25">25</option>
             <option value="50">50</option>
             <option value="100">100</option>
           </select>
         </div>
       </div>
+
+      <div class="grid" id="grid"></div>
     </main>
 
     <footer class="footer">
@@ -1076,7 +858,7 @@
       sourcesLoaded: 0,
       sourcesFailed: 0,
       page: 1,
-      pageSize: 10,
+      pageSize: 25,
       totalMatches: 0,
       isLoading: false,
     };
@@ -1101,9 +883,6 @@
       footerMeta: document.getElementById("footerMeta"),
       themeToggle: document.getElementById("themeToggle"),
       footerYear: document.getElementById("footerYear"),
-      recentSection: document.getElementById("recentSection"),
-      recentGrid: document.getElementById("recentGrid"),
-      updatedGrid: document.getElementById("updatedGrid"),
     };
 
     function toggleTheme() {
@@ -1164,7 +943,7 @@
       if (top) params.set("top", top);
       if (sub) params.set("sub", sub);
       if (state.page > 1) params.set("page", String(state.page));
-      if (state.pageSize !== 10) params.set("size", String(state.pageSize));
+      if (state.pageSize !== 25) params.set("size", String(state.pageSize));
       if (el.searchCard.classList.contains("collapsed")) params.set("collapsed", "1");
 
       const qs = params.toString();
@@ -1284,14 +1063,10 @@
     function parseListItemLine(line) {
       const m = line.match(/^\s*-\s+\[([^\]]+)\]\(([^)]+)\)\s*(?:-\s*(.+))?\s*$/);
       if (!m) return null;
-      const name = normalizeHeadingText(m[1]);
-      const description = normalizeHeadingText(m[3] || "");
-      const isNew = name.includes("✨") || description.includes("✨");
       return {
-        name: name.replace("✨", "").trim(),
+        name: normalizeHeadingText(m[1]),
         url: m[2].trim(),
-        description: description.replace("✨", "").trim(),
-        isNew,
+        description: normalizeHeadingText(m[3] || ""),
       };
     }
 
@@ -1314,11 +1089,8 @@
         .map((c) => c.trim());
       if (cells.length < 3) return null;
 
-      const nameRaw = normalizeHeadingText(stripBackticks(cells[0] || ""));
-      const descriptionRaw = normalizeHeadingText(cells[1] || "");
-      const isNew = nameRaw.includes("✨") || descriptionRaw.includes("✨");
-      const name = nameRaw.replace("✨", "").trim();
-      const description = descriptionRaw.replace("✨", "").trim();
+      const name = normalizeHeadingText(stripBackticks(cells[0] || ""));
+      const description = normalizeHeadingText(cells[1] || "");
 
       const linkCell = cells[cells.length - 1] || "";
       const linkMatch = linkCell.match(/\[([^\]]+)\]\(([^)]+)\)/);
@@ -1329,7 +1101,7 @@
       const source = normalizeHeadingText(cells[4] || "");
       const { authorName, authorUrl } = parseAuthorCell(cells[3] || "");
 
-      return { name, url, description, isNew, meta: { platform, source, authorName, authorUrl } };
+      return { name, url, description, meta: { platform, source, authorName, authorUrl } };
     }
 
     function parseReadme(markdown, origin) {
@@ -1361,7 +1133,6 @@
           name: row.name,
           url: row.url,
           description: row.description,
-          isNew: row.isNew || false,
           top: loc.top,
           sub: loc.sub,
           path: loc.path,
@@ -1478,63 +1249,6 @@
       return "Resource";
     }
 
-    function renderRecentItems() {
-      const { q, top, sub } = getActiveParams();
-      // Show recent items only if no filters are active
-      if (q || top || sub || !state.items.length) {
-        el.recentSection.style.display = "none";
-        return;
-      }
-
-      // Sort by addedAt for "Recently Added"
-      const recentAdded = [...state.items]
-        .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
-        .slice(0, 5);
-
-      // Sort by updatedAt for "Recently Updated"
-      const recentUpdated = [...state.items]
-        .filter(item => item.updatedAt && item.updatedAt !== item.addedAt)
-        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
-        .slice(0, 5);
-
-      if (recentAdded.length === 0 && recentUpdated.length === 0) {
-        el.recentSection.style.display = "none";
-        return;
-      }
-
-      el.recentSection.style.display = "block";
-
-      const renderCard = (item, label) => {
-        const name = escapeHtml(item.name);
-        const desc = escapeHtml(item.description || "");
-        const kind = escapeHtml(getKind(item));
-        const dateStr = new Date(item.updatedAt || item.addedAt).toLocaleDateString(undefined, {
-          month: 'short',
-          day: 'numeric'
-        });
-
-        return `
-          <a href="${item.url}" target="_blank" rel="noreferrer" class="recent-card">
-            <div>
-              <div class="name">${name}</div>
-              <div class="desc">${desc}</div>
-            </div>
-            <div class="meta">
-              <span class="tag">${kind}</span>
-              <span class="date">${label} • ${dateStr}</span>
-            </div>
-          </a>
-        `;
-      };
-
-      el.recentGrid.innerHTML = recentAdded.map(item => renderCard(item, "Added")).join("");
-      el.updatedGrid.innerHTML = recentUpdated.map(item => renderCard(item, "Updated")).join("");
-
-      // Hide column if empty
-      el.recentGrid.parentElement.style.display = recentAdded.length ? "block" : "none";
-      el.updatedGrid.parentElement.style.display = recentUpdated.length ? "block" : "none";
-    }
-
     function debounce(fn, waitMs) {
       let t = null;
       return () => {
@@ -1545,7 +1259,7 @@
 
     function getMaxPage() {
       const total = state.totalMatches || 0;
-      const size = state.pageSize || 10;
+      const size = state.pageSize || 25;
       return Math.max(1, Math.ceil(total / size));
     }
 
@@ -1574,7 +1288,7 @@
     function updatePager() {
       if (!el.pager) return;
       const total = state.totalMatches || 0;
-      const size = state.pageSize || 10;
+      const size = state.pageSize || 25;
       const max = getMaxPage();
 
       el.pager.style.display = total > 0 ? "flex" : "none";
@@ -1618,21 +1332,9 @@
 
       renderPage();
       updatePager();
-      renderRecentItems();
 
       const suffix = q ? ` for "${q}"` : "";
-      const resultText = `${state.totalMatches.toLocaleString()} result(s)${suffix}`;
-      setStatus(resultText, true);
-
-      const mainHeading = document.getElementById("mainListHeading");
-      if (mainHeading) {
-        if (q || top || sub) {
-          mainHeading.innerHTML = `<span class="sparkle">🔍</span> Found ${resultText}`;
-        } else {
-          mainHeading.innerHTML = `<span class="sparkle">📋</span> All Resources`;
-        }
-      }
-
+      setStatus(`${state.totalMatches.toLocaleString()} result(s)${suffix}`, true);
       replaceUrlParams();
       renderSummary();
     }
@@ -1675,13 +1377,10 @@
           const kind = escapeHtml(getKind(i));
 
           return `
-              <div class="card ${i.isNew ? "cardNew" : ""}">
+              <div class="card">
                 <div class="row">
                   <div class="main">
-                    <div class="name">
-                      ${name}
-                      ${i.isNew ? '<span class="newBadge">New ✨</span>' : ""}
-                    </div>
+                    <div class="name">${name}</div>
                     ${desc ? `<div class="desc">${desc}</div>` : ""}
                     <div class="badges">
                       <div class="badge badgeTypePrimary"><strong>Type</strong> ${kind}</div>
@@ -1755,71 +1454,10 @@
       return candidates;
     }
 
-    function renderStats() {
-      const quickStats = document.getElementById("quickStats");
-      if (!quickStats) return;
-
-      const total = state.items.length;
-      const plugins = state.items.filter((i) => getKind(i) === "Plugin").length;
-      const examples = state.items.filter((i) => getKind(i) === "Example").length;
-
-      quickStats.innerHTML = `
-        <div class="stat-item">Total <span class="stat-value">${total}</span></div>
-        <div class="stat-item">Plugins <span class="stat-value">${plugins}</span></div>
-        <div class="stat-item">Examples <span class="stat-value">${examples}</span></div>
-      `;
-    }
-
     async function loadAllSources() {
       state.isLoading = true;
       render();
 
-      // Try to load from the pre-generated static database (data.json) first
-      try {
-        const dbRes = await fetch("./assets/data.json", { cache: "no-store" });
-        if (dbRes.ok) {
-          const dbData = await dbRes.json();
-          if (dbData && Array.isArray(dbData.items)) {
-            const now = Date.now();
-            const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
-
-            state.items = dbData.items.map(item => {
-              const indexed = indexItem(item);
-              const addedDate = new Date(item.addedAt).getTime();
-              const updatedDate = new Date(item.updatedAt).getTime();
-
-              // Auto-detect based on date (last 30 days)
-              indexed.isNew = (now - addedDate) < THIRTY_DAYS;
-              // An item is considered "Updated" if it was changed recently AND it's not "New" 
-              // (or if it's new but updatedAt is significantly different from addedAt)
-              indexed.isUpdated = (now - updatedDate) < THIRTY_DAYS && (updatedDate - addedDate) > (1000 * 60 * 60 * 24);
-
-              return indexed;
-            });
-
-            state.isLoading = false;
-            state.sourcesLoaded = 1;
-            state.sourcesFailed = 0;
-
-            buildFilters(state.items);
-            renderStats();
-            setSelectOptions(el.top, state.tops, true);
-            if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
-            syncSubFilter();
-            if (state.urlSub) setSelectValueCaseInsensitive(el.sub, state.urlSub);
-            state.urlTop = "";
-            state.urlSub = "";
-            setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
-            applyFilters();
-            renderRecentItems();
-            return;
-          }
-        }
-      } catch (e) {
-        console.warn("Failed to load pre-generated data.json, falling back to README parsing.", e);
-      }
-
-      // Fallback: Original README parsing logic
       const relPaths = [
         "README.md",
         "examples/README.md",
@@ -1865,7 +1503,6 @@
 
       if (indexed.length) {
         buildFilters(indexed);
-        renderStats();
         setSelectOptions(el.top, state.tops, true);
         if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
         syncSubFilter();
@@ -1874,7 +1511,6 @@
         state.urlSub = "";
         setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
         applyFilters();
-        renderRecentItems();
         return;
       }
 

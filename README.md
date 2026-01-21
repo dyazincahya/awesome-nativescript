@@ -150,7 +150,7 @@ Run NativeScript on the following platforms:
 - [SearchBar](https://docs.nativescript.org/ui/search-bar) - UI component for entering search queries.
 - [SegmentedBar](https://docs.nativescript.org/ui/segmented-bar) - UI component for discrete slection.
 - [Slider](https://docs.nativescript.org/ui/slider) - UI component for picking numeric values from a range.
-- [SplitView](https://docs.nativescript.org/ui/split-view) - A singular root view component for coordinating up to four column roles (primary, secondary, supplementary, inspector). This component only available on iOS.
+- [SplitView](https://docs.nativescript.org/ui/split-view) - A singular root view component for coordinating up to four column roles. (primary, secondary, supplementary, inspector). This component only available on iOS.
 - [Switch](https://docs.nativescript.org/ui/switch) - UI component for toggling state on or off.
 - [TabView](https://docs.nativescript.org/ui/tab-view) - UI component for grouping content into tabs and let users switch between them.
 - [TextField](https://docs.nativescript.org/ui/text-field) - UI component for single-line text entry.
