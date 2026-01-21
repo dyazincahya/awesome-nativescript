@@ -21,7 +21,7 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [Plugins](#plugins)
   - [Advertising Plugins](#advertising-plugins)
   - [Analytics, Engagement \& Monitoring Plugins](#analytics-engagement--monitoring-plugins)
-  - [Artifical Intelligence (AI) Plugins](#artifical-intelligence-ai-plugins)
+  - [Artificial Intelligence (AI) Plugins](#artificial-intelligence-ai-plugins)
   - [Authentication Plugins](#authentication-plugins)
   - [Backend Service Plugins](#backend-service-plugins)
   - [Client-side Database Plugins](#client-side-database-plugins)
