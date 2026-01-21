@@ -4,4 +4,5 @@ This directory contains examples demonstrating the use of pure NativeScript with
 
 | Name                | Description                                                              | Platform | Author                                           | Source | Link                                                   |
 | ------------------- | ------------------------------------------------------------------------ | -------- | ------------------------------------------------ | ------ | ------------------------------------------------------ |
-| `Liquid Glass Tabs` | Example of iOS 26 liquid glass Tabs with accessory and search role tabs. | iOS      | [Nathan Walker](https://github.com/NathanWalker) | Github | [View](https://github.com/NathanWalker/ns-svelte-tabs) |
+| `Liquid Glass Tabs` | Example of iOS 26 liquid glass Tabs with accessory and search role tabs. | iOS           | [Nathan Walker](https://github.com/NathanWalker) | Github | [View](https://github.com/NathanWalker/ns-svelte-tabs)                                      |
+| `Tailwind CSS v4`   | NativeScript 🎨 Tailwindcss v4 examples.                                 | Android & iOS | [Nathan Walker](https://github.com/NathanWalker) | Github | [View](https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-svelte) |

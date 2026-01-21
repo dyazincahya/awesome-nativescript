@@ -58,6 +58,8 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 ## Official Resources
 
 - [NativeScript Homepage](https://nativescript.org/)
+- [NativeScript Agentic Coding](https://docs.nativescript.org/guide/agentic-coding)
+- [NativeScript Custom Native Elements](https://docs.nativescript.org/guide/create-custom-native-elements)
 - [NativeScript Blog](https://blog.nativescript.org/)
 - [NativeScript Snacks](https://docs.nativescript.org/snacks/)
 - [NativeScript Show Case Apps](https://www.nativescript.org/showcases)
@@ -124,7 +126,6 @@ Run NativeScript on the following platforms:
 - [AbsoluteLayout](https://docs.nativescript.org/ui/absolute-layout) - A simple layout container for positioning elements at top/left coordinates.
 - [Yoga Layout](https://github.com/nativescript-community/yoga) - Facebook's yoga layout engine, ported to NativeScript.
 - [Yoga Layout by Triniwiz](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-yogalayout) - Facebook's yoga layout engine, ported to NativeScript by Triniwiz.
-- [Universal layout views (via Taffy)](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - Taffy is a flexible, high-performance, cross-platform UI layout library written in Rust.
 
 ## Navigations
 
@@ -172,7 +173,7 @@ Run NativeScript on the following platforms:
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
 - [UXCam](https://github.com/uxcam/nativescript-uxcam) - A NativeScript plugin for UXCam. An analytics platform that offers in-depth dashboards, heatmaps, and session recordings to optimize your product.
 
-### Artifical Intelligence (AI) Plugins
+### Artificial Intelligence (AI) Plugins
 
 - [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
 - [nstreamdown](https://github.com/nstudio/nstreamdown) - Native streaming markdown for NativeScript apps, inspired by streamdown.ai. Ideal for AI-powered chat interfaces.
