@@ -125,7 +125,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      padding: 10px 0 22px;
+      padding: 10px 0 20px;
     }
 
     .brand {
@@ -272,12 +272,12 @@
 
     .hero {
       position: relative;
-      padding: 18px 16px 18px;
+      padding: 20px;
       border-radius: var(--radius);
       background: var(--hero-bg);
       border: 1px solid var(--border);
       box-shadow: var(--shadow);
-      margin-bottom: 12px;
+      margin-bottom: 20px;
     }
 
     .toggle {
@@ -289,13 +289,25 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      border-radius: 999px;
+      border-radius: 10px;
       border: 1px solid var(--border);
       background: var(--toggle-bg);
       color: var(--text);
-      font-size: 16px;
+      font-size: 14px;
       line-height: 1;
       padding: 0;
+      transition: all 0.2s ease;
+    }
+
+    .hero.collapsed .toggle i,
+    .main-list-card.collapsed .toggle-main i,
+    .recent-section.collapsed .toggle-main i {
+      transform: rotate(-180deg);
+    }
+
+    .toggle i,
+    .toggle-main i {
+      transition: transform 0.3s ease;
     }
 
     .toggle:hover {
@@ -452,21 +464,49 @@
     }
 
     .pager {
-      margin-top: 24px;
-      margin-bottom: 24px;
-      padding: 10px 12px;
+      margin-top: 20px;
+      padding: 16px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 10px;
-      border-radius: 14px;
-      border: 1px solid var(--border);
-      background: var(--pager-bg);
+      gap: 16px;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      margin-left: -20px;
+      margin-right: -20px;
+      margin-bottom: -20px;
+      border-radius: 0 0 16px 16px;
+    }
+
+    @media (max-width: 600px) {
+      .pager {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+
+      .pagerLeft {
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .pagerRight {
+        justify-content: flex-end;
+        width: 100%;
+        padding-top: 12px;
+        border-top: 1px dashed var(--border);
+      }
+    }
+
+    .main-list-card.collapsed .grid,
+    .main-list-card.collapsed .pager {
+      display: none;
     }
 
     .main-list-card {
-      min-height: 200px;
+      transition: all 0.3s ease;
+      margin-bottom: 20px;
     }
 
     #mainListHeading {
@@ -679,12 +719,74 @@
 
     /* Recent Section */
     .recent-section {
-      margin-top: 12px;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .recent-section.collapsed {
       padding: 0;
-      background: transparent;
-      border: none;
-      box-shadow: none;
+    }
+
+    .recent-section h3,
+    .main-list-card h3 {
+      cursor: pointer;
+      user-select: none;
+      margin: -20px -20px 16px -20px;
+      padding: 16px 20px;
+      border-radius: 16px 16px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--border);
+      background: var(--hero-bg);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -0.01em;
+    }
+
+    .recent-section.collapsed,
+    .main-list-card.collapsed {
+      padding: 0 !important;
+      min-height: 0 !important;
+      height: auto !important;
+      overflow: hidden;
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+
+    .recent-section.collapsed h3,
+    .main-list-card.collapsed h3 {
+      margin: 0 !important;
+      border: 1px solid var(--border) !important;
+      padding: 16px 20px !important;
+      border-radius: 16px !important;
+      background: var(--hero-bg) !important;
+      box-shadow: var(--shadow) !important;
+    }
+
+    .recent-section.collapsed .featured-sections,
+    .main-list-card.collapsed .grid,
+    .main-list-card.collapsed .pager {
+      display: none !important;
+    }
+
+    .recent-subheading {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      opacity: 0.8;
+    }
+
+    .featured-column-inner {
+      flex: 1;
     }
 
     .featured-sections {
@@ -707,19 +809,139 @@
       box-shadow: var(--shadow);
     }
 
-    .featured-column h3 {
-      margin-top: 0;
-      margin-bottom: 16px;
-      font-size: 16px;
-      font-weight: 700;
+    .heading-left {
       display: flex;
       align-items: center;
-      justify-content: space-between;
       gap: 8px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 400px) {
+
+      .recent-section h3,
+      .main-list-card h3 {
+        padding: 14px 12px;
+        gap: 8px;
+        font-size: 14px;
+      }
+
+      .header-summary {
+        margin-right: 4px;
+      }
+    }
+
+    .header-summary {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin-left: auto;
+      margin-right: 12px;
+      overflow: hidden;
+      flex: 1;
+      justify-content: flex-end;
+      min-width: 0;
+      padding: 4px 0;
+    }
+
+    .main-list-card.collapsed .header-summary,
+    .recent-section.collapsed .header-summary {
+      display: flex;
+    }
+
+    .summary-badge {
+      font-size: 11px;
+      font-weight: 600;
+      background: var(--surface);
       color: var(--primary);
-      letter-spacing: -0.01em;
+      padding: 4px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      white-space: nowrap;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      max-width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    @media (max-width: 768px) {
+      .summary-badge {
+        max-width: 80px;
+        padding: 3px 8px;
+        font-size: 10px;
+      }
+    }
+
+    .summary-badge:hover {
+      background: var(--surface-2);
+      border-color: var(--accent);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: var(--primary);
+    }
+
+    @media (max-width: 640px) {
+      .summary-badge:nth-child(n+3) {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .summary-badge {
+        display: none !important;
+      }
+
+      .header-summary {
+        gap: 4px;
+      }
+
+      .summary-count {
+        font-size: 10px;
+      }
+    }
+
+    .summary-count {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-left: 4px;
+      white-space: nowrap;
+    }
+
+    .mobile-count {
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      .full-count {
+        display: none;
+      }
+
+      .mobile-count {
+        display: inline;
+      }
+    }
+
+    .toggle-main {
+      background: var(--toggle-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+      font-size: 10px;
+      padding: 0;
+    }
+
+    .main-list-card.collapsed .toggle-main i {
+      transform: rotate(-180deg);
     }
 
     .total-counter {
@@ -908,7 +1130,7 @@
     }
 
     .footer {
-      margin-top: 24px;
+      margin-top: 0;
       padding-top: 20px;
       border-top: 1px solid var(--border);
       color: var(--subtle);
@@ -952,6 +1174,60 @@
       font-family: var(--mono);
       font-size: 11px;
       color: var(--muted);
+    }
+
+    .contribute-section {
+      margin-bottom: 20px;
+      padding: 20px;
+      background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface-1) 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .contribute-section h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0;
+    }
+
+    .contribute-section p {
+      color: var(--muted);
+      max-width: 600px;
+      line-height: 1.5;
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .contribute-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+    .contribute-btn:hover {
+      background: var(--accent-hover, #4f46e5);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    }
+
+    .icon-contribute {
+      color: #ffd700;
     }
 
     @media (max-width: 720px) {
@@ -1020,7 +1296,7 @@
     <main>
       <div class="hero" id="searchCard">
         <button id="toggleFilters" class="toggle" type="button" aria-label="Collapse filters"
-          title="Collapse filters"><i class="fa-solid fa-minus icon-minus"></i></button>
+          title="Collapse filters"><i class="fa-solid fa-chevron-up"></i></button>
         <h2>Search resources, plugins, and examples</h2>
         <p class="heroIntro">
           Type a keyword to search by name, description, URL, or section. Use filters to narrow results by category.
@@ -1061,52 +1337,71 @@
 
       </div>
 
-      <div id="recentSection" class="recent-section" style="display: none;">
+      <section class="contribute-section">
+        <h2><i class="fa-solid fa-star icon-contribute"></i> Have a Cool Resource?</h2>
+        <p>
+          Help us enrich the Awesome NativeScript list by adding your own plugins, tutorials, or example projects!
+        </p>
+        <a href="https://github.com/dyazincahya/awesome-nativescript" target="_blank" class="contribute-btn">
+          <i class="fa-brands fa-github"></i>
+          Contribute via Pull Request
+        </a>
+      </section>
+
+      <div id="recentSection" class="recent-section featured-column" style="display: none;">
+        <h3 onclick="toggleRecent()">
+          <div class="heading-left">
+            <span class="sparkle"><i class="fa-solid fa-clock-rotate-left icon-recent"></i></span> Latest Activity
+          </div>
+          <div id="recentSummary" class="header-summary"></div>
+          <button class="toggle-main" type="button" aria-label="Toggle recent visibility">
+            <i class="fa-solid fa-chevron-up"></i>
+          </button>
+        </h3>
         <div class="featured-sections">
-          <div class="featured-column">
-            <h3>
-              <div style="display: flex; align-items: center; gap: 8px;">
-                <span class="sparkle"><i class="fa-solid fa-wand-magic-sparkles icon-magic"></i></span> Recently Added
-              </div>
-            </h3>
+          <div class="featured-column-inner">
+            <h4 class="recent-subheading">
+              <span class="sparkle"><i class="fa-solid fa-wand-magic-sparkles icon-magic"></i></span> New Additions
+            </h4>
             <div id="recentGrid" class="recent-grid-single"></div>
           </div>
-          <div class="featured-column">
-            <h3>
-              <div style="display: flex; align-items: center; gap: 8px;">
-                <span class="sparkle"><i class="fa-solid fa-rotate icon-rotate"></i></span> Recently Updated
-              </div>
-            </h3>
+          <div class="featured-column-inner">
+            <h4 class="recent-subheading">
+              <span class="sparkle"><i class="fa-solid fa-rotate icon-rotate"></i></span> Latest Updates
+            </h4>
             <div id="updatedGrid" class="recent-grid-single"></div>
           </div>
         </div>
       </div>
 
-      <div class="featured-column main-list-card">
-        <h3 id="mainListHeading">
-          <div style="display: flex; align-items: center; gap: 8px;" id="mainListHeadingLeft">
+      <div class="featured-column main-list-card" id="mainListCard">
+        <h3 id="mainListHeading" onclick="toggleMainList()">
+          <div class="heading-left" id="mainListHeadingLeft">
             <span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span>
             <span id="mainListHeadingText">Directory</span>
           </div>
-          <span id="totalCounter" class="total-counter">0</span>
+          <div id="headerSummary" class="header-summary"></div>
+          <button class="toggle-main" type="button" aria-label="Toggle directory visibility">
+            <i class="fa-solid fa-chevron-up"></i>
+          </button>
         </h3>
         <div class="grid" id="grid"></div>
-      </div>
 
-      <div class="pager" id="pager">
-        <div class="pagerLeft">
-          <button id="pagePrev" type="button"><i class="fa-solid fa-chevron-left icon-pager"></i> Prev</button>
-          <button id="pageNext" type="button">Next <i class="fa-solid fa-chevron-right icon-pager"></i></button>
-          <div class="pagerInfo" id="pageInfo"></div>
-        </div>
-        <div class="pagerRight">
-          <label class="pagerLabel" for="pageSize">Per page</label>
-          <select id="pageSize">
-            <option value="10">10</option>
-            <option value="25">25</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-          </select>
+        <div class="pager" id="pager">
+          <div class="pagerLeft">
+            <button id="pagePrev" type="button"><i class="fa-solid fa-chevron-left icon-pager"></i> Prev</button>
+            <button id="pageNext" type="button">Next <i class="fa-solid fa-chevron-right icon-pager"></i></button>
+            <div class="pagerInfo" id="pageInfo"></div>
+          </div>
+          <div class="pagerRight">
+            <label class="pagerLabel" for="pageSize">Per page</label>
+            <select id="pageSize">
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
         </div>
       </div>
     </main>
@@ -1173,9 +1468,116 @@
       recentSection: document.getElementById("recentSection"),
       recentGrid: document.getElementById("recentGrid"),
       updatedGrid: document.getElementById("updatedGrid"),
+      recentSummary: document.getElementById("recentSummary"),
+      mainListCard: document.getElementById("mainListCard"),
       mainListHeadingLeft: document.getElementById("mainListHeadingLeft"),
-      totalCounter: document.getElementById("totalCounter"),
+      headerSummary: document.getElementById("headerSummary"),
+      toggleMain: document.querySelector(".toggle-main"),
+      actions: document.querySelector(".actions"),
     };
+
+    // Restore collapse states
+    if (localStorage.getItem("ns_main_collapsed") === "1") {
+      el.mainListCard.classList.add("collapsed");
+    }
+    if (localStorage.getItem("ns_recent_collapsed") === "1") {
+      el.recentSection.classList.add("collapsed");
+    }
+
+    // Set initial icons for all toggle-main buttons
+    document.querySelectorAll(".toggle-main").forEach(btn => {
+      btn.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
+    });
+    if (el.toggleFilters) el.toggleFilters.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
+
+    // Initialize summaries
+    renderMainListSummary();
+    renderRecentSummary();
+
+    function toggleMainList() {
+      const isCollapsed = el.mainListCard.classList.toggle("collapsed");
+      safeSetLocalStorage("ns_main_collapsed", isCollapsed ? "1" : "0");
+      renderMainListSummary();
+    }
+
+    function toggleRecent() {
+      if (!el.recentSection) return;
+      const isCollapsed = el.recentSection.classList.toggle("collapsed");
+      safeSetLocalStorage("ns_recent_collapsed", isCollapsed ? "1" : "0");
+      renderRecentSummary();
+    }
+
+    function renderRecentSummary() {
+      if (!el.recentSummary) return;
+
+      // Get the same pool as in renderRecentItems
+      const recentAdded = [...state.items]
+        .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
+        .slice(0, 5);
+
+      const recentUpdated = [...state.items]
+        .filter(item => item.updatedAt && item.updatedAt !== item.addedAt)
+        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+        .slice(0, 5);
+
+      const totalRecent = recentAdded.length + recentUpdated.length;
+
+      if (totalRecent === 0) {
+        el.recentSummary.innerHTML = "";
+        return;
+      }
+
+      // Combine for badges (unique items)
+      const combined = [];
+      const seen = new Set();
+      [...recentAdded, ...recentUpdated].forEach(item => {
+        if (!seen.has(item.url)) {
+          seen.add(item.url);
+          combined.push(item);
+        }
+      });
+
+      const maxBadges = 3;
+      const displayItems = combined.slice(0, maxBadges);
+
+      const badgesHtml = displayItems.map(item => {
+        const name = item.name;
+        return `<a href="${item.url}" target="_blank" class="summary-badge" title="${escapeHtml(name)}" onclick="event.stopPropagation()">${escapeHtml(name)}</a>`;
+      }).join("");
+
+      const remaining = totalRecent - displayItems.length;
+      const countHtml = remaining > 0
+        ? `<span class="summary-count full-count">+${remaining.toLocaleString()} more</span><span class="summary-count mobile-count">${totalRecent.toLocaleString()} items</span>`
+        : `<span class="summary-count"><i class="fa-solid fa-clock-rotate-left"></i> Total: ${totalRecent}</span>`;
+
+      el.recentSummary.innerHTML = badgesHtml + countHtml;
+    }
+
+    function renderMainListSummary() {
+      if (!el.headerSummary) return;
+
+      const items = state.filtered || [];
+      const total = state.totalMatches || 0;
+
+      if (items.length === 0) {
+        el.headerSummary.innerHTML = `<span class="summary-count">No resources found</span>`;
+        return;
+      }
+
+      // Create badges for the first few items
+      const maxBadges = 3;
+      const badgesHtml = items.slice(0, maxBadges).map(item => {
+        const name = item.name;
+        return `<a href="${item.url}" target="_blank" class="summary-badge" title="${escapeHtml(name)}" onclick="event.stopPropagation()">${escapeHtml(name)}</a>`;
+      }).join("");
+
+      const remaining = total - Math.min(items.length, maxBadges);
+      const countHtml = remaining > 0
+        ? `<span class="summary-count full-count">+${remaining.toLocaleString()} more</span><span class="summary-count mobile-count">${total.toLocaleString()} items</span>`
+        : `<span class="summary-count"><i class="fa-solid fa-list-check"></i> Total: ${total}</span>`;
+
+      el.headerSummary.innerHTML = badgesHtml + countHtml;
+    }
 
     function toggleTheme() {
       const isLight = document.documentElement.classList.toggle("light-mode");
@@ -1274,6 +1676,10 @@
       if (top) chips.push(`<span class="chip"><strong>Category</strong> <code>${escapeHtml(top)}</code></span>`);
       if (sub) chips.push(`<span class="chip"><strong>Sub category</strong> <code>${escapeHtml(sub)}</code></span>`);
 
+      if (el.actions) {
+        el.actions.style.display = chips.length > 0 ? "flex" : "none";
+      }
+
       const collapsed = el.searchCard.classList.contains("collapsed");
       if (!chips.length) {
         el.summary.innerHTML = collapsed
@@ -1289,7 +1695,6 @@
       if (nextCollapsed) el.searchCard.classList.add("collapsed");
       else el.searchCard.classList.remove("collapsed");
 
-      el.toggleFilters.innerHTML = nextCollapsed ? '<i class="fa-solid fa-plus icon-plus"></i>' : '<i class="fa-solid fa-minus icon-minus"></i>';
       el.toggleFilters.setAttribute("aria-label", nextCollapsed ? "Expand filters" : "Collapse filters");
       el.toggleFilters.setAttribute("title", nextCollapsed ? "Expand filters" : "Collapse filters");
       safeSetLocalStorage("ns_search_collapsed", nextCollapsed ? "1" : "0");
@@ -1559,12 +1964,12 @@
         return;
       }
 
-      // Sort by addedAt for "Recently Added"
+      // Sort by addedAt for "New Additions"
       const recentAdded = [...state.items]
         .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
         .slice(0, 5);
 
-      // Sort by updatedAt for "Recently Updated"
+      // Sort by updatedAt for "Latest Updates"
       const recentUpdated = [...state.items]
         .filter(item => item.updatedAt && item.updatedAt !== item.addedAt)
         .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
@@ -1606,6 +2011,8 @@
       // Hide column if empty
       el.recentGrid.parentElement.style.display = recentAdded.length ? "block" : "none";
       el.updatedGrid.parentElement.style.display = recentUpdated.length ? "block" : "none";
+
+      renderRecentSummary();
     }
 
     function debounce(fn, waitMs) {
@@ -1635,6 +2042,7 @@
       if (!state.filteredAll.length) {
         state.filtered = [];
         render();
+        renderMainListSummary();
         return;
       }
 
@@ -1642,6 +2050,7 @@
       const end = start + state.pageSize;
       state.filtered = state.filteredAll.slice(start, end);
       render();
+      renderMainListSummary();
     }
 
     function updatePager() {
@@ -1704,12 +2113,16 @@
           el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span> Directory`;
         }
       }
-      if (el.totalCounter) {
-        el.totalCounter.textContent = state.totalMatches.toLocaleString();
-      }
 
       replaceUrlParams();
       renderSummary();
+
+      // Auto-expand directory if searching or filtering
+      if ((q || top || sub) && el.mainListCard.classList.contains("collapsed")) {
+        el.mainListCard.classList.remove("collapsed");
+        safeSetLocalStorage("ns_main_collapsed", "0");
+        renderMainListSummary();
+      }
     }
 
     function render() {
