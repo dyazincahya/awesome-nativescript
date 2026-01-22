@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-01-21T21:54:44.999Z",
-  "total": 400,
+  "lastUpdated": "2026-01-22T11:00:00.000Z",
+  "total": 402,
   "items": [
+    {
+      "name": "Vue3 SQLite Todo",
+      "url": "https://github.com/ponzS/NativeScript-Vue3-Sqlite-todoDemo",
+      "description": "A todo application demo using NativeScript-Vue 3 and SQLite for local data storage.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "ponzS",
+        "authorUrl": "https://github.com/ponzS"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "updatedAt": "2026-01-22 11:00:00 +0700",
+      "addedAt": "2026-01-22 11:00:00 +0700"
+    },
+    {
+      "name": "Web Platform Adapter",
+      "url": "https://github.com/ponzS/NativeScript-for-web",
+      "description": "Run NativeScript apps in the browser using this web adapter for Vue and Angular.",
+      "top": "Platforms",
+      "sub": "",
+      "path": "Platforms",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "updatedAt": "2026-01-22 10:00:00 +0700",
+      "addedAt": "2026-01-22 10:00:00 +0700"
+    },
     {
       "name": "Bolt NativeScript Vite Contributors",
       "url": "https://stackblitz.com/edit/bolt-nativescript-vite-contributors",
