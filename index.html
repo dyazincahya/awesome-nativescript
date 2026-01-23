@@ -300,8 +300,7 @@
     }
 
     .hero.collapsed .toggle i,
-    .main-list-card.collapsed .toggle-main i,
-    .recent-section.collapsed .toggle-main i {
+    .main-list-card.collapsed .toggle-main i {
       transform: rotate(-180deg);
     }
 
@@ -418,9 +417,38 @@
       padding: 12px 12px;
       border-radius: 12px;
       border: 1px solid var(--border);
-      background: var(--input-bg);
+      background-color: var(--input-bg);
       color: var(--text);
       outline: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    select:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+
+    input[type="text"]:focus,
+    select:not(:disabled):hover {
+      background-color: var(--surface-2);
+      border-color: var(--accent);
+    }
+
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='rgba(255,255,255,0.5)' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      background-size: 14px;
+      padding-right: 42px !important;
+      /* Extra space for the custom arrow */
+    }
+
+    .light-mode select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='rgba(0,0,0,0.4)' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E");
     }
 
     select option {
@@ -500,7 +528,8 @@
     }
 
     .main-list-card.collapsed .grid,
-    .main-list-card.collapsed .pager {
+    .main-list-card.collapsed .pager,
+    .main-list-card.collapsed .header-sort {
       display: none;
     }
 
@@ -717,17 +746,6 @@
       }
     }
 
-    /* Recent Section */
-    .recent-section {
-      margin-bottom: 20px;
-      padding: 20px;
-    }
-
-    .recent-section.collapsed {
-      padding: 0;
-    }
-
-    .recent-section h3,
     .main-list-card h3 {
       cursor: pointer;
       user-select: none;
@@ -746,7 +764,6 @@
       letter-spacing: -0.01em;
     }
 
-    .recent-section.collapsed,
     .main-list-card.collapsed {
       padding: 0 !important;
       min-height: 0 !important;
@@ -757,7 +774,6 @@
       box-shadow: none !important;
     }
 
-    .recent-section.collapsed h3,
     .main-list-card.collapsed h3 {
       margin: 0 !important;
       border: 1px solid var(--border) !important;
@@ -767,7 +783,6 @@
       box-shadow: var(--shadow) !important;
     }
 
-    .recent-section.collapsed .featured-sections,
     .main-list-card.collapsed .grid,
     .main-list-card.collapsed .pager {
       display: none !important;
@@ -775,24 +790,6 @@
 
     .featured-sections {
       display: block;
-    }
-
-    .recent-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-    }
-
-    @media (max-width: 1100px) {
-      .recent-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 600px) {
-      .recent-grid {
-        grid-template-columns: 1fr;
-      }
     }
 
     .featured-column {
@@ -813,7 +810,6 @@
 
     @media (max-width: 400px) {
 
-      .recent-section h3,
       .main-list-card h3 {
         padding: 14px 12px;
         gap: 8px;
@@ -838,8 +834,47 @@
       padding: 4px 0;
     }
 
-    .main-list-card.collapsed .header-summary,
-    .recent-section.collapsed .header-summary {
+    .header-sort {
+      margin-left: auto;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+
+    .header-sort select {
+      padding: 6px 42px 6px 12px;
+      font-size: 14px;
+      height: 38px;
+      width: auto;
+      min-width: 150px;
+      border-radius: 10px;
+      background-color: var(--input-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .header-sort select:not(:disabled):hover {
+      background-color: var(--surface-2);
+      border-color: var(--accent);
+    }
+
+    @media (max-width: 600px) {
+      .header-sort select {
+        min-width: 110px;
+        padding: 4px 8px;
+        font-size: 12px;
+        height: 34px;
+      }
+
+      .toggle-main {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+      }
+    }
+
+    .main-list-card.collapsed .header-summary {
       display: flex;
     }
 
@@ -923,15 +958,20 @@
       background: var(--toggle-bg);
       border: 1px solid var(--border);
       color: var(--text);
-      width: 28px;
-      height: 28px;
+      width: 38px;
+      height: 38px;
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 10px;
       transition: all 0.2s ease;
-      font-size: 10px;
+      font-size: 14px;
       padding: 0;
+      cursor: pointer;
+    }
+
+    .toggle-main:hover {
+      background: var(--surface-2);
     }
 
     .main-list-card.collapsed .toggle-main i {
@@ -947,68 +987,6 @@
       border-radius: 999px;
       border: 1px solid var(--border);
       font-family: var(--mono);
-    }
-
-    .recent-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      padding: 10px 14px;
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      transition: all 0.2s ease;
-      position: relative;
-    }
-
-    .recent-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--primary);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      z-index: 1;
-    }
-
-    .recent-card .name {
-      font-weight: 700;
-      font-size: 13.5px;
-      color: var(--text);
-      line-height: 1.3;
-    }
-
-    .recent-card .desc {
-      font-size: 11.5px;
-      color: var(--muted);
-      line-height: 1.4;
-      display: -webkit-box;
-      -webkit-line-clamp: 1;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .recent-card .meta {
-      margin-top: 6px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .recent-card .tag {
-      font-size: 9px;
-      background: var(--hero-bg);
-      padding: 1px 6px;
-      border-radius: 4px;
-      border: 1px solid var(--border);
-      font-weight: 700;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .recent-card .date {
-      font-size: 10px;
-      color: var(--accent);
-      font-weight: 600;
     }
 
     .sparkle {
@@ -1035,10 +1013,6 @@
 
     .icon-sun {
       color: #f39c12;
-    }
-
-    .icon-magic {
-      color: #ff7eb3;
     }
 
     .icon-rotate {
@@ -1336,21 +1310,6 @@
         </a>
       </section>
 
-      <div id="recentSection" class="recent-section featured-column" style="display: none;">
-        <h3 onclick="toggleRecent()">
-          <div class="heading-left">
-            <span class="sparkle"><i class="fa-solid fa-wand-magic-sparkles icon-magic"></i></span> Recently Added
-          </div>
-          <div id="recentSummary" class="header-summary"></div>
-          <button class="toggle-main" type="button" aria-label="Toggle recent visibility">
-            <i class="fa-solid fa-chevron-up"></i>
-          </button>
-        </h3>
-        <div class="featured-sections">
-          <div id="recentGrid" class="recent-grid"></div>
-        </div>
-      </div>
-
       <div class="featured-column main-list-card" id="mainListCard">
         <h3 id="mainListHeading" onclick="toggleMainList()">
           <div class="heading-left" id="mainListHeadingLeft">
@@ -1358,6 +1317,15 @@
             <span id="mainListHeadingText">Directory</span>
           </div>
           <div id="headerSummary" class="header-summary"></div>
+          <div class="header-sort" onclick="event.stopPropagation()">
+            <select id="sort" aria-label="Sort by">
+              <option value="relevance" id="optRelevance" disabled>Relevance</option>
+              <option value="recent" selected>Recently Added</option>
+              <option value="oldest">Oldest Added</option>
+              <option value="name_asc">Name (A-Z)</option>
+              <option value="name_desc">Name (Z-A)</option>
+            </select>
+          </div>
           <button class="toggle-main" type="button" aria-label="Toggle directory visibility">
             <i class="fa-solid fa-chevron-up"></i>
           </button>
@@ -1420,12 +1388,14 @@
       pageSize: 10,
       totalMatches: 0,
       isLoading: false,
+      lastQ: "",
     };
 
     const el = {
       q: document.getElementById("q"),
       top: document.getElementById("top"),
       sub: document.getElementById("sub"),
+      sort: document.getElementById("sort"),
       grid: document.getElementById("grid"),
       statusDot: document.getElementById("statusDot"),
       statusText: document.getElementById("statusText"),
@@ -1442,9 +1412,6 @@
       footerMeta: document.getElementById("footerMeta"),
       themeToggle: document.getElementById("themeToggle"),
       footerYear: document.getElementById("footerYear"),
-      recentSection: document.getElementById("recentSection"),
-      recentGrid: document.getElementById("recentGrid"),
-      recentSummary: document.getElementById("recentSummary"),
       mainListCard: document.getElementById("mainListCard"),
       mainListHeadingLeft: document.getElementById("mainListHeadingLeft"),
       headerSummary: document.getElementById("headerSummary"),
@@ -1456,9 +1423,6 @@
     if (localStorage.getItem("ns_main_collapsed") === "1") {
       el.mainListCard.classList.add("collapsed");
     }
-    if (localStorage.getItem("ns_recent_collapsed") === "1") {
-      el.recentSection.classList.add("collapsed");
-    }
 
     // Set initial icons for all toggle-main buttons
     document.querySelectorAll(".toggle-main").forEach(btn => {
@@ -1468,53 +1432,11 @@
 
     // Initialize summaries
     renderMainListSummary();
-    renderRecentSummary();
 
     function toggleMainList() {
       const isCollapsed = el.mainListCard.classList.toggle("collapsed");
       safeSetLocalStorage("ns_main_collapsed", isCollapsed ? "1" : "0");
       renderMainListSummary();
-    }
-
-    function toggleRecent() {
-      if (!el.recentSection) return;
-      const isCollapsed = el.recentSection.classList.toggle("collapsed");
-      safeSetLocalStorage("ns_recent_collapsed", isCollapsed ? "1" : "0");
-      renderRecentSummary();
-    }
-
-    function renderRecentSummary() {
-      if (!el.recentSummary) return;
-
-      // Get the same pool as in renderRecentItems
-      const recentAdded = [...state.items]
-        .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
-        .slice(0, 5);
-
-      const totalRecent = recentAdded.length;
-
-      if (totalRecent === 0) {
-        el.recentSummary.innerHTML = "";
-        return;
-      }
-
-      // Use recentAdded for badges
-      const combined = recentAdded;
-
-      const maxBadges = 3;
-      const displayItems = combined.slice(0, maxBadges);
-
-      const badgesHtml = displayItems.map(item => {
-        const name = item.name;
-        return `<a href="${item.url}" target="_blank" class="summary-badge" title="${escapeHtml(name)}" onclick="event.stopPropagation()">${escapeHtml(name)}</a>`;
-      }).join("");
-
-      const remaining = totalRecent - displayItems.length;
-      const countHtml = remaining > 0
-        ? `<span class="summary-count full-count">+${remaining.toLocaleString()} more</span><span class="summary-count mobile-count">${totalRecent.toLocaleString()} items</span>`
-        : `<span class="summary-count"><i class="fa-solid fa-clock-rotate-left"></i> Total: ${totalRecent}</span>`;
-
-      el.recentSummary.innerHTML = badgesHtml + countHtml;
     }
 
     function renderMainListSummary() {
@@ -1581,6 +1503,7 @@
       const q = (params.get("q") || "").trim();
       const top = (params.get("top") || "").trim();
       const sub = (params.get("sub") || "").trim();
+      const sort = (params.get("sort") || "").trim();
       const collapsed = params.get("collapsed");
       const page = parseInt(params.get("page") || "", 10);
       const size = parseInt(params.get("size") || "", 10);
@@ -1588,6 +1511,7 @@
         q,
         top,
         sub,
+        sort,
         collapsed,
         page: Number.isFinite(page) && page > 0 ? page : null,
         size: Number.isFinite(size) && size > 0 ? size : null,
@@ -1595,11 +1519,12 @@
     }
 
     function replaceUrlParams() {
-      const { q, top, sub } = getActiveParams();
+      const { q, top, sub, sort } = getActiveParams();
       const params = new URLSearchParams();
       if (q) params.set("q", q);
       if (top) params.set("top", top);
       if (sub) params.set("sub", sub);
+      if (sort && sort !== "recent") params.set("sort", sort);
       if (state.page > 1) params.set("page", String(state.page));
       if (state.pageSize !== 10) params.set("size", String(state.pageSize));
       if (el.searchCard.classList.contains("collapsed")) params.set("collapsed", "1");
@@ -1630,7 +1555,8 @@
       const q = el.q.value.trim();
       const top = el.top.value;
       const sub = el.sub.value;
-      return { q, top, sub };
+      const sort = el.sort.value;
+      return { q, top, sub, sort };
     }
 
     function renderSummary() {
@@ -1920,54 +1846,6 @@
       return "Resource";
     }
 
-    function renderRecentItems() {
-      const { q, top, sub } = getActiveParams();
-      // Show recent items only if no filters are active
-      if (q || top || sub || !state.items.length) {
-        el.recentSection.style.display = "none";
-        return;
-      }
-
-      // Sort by addedAt for "Recently Added"
-      const recentAdded = [...state.items]
-        .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
-        .slice(0, 6); // Show 6 items (3x2 or 2x3 grid)
-
-      if (recentAdded.length === 0) {
-        el.recentSection.style.display = "none";
-        return;
-      }
-
-      el.recentSection.style.display = "block";
-
-      const renderCard = (item, label) => {
-        const name = escapeHtml(item.name);
-        const desc = escapeHtml(item.description || "");
-        const kind = escapeHtml(getKind(item));
-        const dateStr = new Date(item.addedAt).toLocaleDateString(undefined, {
-          month: 'short',
-          day: 'numeric'
-        });
-
-        return `
-          <a href="${item.url}" target="_blank" rel="noreferrer" class="recent-card">
-            <div>
-              <div class="name">${name}</div>
-              <div class="desc">${desc}</div>
-            </div>
-            <div class="meta">
-              <span class="tag">${kind}</span>
-              <span class="date">${label} • ${dateStr}</span>
-            </div>
-          </a>
-        `;
-      };
-
-      el.recentGrid.innerHTML = recentAdded.map(item => renderCard(item, "Added")).join("");
-
-      renderRecentSummary();
-    }
-
     function debounce(fn, waitMs) {
       let t = null;
       return () => {
@@ -2025,23 +1903,55 @@
     }
 
     function applyFilters() {
-      const q = el.q.value.trim();
-      const top = el.top.value;
-      const sub = el.sub.value;
+      const { q, top, sub, sort } = getActiveParams();
+
+      // Handle Relevance option availability
+      const optRelevance = document.getElementById("optRelevance");
+      if (optRelevance) {
+        if (q) {
+          optRelevance.disabled = false;
+          // Auto-switch to relevance if q has changed and we're not already on relevance
+          if (q !== state.lastQ && el.sort.value !== "relevance") {
+            el.sort.value = "relevance";
+          }
+        } else {
+          optRelevance.disabled = true;
+          if (el.sort.value === "relevance") {
+            el.sort.value = "recent";
+          }
+        }
+      }
+      state.lastQ = q;
 
       const base = state.items
         .filter((i) => (top ? i.top === top : true))
         .filter((i) => (sub ? i.sub === sub : true));
 
       let all = [];
-      if (q) {
+      const currentSort = el.sort.value;
+
+      if (q && currentSort === "relevance") {
         all = base
           .map((i) => ({ item: i, score: scoreItem(i, q) }))
           .filter((x) => x.score > 0)
           .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
           .map((x) => x.item);
       } else {
-        all = base.slice().sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt) || a.name.localeCompare(b.name));
+        let filtered = base;
+        if (q) {
+          filtered = base
+            .map((i) => ({ item: i, score: scoreItem(i, q) }))
+            .filter((x) => x.score > 0)
+            .map((x) => x.item);
+        }
+
+        all = filtered.slice().sort((a, b) => {
+          if (currentSort === "name_asc") return a.name.localeCompare(b.name);
+          if (currentSort === "name_desc") return b.name.localeCompare(a.name);
+          if (currentSort === "oldest") return new Date(a.addedAt) - new Date(b.addedAt) || a.name.localeCompare(b.name);
+          // Default: recent
+          return new Date(b.addedAt) - new Date(a.addedAt) || a.name.localeCompare(b.name);
+        });
       }
 
       state.filteredAll = all;
@@ -2053,7 +1963,6 @@
 
       renderPage();
       updatePager();
-      renderRecentItems();
 
       const suffix = q ? ` for "${q}"` : "";
       const resultText = `${state.totalMatches.toLocaleString()} result(s)${suffix}`;
@@ -2248,7 +2157,6 @@
             state.urlSub = "";
             setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
             applyFilters();
-            renderRecentItems();
             return;
           }
         }
@@ -2311,7 +2219,6 @@
         state.urlSub = "";
         setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
         applyFilters();
-        renderRecentItems();
         return;
       }
 
@@ -2344,6 +2251,10 @@
       state.page = 1;
       applyFilters();
     });
+    el.sort.addEventListener("change", () => {
+      state.page = 1;
+      applyFilters();
+    });
     el.toggleFilters.addEventListener("click", () => {
       const collapsed = el.searchCard.classList.contains("collapsed");
       setCollapsed(!collapsed);
@@ -2372,6 +2283,7 @@
     if (urlParams.q) el.q.value = urlParams.q;
     state.urlTop = urlParams.top || "";
     state.urlSub = urlParams.sub || "";
+    if (urlParams.sort) setSelectValueCaseInsensitive(el.sort, urlParams.sort);
     if (urlParams.size) state.pageSize = urlParams.size;
     if (urlParams.page) state.page = urlParams.page;
     setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
