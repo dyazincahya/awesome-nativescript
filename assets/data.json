@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-01-22T11:00:00.000Z",
-  "total": 402,
+  "lastUpdated": "2026-01-23T02:05:58.216Z",
+  "total": 403,
   "items": [
+    {
+      "name": "NS Book Demo",
+      "url": "https://github.com/dyazincahya/ns-book-demo",
+      "description": "Demo application of NativeScript Book by Kang Cahya.",
+      "meta": {
+        "platform": "Android",
+        "source": "Github",
+        "authorName": "Kang Cahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "github.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-01-22 20:29:42 +0700"
+    },
     {
       "name": "Vue3 SQLite Todo",
       "url": "https://github.com/ponzS/NativeScript-Vue3-Sqlite-todoDemo",
@@ -19,22 +38,26 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-22 11:00:00 +0700",
-      "addedAt": "2026-01-22 11:00:00 +0700"
+      "addedAt": "2026-01-22 10:14:33 +0700"
     },
     {
-      "name": "Web Platform Adapter",
-      "url": "https://github.com/ponzS/NativeScript-for-web",
-      "description": "Run NativeScript apps in the browser using this web adapter for Vue and Angular.",
-      "top": "Platforms",
-      "sub": "",
-      "path": "Platforms",
-      "domain": "github.com",
-      "sourceLabel": "Main README",
-      "sourceFile": "README.md",
-      "source": "README.md",
-      "updatedAt": "2026-01-22 10:00:00 +0700",
-      "addedAt": "2026-01-22 10:00:00 +0700"
+      "name": "NativeScript AI SDK with Google",
+      "url": "https://stackblitz.com/edit/nativescript-ai-sdk-google",
+      "description": "Interactive demo of the NativeScript AI SDK integration with Google's Generative AI.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "addedAt": "2026-01-22 04:55:44 +0700"
     },
     {
       "name": "Bolt NativeScript Vite Contributors",
@@ -53,7 +76,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -73,7 +95,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -93,7 +114,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -113,7 +133,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -133,7 +152,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -153,7 +171,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -173,7 +190,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -193,7 +209,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -213,7 +228,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -233,7 +247,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
@@ -253,7 +266,6 @@
       "sourceLabel": "Example of Solid",
       "sourceFile": "examples/solid/README.md",
       "source": "examples/solid/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -273,7 +285,6 @@
       "sourceLabel": "Example of Solid",
       "sourceFile": "examples/solid/README.md",
       "source": "examples/solid/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -293,7 +304,6 @@
       "sourceLabel": "Example of Solid",
       "sourceFile": "examples/solid/README.md",
       "source": "examples/solid/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -313,7 +323,6 @@
       "sourceLabel": "Example of Svelte",
       "sourceFile": "examples/svelte/README.md",
       "source": "examples/svelte/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -333,7 +342,6 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -353,7 +361,6 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -373,7 +380,6 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -393,7 +399,6 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -413,7 +418,6 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2026-01-21 21:41:26 +0700"
     },
     {
@@ -427,7 +431,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-21 21:27:25 +0700",
       "addedAt": "2026-01-21 21:27:25 +0700"
     },
     {
@@ -441,7 +444,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -455,7 +457,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -475,7 +476,6 @@
       "sourceLabel": "Example of Core",
       "sourceFile": "examples/core/README.md",
       "source": "examples/core/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -495,7 +495,6 @@
       "sourceLabel": "Example of Core",
       "sourceFile": "examples/core/README.md",
       "source": "examples/core/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -515,7 +514,6 @@
       "sourceLabel": "Example of Core",
       "sourceFile": "examples/core/README.md",
       "source": "examples/core/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -535,7 +533,6 @@
       "sourceLabel": "Example of Core",
       "sourceFile": "examples/core/README.md",
       "source": "examples/core/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -555,7 +552,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -575,7 +571,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -595,7 +590,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -615,7 +609,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -635,7 +628,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -655,7 +647,6 @@
       "sourceLabel": "Example of Svelte",
       "sourceFile": "examples/svelte/README.md",
       "source": "examples/svelte/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
@@ -669,7 +660,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-17 21:43:44 +0700",
       "addedAt": "2026-01-17 21:43:44 +0700"
     },
     {
@@ -683,7 +673,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-17 21:31:29 +0700",
       "addedAt": "2026-01-17 21:31:29 +0700"
     },
     {
@@ -697,7 +686,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-16 04:03:27 +0700",
       "addedAt": "2026-01-16 04:03:27 +0700"
     },
     {
@@ -711,7 +699,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2026-01-16 04:03:27 +0700",
       "addedAt": "2026-01-16 04:03:27 +0700"
     },
     {
@@ -725,7 +712,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 06:08:25 +0700",
       "addedAt": "2025-12-23 06:08:25 +0700"
     },
     {
@@ -739,7 +725,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 06:08:25 +0700",
       "addedAt": "2025-12-23 06:08:25 +0700"
     },
     {
@@ -753,7 +738,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 06:08:25 +0700",
       "addedAt": "2025-12-23 06:08:25 +0700"
     },
     {
@@ -767,7 +751,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 06:08:25 +0700",
       "addedAt": "2025-12-23 06:08:25 +0700"
     },
     {
@@ -781,7 +764,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 06:08:25 +0700",
       "addedAt": "2025-12-23 06:08:25 +0700"
     },
     {
@@ -795,7 +777,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 06:08:25 +0700",
       "addedAt": "2025-12-23 06:08:25 +0700"
     },
     {
@@ -809,7 +790,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 05:56:54 +0700",
       "addedAt": "2025-12-23 05:56:54 +0700"
     },
     {
@@ -823,7 +803,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-12-23 05:56:54 +0700",
       "addedAt": "2025-12-23 05:56:54 +0700"
     },
     {
@@ -837,7 +816,6 @@
       "sourceLabel": "Examples Directory",
       "sourceFile": "examples/README.md",
       "source": "examples/README.md",
-      "updatedAt": "2025-12-23 05:49:57 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -851,7 +829,6 @@
       "sourceLabel": "Examples Directory",
       "sourceFile": "examples/README.md",
       "source": "examples/README.md",
-      "updatedAt": "2025-12-23 05:49:57 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -865,7 +842,6 @@
       "sourceLabel": "Examples Directory",
       "sourceFile": "examples/README.md",
       "source": "examples/README.md",
-      "updatedAt": "2025-12-23 05:49:57 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -879,7 +855,6 @@
       "sourceLabel": "Examples Directory",
       "sourceFile": "examples/README.md",
       "source": "examples/README.md",
-      "updatedAt": "2025-12-23 05:49:57 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -893,7 +868,6 @@
       "sourceLabel": "Examples Directory",
       "sourceFile": "examples/README.md",
       "source": "examples/README.md",
-      "updatedAt": "2025-12-23 05:49:57 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -907,7 +881,6 @@
       "sourceLabel": "Examples Directory",
       "sourceFile": "examples/README.md",
       "source": "examples/README.md",
-      "updatedAt": "2025-12-23 05:49:57 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -927,7 +900,6 @@
       "sourceLabel": "Example of Angular",
       "sourceFile": "examples/angular/README.md",
       "source": "examples/angular/README.md",
-      "updatedAt": "2026-01-21 22:11:46 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -947,7 +919,6 @@
       "sourceLabel": "Example of Core",
       "sourceFile": "examples/core/README.md",
       "source": "examples/core/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -967,7 +938,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -987,7 +957,6 @@
       "sourceLabel": "Example of Svelte",
       "sourceFile": "examples/svelte/README.md",
       "source": "examples/svelte/README.md",
-      "updatedAt": "2026-01-21 16:52:12 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -1007,7 +976,6 @@
       "sourceLabel": "Example of Vue",
       "sourceFile": "examples/vue/README.md",
       "source": "examples/vue/README.md",
-      "updatedAt": "2026-01-21 21:41:26 +0700",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -1021,7 +989,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1035,7 +1002,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1049,7 +1015,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1063,7 +1028,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1077,7 +1041,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1091,7 +1054,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1105,7 +1067,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1119,7 +1080,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1133,7 +1093,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1147,7 +1106,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:43:23 +0700",
       "addedAt": "2025-10-29 13:43:23 +0700"
     },
     {
@@ -1161,7 +1119,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1175,7 +1132,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1189,7 +1145,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1203,7 +1158,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1217,7 +1171,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1231,7 +1184,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1245,7 +1197,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1259,7 +1210,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1273,7 +1223,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1287,7 +1236,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1301,7 +1249,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1315,7 +1262,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1329,7 +1275,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1343,7 +1288,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1357,7 +1301,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1371,7 +1314,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1385,7 +1327,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1399,7 +1340,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1413,7 +1353,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1427,7 +1366,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1441,7 +1379,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:39:05 +0700",
       "addedAt": "2025-10-29 13:39:05 +0700"
     },
     {
@@ -1455,7 +1392,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:24:47 +0700",
       "addedAt": "2025-10-29 13:24:47 +0700"
     },
     {
@@ -1469,7 +1405,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:22:39 +0700",
       "addedAt": "2025-10-29 13:22:39 +0700"
     },
     {
@@ -1483,7 +1418,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:22:39 +0700",
       "addedAt": "2025-10-29 13:22:39 +0700"
     },
     {
@@ -1497,7 +1431,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-10-29 13:22:39 +0700",
       "addedAt": "2025-10-29 13:22:39 +0700"
     },
     {
@@ -1511,7 +1444,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-09-03 08:04:35 +0700",
       "addedAt": "2025-09-03 08:04:35 +0700"
     },
     {
@@ -1525,7 +1457,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-20 06:12:36 +0700",
       "addedAt": "2025-08-20 06:12:36 +0700"
     },
     {
@@ -1539,7 +1470,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 11:07:38 +0700",
       "addedAt": "2025-08-07 11:07:38 +0700"
     },
     {
@@ -1553,7 +1483,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 08:34:17 +0700",
       "addedAt": "2025-08-07 08:34:17 +0700"
     },
     {
@@ -1567,7 +1496,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 08:34:17 +0700",
       "addedAt": "2025-08-07 08:34:17 +0700"
     },
     {
@@ -1581,7 +1509,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 08:34:17 +0700",
       "addedAt": "2025-08-07 08:34:17 +0700"
     },
     {
@@ -1595,7 +1522,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 08:34:17 +0700",
       "addedAt": "2025-08-07 08:34:17 +0700"
     },
     {
@@ -1609,7 +1535,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 08:34:17 +0700",
       "addedAt": "2025-08-07 08:34:17 +0700"
     },
     {
@@ -1623,7 +1548,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-07 08:34:17 +0700",
       "addedAt": "2025-08-07 08:34:17 +0700"
     },
     {
@@ -1637,7 +1561,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:41:44 +0700",
       "addedAt": "2025-08-01 05:41:44 +0700"
     },
     {
@@ -1651,7 +1574,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:38:46 +0700",
       "addedAt": "2025-08-01 05:38:46 +0700"
     },
     {
@@ -1665,7 +1587,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:38:46 +0700",
       "addedAt": "2025-08-01 05:38:46 +0700"
     },
     {
@@ -1679,7 +1600,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1693,7 +1613,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1707,7 +1626,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1721,7 +1639,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1735,7 +1652,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1749,7 +1665,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1763,7 +1678,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1777,7 +1691,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1791,7 +1704,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1805,7 +1717,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1819,7 +1730,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1833,7 +1743,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1847,7 +1756,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1861,7 +1769,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1875,7 +1782,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1889,7 +1795,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1903,7 +1808,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1917,7 +1821,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1931,7 +1834,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1945,7 +1847,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1959,7 +1860,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1973,7 +1873,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -1987,7 +1886,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2001,7 +1899,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2015,7 +1912,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2029,7 +1925,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2043,7 +1938,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2057,7 +1951,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2071,7 +1964,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2085,7 +1977,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2099,7 +1990,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2113,7 +2003,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2127,7 +2016,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2141,7 +2029,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2155,7 +2042,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2169,7 +2055,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2183,7 +2068,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2197,7 +2081,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2211,7 +2094,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2225,7 +2107,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2239,7 +2120,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2253,7 +2133,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2267,7 +2146,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2281,7 +2159,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2295,7 +2172,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2309,7 +2185,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:34:30 +0700",
       "addedAt": "2025-08-01 05:34:30 +0700"
     },
     {
@@ -2323,7 +2198,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2337,7 +2211,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2351,7 +2224,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2365,7 +2237,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2379,7 +2250,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2393,7 +2263,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2407,7 +2276,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2421,7 +2289,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2435,7 +2302,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2449,7 +2315,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2463,7 +2328,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2477,7 +2341,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2491,7 +2354,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2505,7 +2367,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2519,7 +2380,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2533,7 +2393,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2547,7 +2406,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2561,7 +2419,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2575,7 +2432,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:22:01 +0700",
       "addedAt": "2025-08-01 05:22:01 +0700"
     },
     {
@@ -2589,7 +2445,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2603,7 +2458,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2617,7 +2471,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2631,7 +2484,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2645,7 +2497,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2659,7 +2510,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2673,7 +2523,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2687,7 +2536,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2701,7 +2549,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:17:51 +0700",
       "addedAt": "2025-08-01 05:17:51 +0700"
     },
     {
@@ -2715,7 +2562,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2729,7 +2575,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2743,7 +2588,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2757,7 +2601,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2771,7 +2614,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2785,7 +2627,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2799,7 +2640,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2813,7 +2653,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2827,7 +2666,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2841,7 +2679,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2855,7 +2692,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-08-01 05:11:13 +0700",
       "addedAt": "2025-08-01 05:11:13 +0700"
     },
     {
@@ -2869,7 +2705,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-31 11:58:06 +0700",
       "addedAt": "2025-07-31 11:58:06 +0700"
     },
     {
@@ -2883,7 +2718,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 10:57:41 +0700",
       "addedAt": "2025-07-30 10:57:41 +0700"
     },
     {
@@ -2897,7 +2731,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 10:57:41 +0700",
       "addedAt": "2025-07-30 10:57:41 +0700"
     },
     {
@@ -2911,7 +2744,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 09:06:44 +0700",
       "addedAt": "2025-07-30 09:06:44 +0700"
     },
     {
@@ -2925,7 +2757,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 09:06:44 +0700",
       "addedAt": "2025-07-30 09:06:44 +0700"
     },
     {
@@ -2939,7 +2770,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 09:06:44 +0700",
       "addedAt": "2025-07-30 09:06:44 +0700"
     },
     {
@@ -2953,7 +2783,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 09:06:44 +0700",
       "addedAt": "2025-07-30 09:06:44 +0700"
     },
     {
@@ -2967,7 +2796,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 09:06:44 +0700",
       "addedAt": "2025-07-30 09:06:44 +0700"
     },
     {
@@ -2981,7 +2809,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 08:24:03 +0700",
       "addedAt": "2025-07-30 08:24:03 +0700"
     },
     {
@@ -2995,7 +2822,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 08:24:03 +0700",
       "addedAt": "2025-07-30 08:24:03 +0700"
     },
     {
@@ -3009,7 +2835,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-30 08:09:29 +0700",
       "addedAt": "2025-07-30 08:09:29 +0700"
     },
     {
@@ -3023,7 +2848,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:51:40 +0700",
       "addedAt": "2025-07-29 21:51:40 +0700"
     },
     {
@@ -3037,7 +2861,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:49:09 +0700",
       "addedAt": "2025-07-29 21:49:09 +0700"
     },
     {
@@ -3051,7 +2874,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:49:09 +0700",
       "addedAt": "2025-07-29 21:49:09 +0700"
     },
     {
@@ -3065,7 +2887,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:49:09 +0700",
       "addedAt": "2025-07-29 21:49:09 +0700"
     },
     {
@@ -3079,7 +2900,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:49:09 +0700",
       "addedAt": "2025-07-29 21:49:09 +0700"
     },
     {
@@ -3093,7 +2913,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:49:09 +0700",
       "addedAt": "2025-07-29 21:49:09 +0700"
     },
     {
@@ -3107,7 +2926,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-29 21:49:09 +0700",
       "addedAt": "2025-07-29 21:49:09 +0700"
     },
     {
@@ -3121,7 +2939,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-28 13:44:46 +0700",
       "addedAt": "2025-07-28 13:44:46 +0700"
     },
     {
@@ -3135,7 +2952,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-28 10:58:19 +0700",
       "addedAt": "2025-07-28 10:58:19 +0700"
     },
     {
@@ -3149,7 +2965,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-28 10:58:19 +0700",
       "addedAt": "2025-07-28 10:58:19 +0700"
     },
     {
@@ -3163,7 +2978,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-28 10:58:19 +0700",
       "addedAt": "2025-07-28 10:58:19 +0700"
     },
     {
@@ -3177,7 +2991,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-28 10:58:19 +0700",
       "addedAt": "2025-07-28 10:58:19 +0700"
     },
     {
@@ -3191,7 +3004,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-28 10:42:08 +0700",
       "addedAt": "2025-07-28 10:42:08 +0700"
     },
     {
@@ -3205,7 +3017,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-27 11:58:42 +0700",
       "addedAt": "2025-07-27 11:58:42 +0700"
     },
     {
@@ -3219,7 +3030,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-27 11:39:59 +0700",
       "addedAt": "2025-07-27 11:39:59 +0700"
     },
     {
@@ -3233,7 +3043,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 20:10:34 +0700",
       "addedAt": "2025-07-26 20:10:34 +0700"
     },
     {
@@ -3247,7 +3056,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 20:06:10 +0700",
       "addedAt": "2025-07-26 20:06:10 +0700"
     },
     {
@@ -3261,7 +3069,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 20:06:10 +0700",
       "addedAt": "2025-07-26 20:06:10 +0700"
     },
     {
@@ -3275,7 +3082,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 20:06:10 +0700",
       "addedAt": "2025-07-26 20:06:10 +0700"
     },
     {
@@ -3289,7 +3095,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 20:06:10 +0700",
       "addedAt": "2025-07-26 20:06:10 +0700"
     },
     {
@@ -3303,7 +3108,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 20:00:10 +0700",
       "addedAt": "2025-07-26 20:00:10 +0700"
     },
     {
@@ -3317,7 +3121,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 17:42:46 +0700",
       "addedAt": "2025-07-26 17:42:46 +0700"
     },
     {
@@ -3331,7 +3134,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:14:43 -0700",
       "addedAt": "2025-07-25 20:14:43 -0700"
     },
     {
@@ -3345,7 +3147,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:14:43 -0700",
       "addedAt": "2025-07-25 20:14:43 -0700"
     },
     {
@@ -3359,7 +3160,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:14:43 -0700",
       "addedAt": "2025-07-25 20:14:43 -0700"
     },
     {
@@ -3373,7 +3173,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:08:42 -0700",
       "addedAt": "2025-07-25 20:08:42 -0700"
     },
     {
@@ -3387,7 +3186,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:06:34 -0700",
       "addedAt": "2025-07-25 20:06:34 -0700"
     },
     {
@@ -3401,7 +3199,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:06:34 -0700",
       "addedAt": "2025-07-25 20:06:34 -0700"
     },
     {
@@ -3415,7 +3212,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:06:34 -0700",
       "addedAt": "2025-07-25 20:06:34 -0700"
     },
     {
@@ -3429,7 +3225,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3443,7 +3238,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3457,7 +3251,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3471,7 +3264,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3485,7 +3277,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3499,7 +3290,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3513,7 +3303,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3527,7 +3316,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3541,7 +3329,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-25 20:04:41 -0700",
       "addedAt": "2025-07-25 20:04:41 -0700"
     },
     {
@@ -3555,7 +3342,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 05:01:07 +0700",
       "addedAt": "2025-07-26 05:01:07 +0700"
     },
     {
@@ -3569,7 +3355,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 05:01:07 +0700",
       "addedAt": "2025-07-26 05:01:07 +0700"
     },
     {
@@ -3583,7 +3368,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 05:01:07 +0700",
       "addedAt": "2025-07-26 05:01:07 +0700"
     },
     {
@@ -3597,7 +3381,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3611,7 +3394,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3625,7 +3407,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3639,7 +3420,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3653,7 +3433,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3667,7 +3446,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3681,7 +3459,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3695,7 +3472,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3709,7 +3485,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3723,7 +3498,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3737,7 +3511,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3751,7 +3524,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3765,7 +3537,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3779,7 +3550,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3793,7 +3563,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3807,7 +3576,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3821,7 +3589,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3835,7 +3602,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3849,7 +3615,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3863,7 +3628,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3877,7 +3641,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3891,7 +3654,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3905,7 +3667,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3919,7 +3680,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3933,7 +3693,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3947,7 +3706,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3961,7 +3719,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3975,7 +3732,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -3989,7 +3745,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4003,7 +3758,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4017,7 +3771,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4031,7 +3784,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4045,7 +3797,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4059,7 +3810,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4073,7 +3823,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4087,7 +3836,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4101,7 +3849,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4115,7 +3862,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4129,7 +3875,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4143,7 +3888,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4157,7 +3901,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4171,7 +3914,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4185,7 +3927,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4199,7 +3940,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4213,7 +3953,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4227,7 +3966,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4241,7 +3979,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4255,7 +3992,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4269,7 +4005,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4283,7 +4018,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4297,7 +4031,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4311,7 +4044,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4325,7 +4057,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4339,7 +4070,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4353,7 +4083,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4367,7 +4096,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4381,7 +4109,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4395,7 +4122,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4409,7 +4135,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4423,7 +4148,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4437,7 +4161,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4451,7 +4174,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4465,7 +4187,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4479,7 +4200,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-26 03:33:33 +0700",
       "addedAt": "2025-07-26 03:33:33 +0700"
     },
     {
@@ -4493,7 +4213,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-23 14:19:47 +0700",
       "addedAt": "2025-07-23 14:19:47 +0700"
     },
     {
@@ -4507,7 +4226,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-23 13:29:15 +0700",
       "addedAt": "2025-07-23 13:29:15 +0700"
     },
     {
@@ -4521,7 +4239,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-23 13:29:15 +0700",
       "addedAt": "2025-07-23 13:29:15 +0700"
     },
     {
@@ -4535,7 +4252,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-21 10:30:11 +0700",
       "addedAt": "2025-07-21 10:30:11 +0700"
     },
     {
@@ -4549,7 +4265,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-18 10:58:17 +0700",
       "addedAt": "2025-07-18 10:58:17 +0700"
     },
     {
@@ -4563,7 +4278,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-18 10:58:17 +0700",
       "addedAt": "2025-07-18 10:58:17 +0700"
     },
     {
@@ -4577,7 +4291,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-18 10:24:12 +0700",
       "addedAt": "2025-07-18 10:24:12 +0700"
     },
     {
@@ -4591,7 +4304,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-12 21:24:41 +0700",
       "addedAt": "2025-07-12 21:24:41 +0700"
     },
     {
@@ -4605,7 +4317,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-12 21:24:41 +0700",
       "addedAt": "2025-07-12 21:24:41 +0700"
     },
     {
@@ -4619,7 +4330,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-12 21:24:41 +0700",
       "addedAt": "2025-07-12 21:24:41 +0700"
     },
     {
@@ -4633,7 +4343,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-12 21:24:41 +0700",
       "addedAt": "2025-07-12 21:24:41 +0700"
     },
     {
@@ -4647,7 +4356,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-12 21:24:41 +0700",
       "addedAt": "2025-07-12 21:24:41 +0700"
     },
     {
@@ -4661,7 +4369,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4675,7 +4382,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4689,7 +4395,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4703,7 +4408,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4717,7 +4421,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4731,7 +4434,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4745,7 +4447,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4759,7 +4460,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4773,7 +4473,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4787,7 +4486,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4801,7 +4499,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 14:24:05 +0700",
       "addedAt": "2025-07-11 14:24:05 +0700"
     },
     {
@@ -4815,7 +4512,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 08:20:15 +0700",
       "addedAt": "2025-07-11 08:20:15 +0700"
     },
     {
@@ -4829,7 +4525,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 08:18:07 +0700",
       "addedAt": "2025-07-11 08:18:07 +0700"
     },
     {
@@ -4843,7 +4538,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-11 08:18:07 +0700",
       "addedAt": "2025-07-11 08:18:07 +0700"
     },
     {
@@ -4857,7 +4551,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-10 13:16:24 +0700",
       "addedAt": "2025-07-10 13:16:24 +0700"
     },
     {
@@ -4871,7 +4564,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-10 13:16:24 +0700",
       "addedAt": "2025-07-10 13:16:24 +0700"
     },
     {
@@ -4885,7 +4577,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-10 13:16:24 +0700",
       "addedAt": "2025-07-10 13:16:24 +0700"
     },
     {
@@ -4899,7 +4590,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-10 13:16:24 +0700",
       "addedAt": "2025-07-10 13:16:24 +0700"
     },
     {
@@ -4913,7 +4603,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 13:30:18 +0700",
       "addedAt": "2025-07-09 13:30:18 +0700"
     },
     {
@@ -4927,7 +4616,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 10:44:30 +0700",
       "addedAt": "2025-07-09 10:44:30 +0700"
     },
     {
@@ -4941,7 +4629,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 10:20:58 +0700",
       "addedAt": "2025-07-09 10:20:58 +0700"
     },
     {
@@ -4955,7 +4642,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 10:15:29 +0700",
       "addedAt": "2025-07-09 10:15:29 +0700"
     },
     {
@@ -4969,7 +4655,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:13:02 +0700",
       "addedAt": "2025-07-09 09:13:02 +0700"
     },
     {
@@ -4983,7 +4668,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -4997,7 +4681,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5011,7 +4694,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5025,7 +4707,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5039,7 +4720,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5053,7 +4733,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5067,7 +4746,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5081,7 +4759,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5095,7 +4772,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5109,7 +4785,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5123,7 +4798,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5137,7 +4811,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5151,7 +4824,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5165,7 +4837,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5179,7 +4850,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5193,7 +4863,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5207,7 +4876,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5221,7 +4889,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5235,7 +4902,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5249,7 +4915,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5263,7 +4928,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5277,7 +4941,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5291,7 +4954,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5305,7 +4967,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5319,7 +4980,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5333,7 +4993,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5347,7 +5006,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5361,7 +5019,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5375,7 +5032,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5389,7 +5045,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5403,7 +5058,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 09:06:42 +0700",
       "addedAt": "2025-07-09 09:06:42 +0700"
     },
     {
@@ -5417,7 +5071,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 08:45:13 +0700",
       "addedAt": "2025-07-09 08:45:13 +0700"
     },
     {
@@ -5431,7 +5084,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-09 08:45:13 +0700",
       "addedAt": "2025-07-09 08:45:13 +0700"
     },
     {
@@ -5445,7 +5097,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 20:41:03 +0700",
       "addedAt": "2025-07-07 20:41:03 +0700"
     },
     {
@@ -5459,7 +5110,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 20:41:03 +0700",
       "addedAt": "2025-07-07 20:41:03 +0700"
     },
     {
@@ -5473,7 +5123,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 20:41:03 +0700",
       "addedAt": "2025-07-07 20:41:03 +0700"
     },
     {
@@ -5487,7 +5136,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 20:41:03 +0700",
       "addedAt": "2025-07-07 20:41:03 +0700"
     },
     {
@@ -5501,7 +5149,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 20:41:03 +0700",
       "addedAt": "2025-07-07 20:41:03 +0700"
     },
     {
@@ -5515,7 +5162,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:41:15 +0700",
       "addedAt": "2025-07-07 15:41:15 +0700"
     },
     {
@@ -5529,7 +5175,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:41:15 +0700",
       "addedAt": "2025-07-07 15:41:15 +0700"
     },
     {
@@ -5543,7 +5188,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5557,7 +5201,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5571,7 +5214,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5585,7 +5227,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5599,7 +5240,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5613,7 +5253,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5627,7 +5266,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5641,7 +5279,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5655,7 +5292,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5669,7 +5305,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5683,7 +5318,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5697,7 +5331,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:39:30 +0700",
       "addedAt": "2025-07-07 15:39:30 +0700"
     },
     {
@@ -5711,7 +5344,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5725,7 +5357,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5739,7 +5370,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5753,7 +5383,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5767,7 +5396,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5781,7 +5409,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5795,7 +5422,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5809,7 +5435,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5823,7 +5448,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     },
     {
@@ -5837,7 +5461,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "updatedAt": "2025-07-07 15:24:59 +0700",
       "addedAt": "2025-07-07 15:24:59 +0700"
     }
   ]

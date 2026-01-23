@@ -773,30 +773,24 @@
       display: none !important;
     }
 
-    .recent-subheading {
-      margin-top: 0;
-      margin-bottom: 12px;
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      opacity: 0.8;
-    }
-
-    .featured-column-inner {
-      flex: 1;
-    }
-
     .featured-sections {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
+      display: block;
     }
 
-    @media (max-width: 900px) {
-      .featured-sections {
+    .recent-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    @media (max-width: 1100px) {
+      .recent-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .recent-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -953,12 +947,6 @@
       border-radius: 999px;
       border: 1px solid var(--border);
       font-family: var(--mono);
-    }
-
-    .recent-grid-single {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
     }
 
     .recent-card {
@@ -1351,7 +1339,7 @@
       <div id="recentSection" class="recent-section featured-column" style="display: none;">
         <h3 onclick="toggleRecent()">
           <div class="heading-left">
-            <span class="sparkle"><i class="fa-solid fa-clock-rotate-left icon-recent"></i></span> Latest Activity
+            <span class="sparkle"><i class="fa-solid fa-wand-magic-sparkles icon-magic"></i></span> Recently Added
           </div>
           <div id="recentSummary" class="header-summary"></div>
           <button class="toggle-main" type="button" aria-label="Toggle recent visibility">
@@ -1359,18 +1347,7 @@
           </button>
         </h3>
         <div class="featured-sections">
-          <div class="featured-column-inner">
-            <h4 class="recent-subheading">
-              <span class="sparkle"><i class="fa-solid fa-wand-magic-sparkles icon-magic"></i></span> New Additions
-            </h4>
-            <div id="recentGrid" class="recent-grid-single"></div>
-          </div>
-          <div class="featured-column-inner">
-            <h4 class="recent-subheading">
-              <span class="sparkle"><i class="fa-solid fa-rotate icon-rotate"></i></span> Latest Updates
-            </h4>
-            <div id="updatedGrid" class="recent-grid-single"></div>
-          </div>
+          <div id="recentGrid" class="recent-grid"></div>
         </div>
       </div>
 
@@ -1467,7 +1444,6 @@
       footerYear: document.getElementById("footerYear"),
       recentSection: document.getElementById("recentSection"),
       recentGrid: document.getElementById("recentGrid"),
-      updatedGrid: document.getElementById("updatedGrid"),
       recentSummary: document.getElementById("recentSummary"),
       mainListCard: document.getElementById("mainListCard"),
       mainListHeadingLeft: document.getElementById("mainListHeadingLeft"),
@@ -1515,27 +1491,15 @@
         .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
         .slice(0, 5);
 
-      const recentUpdated = [...state.items]
-        .filter(item => item.updatedAt && item.updatedAt !== item.addedAt)
-        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
-        .slice(0, 5);
-
-      const totalRecent = recentAdded.length + recentUpdated.length;
+      const totalRecent = recentAdded.length;
 
       if (totalRecent === 0) {
         el.recentSummary.innerHTML = "";
         return;
       }
 
-      // Combine for badges (unique items)
-      const combined = [];
-      const seen = new Set();
-      [...recentAdded, ...recentUpdated].forEach(item => {
-        if (!seen.has(item.url)) {
-          seen.add(item.url);
-          combined.push(item);
-        }
-      });
+      // Use recentAdded for badges
+      const combined = recentAdded;
 
       const maxBadges = 3;
       const displayItems = combined.slice(0, maxBadges);
@@ -1964,18 +1928,12 @@
         return;
       }
 
-      // Sort by addedAt for "New Additions"
+      // Sort by addedAt for "Recently Added"
       const recentAdded = [...state.items]
         .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt))
-        .slice(0, 5);
+        .slice(0, 6); // Show 6 items (3x2 or 2x3 grid)
 
-      // Sort by updatedAt for "Latest Updates"
-      const recentUpdated = [...state.items]
-        .filter(item => item.updatedAt && item.updatedAt !== item.addedAt)
-        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
-        .slice(0, 5);
-
-      if (recentAdded.length === 0 && recentUpdated.length === 0) {
+      if (recentAdded.length === 0) {
         el.recentSection.style.display = "none";
         return;
       }
@@ -1986,7 +1944,7 @@
         const name = escapeHtml(item.name);
         const desc = escapeHtml(item.description || "");
         const kind = escapeHtml(getKind(item));
-        const dateStr = new Date(item.updatedAt || item.addedAt).toLocaleDateString(undefined, {
+        const dateStr = new Date(item.addedAt).toLocaleDateString(undefined, {
           month: 'short',
           day: 'numeric'
         });
@@ -2006,11 +1964,6 @@
       };
 
       el.recentGrid.innerHTML = recentAdded.map(item => renderCard(item, "Added")).join("");
-      el.updatedGrid.innerHTML = recentUpdated.map(item => renderCard(item, "Updated")).join("");
-
-      // Hide column if empty
-      el.recentGrid.parentElement.style.display = recentAdded.length ? "block" : "none";
-      el.updatedGrid.parentElement.style.display = recentUpdated.length ? "block" : "none";
 
       renderRecentSummary();
     }
@@ -2088,7 +2041,7 @@
           .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
           .map((x) => x.item);
       } else {
-        all = base.slice().sort((a, b) => a.name.localeCompare(b.name));
+        all = base.slice().sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt) || a.name.localeCompare(b.name));
       }
 
       state.filteredAll = all;
@@ -2274,13 +2227,9 @@
             state.items = dbData.items.map(item => {
               const indexed = indexItem(item);
               const addedDate = new Date(item.addedAt).getTime();
-              const updatedDate = new Date(item.updatedAt).getTime();
 
               // Auto-detect based on date (last 30 days)
               indexed.isNew = (now - addedDate) < THIRTY_DAYS;
-              // An item is considered "Updated" if it was changed recently AND it's not "New" 
-              // (or if it's new but updatedAt is significantly different from addedAt)
-              indexed.isUpdated = (now - updatedDate) < THIRTY_DAYS && (updatedDate - addedDate) > (1000 * 60 * 60 * 24);
 
               return indexed;
             });

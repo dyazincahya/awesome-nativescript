@@ -161,7 +161,6 @@ function getGitDates(filePath, items) {
   items.forEach((item, index) => {
     const { url, lineContent } = item;
     const updatedAt = blameMap[lineContent];
-    item.updatedAt = updatedAt || new Date().toISOString();
 
     if (url && !url.startsWith("#")) {
       // Find the first commit that added this URL
@@ -172,17 +171,17 @@ function getGitDates(filePath, items) {
         const logs = addedLog.split(/\r?\n/).filter(Boolean);
         item.addedAt = logs[logs.length - 1]; // Oldest is at the bottom
       } else {
-        item.addedAt = item.updatedAt;
+        item.addedAt = updatedAt || new Date().toISOString();
       }
     } else {
-      item.addedAt = item.updatedAt;
+      item.addedAt = updatedAt || new Date().toISOString();
     }
 
     if ((index + 1) % 20 === 0) {
       console.log(`    ...processed ${index + 1}/${items.length} items`);
     }
 
-    // Cleanup internal property
+    // Cleanup internal properties
     delete item.lineContent;
   });
 
