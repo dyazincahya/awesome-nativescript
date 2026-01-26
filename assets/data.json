@@ -1,19 +1,101 @@
 {
-  "lastUpdated": "2026-01-26T08:10:51.358Z",
-  "total": 404,
+  "lastUpdated": "2026-01-26T21:00:17.501Z",
+  "total": 406,
   "items": [
     {
-      "name": "nCharts",
-      "url": "https://plugins.nstudio.io/ncharts/",
-      "description": "High-performance, fully customizable chart components.",
-      "top": "Plugins",
-      "sub": "UI Plugins",
-      "path": "Plugins / UI Plugins / Media & Visual Components",
-      "domain": "plugins.nstudio.io",
-      "sourceLabel": "Main README",
-      "sourceFile": "README.md",
-      "source": "README.md",
-      "addedAt": "2026-01-25 22:19:19 -0800"
+      "name": "Custom Dialog Colors",
+      "url": "https://blog.nativescript.org/customize-dialogs-native-apis/",
+      "description": "Enhancing NativeScript Dialogs.alert by enabling custom color options using native APIs.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Blog",
+        "authorName": "NativeScript",
+        "authorUrl": "https://blog.nativescript.org/"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "blog.nativescript.org",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-01-27 04:00:05 +0700"
+    },
+    {
+      "name": "Dynamic HTTP Modules",
+      "url": "https://github.com/NativeScript/dynamic-http-modules",
+      "description": "Demo project using v9 + Vite to dynamically import ES modules from http URLs on-demand.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "github.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-01-27 04:00:05 +0700"
+    },
+    {
+      "name": "Sticky Countries",
+      "url": "https://stackblitz.com/edit/nativescript-sticky-countries-ts",
+      "description": "Preview of sticky header options with ListView in upcoming NativeScript v9.",
+      "meta": {
+        "platform": "Android & iOs",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-01-27 04:00:05 +0700"
+    },
+    {
+      "name": "Tailwind CSS v4",
+      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-typescript",
+      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "github.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-01-27 04:00:05 +0700"
+    },
+    {
+      "name": "NativeScript Stackblitz Templates",
+      "url": "https://stackblitz.com/edit/nativescript-stackblitz-templates-jlvmcd",
+      "description": "Official NativeScript Stackblitz templates for Core (TypeScript/JavaScript).",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-01-27 04:00:05 +0700"
     },
     {
       "name": "NS Book Demo",
@@ -32,7 +114,39 @@
       "sourceLabel": "Example of Core",
       "sourceFile": "examples/core/README.md",
       "source": "examples/core/README.md",
-      "addedAt": "2026-01-22 20:29:42 +0700"
+      "addedAt": "2026-01-27 04:00:05 +0700"
+    },
+    {
+      "name": "NativeScript Dropdown Menus",
+      "url": "https://stackblitz.com/edit/nativescript-dropdown-menus",
+      "description": "NativeScript implementation of native dropdown menus.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Stackblitz",
+        "authorName": "NativeScript OSS",
+        "authorUrl": "https://stackblitz.com/@nativescript-oss"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "stackblitz.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "addedAt": "2026-01-27 04:00:01 +0700"
+    },
+    {
+      "name": "nCharts",
+      "url": "https://plugins.nstudio.io/ncharts/",
+      "description": "High-performance, fully customizable chart components.",
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Media & Visual Components",
+      "domain": "plugins.nstudio.io",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-01-25 22:19:19 -0800"
     },
     {
       "name": "Vue3 SQLite Todo",
@@ -470,82 +584,6 @@
       "sourceLabel": "Main README",
       "sourceFile": "README.md",
       "source": "README.md",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Custom Dialog Colors",
-      "url": "https://blog.nativescript.org/customize-dialogs-native-apis/",
-      "description": "Enhancing NativeScript Dialogs.alert by enabling custom color options using native APIs.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Blog",
-        "authorName": "NativeScript",
-        "authorUrl": "https://blog.nativescript.org/"
-      },
-      "top": "Examples",
-      "sub": "Core",
-      "path": "Examples / Core",
-      "domain": "blog.nativescript.org",
-      "sourceLabel": "Example of Core",
-      "sourceFile": "examples/core/README.md",
-      "source": "examples/core/README.md",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Dynamic HTTP Modules",
-      "url": "https://github.com/NativeScript/dynamic-http-modules",
-      "description": "Demo project using v9 + Vite to dynamically import ES modules from http URLs on-demand.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "NativeScript",
-        "authorUrl": "https://github.com/NativeScript"
-      },
-      "top": "Examples",
-      "sub": "Core",
-      "path": "Examples / Core",
-      "domain": "github.com",
-      "sourceLabel": "Example of Core",
-      "sourceFile": "examples/core/README.md",
-      "source": "examples/core/README.md",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Sticky Countries",
-      "url": "https://stackblitz.com/edit/nativescript-sticky-countries-ts",
-      "description": "Preview of sticky header options with ListView in upcoming NativeScript v9.",
-      "meta": {
-        "platform": "Android & iOs",
-        "source": "Stackblitz",
-        "authorName": "NativeScript OSS",
-        "authorUrl": "https://stackblitz.com/@nativescript-oss"
-      },
-      "top": "Examples",
-      "sub": "Core",
-      "path": "Examples / Core",
-      "domain": "stackblitz.com",
-      "sourceLabel": "Example of Core",
-      "sourceFile": "examples/core/README.md",
-      "source": "examples/core/README.md",
-      "addedAt": "2026-01-21 16:52:12 +0700"
-    },
-    {
-      "name": "Tailwind CSS v4",
-      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-typescript",
-      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Core",
-      "path": "Examples / Core",
-      "domain": "github.com",
-      "sourceLabel": "Example of Core",
-      "sourceFile": "examples/core/README.md",
-      "source": "examples/core/README.md",
       "addedAt": "2026-01-21 16:52:12 +0700"
     },
     {
