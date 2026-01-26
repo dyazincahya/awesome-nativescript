@@ -735,6 +735,199 @@
       overflow-wrap: anywhere;
     }
 
+    .cardActions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    .shareBtn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.18), rgba(123, 97, 255, 0.16));
+      border: 1px solid rgba(120, 160, 255, 0.28);
+      color: var(--text);
+      transition: all 0.2s ease;
+    }
+
+    .shareBtn:hover {
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.25), rgba(123, 97, 255, 0.22));
+      border-color: rgba(120, 160, 255, 0.45);
+      transform: translateY(-1px);
+    }
+
+    .shareBtn i {
+      font-size: 14px;
+    }
+
+    .shareSheetOverlay {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(10px);
+      z-index: 9999;
+    }
+
+    .shareSheet {
+      width: min(520px, 100%);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: var(--hero-bg);
+      box-shadow: var(--shadow-lg);
+      padding: 16px;
+    }
+
+    .shareSheetHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .shareSheetTitle {
+      font-weight: 750;
+      letter-spacing: -0.01em;
+      font-size: 14px;
+      color: var(--text);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sharePreviewWrap {
+      margin: 10px 0 14px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      overflow: hidden;
+    }
+
+    .sharePreviewImg {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1200 / 630;
+      object-fit: cover;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+    }
+
+    .shareSheetImageActions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin: 10px 0 14px;
+    }
+
+    .shareSheetImageActions .shareSheetBtn {
+      width: auto;
+    }
+
+    .shareSheetIconBtn {
+      width: 48px;
+      padding: 12px 0;
+      justify-content: center;
+    }
+
+    .shareSheetCopyBtn {
+      flex: 1;
+      justify-content: center;
+    }
+
+    .shareSheetBtnSuccess {
+      background: linear-gradient(135deg, rgba(34, 197, 94, 0.18), rgba(59, 130, 246, 0.14));
+      border-color: rgba(34, 197, 94, 0.42);
+    }
+
+    .shareSheetTip {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin: 10px 2px 0;
+      padding: 10px 12px;
+      font-size: 12px;
+      line-height: 1.35;
+      color: color-mix(in oklab, var(--text) 82%, transparent);
+      background: color-mix(in oklab, var(--surface) 70%, transparent);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .shareSheetTip i {
+      margin-top: 2px;
+      color: color-mix(in oklab, var(--accent) 75%, var(--text));
+      opacity: 0.95;
+    }
+
+    .shareSheetSectionTitle {
+      margin: 12px 2px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-family: var(--mono);
+    }
+
+    .shareSheetDivider {
+      height: 1px;
+      background: var(--border);
+      margin: 12px 0;
+    }
+
+    .shareSheetBtns {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .shareSheetBtn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.18), rgba(123, 97, 255, 0.16));
+      border: 1px solid rgba(120, 160, 255, 0.28);
+      color: var(--text);
+      font-size: 13px;
+    }
+
+    .shareSheetBtn:hover {
+      background: linear-gradient(135deg, rgba(76, 194, 255, 0.25), rgba(123, 97, 255, 0.22));
+      border-color: rgba(120, 160, 255, 0.45);
+    }
+
+    .shareSheetBtnLeft {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .shareSheetBtnLeft span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .shareSheetBtn i {
+      font-size: 14px;
+      opacity: 0.95;
+    }
+
     @media (max-width: 520px) {
       .row {
         grid-template-columns: 1fr;
@@ -743,6 +936,12 @@
 
       .link {
         width: fit-content;
+      }
+
+      .cardActions {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
       }
     }
 
@@ -1140,19 +1339,28 @@
 
     .contribute-section {
       margin-bottom: 20px;
-      padding: 20px;
+      padding: 14px 16px;
       background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface-1) 100%);
       border: 1px solid var(--border);
       border-radius: 16px;
-      text-align: center;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .contributeCopy {
+      min-width: 0;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 12px;
+      gap: 6px;
+      align-items: flex-start;
     }
 
     .contribute-section h2 {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 700;
       color: var(--text);
       display: flex;
@@ -1163,10 +1371,10 @@
 
     .contribute-section p {
       color: var(--muted);
-      max-width: 600px;
-      line-height: 1.5;
+      max-width: 720px;
+      line-height: 1.35;
       margin: 0;
-      font-size: 14px;
+      font-size: 13px;
     }
 
     .contribute-btn {
@@ -1175,11 +1383,12 @@
       gap: 8px;
       background: var(--accent);
       color: white;
-      padding: 12px 24px;
+      padding: 10px 16px;
       border-radius: 999px;
       font-weight: 600;
       transition: all 0.2s;
       text-decoration: none;
+      white-space: nowrap;
     }
 
     .contribute-btn:hover {
@@ -1216,6 +1425,21 @@
       .pillLong {
         display: none;
       }
+
+      .contribute-section {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+      }
+
+      .contributeCopy {
+        align-items: center;
+      }
+
+      .contribute-btn {
+        justify-content: center;
+      }
+
 
       .pillShort {
         display: inline;
@@ -1300,10 +1524,12 @@
       </div>
 
       <section class="contribute-section">
-        <h2><i class="fa-solid fa-star icon-contribute"></i> Have a Cool Resource?</h2>
-        <p>
-          Help us enrich the Awesome NativeScript list by adding your own plugins, tutorials, or example projects!
-        </p>
+        <div class="contributeCopy">
+          <h2><i class="fa-solid fa-star icon-contribute"></i> Have a Cool Resource?</h2>
+          <p>
+            Help us enrich the Awesome NativeScript list by adding your own plugins, tutorials, or example projects!
+          </p>
+        </div>
         <a href="https://github.com/dyazincahya/awesome-nativescript" target="_blank" class="contribute-btn">
           <i class="fa-brands fa-github"></i>
           Contribute via Pull Request
@@ -1846,6 +2072,492 @@
       return "Resource";
     }
 
+    function getShareTypeTag(item) {
+      const kind = String(getKind(item) || "");
+      if (/^example\b/i.test(kind)) return "Example";
+      if (/plugin/i.test(kind)) return "Plugin";
+      return "Resource";
+    }
+
+    function buildShareCaption(item) {
+      const name = (item.name || "").trim();
+      const url = (item.url || "").trim();
+      const typeTag = getShareTypeTag(item);
+      const lines = [];
+      if (name) lines.push(name);
+      if (url) lines.push(url);
+      lines.push("");
+      lines.push(`#NativeScript #AwesomeNativeScript #${typeTag}`);
+      return lines.join("\n");
+    }
+
+    function sanitizeFilename(name) {
+      const s = (name || "").toString().trim();
+      const safe = s
+        .replace(/[<>:"/\\|?*\u0000-\u001F]/g, "")
+        .replace(/\s+/g, "-")
+        .replace(/-+/g, "-")
+        .replace(/^[-.]+|[-.]+$/g, "");
+      return safe || "share";
+    }
+
+    function wrapTextLines(ctx, text, maxWidth, maxLines) {
+      const raw = (text || "").replace(/\s+/g, " ").trim();
+      if (!raw) return [];
+
+      const words = raw.split(" ");
+      const lines = [];
+      let line = "";
+      let truncated = false;
+
+      for (let idx = 0; idx < words.length; idx++) {
+        const w = words[idx];
+        const next = line ? `${line} ${w}` : w;
+        if (ctx.measureText(next).width <= maxWidth) {
+          line = next;
+          continue;
+        }
+        if (line) lines.push(line);
+        line = w;
+        if (lines.length >= maxLines) {
+          truncated = idx < words.length - 1;
+          break;
+        }
+      }
+
+      if (lines.length < maxLines && line) {
+        lines.push(line);
+      } else if (line) {
+        truncated = true;
+      }
+
+      if (lines.length > maxLines) lines.length = maxLines;
+      if (truncated && lines.length) {
+        const last = lines[maxLines - 1] || "";
+        let clipped = last;
+        while (clipped && ctx.measureText(`${clipped}…`).width > maxWidth) {
+          clipped = clipped.slice(0, -1);
+        }
+        lines[maxLines - 1] = clipped ? `${clipped}…` : "…";
+      }
+
+      return lines;
+    }
+
+    function roundedRectPath(ctx, x, y, w, h, r) {
+      const rr = Math.max(0, Math.min(r, Math.min(w, h) / 2));
+      ctx.beginPath();
+      ctx.moveTo(x + rr, y);
+      ctx.arcTo(x + w, y, x + w, y + h, rr);
+      ctx.arcTo(x + w, y + h, x, y + h, rr);
+      ctx.arcTo(x, y + h, x, y, rr);
+      ctx.arcTo(x, y, x + w, y, rr);
+      ctx.closePath();
+    }
+
+    function loadImage(src) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = "anonymous";
+        img.onload = () => resolve(img);
+        img.onerror = () => reject(new Error(`Image failed to load: ${src}`));
+        img.src = src;
+      });
+    }
+
+    let shareLogoPromise = null;
+    async function getShareLogo() {
+      if (!shareLogoPromise) {
+        shareLogoPromise = loadImage("assets/images/ns-favicon-new.png").catch(() => null);
+      }
+      return shareLogoPromise;
+    }
+
+    async function buildShareCardBlob(item) {
+      const canvas = document.createElement("canvas");
+      canvas.width = 1200;
+      canvas.height = 630;
+
+      const ctx = canvas.getContext("2d");
+      if (!ctx) throw new Error("Canvas unsupported");
+
+      const isLight = document.documentElement.classList.contains("light-mode");
+
+      const bgA = isLight ? "#f1f5f9" : "#070a12";
+      const bgB = isLight ? "#e2e8f0" : "#0b1430";
+      const surface = isLight ? "rgba(255,255,255,0.92)" : "rgba(255,255,255,0.08)";
+      const surface2 = isLight ? "rgba(15,23,42,0.06)" : "rgba(255,255,255,0.06)";
+      const border = isLight ? "rgba(15,23,42,0.10)" : "rgba(255,255,255,0.14)";
+      const text = isLight ? "rgba(15,23,42,0.94)" : "rgba(255,255,255,0.94)";
+      const muted = isLight ? "rgba(15,23,42,0.64)" : "rgba(255,255,255,0.70)";
+      const accent = isLight ? "#2563eb" : "#4cc2ff";
+      const accent2 = isLight ? "#7c3aed" : "#7b61ff";
+
+      const g = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      g.addColorStop(0, bgA);
+      g.addColorStop(1, bgB);
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.save();
+      ctx.globalAlpha = isLight ? 0.18 : 0.22;
+      const rg1 = ctx.createRadialGradient(240, 160, 0, 240, 160, 520);
+      rg1.addColorStop(0, accent);
+      rg1.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = rg1;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      const rg2 = ctx.createRadialGradient(canvas.width - 220, 140, 0, canvas.width - 220, 140, 520);
+      rg2.addColorStop(0, accent2);
+      rg2.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = rg2;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.restore();
+
+      const pad = 64;
+      const cardX = pad;
+      const cardY = pad;
+      const cardW = canvas.width - pad * 2;
+      const cardH = canvas.height - pad * 2;
+      const radius = 34;
+
+      ctx.save();
+      ctx.shadowColor = "rgba(0,0,0,0.25)";
+      ctx.shadowBlur = 26;
+      ctx.shadowOffsetY = 14;
+      roundedRectPath(ctx, cardX, cardY, cardW, cardH, radius);
+      ctx.fillStyle = surface;
+      ctx.fill();
+      ctx.restore();
+
+      roundedRectPath(ctx, cardX, cardY, cardW, cardH, radius);
+      ctx.strokeStyle = border;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      const logo = await getShareLogo();
+      const headerY = cardY + 44;
+      const headerX = cardX + 44;
+
+      if (logo) {
+        const size = 54;
+        ctx.save();
+        roundedRectPath(ctx, headerX, headerY - 6, size + 12, size + 12, 18);
+        ctx.fillStyle = surface2;
+        ctx.fill();
+        ctx.restore();
+
+        ctx.drawImage(logo, headerX + 6, headerY, size, size);
+      }
+
+      const brandX = logo ? headerX + 84 : headerX;
+      ctx.font = `700 24px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial`;
+      ctx.fillStyle = text;
+      ctx.fillText("Awesome NativeScript", brandX, headerY + 34);
+
+      ctx.font = `500 18px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial`;
+      ctx.fillStyle = muted;
+      ctx.fillText(`#${getShareTypeTag(item)}`, brandX, headerY + 62);
+
+      const contentX = cardX + 44;
+      const contentW = cardW - 88;
+      let y = headerY + 120;
+
+      const title = (item.name || "").trim();
+      ctx.fillStyle = text;
+      ctx.font = `800 52px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial`;
+      const titleLines = wrapTextLines(ctx, title, contentW, 2);
+      for (const line of titleLines) {
+        ctx.fillText(line, contentX, y);
+        y += 62;
+      }
+
+      const desc = (item.description || item.desc || "").trim();
+      if (desc) {
+        y += 10;
+        ctx.fillStyle = muted;
+        ctx.font = `500 26px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial`;
+        const descLines = wrapTextLines(ctx, desc, contentW, 3);
+        for (const line of descLines) {
+          ctx.fillText(line, contentX, y);
+          y += 36;
+        }
+      }
+
+      const pills = [];
+      const typeTag = getShareTypeTag(item);
+      if (typeTag) pills.push({ label: "Type", value: typeTag, tone: "accent" });
+      const path = (item.path || "").trim();
+      if (path) pills.push({ label: "Section", value: path, tone: "neutral" });
+      const domain = (item.domain || "").trim();
+      if (domain) pills.push({ label: "Domain", value: domain, tone: "neutral" });
+
+      const pillY = cardY + cardH - 112;
+      let pillX = contentX;
+      const pillMaxX = cardX + cardW - 44;
+      const pillGap = 12;
+
+      for (const p of pills) {
+        ctx.font = `600 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`;
+        const txt = `${p.label}: ${p.value}`;
+        const w = Math.min(pillMaxX - pillX, ctx.measureText(txt).width + 32);
+        const h = 44;
+        if (pillX + w > pillMaxX) break;
+
+        roundedRectPath(ctx, pillX, pillY, w, h, 999);
+        if (p.tone === "accent") {
+          const pg = ctx.createLinearGradient(pillX, pillY, pillX + w, pillY + h);
+          pg.addColorStop(0, isLight ? "rgba(37,99,235,0.14)" : "rgba(76,194,255,0.22)");
+          pg.addColorStop(1, isLight ? "rgba(124,58,237,0.12)" : "rgba(123,97,255,0.20)");
+          ctx.fillStyle = pg;
+          ctx.strokeStyle = isLight ? "rgba(37,99,235,0.30)" : "rgba(120,160,255,0.48)";
+        } else {
+          ctx.fillStyle = surface2;
+          ctx.strokeStyle = border;
+        }
+        ctx.lineWidth = 2;
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.fillStyle = text;
+        ctx.fillText(txt, pillX + 16, pillY + 29);
+
+        pillX += w + pillGap;
+      }
+
+      const url = (item.url || "").trim();
+      if (url) {
+        ctx.font = `500 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`;
+        ctx.fillStyle = muted;
+        const urlText = url.length > 72 ? `${url.slice(0, 71)}…` : url;
+        ctx.fillText(urlText, contentX, cardY + cardH - 44);
+      }
+
+      const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png", 1));
+      if (!blob) throw new Error("Failed to create image blob");
+      return blob;
+    }
+
+    async function downloadBlob(blob, filename) {
+      const url = URL.createObjectURL(blob);
+      try {
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      } finally {
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    async function tryCopyText(text) {
+      if (!text) return false;
+      if (!navigator.clipboard || !navigator.clipboard.writeText) return false;
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+
+    async function tryCopyPngToClipboard(blob) {
+      if (!blob) return false;
+      if (!navigator.clipboard || !navigator.clipboard.write) return false;
+      if (typeof ClipboardItem === "undefined") return false;
+      try {
+        await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+
+    let shareSheetEls = null;
+    let currentShare = null;
+    let currentSharePreviewUrl = null;
+
+    function ensureShareSheet() {
+      if (shareSheetEls) return shareSheetEls;
+
+      const overlay = document.createElement("div");
+      overlay.className = "shareSheetOverlay";
+      overlay.setAttribute("role", "dialog");
+      overlay.setAttribute("aria-modal", "true");
+      overlay.innerHTML = `
+        <div class="shareSheet">
+          <div class="shareSheetHeader">
+            <div class="shareSheetTitle" id="shareSheetTitle">Share</div>
+            <button type="button" aria-label="Close" title="Close" data-share-close="1"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="sharePreviewWrap">
+            <img class="sharePreviewImg" id="shareSheetPreview" alt="Preview" />
+          </div>
+
+          <div class="shareSheetImageActions">
+            <button type="button" class="shareSheetBtn shareSheetIconBtn" data-share-save="1" aria-label="Save as Image" title="Save as Image">
+              <i class="fa-solid fa-download"></i>
+            </button>
+            <button type="button" class="shareSheetBtn shareSheetCopyBtn" data-share-copy-image="1">
+              <span class="shareSheetBtnLeft"><i class="fa-solid fa-clipboard"></i><span>Copy Clipboard Image</span></span>
+            </button>
+          </div>
+
+          <div class="shareSheetDivider"></div>
+          <div class="shareSheetTip"><i class="fa-solid fa-circle-info"></i><div>Tip: to share with the image, copy the image first, then click a Share button below.</div></div>
+
+          <div class="shareSheetSectionTitle">Share</div>
+          <div class="shareSheetBtns">
+            <button type="button" class="shareSheetBtn" data-share-fb="1">
+              <span class="shareSheetBtnLeft"><i class="fa-brands fa-facebook"></i><span>Share to Facebook</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="shareSheetBtn" data-share-ig="1">
+              <span class="shareSheetBtnLeft"><i class="fa-brands fa-instagram"></i><span>Share to Instagram</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="shareSheetBtn" data-share-x="1">
+              <span class="shareSheetBtnLeft"><i class="fa-brands fa-x-twitter"></i><span>Share to X</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="shareSheetBtn" data-share-wa="1">
+              <span class="shareSheetBtnLeft"><i class="fa-brands fa-whatsapp"></i><span>Share to WhatsApp</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button type="button" class="shareSheetBtn" data-share-tg="1">
+              <span class="shareSheetBtnLeft"><i class="fa-brands fa-telegram"></i><span>Share to Telegram</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+      `;
+
+      document.body.appendChild(overlay);
+
+      function close() {
+        overlay.style.display = "none";
+        currentShare = null;
+        if (currentSharePreviewUrl) {
+          URL.revokeObjectURL(currentSharePreviewUrl);
+          currentSharePreviewUrl = null;
+        }
+        const img = overlay.querySelector("#shareSheetPreview");
+        if (img) img.removeAttribute("src");
+      }
+
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) close();
+        const closeBtn = e.target.closest && e.target.closest("[data-share-close='1']");
+        if (closeBtn) close();
+      });
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && overlay.style.display === "flex") close();
+      });
+
+      overlay.querySelector("[data-share-save='1']").addEventListener("click", () => {
+        if (!currentShare) return;
+        downloadBlob(currentShare.blob, currentShare.filename)
+          .then(() => setStatus("Image downloaded", true))
+          .catch(() => setStatus("Download failed", false));
+      });
+
+      const copyImageBtn = overlay.querySelector("[data-share-copy-image='1']");
+      const copyImageLabelEl = copyImageBtn.querySelector(".shareSheetBtnLeft span");
+      const copyImageIconEl = copyImageBtn.querySelector(".shareSheetBtnLeft i");
+      const copyImageOriginalLabel = copyImageLabelEl ? copyImageLabelEl.textContent : "";
+      const copyImageOriginalIcon = copyImageIconEl ? copyImageIconEl.className : "";
+      let copyImageTimer = null;
+
+      copyImageBtn.addEventListener("click", () => {
+        if (!currentShare) return;
+        tryCopyPngToClipboard(currentShare.blob).then((ok) => {
+          setStatus(ok ? "Image copied to clipboard" : "Copy image not supported", ok);
+          if (!ok) return;
+
+          if (copyImageTimer) clearTimeout(copyImageTimer);
+          copyImageBtn.classList.add("shareSheetBtnSuccess");
+          if (copyImageLabelEl) copyImageLabelEl.textContent = "Copied!";
+          if (copyImageIconEl) copyImageIconEl.className = "fa-solid fa-check";
+          copyImageTimer = setTimeout(() => {
+            copyImageBtn.classList.remove("shareSheetBtnSuccess");
+            if (copyImageLabelEl) copyImageLabelEl.textContent = copyImageOriginalLabel;
+            if (copyImageIconEl) copyImageIconEl.className = copyImageOriginalIcon;
+          }, 1600);
+        });
+      });
+
+      overlay.querySelector("[data-share-x='1']").addEventListener("click", () => {
+        if (!currentShare) return;
+        const typeTag = getShareTypeTag(currentShare.item);
+        const text = `${(currentShare.item.name || "").trim()}\n\n#NativeScript #AwesomeNativeScript #${typeTag}`.trim();
+        const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(currentShare.item.url || "")}`;
+        window.open(shareUrl, "_blank", "noopener,noreferrer");
+      });
+
+      overlay.querySelector("[data-share-fb='1']").addEventListener("click", () => {
+        if (!currentShare) return;
+        const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentShare.item.url || "")}`;
+        window.open(shareUrl, "_blank", "noopener,noreferrer");
+      });
+
+      overlay.querySelector("[data-share-ig='1']").addEventListener("click", () => {
+        if (!currentShare) return;
+        window.open("https://www.instagram.com/", "_blank", "noopener,noreferrer");
+      });
+
+      overlay.querySelector("[data-share-wa='1']").addEventListener("click", () => {
+        if (!currentShare) return;
+        const typeTag = getShareTypeTag(currentShare.item);
+        const title = (currentShare.item.name || "").trim();
+        const url = (currentShare.item.url || "").trim();
+        const text = `${title}\n\n${url}\n\n#NativeScript #AwesomeNativeScript #${typeTag}`.trim();
+        const shareUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
+        window.open(shareUrl, "_blank", "noopener,noreferrer");
+      });
+
+      overlay.querySelector("[data-share-tg='1']").addEventListener("click", () => {
+        if (!currentShare) return;
+        const typeTag = getShareTypeTag(currentShare.item);
+        const title = (currentShare.item.name || "").trim();
+        const url = (currentShare.item.url || "").trim();
+        const text = `${title}\n\n#NativeScript #AwesomeNativeScript #${typeTag}`.trim();
+        const shareUrl = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;
+        window.open(shareUrl, "_blank", "noopener,noreferrer");
+      });
+
+      shareSheetEls = { overlay, close };
+      return shareSheetEls;
+    }
+
+    function openShareSheet(item, blob, filename) {
+      const sheet = ensureShareSheet();
+      currentShare = { item, blob, filename };
+      const titleEl = sheet.overlay.querySelector("#shareSheetTitle");
+      if (titleEl) titleEl.textContent = item && item.name ? `Share: ${item.name}` : "Share";
+      if (currentSharePreviewUrl) {
+        URL.revokeObjectURL(currentSharePreviewUrl);
+        currentSharePreviewUrl = null;
+      }
+      const img = sheet.overlay.querySelector("#shareSheetPreview");
+      if (img && blob) {
+        currentSharePreviewUrl = URL.createObjectURL(blob);
+        img.src = currentSharePreviewUrl;
+      }
+      sheet.overlay.style.display = "flex";
+    }
+
+    async function shareDirectoryItem(item) {
+      const blob = await buildShareCardBlob(item);
+      const filename = `${sanitizeFilename(item.name)}.png`;
+      const text = buildShareCaption(item);
+      const copied = await tryCopyText(text);
+      openShareSheet(item, blob, filename);
+      setStatus(copied ? "Caption copied" : "Share ready", true);
+    }
+
     function debounce(fn, waitMs) {
       let t = null;
       return () => {
@@ -2044,10 +2756,25 @@
                       ${domain ? `<div class="badge"><strong>Domain</strong> ${domain}</div>` : ""}
                     </div>
                   </div>
-                  <a class="link" href="${url}" target="_blank" rel="noreferrer">
-                    <span>Open ${domain || "link"}</span>
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </a>
+                  <div class="cardActions">
+                    <button
+                      class="shareBtn"
+                      type="button"
+                      aria-label="Share"
+                      title="Share"
+                      data-share="1"
+                      data-name="${name}"
+                      data-desc="${desc}"
+                      data-url="${url}"
+                      data-domain="${domain}"
+                      data-kind="${kind}"
+                      data-path="${path}"
+                    ><i class="fa-solid fa-share-nodes"></i></button>
+                    <a class="link" href="${url}" target="_blank" rel="noreferrer">
+                      <span>Open ${domain || "link"}</span>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             `;
@@ -2277,6 +3004,25 @@
       if (Number.isFinite(size) && size > 0) state.pageSize = size;
       state.page = 1;
       applyFilters();
+    });
+
+    el.grid.addEventListener("click", (event) => {
+      const btn = event.target.closest && event.target.closest(".shareBtn");
+      if (!btn) return;
+      event.preventDefault();
+      event.stopPropagation();
+
+      const item = {
+        name: btn.dataset.name || "",
+        description: btn.dataset.desc || "",
+        url: btn.dataset.url || "",
+        domain: btn.dataset.domain || "",
+        path: btn.dataset.path || "",
+        kind: btn.dataset.kind || "",
+      };
+
+      setStatus("Preparing share image…", true);
+      shareDirectoryItem(item).catch(() => setStatus("Share failed", false));
     });
 
     const urlParams = parseUrlParams();

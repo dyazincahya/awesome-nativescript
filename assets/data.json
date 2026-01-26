@@ -1,7 +1,20 @@
 {
-  "lastUpdated": "2026-01-23T02:05:58.216Z",
-  "total": 403,
+  "lastUpdated": "2026-01-26T06:32:28.052Z",
+  "total": 404,
   "items": [
+    {
+      "name": "NCharts",
+      "url": "https://github.com/nstudio/ncharts",
+      "description": "High-performance, fully customizable chart components for NativeScript. Line, Bar, Pie, Scatter, Candlestick, Radar and more.",
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Media & Visual Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-01-26 13:28:33 +0700"
+    },
     {
       "name": "NS Book Demo",
       "url": "https://github.com/dyazincahya/ns-book-demo",
