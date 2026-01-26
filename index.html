@@ -2144,6 +2144,18 @@
       return lines;
     }
 
+    function truncateTextToWidth(ctx, text, maxWidth) {
+      const raw = (text || "").toString();
+      if (!raw) return "";
+      if (ctx.measureText(raw).width <= maxWidth) return raw;
+      if (maxWidth <= ctx.measureText("…").width) return "…";
+      let clipped = raw;
+      while (clipped && ctx.measureText(`${clipped}…`).width > maxWidth) {
+        clipped = clipped.slice(0, -1);
+      }
+      return clipped ? `${clipped}…` : "…";
+    }
+
     function roundedRectPath(ctx, x, y, w, h, r) {
       const rr = Math.max(0, Math.min(r, Math.min(w, h) / 2));
       ctx.beginPath();
@@ -2300,9 +2312,11 @@
       for (const p of pills) {
         ctx.font = `600 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`;
         const txt = `${p.label}: ${p.value}`;
-        const w = Math.min(pillMaxX - pillX, ctx.measureText(txt).width + 32);
+        const avail = pillMaxX - pillX;
+        if (avail <= 0) break;
+        const w = Math.min(avail, ctx.measureText(txt).width + 32);
         const h = 44;
-        if (pillX + w > pillMaxX) break;
+        if (w <= 0) break;
 
         roundedRectPath(ctx, pillX, pillY, w, h, 999);
         if (p.tone === "accent") {
@@ -2320,7 +2334,8 @@
         ctx.stroke();
 
         ctx.fillStyle = text;
-        ctx.fillText(txt, pillX + 16, pillY + 29);
+        const clippedTxt = truncateTextToWidth(ctx, txt, Math.max(0, w - 32));
+        ctx.fillText(clippedTxt, pillX + 16, pillY + 29);
 
         pillX += w + pillGap;
       }
