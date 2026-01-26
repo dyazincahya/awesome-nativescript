@@ -376,6 +376,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Document Scanner](https://github.com/nativescript-community/document-scanner) - A NativeScript plugin to scan documents.
 - [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
 - [Image Cache It](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it) - A NativeScript plugin that automatically caches images for faster loading and better performance.
+- [NCharts](https://github.com/nstudio/ncharts) - High-performance, fully customizable chart components for NativeScript. Line, Bar, Pie, Scatter, Candlestick, Radar and more.
 - [SVG](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg) - A NativeScript plugin that allows you to use SVG images in your NativeScript apps.
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
