@@ -2677,7 +2677,7 @@
           if (currentSort === "name_desc") return b.name.localeCompare(a.name);
           if (currentSort === "oldest") return new Date(a.addedAt) - new Date(b.addedAt) || a.name.localeCompare(b.name);
           // Default: recent
-          return new Date(b.addedAt) - new Date(a.addedAt) || a.name.localeCompare(b.name);
+          return new Date(b.addedAt) - new Date(a.addedAt);
         });
       }
 

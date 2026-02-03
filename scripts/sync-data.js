@@ -3,6 +3,22 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const OUTPUT_FILE = path.join(__dirname, "../assets/data.json");
+let existingData = { items: [] };
+try {
+  if (fs.existsSync(OUTPUT_FILE)) {
+    existingData = JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf8"));
+  }
+} catch (e) {
+  console.warn("Could not read existing data.json");
+}
+
+const addedAtCache = new Map();
+existingData.items.forEach((item) => {
+  if (item.url && item.addedAt) {
+    addedAtCache.set(item.url, item.addedAt);
+  }
+});
+
 const README_FILES = [
   "README.md",
   "examples/README.md",
@@ -13,10 +29,12 @@ const README_FILES = [
   "examples/svelte/README.md",
   "examples/vue/README.md",
 ];
-
 function runGit(cmd) {
   try {
-    return execSync(cmd, { encoding: "utf8" }).trim();
+    return execSync(cmd, {
+      encoding: "utf8",
+      maxBuffer: 10 * 1024 * 1024,
+    }).trim();
   } catch (e) {
     console.warn(`Git command failed: ${cmd}`);
     return null;
@@ -146,7 +164,7 @@ function getGitDates(filePath, items) {
   blame.split(/\r?\n/).forEach((line) => {
     // git blame format: hash (author date time timezone line) content
     const match = line.match(
-      /^\w+\s+\([^)]+\s+(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\s+[+-]\d{4})\s+\d+\)\s+(.+)$/,
+      /^\w+\s+\(.*\s+(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\s+[+-]\d{4})\s+\d+\)\s+(.+)$/,
     );
     if (match) {
       const updatedAt = match[1];
@@ -154,6 +172,9 @@ function getGitDates(filePath, items) {
       blameMap[content] = updatedAt;
     }
   });
+  console.log(
+    `  - Populated blameMap with ${Object.keys(blameMap).length} entries`,
+  );
 
   console.log(`  - Fetching addedAt dates for ${items.length} items...`);
 
@@ -162,14 +183,19 @@ function getGitDates(filePath, items) {
     const { url, lineContent } = item;
     const updatedAt = blameMap[lineContent];
 
-    if (url && !url.startsWith("#")) {
+    // Optimization: if it's a new line (not committed), use current time
+    if (updatedAt && updatedAt.includes("Not Committed Yet")) {
+      item.addedAt = new Date().toISOString();
+    } else if (url && addedAtCache.has(url)) {
+      item.addedAt = addedAtCache.get(url);
+    } else if (url && !url.startsWith("#")) {
       // Find the first commit that added this URL
+      // Skip git log for now if it's too slow, or use a shorter version
       const addedLog = runGit(
-        `git log --diff-filter=A --follow --format=%ai -S "${url}" -- "${filePath}"`,
+        `git log --diff-filter=A -n 1 --format=%ai -S "${url}" -- "${filePath}"`,
       );
       if (addedLog) {
-        const logs = addedLog.split(/\r?\n/).filter(Boolean);
-        item.addedAt = logs[logs.length - 1]; // Oldest is at the bottom
+        item.addedAt = addedLog.trim();
       } else {
         item.addedAt = updatedAt || new Date().toISOString();
       }
@@ -246,11 +272,19 @@ console.log("Starting data synchronization...");
 let allItems = [];
 README_FILES.forEach((file) => {
   const items = parseReadme(file);
+  console.log(
+    `Finished parsing ${file}. Total items so far: ${allItems.length + items.length}`,
+  );
   allItems = allItems.concat(items);
 });
 
-// Sort by date descending
-allItems.sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+// Sort by date descending, then by original index descending (newer items in README first)
+allItems.sort((a, b) => {
+  const dateA = new Date(a.addedAt);
+  const dateB = new Date(b.addedAt);
+  if (dateB - dateA !== 0) return dateB - dateA;
+  return allItems.indexOf(b) - allItems.indexOf(a);
+});
 
 const output = {
   lastUpdated: new Date().toISOString(),
