@@ -28,7 +28,10 @@
   <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"WebPage","name":"Awesome NativeScript — Search","description":"Search across Awesome NativeScript resources, plugins, and examples from README.md and examples/*/README.md.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Awesome NativeScript","url":"https://github.com/dyazincahya/awesome-nativescript"},"about":{"@type":"SoftwareApplication","name":"NativeScript","applicationCategory":"DeveloperApplication"},"image":"https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/main/awesome-nativescript.png"}
   </script>
-  <link rel="icon" type="image/png" href="assets/images/ns-favicon-new.png" />
+  <!-- <link rel="icon" type="image/png" href="assets/images/ns-favicon-new.png" /> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/ns-favicon-new-light.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
   <style>
     :root {
@@ -1453,6 +1456,13 @@
     <header class="topbar">
       <div class="brand">
         <img class="mark" src="assets/images/ns-favicon-new.png" alt="NativeScript" />
+        <script>
+          (function () {
+            const theme = localStorage.getItem("theme");
+            const isLight = theme === "light" || (!theme && window.matchMedia("(prefers-color-scheme: light)").matches);
+            document.querySelector(".mark").src = isLight ? "assets/images/ns-favicon-new.png" : "assets/images/ns-favicon-new-light.png";
+          })();
+        </script>
         <div class="title">
           <h1>Awesome NativeScript — Search</h1>
           <p>Fast search over README.md categories and plugin lists</p>
@@ -1585,7 +1595,7 @@
       <div class="footerRow">
         <div class="credit">
           Made with <i class="fa-solid fa-heart icon-heart"></i> for the <a href="https://nativescript.org"
-            target="_blank">NativeScript</a> community by <a href="https://github.com/kang-cahya" target="_blank">Kang
+            target="_blank">NativeScript</a> community by <a href="https://github.com/dyazincahya" target="_blank">Kang
             Cahya</a>
         </div>
         <div id="footerYear">&copy; 2025-2026 Awesome NativeScript</div>
@@ -1594,12 +1604,21 @@
   </div>
 
   <script>
+    function updateMarkIcon() {
+      const isLight = document.documentElement.classList.contains("light-mode");
+      const mark = document.querySelector(".mark");
+      if (mark) {
+        mark.src = isLight ? "assets/images/ns-favicon-new.png" : "assets/images/ns-favicon-new-light.png";
+      }
+    }
+
     (function initTheme() {
       const theme = localStorage.getItem("theme");
       if (theme === "light" || (!theme && window.matchMedia("(prefers-color-scheme: light)").matches)) {
         document.documentElement.classList.add("light-mode");
         document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f1f5f9");
       }
+      updateMarkIcon();
     })();
 
     const state = {
@@ -1695,6 +1714,7 @@
       const isLight = document.documentElement.classList.toggle("light-mode");
       localStorage.setItem("theme", isLight ? "light" : "dark");
       document.querySelector('meta[name="theme-color"]').setAttribute("content", isLight ? "#f1f5f9" : "#070a12");
+      updateMarkIcon();
     }
 
     function updateFooterYear() {
@@ -2177,12 +2197,15 @@
       });
     }
 
-    let shareLogoPromise = null;
+    const shareLogoPromises = { light: null, dark: null };
     async function getShareLogo() {
-      if (!shareLogoPromise) {
-        shareLogoPromise = loadImage("assets/images/ns-favicon-new.png").catch(() => null);
+      const isLight = document.documentElement.classList.contains("light-mode");
+      const theme = isLight ? "light" : "dark";
+      if (!shareLogoPromises[theme]) {
+        const src = isLight ? "assets/images/ns-favicon-new.png" : "assets/images/ns-favicon-new-light.png";
+        shareLogoPromises[theme] = loadImage(src).catch(() => null);
       }
-      return shareLogoPromise;
+      return shareLogoPromises[theme];
     }
 
     async function buildShareCardBlob(item) {
@@ -2253,13 +2276,18 @@
 
       if (logo) {
         const size = 54;
+        const logoR = 14;
         ctx.save();
         roundedRectPath(ctx, headerX, headerY - 6, size + 12, size + 12, 18);
         ctx.fillStyle = surface2;
         ctx.fill();
         ctx.restore();
 
+        ctx.save();
+        roundedRectPath(ctx, headerX + 6, headerY, size, size, logoR);
+        ctx.clip();
         ctx.drawImage(logo, headerX + 6, headerY, size, size);
+        ctx.restore();
       }
 
       const brandX = logo ? headerX + 84 : headerX;
