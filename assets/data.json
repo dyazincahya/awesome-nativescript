@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-02-03T23:08:54.974Z",
-  "total": 408,
+  "lastUpdated": "2026-02-09T07:24:52.375Z",
+  "total": 409,
   "items": [
+    {
+      "name": "NativeScript GitHub Copilot",
+      "url": "https://github.com/NathanWalker/ns-gh-copilot",
+      "description": "Chat app integrating GitHub Copilot SDK with real-time markdown streaming and native iOS inputAccessoryView for an Apple Messages experience.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "addedAt": "2026-02-09 14:21:42 +0700"
+    },
     {
       "name": "Android Edge-to-Edge",
       "url": "https://blog.nativescript.org/android-edge-to-edge/",
@@ -60,7 +79,7 @@
       "addedAt": "2026-01-28 08:36:54 +0700"
     },
     {
-      "name": "NativeScript Stackblitz Templates",
+      "name": "Sortable ListView",
       "url": "https://stackblitz.com/edit/nativescript-stackblitz-templates-jlvmcd",
       "description": "Official NativeScript Stackblitz templates for Core (TypeScript/JavaScript).",
       "meta": {
@@ -347,25 +366,6 @@
         "source": "Github",
         "authorName": "Triniwiz",
         "authorUrl": "https://github.com/triniwiz"
-      },
-      "top": "Examples",
-      "sub": "Angular",
-      "path": "Examples / Angular",
-      "domain": "github.com",
-      "sourceLabel": "Example of Angular",
-      "sourceFile": "examples/angular/README.md",
-      "source": "examples/angular/README.md",
-      "addedAt": "2026-01-21 22:11:46 +0700"
-    },
-    {
-      "name": "iOS 26 FoundationModels",
-      "url": "https://github.com/NathanWalker/ns-ios-foundationmodels",
-      "description": "Example showcasing how to leverage streamed responses from Apple Intelligence using FoundationModels.",
-      "meta": {
-        "platform": "iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
       },
       "top": "Examples",
       "sub": "Angular",
@@ -949,25 +949,6 @@
       "sourceLabel": "Example of React",
       "sourceFile": "examples/react/README.md",
       "source": "examples/react/README.md",
-      "addedAt": "2025-12-23 05:49:57 +0700"
-    },
-    {
-      "name": "Android JSch",
-      "url": "https://github.com/NathanWalker/android-jsch-example",
-      "description": "NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via com.jcraft.JSch.",
-      "meta": {
-        "platform": "Android",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Core",
-      "path": "Examples / Core",
-      "domain": "github.com",
-      "sourceLabel": "Example of Core",
-      "sourceFile": "examples/core/README.md",
-      "source": "examples/core/README.md",
       "addedAt": "2025-12-23 05:49:57 +0700"
     },
     {
@@ -3135,6 +3116,25 @@
       "addedAt": "2025-07-26 20:10:34 +0700"
     },
     {
+      "name": "iOS 26 FoundationModels",
+      "url": "https://github.com/NathanWalker/ns-ios-foundationmodels",
+      "description": "Example showcasing how to leverage streamed responses from Apple Intelligence using FoundationModels.",
+      "meta": {
+        "platform": "iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "addedAt": "2025-07-26 20:06:10 +0700"
+    },
+    {
       "name": "ns-ios-foundationmodels",
       "url": "https://github.com/NathanWalker/ns-ios-foundationmodels",
       "description": "Example NativeScript app using iOS 26+ FoundationModels.",
@@ -4303,6 +4303,25 @@
       "sourceFile": "README.md",
       "source": "README.md",
       "addedAt": "2025-07-23 14:19:47 +0700"
+    },
+    {
+      "name": "Android JSch",
+      "url": "https://github.com/NathanWalker/android-jsch-example",
+      "description": "NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via com.jcraft.JSch.",
+      "meta": {
+        "platform": "Android",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "github.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2025-07-23 13:29:15 +0700"
     },
     {
       "name": "JSch",
