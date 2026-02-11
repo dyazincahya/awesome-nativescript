@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-09T07:24:52.375Z",
+  "lastUpdated": "2026-02-11T04:08:45.415Z",
   "total": 409,
   "items": [
     {
@@ -196,6 +196,10 @@
       "name": "nCharts",
       "url": "https://plugins.nstudio.io/ncharts/",
       "description": "High-performance, fully customizable chart components.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -589,6 +593,10 @@
       "name": "SplitView",
       "url": "https://docs.nativescript.org/ui/split-view",
       "description": "A singular root view component for coordinating up to four column roles. (primary, secondary, supplementary, inspector). This component only available on iOS.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -716,6 +724,10 @@
       "name": "NativeScript Custom Native Elements",
       "url": "https://docs.nativescript.org/guide/create-custom-native-elements",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -729,6 +741,10 @@
       "name": "NativeScript Agentic Coding",
       "url": "https://docs.nativescript.org/guide/agentic-coding",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -742,6 +758,10 @@
       "name": "nstreamdown",
       "url": "https://github.com/nstudio/nstreamdown",
       "description": "Native streaming markdown for NativeScript apps, inspired by streamdown.ai. Ideal for AI-powered chat interfaces.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "Artificial Intelligence (AI) Plugins",
       "path": "Plugins / Artificial Intelligence (AI) Plugins",
@@ -755,6 +775,10 @@
       "name": "MasonKit",
       "url": "https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit",
       "description": "This plugin is a wrap of `Taffy` layout engine for NativeScript. It provides a high performance rust-powered UI layout library for NativeScript.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Mason Plugins",
       "path": "Plugins / Mason Plugins",
@@ -768,6 +792,10 @@
       "name": "EPUB Reader",
       "url": "https://github.com/kakha13/nativescript-plugins/tree/main/packages/epub-reader",
       "description": "A NativeScript plugin for reading EPUB books with a native FolioReader-based UI on iOS and Android.",
+      "meta": {
+        "authorName": "kakha13",
+        "authorUrl": "https://github.com/kakha13"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -781,6 +809,10 @@
       "name": "Pinia Persisted State",
       "url": "https://github.com/kakha13/nativescript-plugins/tree/main/packages/pinia-persistedstate",
       "description": "A NativeScript plugin that persists Pinia stores using configurable storage in Vue/Pinia apps.",
+      "meta": {
+        "authorName": "kakha13",
+        "authorUrl": "https://github.com/kakha13"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -794,6 +826,10 @@
       "name": "Svelte",
       "url": "https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/svelte",
       "description": "Example using NativeScript with Svelte.",
+      "meta": {
+        "authorName": "dyazincahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
       "top": "Interactive Demos & Examples",
       "sub": "",
       "path": "Interactive Demos & Examples",
@@ -807,6 +843,10 @@
       "name": "Solid",
       "url": "https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/solid",
       "description": "Example using NativeScript with Solid.",
+      "meta": {
+        "authorName": "dyazincahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
       "top": "Interactive Demos & Examples",
       "sub": "",
       "path": "Interactive Demos & Examples",
@@ -820,6 +860,10 @@
       "name": "React",
       "url": "https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/react",
       "description": "Example using NativeScript with React.",
+      "meta": {
+        "authorName": "dyazincahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
       "top": "Interactive Demos & Examples",
       "sub": "",
       "path": "Interactive Demos & Examples",
@@ -833,6 +877,10 @@
       "name": "Vue",
       "url": "https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/vue",
       "description": "Example using NativeScript with Vue.",
+      "meta": {
+        "authorName": "dyazincahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
       "top": "Interactive Demos & Examples",
       "sub": "",
       "path": "Interactive Demos & Examples",
@@ -846,6 +894,10 @@
       "name": "Angular",
       "url": "https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/angular",
       "description": "Example using NativeScript with Angular.",
+      "meta": {
+        "authorName": "dyazincahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
       "top": "Interactive Demos & Examples",
       "sub": "",
       "path": "Interactive Demos & Examples",
@@ -859,6 +911,10 @@
       "name": "Core",
       "url": "https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/core",
       "description": "Example using pure NativeScript with TypeScript/JavaScript.",
+      "meta": {
+        "authorName": "dyazincahya",
+        "authorUrl": "https://github.com/dyazincahya"
+      },
       "top": "Interactive Demos & Examples",
       "sub": "",
       "path": "Interactive Demos & Examples",
@@ -872,6 +928,10 @@
       "name": "NativeScript on Stack Overflow",
       "url": "https://stackoverflow.com/questions/tagged/nativescript",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -885,6 +945,10 @@
       "name": "NativeScript Homepage",
       "url": "https://nativescript.org/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -974,6 +1038,10 @@
       "name": "Svelte",
       "url": "svelte",
       "description": "Example using NativeScript with Svelte.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Examples",
       "sub": "",
       "path": "Examples",
@@ -987,6 +1055,10 @@
       "name": "Solid",
       "url": "solid",
       "description": "Example using NativeScript with Solid.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Examples",
       "sub": "",
       "path": "Examples",
@@ -1000,6 +1072,10 @@
       "name": "React",
       "url": "react",
       "description": "Example using NativeScript with React.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Examples",
       "sub": "",
       "path": "Examples",
@@ -1013,6 +1089,10 @@
       "name": "Vue",
       "url": "vue",
       "description": "Example using NativeScript with Vue.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Examples",
       "sub": "",
       "path": "Examples",
@@ -1026,6 +1106,10 @@
       "name": "Angular",
       "url": "angular",
       "description": "Example using NativeScript with Angular.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Examples",
       "sub": "",
       "path": "Examples",
@@ -1039,6 +1123,10 @@
       "name": "Core",
       "url": "core",
       "description": "Example using pure NativeScript with TypeScript/JavaScript.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Examples",
       "sub": "",
       "path": "Examples",
@@ -1052,6 +1140,10 @@
       "name": "Maestro",
       "url": "https://nstudio.io/blog/maestro-ui-testing-nativescript",
       "description": "This is the simplest and most effective UI testing framework.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Testing",
       "sub": "End-to-end Integration Testing",
       "path": "Testing / End-to-end Integration Testing",
@@ -1065,6 +1157,10 @@
       "name": "E2E Testing",
       "url": "https://docs.nativescript.org/guide/testing",
       "description": "For end-to-end testing, consider using Maestro or the @NativeScript/detox plugin.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Testing",
       "sub": "Unit Testing",
       "path": "Testing / Unit Testing",
@@ -1078,6 +1174,10 @@
       "name": "Theme Switcher",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/theme-switcher",
       "description": "A plugin that allows you to switch themes based on the theme from @NativeScript/theme.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1091,6 +1191,10 @@
       "name": "Context APIs",
       "url": "https://github.com/GeoTecINIT/nativescript-context-apis",
       "description": "A NativeScript plugin to ease the access to mobile phone's real-world context.",
+      "meta": {
+        "authorName": "GeoTecINIT",
+        "authorUrl": "https://github.com/GeoTecINIT"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Security & Context",
@@ -1104,6 +1208,10 @@
       "name": "Image Cropper",
       "url": "https://github.com/bthurlow/nativescript-imagecropper",
       "description": "A NativeScript image cropping plugin.",
+      "meta": {
+        "authorName": "bthurlow",
+        "authorUrl": "https://github.com/bthurlow"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -1117,6 +1225,10 @@
       "name": "FFmpeg",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg",
       "description": "A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -1130,6 +1242,10 @@
       "name": "Licenses",
       "url": "https://github.com/nativescript-community/licenses",
       "description": "A NativeScript plugin to generate licenses JSON files.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Development & Configuration",
@@ -1143,6 +1259,10 @@
       "name": "Secure Storage",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/secure-storage",
       "description": "Provides secure storage using SAMKeychain on iOS and Hawk on Android.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -1156,6 +1276,10 @@
       "name": "NativeScript Community Https",
       "url": "https://github.com/nativescript-community/https",
       "description": "Secure HTTP client with SSL pinning for NativeScript - iOS/Android.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Networking Plugins",
       "path": "Plugins / Networking Plugins",
@@ -1169,6 +1293,10 @@
       "name": "Google Maps Utils",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils",
       "description": "You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @NativeScript/google-maps_.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -1182,6 +1310,10 @@
       "name": "Use Gemini Pro with NativeScript",
       "url": "https://x.com/NativeScript/status/1940163248051167399",
       "description": "Official demo showcasing Gemini Pro AI integration. [Interactive Demo](https://stackblitz.com/edit/nativescript-gemini-pro?file=src%2Fhome.html), Try it live on StackBlitz.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tutorials",
       "sub": "AI & Machine Learning",
       "path": "Tutorials / AI & Machine Learning",
@@ -1195,6 +1327,10 @@
       "name": "Universal Links",
       "url": "https://www.npmjs.com/package/@nativescript-community/universal-links",
       "description": "Provides Universal Links (iOS) and App Links (Android) support for NativeScript.",
+      "meta": {
+        "authorName": "@nativescript-community",
+        "authorUrl": "https://github.com/@nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1208,6 +1344,10 @@
       "name": "SMS Receiver",
       "url": "https://github.com/comporell/nativescript-plugins/tree/master/packages/nativescript-sms-receiver",
       "description": "A NativeScript plugin to receive SMS messages on Android phone.",
+      "meta": {
+        "authorName": "comporell",
+        "authorUrl": "https://github.com/comporell"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1221,6 +1361,10 @@
       "name": "SMS Inbox",
       "url": "https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox",
       "description": "A NativeScript plugin to read text messages on Android phone inbox.",
+      "meta": {
+        "authorName": "edusperoni",
+        "authorUrl": "https://github.com/edusperoni"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1234,6 +1378,10 @@
       "name": "Task Dispatcher",
       "url": "https://github.com/GeoTecINIT/nativescript-task-dispatcher",
       "description": "This is a NativeScript plugin aimed to ease the execution of mobile app's task definition and execution workflows in the background.",
+      "meta": {
+        "authorName": "GeoTecINIT",
+        "authorUrl": "https://github.com/GeoTecINIT"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Background Tasks & Notifications",
@@ -1247,6 +1395,10 @@
       "name": "Auto Fit Text",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text",
       "description": "A plugin that extends the NativeScript Label with the functionality to adjust the font size according to the label's width.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Text & Typography",
@@ -1260,6 +1412,10 @@
       "name": "Fluid Segmented Bar",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar",
       "description": "To liven up any standard SegmentedBar control.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Navigation & User Guidance",
@@ -1273,6 +1429,10 @@
       "name": "OTP",
       "url": "https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp",
       "description": "A NativeScript plugin to auto fill the One Time Code OTP for iOS and Android.",
+      "meta": {
+        "authorName": "kefahB",
+        "authorUrl": "https://github.com/kefahB"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -1286,6 +1446,10 @@
       "name": "Multi Select",
       "url": "https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect",
       "description": "NativeScript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.",
+      "meta": {
+        "authorName": "elgiborsolution",
+        "authorUrl": "https://github.com/elgiborsolution"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -1299,6 +1463,10 @@
       "name": "Rive",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/rive",
       "description": "Allows setup and interaction with the native implementation of the Rive runtime on iOS and Android.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -1312,6 +1480,10 @@
       "name": "Tailwind CSS",
       "url": "https://github.com/nativescript-community/tailwindcss",
       "description": "Use Tailwind CSS utility classes in NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Styling & Theme Plugins",
       "path": "Plugins / Styling & Theme Plugins",
@@ -1325,6 +1497,10 @@
       "name": "Klippa NativeScript Http",
       "url": "https://github.com/klippa-app/nativescript-http",
       "description": "The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.",
+      "meta": {
+        "authorName": "klippa-app",
+        "authorUrl": "https://github.com/klippa-app"
+      },
       "top": "Plugins",
       "sub": "Networking Plugins",
       "path": "Plugins / Networking Plugins",
@@ -1338,6 +1514,10 @@
       "name": "Firebase Storage",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-storage",
       "description": "This plugin allows you to use the native Firebase SDKs for Cloud Storage in your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -1351,6 +1531,10 @@
       "name": "Firebase Messaging Core",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging-core",
       "description": "This is a lite package which enables you to use a third-party push service on Android and iOS.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -1364,6 +1548,10 @@
       "name": "SQLite Secure",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure",
       "description": "This a library for NativeScript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "Client-side Database Plugins",
       "path": "Plugins / Client-side Database Plugins",
@@ -1377,6 +1565,10 @@
       "name": "Supabase",
       "url": "https://github.com/NativeScript/supabase",
       "description": "Start your project with a PostgreSQL, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Backend Service Plugins",
       "path": "Plugins / Backend Service Plugins",
@@ -1390,6 +1582,10 @@
       "name": "NativeScript Community on GitHub",
       "url": "https://github.com/nativescript-community/",
       "description": "",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Community",
       "sub": "",
       "path": "Community",
@@ -1403,6 +1599,10 @@
       "name": "NativeScript Community on Discord",
       "url": "https://nativescript.org/discord",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Community",
       "sub": "",
       "path": "Community",
@@ -1416,6 +1616,10 @@
       "name": "NativeScript on YouTube",
       "url": "https://www.youtube.com/@NativeScriptVideos/videos",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -1429,6 +1633,10 @@
       "name": "NativeScript on Bsky",
       "url": "https://bsky.app/profile/nativescript.bsky.social",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -1442,6 +1650,10 @@
       "name": "NativeScript on X",
       "url": "https://x.com/nativescript",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -1455,6 +1667,10 @@
       "name": "NativeScript Unit Test Runner v3",
       "url": "https://blog.nativescript.org/unit-testing-with-v3-runner/",
       "description": "Test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Testing",
       "sub": "Unit Testing",
       "path": "Testing / Unit Testing",
@@ -1468,6 +1684,10 @@
       "name": "NativeScript-Vue unit testing with Vitest",
       "url": "https://blog.nativescript.org/nativescript-vue-vitest-testing/",
       "description": "An article on unit testing NativeScript-Vue applications with Vitest.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Testing",
       "sub": "Unit Testing",
       "path": "Testing / Unit Testing",
@@ -1481,6 +1701,10 @@
       "name": "JavaScript obfuscator",
       "url": "https://github.com/javascript-obfuscator/javascript-obfuscator",
       "description": "This is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code. ([Tutorial](https://www.kang-cahya.com/2025/07/securing-javascript-code-in.html))",
+      "meta": {
+        "authorName": "javascript-obfuscator",
+        "authorUrl": "https://github.com/javascript-obfuscator"
+      },
       "top": "Security",
       "sub": "",
       "path": "Security",
@@ -1494,6 +1718,10 @@
       "name": "AppsFlyer",
       "url": "https://github.com/AppsFlyerSDK/appsflyer-nativescript-plugin",
       "description": "A NativeScript plugin for AppsFlyer mobile attribution and analytics. Track installs, measure user behavior, and optimize marketing performance.",
+      "meta": {
+        "authorName": "AppsFlyerSDK",
+        "authorUrl": "https://github.com/AppsFlyerSDK"
+      },
       "top": "Plugins",
       "sub": "Analytics, Engagement & Monitoring Plugins",
       "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
@@ -1507,6 +1735,10 @@
       "name": "DOM Types",
       "url": "https://github.com/nativescript-dom/types",
       "description": "Single, centralized TypeScript types for NativeScript web frameworks providing better auto-complete/intellisense for Vue, React, Angular, Svelte, and SolidJS.",
+      "meta": {
+        "authorName": "nativescript-dom",
+        "authorUrl": "https://github.com/nativescript-dom"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Development & Configuration",
@@ -1520,6 +1752,10 @@
       "name": "Morph Modal Kit",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/morph-modal-kit",
       "description": "Is a lightweight, flexible UIKit package for building card-stack modals with smooth `morph` (replace) animations and support for sticky elements. Only for iOS.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -1533,6 +1769,10 @@
       "name": "Real Native Vue Apps with NativeScript-Vue — VueConf US 2024",
       "url": "https://www.youtube.com/watch?v=6jmU1EfKWF0",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -1546,6 +1786,10 @@
       "name": "Store Update",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/store-update",
       "description": "A NativeScript plugin that provides useful methods to retrieve version information and check for updates in NativeScript applications (Android and iOS).",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -1559,6 +1803,10 @@
       "name": "Screen Protector",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/screen-protector",
       "description": "A NativeScript plugin to protect sensitive content from screen capture and recording. This plugin provides API methods to block screenshots and detect screen recording events — with native support for both iOS and Android.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -1572,6 +1820,10 @@
       "name": "Screen Orientation",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/screen-orientation",
       "description": "This NativeScript plugin provides an easy and effective way to manage screen orientation across platforms. You can both read the current orientation and programmatically set a new orientation (including reverse modes).",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -1585,6 +1837,10 @@
       "name": "SignalR",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/signalr",
       "description": "This is a NativeScript plugin that integrates SignalR—Microsoft's real-time communication library—into your mobile apps for iOS and Android.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1598,6 +1854,10 @@
       "name": "URL Preview",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/url-preview",
       "description": "This plugin allows you to configure various aspects of the UI, including colors, border radius, and the type of view. Below is a table listing the available attributes and their respective types.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -1611,6 +1871,10 @@
       "name": "Launch Navigator",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/blob/main/packages/launch-navigator",
       "description": "Easily launch turn-by-turn navigation from your NativeScript app using popular mapping apps like Google Maps, Waze, Apple Maps, and more.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -1624,6 +1888,10 @@
       "name": "Tween",
       "url": "https://github.com/nativescript-community/tween",
       "description": "A NativeScript plugin that natively wraps tween.js, a tweening engine for easy animations, incorporating optimized Robert Penner's equations.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Animation & Visual Effects",
@@ -1637,6 +1905,10 @@
       "name": "Why NativeScript? Why it's worth learning today, tips for avoiding common pitfalls, and what's coming next",
       "url": "https://x.com/frontendnation/status/1936113360702980351",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -1650,6 +1922,10 @@
       "name": "System UI",
       "url": "https://github.com/nativescript-community/systemui",
       "description": "Provides API for changing the styles of SystemUI (StatusBar, NavigationBar, Etc) on iOS.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1663,6 +1939,10 @@
       "name": "View Shot",
       "url": "https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-view-shot",
       "description": "Take a screenshot of an existing view, or render a view in the background and take a screenshot of it.",
+      "meta": {
+        "authorName": "valor-software",
+        "authorUrl": "https://github.com/valor-software"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1676,6 +1956,10 @@
       "name": "Keyboard Opening",
       "url": "https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-keyboard-opening",
       "description": "A plugin that allows you to track keyboard opening, changing, closing and returns keyboard height.",
+      "meta": {
+        "authorName": "Bezlepkin",
+        "authorUrl": "https://github.com/Bezlepkin"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1689,6 +1973,10 @@
       "name": "Keyboard",
       "url": "https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-keyboard",
       "description": "A NativeScript plugin that allows programmatically showing and hiding the virtual keyboard.",
+      "meta": {
+        "authorName": "NativeScript-Use",
+        "authorUrl": "https://github.com/NativeScript-Use"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1702,6 +1990,10 @@
       "name": "Intersection Observer",
       "url": "https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-intersection-observer",
       "description": "A NativeScript plugin that detects when a UI element enters or exits the viewport.",
+      "meta": {
+        "authorName": "NativeScript-Use",
+        "authorUrl": "https://github.com/NativeScript-Use"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1715,6 +2007,10 @@
       "name": "IQ Keyboard Manager",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager",
       "description": "A NativeScript wrapper for the popular IQKeyboardManager iOS framework.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1728,6 +2024,10 @@
       "name": "Gesture Handler",
       "url": "https://github.com/nativescript-community/gesturehandler",
       "description": "Declarative API exposing platform native touch and gesture system to NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / User Interface & Interaction",
@@ -1741,6 +2041,10 @@
       "name": "Localize",
       "url": "https://github.com/NativeScript/plugins/tree/main/packages/localize",
       "description": "A plugin that implements internationalization (i18n) using the native capabilities of each platform.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Development & Configuration",
@@ -1754,6 +2058,10 @@
       "name": "Dotenv",
       "url": "https://github.com/ontrackms/nativescript-dotenv",
       "description": "A NativeScript plugin that enables the use of environment variables in your app.",
+      "meta": {
+        "authorName": "ontrackms",
+        "authorUrl": "https://github.com/ontrackms"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Development & Configuration",
@@ -1767,6 +2075,10 @@
       "name": "App Availability",
       "url": "https://github.com/NativeScript/plugins/tree/main/packages/appavailability",
       "description": "A plugin that checks if an app is installed on a device.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Development & Configuration",
@@ -1780,6 +2092,10 @@
       "name": "preferences",
       "url": "https://github.com/nativescript-community/preferences",
       "description": "This plugin allows native preference saving/loading on iOS and Android.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -1793,6 +2109,10 @@
       "name": "MD5",
       "url": "https://github.com/nativescript-community/md5",
       "description": "A NativeScript plugin for fast MD5 computation for files.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -1806,6 +2126,10 @@
       "name": "Contacts",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/contacts",
       "description": "A plugin that allows you to access Contacts directory on iOS and Android.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -1819,6 +2143,10 @@
       "name": "Clipboard",
       "url": "https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-clipboard",
       "description": "A NativeScript plugin that provides simple APIs to copy to and read from the system clipboard.",
+      "meta": {
+        "authorName": "NativeScript-Use",
+        "authorUrl": "https://github.com/NativeScript-Use"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -1832,6 +2160,10 @@
       "name": "Array Buffers",
       "url": "https://github.com/nativescript-community/arraybuffers",
       "description": "Utility methods to work with Array Buffers in Nativescript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Data & Storage",
@@ -1845,6 +2177,10 @@
       "name": "Social Share",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/social-share",
       "description": "A plugin that allows you to share content to social media.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1858,6 +2194,10 @@
       "name": "MQTT",
       "url": "https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt",
       "description": "A cross-platform NativeScript plugin for MQTT communication.",
+      "meta": {
+        "authorName": "edusperoni",
+        "authorUrl": "https://github.com/edusperoni"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1871,6 +2211,10 @@
       "name": "Messenger",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger",
       "description": "A NativeScript plugin for sending SMS or MMS.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1884,6 +2228,10 @@
       "name": "InAppBrowser",
       "url": "https://github.com/proyecto26/nativescript-inappbrowser",
       "description": "A NativeScript plugin that allows you to open URLs in an in-app browser.",
+      "meta": {
+        "authorName": "proyecto26",
+        "authorUrl": "https://github.com/proyecto26"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1897,6 +2245,10 @@
       "name": "Email",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/email",
       "description": "A plugin to compose an e-mail, have the user edit the draft manually and send it.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1910,6 +2262,10 @@
       "name": "Downloader",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader",
       "description": "Is a NativeScript plugin used to download files from the internet directly to the user's device.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1923,6 +2279,10 @@
       "name": "Background HTTP",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/background-http",
       "description": "A plugin that allows you to make background HTTP uploads.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Communication & Networking",
@@ -1936,6 +2296,10 @@
       "name": "Task",
       "url": "https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-task",
       "description": "A NativeScript module for simply handling background tasks via web workers.",
+      "meta": {
+        "authorName": "NativeScript-Use",
+        "authorUrl": "https://github.com/NativeScript-Use"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Background Tasks & Notifications",
@@ -1949,6 +2313,10 @@
       "name": "Shared Notification Delegate",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/shared-notification-delegate",
       "description": "This project aims to prevent the shortcomings that come from the iOS implementation of only allowing a single delegate.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Background Tasks & Notifications",
@@ -1962,6 +2330,10 @@
       "name": "Local Notifications",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/local-notifications",
       "description": "A plugin that allows your app to show notifications when the app is not running.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Background Tasks & Notifications",
@@ -1975,6 +2347,10 @@
       "name": "Fetch Task",
       "url": "https://github.com/AthiraLekshmiCV/background-fetch/tree/main/packages/fetch-task",
       "description": "Background Fetch is a very simple plugin which will awaken an app in the background about every 15 minutes.",
+      "meta": {
+        "authorName": "AthiraLekshmiCV",
+        "authorUrl": "https://github.com/AthiraLekshmiCV"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Background Tasks & Notifications",
@@ -1988,6 +2364,10 @@
       "name": "UI Label",
       "url": "https://github.com/nativescript-community/ui-label",
       "description": "Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Text & Typography",
@@ -2001,6 +2381,10 @@
       "name": "Markdown View",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-markdown-view",
       "description": "A NativeScript view for displaying natively rendered Markdown.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Text & Typography",
@@ -2014,6 +2398,10 @@
       "name": "Label Marquee",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee",
       "description": "A Label which can scroll with a marquee effect when the text outgrows the available width.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Text & Typography",
@@ -2027,6 +2415,10 @@
       "name": "Windowed Modal",
       "url": "https://github.com/mukaschultze/nativescript-windowed-modal",
       "description": "Consistent modals for NativeScript in Android and iOS.",
+      "meta": {
+        "authorName": "mukaschultze",
+        "authorUrl": "https://github.com/mukaschultze"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2040,6 +2432,10 @@
       "name": "UI Neumorphic Layout",
       "url": "https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout",
       "description": "A plugin that adds support for neumorphism styling to NativeScript layout containers.",
+      "meta": {
+        "authorName": "CatchABus",
+        "authorUrl": "https://github.com/CatchABus"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2053,6 +2449,10 @@
       "name": "UI Popover",
       "url": "https://github.com/nativescript-community/ui-popover",
       "description": "A NativeScript plugin to make Popover.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2066,6 +2466,10 @@
       "name": "UI Persistent Bottomsheet",
       "url": "https://github.com/nativescript-community/ui-persistent-bottomsheet",
       "description": "A NativeScript plugin that allows you to easily add a persistent bottomsheet to your projects.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2079,6 +2483,10 @@
       "name": "UI Pager",
       "url": "https://github.com/nativescript-community/ui-pager",
       "description": "Pager / Carousel component that allows the user to swipe left and right through pages of data.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2092,6 +2500,10 @@
       "name": "UI Drawer",
       "url": "https://github.com/nativescript-community/ui-drawer",
       "description": "A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2105,6 +2517,10 @@
       "name": "UI Collectionview",
       "url": "https://github.com/nativescript-community/ui-collectionview",
       "description": "Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2118,6 +2534,10 @@
       "name": "UI Canvas",
       "url": "https://github.com/nativescript-community/ui-canvas",
       "description": "Implement Canvas into your NativeScript apps.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2131,6 +2551,10 @@
       "name": "RTL UI Layout",
       "url": "https://github.com/nativescript-rtl/ui",
       "description": "Right-to-left UI Layout support for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-rtl",
+        "authorUrl": "https://github.com/nativescript-rtl"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2144,6 +2568,10 @@
       "name": "Nested Scrollview",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview",
       "description": "A NativeScript plugin to make Nested Scroll View.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2157,6 +2585,10 @@
       "name": "Accordion",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accordion",
       "description": "A NativeScript plugin for Accordion UI.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Layout & Container Components",
@@ -2170,6 +2602,10 @@
       "name": "Tooltip",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-tooltip",
       "description": "A NativeScript plugin to make Tooltip.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Feedback & Notifications",
@@ -2183,6 +2619,10 @@
       "name": "Toasty",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-toasty",
       "description": "A NativeScript plugin to make Toast.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Feedback & Notifications",
@@ -2196,6 +2636,10 @@
       "name": "In App Review",
       "url": "https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review",
       "description": "A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it.",
+      "meta": {
+        "authorName": "valor-software",
+        "authorUrl": "https://github.com/valor-software"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Feedback & Notifications",
@@ -2209,6 +2653,10 @@
       "name": "Feedback",
       "url": "https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback",
       "description": "Non-blocking textual feedback for your NativeScript App.",
+      "meta": {
+        "authorName": "valor-software",
+        "authorUrl": "https://github.com/valor-software"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Feedback & Notifications",
@@ -2222,6 +2670,10 @@
       "name": "Shimmer",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-shimmer",
       "description": "A NativeScript plugin to create a shimmer effect for any view.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Animation & Visual Effects",
@@ -2235,6 +2687,10 @@
       "name": "Ripple",
       "url": "https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-ripple",
       "description": "This plugin aims to bring a native (or close to native) ripple implementation on Android and iOS.",
+      "meta": {
+        "authorName": "edusperoni",
+        "authorUrl": "https://github.com/edusperoni"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Animation & Visual Effects",
@@ -2248,6 +2704,10 @@
       "name": "Parallax",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-parallax",
       "description": "A NativeScript plugin to create a parallax effect for any view.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Animation & Visual Effects",
@@ -2261,6 +2721,10 @@
       "name": "Native Navigation",
       "url": "https://github.com/atellmer/dark/tree/master/packages/native-navigation",
       "description": "A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.",
+      "meta": {
+        "authorName": "atellmer",
+        "authorUrl": "https://github.com/atellmer"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Navigation & User Guidance",
@@ -2274,6 +2738,10 @@
       "name": "Coachmarks",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks",
       "description": "A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Navigation & User Guidance",
@@ -2287,6 +2755,10 @@
       "name": "App Tour",
       "url": "https://github.com/hamdiwanis/nativescript-app-tour",
       "description": "A NativeScript plugin that allows you to create an app tour for your users.",
+      "meta": {
+        "authorName": "hamdiwanis",
+        "authorUrl": "https://github.com/hamdiwanis"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Navigation & User Guidance",
@@ -2300,6 +2772,10 @@
       "name": "Variable Blur View",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-variable-blur-view",
       "description": "A NativeScript plugin that creates a variable blur view.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2313,6 +2789,10 @@
       "name": "UI Webview",
       "url": "https://github.com/nativescript-community/ui-webview",
       "description": "Extended WebView which adds many options such as custom scheme handlers, JavaScript execution, URL capturing, and more.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2326,6 +2806,10 @@
       "name": "UI Lottie",
       "url": "https://github.com/nativescript-community/ui-lottie",
       "description": "A NativeScript plugin to expose AirBnB Lottie library.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2339,6 +2823,10 @@
       "name": "UI Image",
       "url": "https://github.com/nativescript-community/ui-image",
       "description": "Advanced and efficient image display plugin which uses Fresco (Android) and SDWebImage (iOS) to implement caching, placeholders, image effects, and much more.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2352,6 +2840,10 @@
       "name": "UI Chart",
       "url": "https://github.com/nativescript-community/ui-chart",
       "description": "A powerful chart / graph plugin, supporting line, bar, pie, radar, bubble, and candlestick charts as well as scaling, panning and animations.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2365,6 +2857,10 @@
       "name": "UI Cameraview",
       "url": "https://github.com/nativescript-community/ui-cameraview",
       "description": "A CameraView allowing custom live processing for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2378,6 +2874,10 @@
       "name": "UI Blurview",
       "url": "https://github.com/nativescript-community/ui-blurview",
       "description": "A image blurview plugin.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2391,6 +2891,10 @@
       "name": "UI Barcodeview",
       "url": "https://github.com/nativescript-community/ui-barcodeview",
       "description": "NativeScript QR / barcode view plugin.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2404,6 +2908,10 @@
       "name": "SVG",
       "url": "https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg",
       "description": "A NativeScript plugin that allows you to use SVG images in your NativeScript apps.",
+      "meta": {
+        "authorName": "SergeyMell",
+        "authorUrl": "https://github.com/SergeyMell"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2417,6 +2925,10 @@
       "name": "Image Cache It",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it",
       "description": "A NativeScript plugin that automatically caches images for faster loading and better performance.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2430,6 +2942,10 @@
       "name": "Gallery View",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view",
       "description": "A NativeScript plugin for viewing gallery assets, currently supports only images.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2443,6 +2959,10 @@
       "name": "Document Scanner",
       "url": "https://github.com/nativescript-community/document-scanner",
       "description": "A NativeScript plugin to scan documents.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Media & Visual Components",
@@ -2456,6 +2976,10 @@
       "name": "UI Range Seek Bar",
       "url": "https://github.com/nativescript-community/ui-range-seek-bar",
       "description": "A NativeScript Range Seek Bar widget.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -2469,6 +2993,10 @@
       "name": "UI Document Picker",
       "url": "https://github.com/nativescript-community/ui-document-picker",
       "description": "A NativeScript plugin that allows you to select files from the device.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -2482,6 +3010,10 @@
       "name": "UI Checkbox",
       "url": "https://github.com/nativescript-community/ui-checkbox",
       "description": "A NativeScript plugin for checkbox UI component.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -2495,6 +3027,10 @@
       "name": "File Picker",
       "url": "https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker",
       "description": "This file picker plugin exports function filePicker() that supports both single and multiple selection.",
+      "meta": {
+        "authorName": "VoiceThread",
+        "authorUrl": "https://github.com/VoiceThread"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -2508,6 +3044,10 @@
       "name": "Video Thumbnail",
       "url": "https://github.com/Bezlepkin/nativescript-plugins/tree/main/packages/nativescript-video-thumbnail",
       "description": "A plugin that allows you to extract a thumbnail from a video.",
+      "meta": {
+        "authorName": "Bezlepkin",
+        "authorUrl": "https://github.com/Bezlepkin"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -2521,6 +3061,10 @@
       "name": "WearOS Sensors",
       "url": "https://github.com/GeoTecINIT/nativescript-wearos-sensors",
       "description": "A NativeScript plugin that provides access to various sensors on Wear OS devices.",
+      "meta": {
+        "authorName": "GeoTecINIT",
+        "authorUrl": "https://github.com/GeoTecINIT"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2534,6 +3078,10 @@
       "name": "Orientation",
       "url": "https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-orientation",
       "description": "A NativeScript plugin to control and listen for device screen orientation changes.",
+      "meta": {
+        "authorName": "NativeScript-Use",
+        "authorUrl": "https://github.com/NativeScript-Use"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2547,6 +3095,10 @@
       "name": "Nordic Semiconductor's DFU",
       "url": "https://github.com/CatchABus/nativescript-plugins/tree/master/packages/nordic-dfu",
       "description": "A NativeScript plugin that integrates Nordic Semiconductor's DFU library.",
+      "meta": {
+        "authorName": "CatchABus",
+        "authorUrl": "https://github.com/CatchABus"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2560,6 +3112,10 @@
       "name": "NFC",
       "url": "https://github.com/ontrackms/nativescript-nfc",
       "description": "A NativeScript plugin to discover, read, and write NFC tags.",
+      "meta": {
+        "authorName": "ontrackms",
+        "authorUrl": "https://github.com/ontrackms"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2573,6 +3129,10 @@
       "name": "Haptics",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/haptics",
       "description": "A plugin that allows you to add haptics to your app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2586,6 +3146,10 @@
       "name": "GPS",
       "url": "https://github.com/nativescript-community/gps",
       "description": "Tracks GPS location updates regardless of the app state. Does not depend on Google Play Services.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2599,6 +3163,10 @@
       "name": "Device Info",
       "url": "https://github.com/DeepakArora76/nativescript-dna-deviceinfo",
       "description": "The plugin offers cross-platform utility APIs to retrieve or query device-related information.",
+      "meta": {
+        "authorName": "DeepakArora76",
+        "authorUrl": "https://github.com/DeepakArora76"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2612,6 +3180,10 @@
       "name": "Compass",
       "url": "https://github.com/modos189/nativescript-compass",
       "description": "A NativeScript plugin that provides native compass functionality for both Android and iOS platforms.",
+      "meta": {
+        "authorName": "modos189",
+        "authorUrl": "https://github.com/modos189"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2625,6 +3197,10 @@
       "name": "iOS Security",
       "url": "https://github.com/NativeScript/plugins/tree/main/packages/ios-security",
       "description": "IOSSecuritySuite for NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Security & Context",
@@ -2638,6 +3214,10 @@
       "name": "Awarns Framework",
       "url": "https://github.com/GeoTecINIT/awarns-framework",
       "description": "Easing the development of context-aware apps.",
+      "meta": {
+        "authorName": "GeoTecINIT",
+        "authorUrl": "https://github.com/GeoTecINIT"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Security & Context",
@@ -2651,6 +3231,10 @@
       "name": "Speech Recognition",
       "url": "https://github.com/EddyVerbruggen/nativescript-speech-recognition",
       "description": "Speech to text, using the awesome engines readily available on the device.",
+      "meta": {
+        "authorName": "EddyVerbruggen",
+        "authorUrl": "https://github.com/EddyVerbruggen"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Search & AI",
@@ -2664,6 +3248,10 @@
       "name": "Algolia",
       "url": "https://github.com/nativescript-community/algolia",
       "description": "A NativeScript plugin for Algolia search.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Search & AI",
@@ -2677,6 +3265,10 @@
       "name": "Zip",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/zip",
       "description": "A plugin to zip and unzip files.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -2690,6 +3282,10 @@
       "name": "Printer",
       "url": "https://github.com/oliverphaser/nativescript-printer",
       "description": "A NativeScript plugin for sending an image, PDF or the screen contents to a physical printer.",
+      "meta": {
+        "authorName": "oliverphaser",
+        "authorUrl": "https://github.com/oliverphaser"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -2703,6 +3299,10 @@
       "name": "Pdf",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/pdf",
       "description": "A simple PDF viewer.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -2716,6 +3316,10 @@
       "name": "Image Optimize",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize",
       "description": "Is a NativeScript plugin designed to optimize image rendering in applications.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -2729,6 +3333,10 @@
       "name": "Bitmap Factory",
       "url": "https://github.com/oliverphaser/nativescript-bitmap-factory",
       "description": "A NativeScript plugin for creating and manipulating bitmap images.",
+      "meta": {
+        "authorName": "oliverphaser",
+        "authorUrl": "https://github.com/oliverphaser"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -2742,6 +3350,10 @@
       "name": "Sleep Control",
       "url": "https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/sleepcontrol",
       "description": "This plugin allows you to keep your device awake while the current app is running.",
+      "meta": {
+        "authorName": "AngelEngineering",
+        "authorUrl": "https://github.com/AngelEngineering"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2755,6 +3367,10 @@
       "name": "Flashlight",
       "url": "https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/flashlight",
       "description": "This plugin allows you to enable/disable the flashlight/torch on your iOS/Android device.",
+      "meta": {
+        "authorName": "AngelEngineering",
+        "authorUrl": "https://github.com/AngelEngineering"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -2768,6 +3384,10 @@
       "name": "Batch Notifications",
       "url": "https://github.com/alexcode/ns8-plugins/tree/main/packages/ns8-batch-notifications",
       "description": "Batch is a full-featured mobile engagement platform for executing CRM tactics on iOS, Android, and mobile websites. This plugin enables push notifications, in-app messages, and more. Requires `@nativescript/firebase` for push notification support.",
+      "meta": {
+        "authorName": "alexcode",
+        "authorUrl": "https://github.com/alexcode"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -2781,6 +3401,10 @@
       "name": "Video Player",
       "url": "https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/videoplayer",
       "description": "A NativeScript plugin to provide the ability to play local and remote videos.",
+      "meta": {
+        "authorName": "AngelEngineering",
+        "authorUrl": "https://github.com/AngelEngineering"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -2794,6 +3418,10 @@
       "name": "Firebase Messaging Custom Sound",
       "url": "https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/fcm-custom-sound",
       "description": "Custom notification sound of firebase cloud messaging (FCM). Currently only working on Android.",
+      "meta": {
+        "authorName": "elgiborsolution",
+        "authorUrl": "https://github.com/elgiborsolution"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -2807,6 +3435,10 @@
       "name": "Geofence Manager",
       "url": "https://github.com/PeterStaev/nativescript-geofence-manager",
       "description": "A NativeScript plugin to work with Geofences.",
+      "meta": {
+        "authorName": "PeterStaev",
+        "authorUrl": "https://github.com/PeterStaev"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -2820,6 +3452,10 @@
       "name": "UXCam",
       "url": "https://github.com/uxcam/nativescript-uxcam",
       "description": "A NativeScript plugin for UXCam. An analytics platform that offers in-depth dashboards, heatmaps, and session recordings to optimize your product.",
+      "meta": {
+        "authorName": "uxcam",
+        "authorUrl": "https://github.com/uxcam"
+      },
       "top": "Plugins",
       "sub": "Analytics, Engagement & Monitoring Plugins",
       "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
@@ -2833,6 +3469,10 @@
       "name": "Medallia",
       "url": "https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-medallia",
       "description": "A NativeScript plugin integrating the Medallia SDK to gather insights and improve customer, employee, and digital experiences.",
+      "meta": {
+        "authorName": "Essent",
+        "authorUrl": "https://github.com/Essent"
+      },
       "top": "Plugins",
       "sub": "Analytics, Engagement & Monitoring Plugins",
       "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
@@ -2846,6 +3486,10 @@
       "name": "IAdvize",
       "url": "https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-iadvize",
       "description": "A NativeScript plugin that integrates the iAdvize SDK, enabling live chat and real-time customer engagement features within NativeScript applications.",
+      "meta": {
+        "authorName": "Essent",
+        "authorUrl": "https://github.com/Essent"
+      },
       "top": "Plugins",
       "sub": "Analytics, Engagement & Monitoring Plugins",
       "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
@@ -2859,6 +3503,10 @@
       "name": "Adobe Experience Cloud",
       "url": "https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-adobe-experience-cloud",
       "description": "A NativeScript plugin for Adobe Experience Cloud.",
+      "meta": {
+        "authorName": "Essent",
+        "authorUrl": "https://github.com/Essent"
+      },
       "top": "Plugins",
       "sub": "Analytics, Engagement & Monitoring Plugins",
       "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
@@ -2872,6 +3520,10 @@
       "name": "TextToSpeech",
       "url": "https://github.com/nativescript-community/texttospeech",
       "description": "A Text to Speech NativeScript plugin for Android & iOS.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Search & AI",
@@ -2885,6 +3537,10 @@
       "name": "Sentry",
       "url": "https://github.com/nativescript-community/sentry",
       "description": "A cross-platform application monitoring tool, with a focus on error reporting.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Analytics, Engagement & Monitoring Plugins",
       "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
@@ -2898,6 +3554,10 @@
       "name": "Smartlook",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-smartlook",
       "description": "A NativeScript plugin for the [Smartlook](https://www.smartlook.com/) SDK. Comprehensive product analytics & visual user insights.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -2911,6 +3571,10 @@
       "name": "TroisJS",
       "url": "https://github.com/ArthurMJ96/nativescript-troisjs",
       "description": "Use TroisJS for 3D rendering inside NativeScript apps via native canvas integration. Only for `NativeScript-Vue`.",
+      "meta": {
+        "authorName": "ArthurMJ96",
+        "authorUrl": "https://github.com/ArthurMJ96"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -2924,6 +3588,10 @@
       "name": "Canvas Three",
       "url": "https://github.com/NativeScript/canvas/tree/master/packages/canvas-three",
       "description": "Use Three.js for 3D rendering inside NativeScript apps via native canvas integration.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -2937,6 +3605,10 @@
       "name": "Canvas Polyfill",
       "url": "https://github.com/NativeScript/canvas/tree/master/packages/canvas-polyfill",
       "description": "DOM-like polyfill for NativeScript canvas, enabling compatibility with standard HTML5 canvas APIs and web libraries.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -2950,6 +3622,10 @@
       "name": "Canvas Pixi",
       "url": "https://github.com/NativeScript/canvas/tree/master/packages/canvas-pixi",
       "description": "A NativeScript integration for [PixiJS](https://pixijs.com/) using native canvas rendering, enabling advanced 2D graphics and animation in mobile apps.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -2963,6 +3639,10 @@
       "name": "Canvas Phaser CE",
       "url": "https://github.com/NativeScript/canvas/tree/master/packages/canvas-phaser-ce",
       "description": "A NativeScript integration for Phaser CE (Community Edition) using native canvas rendering to build cross-platform mobile games.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -2976,6 +3656,10 @@
       "name": "Canvas Phaser",
       "url": "https://github.com/NativeScript/canvas/tree/master/packages/canvas-phaser",
       "description": "A NativeScript integration for the Phaser game engine using native canvas rendering, enabling high-performance mobile game development with web-like APIs.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -2989,6 +3673,10 @@
       "name": "Canvas",
       "url": "https://github.com/NativeScript/canvas/tree/master/packages/canvas",
       "description": "A NativeScript plugin that brings the HTML5 Canvas API to native mobile apps, enabling 2D drawing and animation with high-performance rendering on iOS and Android.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Graphics Plugins",
       "path": "Plugins / Graphics Plugins",
@@ -3002,6 +3690,10 @@
       "name": "Geo Coding",
       "url": "https://github.com/nativescript-community/geocoding",
       "description": "Provides access to native geocoding APIs for NativeScript apps (android.location.Geocoder for Android, CLGeocoder for iOS).",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -3015,6 +3707,10 @@
       "name": "Configure build.xcconfig for iOS 26 Liquid Glass",
       "url": "https://x.com/NativeScript/status/1932904032454214131",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Misc",
       "sub": "",
       "path": "Misc",
@@ -3028,6 +3724,10 @@
       "name": "iOS 26 Liquid Glass",
       "url": "https://x.com/NativeScript/status/1932904031070097498",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Misc",
       "sub": "",
       "path": "Misc",
@@ -3041,6 +3741,10 @@
       "name": "Frontend Nation 2025: Native API Security with NativeScript",
       "url": "https://www.youtube.com/watch?v=iD_QWvJAiSI",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3054,6 +3758,10 @@
       "name": "Fastlane visionOS deployments with NativeScript",
       "url": "https://x.com/NativeScript/status/1923249210343723019",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "visionOS (Vision Pro)",
       "sub": "",
       "path": "visionOS (Vision Pro)",
@@ -3067,6 +3775,10 @@
       "name": "Radio Dialog",
       "url": "https://github.com/modos189/nativescript-radio-dialog",
       "description": "A NativeScript plugin that provides radio button dialogs.",
+      "meta": {
+        "authorName": "modos189",
+        "authorUrl": "https://github.com/modos189"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -3080,6 +3792,10 @@
       "name": "Color Wheel",
       "url": "https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-color-wheel",
       "description": "A NativeScript plugin that allows you to use a color wheel to select colors.",
+      "meta": {
+        "authorName": "SergeyMell",
+        "authorUrl": "https://github.com/SergeyMell"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -3093,6 +3809,10 @@
       "name": "Ble",
       "url": "https://github.com/nativescript-community/ble",
       "description": "Connect to and interact with Bluetooth LE peripherals.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -3106,6 +3826,10 @@
       "name": "Firebase",
       "url": "https://docs.nativescript.org/plugins/firebase-core",
       "description": "Modular Firebase 🔥 implementation for NativeScript. Supports both iOS & Android platforms for all Firebase services.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Plugins",
       "sub": "Backend Service Plugins",
       "path": "Plugins / Backend Service Plugins",
@@ -3138,6 +3862,10 @@
       "name": "ns-ios-foundationmodels",
       "url": "https://github.com/NathanWalker/ns-ios-foundationmodels",
       "description": "Example NativeScript app using iOS 26+ FoundationModels.",
+      "meta": {
+        "authorName": "NathanWalker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
       "top": "Tutorials",
       "sub": "Platform-Specific",
       "path": "Tutorials / Platform-Specific",
@@ -3151,6 +3879,10 @@
       "name": "Stream AI Responses using iOS 26 FoundationModels",
       "url": "https://nstudio.io/blog/stream-ai-responses-ios-26-foundationmodels",
       "description": "Tutorial on implementing streaming AI responses.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tutorials",
       "sub": "Platform-Specific",
       "path": "Tutorials / Platform-Specific",
@@ -3164,6 +3896,10 @@
       "name": "Apple FoundationModels Documentation",
       "url": "https://developer.apple.com/documentation/foundationmodels",
       "description": "Official Apple documentation for on-device AI.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tutorials",
       "sub": "Platform-Specific",
       "path": "Tutorials / Platform-Specific",
@@ -3177,6 +3913,10 @@
       "name": "UI Mapbox",
       "url": "https://github.com/nativescript-community/ui-mapbox",
       "description": "Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -3190,6 +3930,10 @@
       "name": "Morphing Swift to 100% TypeScript with NativeScript + AI",
       "url": "https://nstudio.io/blog/morphing-swift-to-nativescript",
       "description": "Advanced tutorial on converting Swift code to TypeScript using AI.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tutorials",
       "sub": "AI & Machine Learning",
       "path": "Tutorials / AI & Machine Learning",
@@ -3203,6 +3947,10 @@
       "name": "Cursor Editor Rules for NativeScript",
       "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc",
       "description": "",
+      "meta": {
+        "authorName": "PatrickJS",
+        "authorUrl": "https://github.com/PatrickJS"
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -3216,6 +3964,10 @@
       "name": "Try yourself with Solid Desktop on macOS",
       "url": "https://apps.apple.com/us/app/solid-desktop/id6737216890?mt=12",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "macOS",
       "sub": "",
       "path": "macOS",
@@ -3229,6 +3981,10 @@
       "name": "Solidjs for macOS with NativeScript",
       "url": "https://github.com/ammarahm-ed/nativescript-macos-solid",
       "description": "",
+      "meta": {
+        "authorName": "ammarahm-ed",
+        "authorUrl": "https://github.com/ammarahm-ed"
+      },
       "top": "macOS",
       "sub": "",
       "path": "macOS",
@@ -3242,6 +3998,10 @@
       "name": "macOS",
       "url": "https://blog.nativescript.org/macos-node-api-preview/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Platforms",
       "sub": "",
       "path": "Platforms",
@@ -3255,6 +4015,10 @@
       "name": "How NativeScript with Angular lit up Vegas in the Professional Lighting Industry",
       "url": "https://www.youtube.com/watch?v=3GT86zwEkSU",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3268,6 +4032,10 @@
       "name": "Particle Systems via RealityKit and Multiple Scenes during Vision Pro development with NativeScript",
       "url": "https://blog.nativescript.org/particles-and-multiple-scenes-vision-pro-development/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "visionOS (Vision Pro)",
       "sub": "",
       "path": "visionOS (Vision Pro)",
@@ -3281,6 +4049,10 @@
       "name": "How to add visionOS to an existing app?",
       "url": "https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "visionOS (Vision Pro)",
       "sub": "",
       "path": "visionOS (Vision Pro)",
@@ -3294,6 +4066,10 @@
       "name": "What happens when a SwiftUI and NativeScript developer embrace each other?",
       "url": "https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "visionOS (Vision Pro)",
       "sub": "",
       "path": "visionOS (Vision Pro)",
@@ -3307,6 +4083,10 @@
       "name": "NativeScript 8.9 Q&A",
       "url": "https://www.youtube.com/watch?v=42dS4SwBKvw",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3320,6 +4100,10 @@
       "name": "Alex Ziskind NativeScript Highlights",
       "url": "https://www.youtube.com/@AZisk/search?query=nativescript",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3333,6 +4117,10 @@
       "name": "Kyohei Hamaguchi - Svelte Native in production",
       "url": "https://www.youtube.com/watch?v=0UwwJSQlKOM",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3346,6 +4134,10 @@
       "name": "Dive into NativeScript w/Nathan Walker & Ammar Ahmed",
       "url": "https://www.youtube.com/watch?v=j0s8w34Xh9o",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3359,6 +4151,10 @@
       "name": "Use Native APIs in JS with Eduardo Speroni and Nathan Walker",
       "url": "https://www.youtube.com/watch?v=kzdq7GvXzAo",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3372,6 +4168,10 @@
       "name": "Lightning Talk: Understanding how NativeScript works plus how to add your own Flavor",
       "url": "https://www.youtube.com/watch?v=iweVLGNzx1A",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3385,6 +4185,10 @@
       "name": "Embedding V8 in the real world by Stanimira Vlaeva",
       "url": "https://www.youtube.com/watch?v=wz7Znu6tqFw",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3398,6 +4202,10 @@
       "name": "High Fidelity Platform APIs with v8 and NativeScript",
       "url": "https://www.youtube.com/watch?v=Mzy1jWxrSiw",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Videos & Podcasts",
       "sub": "",
       "path": "Videos & Podcasts",
@@ -3411,6 +4219,10 @@
       "name": "Detox",
       "url": "https://docs.nativescript.org/plugins/detox",
       "description": "Gray box end-to-end testing and automation framework for mobile apps.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Testing",
       "sub": "End-to-end Integration Testing",
       "path": "Testing / End-to-end Integration Testing",
@@ -3424,6 +4236,10 @@
       "name": "Time Range",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range",
       "description": "A NativeScript plugin for selecting a time range using a time picker.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -3437,6 +4253,10 @@
       "name": "Picker",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/picker",
       "description": "A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -3450,6 +4270,10 @@
       "name": "Country Code",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code",
       "description": "Plugin for NativeScript provides a full list of country codes along with flags.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -3463,6 +4287,10 @@
       "name": "Accelerometer",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accelerometer",
       "description": "An acceleration sensor measures the acceleration applied to the device, including the force of gravity.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -3476,6 +4304,10 @@
       "name": "Text View",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/textview",
       "description": "Material Design's Text view component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3489,6 +4321,10 @@
       "name": "Text Field",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/textfield",
       "description": "Material Design's Text field component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3502,6 +4338,10 @@
       "name": "Tabs",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/tabs",
       "description": "Material Design's Tabs component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3515,6 +4355,10 @@
       "name": "Switch",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/switch",
       "description": "Material Design's Switch component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3528,6 +4372,10 @@
       "name": "Speed Dial",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/speeddial",
       "description": "Material Design's Speed dial component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3541,6 +4389,10 @@
       "name": "Snackbar",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/snackbar",
       "description": "Material Design's Snackbar component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3554,6 +4406,10 @@
       "name": "Slider",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/slider",
       "description": "Material Design's Slider component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3567,6 +4423,10 @@
       "name": "Ripple",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/ripple",
       "description": "Material Design's Ripple component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3580,6 +4440,10 @@
       "name": "Progress",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/progress",
       "description": "Material Design's Linear progress indicator component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3593,6 +4457,10 @@
       "name": "Floating Action Button",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/floatingactionbutton",
       "description": "Material Design's Floating action button component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3606,6 +4474,10 @@
       "name": "Dialogs",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/dialogs",
       "description": "Material Design's Dialogs component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3619,6 +4491,10 @@
       "name": "Card",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/cardview",
       "description": "Material Design's Card component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3632,6 +4508,10 @@
       "name": "Button",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/button",
       "description": "Material Design's Button component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3645,6 +4525,10 @@
       "name": "Bottom Sheet",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/bottomsheet",
       "description": "Material Design's Bottom sheet component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3658,6 +4542,10 @@
       "name": "Bottom Navigation",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/bottom-navigation",
       "description": "Material Design's Bottom navigation component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3671,6 +4559,10 @@
       "name": "Activity Indicator",
       "url": "https://github.com/nativescript-community/ui-material-components/tree/master/packages/activityindicator",
       "description": "Material Design's Circular progress indicator component for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Material Plugins",
       "path": "Plugins / UI Material Plugins",
@@ -3684,6 +4576,10 @@
       "name": "UI Charts",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/ui-charts",
       "description": "Highcharts SDK for NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -3697,6 +4593,10 @@
       "name": "Swift UI",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/swift-ui",
       "description": "Use SwiftUI with NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -3710,6 +4610,10 @@
       "name": "Jetpack Compose",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/jetpack-compose",
       "description": "A plugin that allows you to use Jetpack Compose in NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -3723,6 +4627,10 @@
       "name": "Ionic Portals",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/ionic-portals",
       "description": "A plugin that allows you to use [Ionic Portals](https://ionic.io/docs/portals) in NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -3736,6 +4644,10 @@
       "name": "Flutter",
       "url": "https://github.com/NativeScript/ui-kit/tree/main/packages/flutter",
       "description": "Use Flutter with NativeScript projects by creating a [Flutter module](https://docs.flutter.dev/add-to-app) in the root of your project.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Kit Plugins",
       "path": "Plugins / UI Kit Plugins",
@@ -3749,6 +4661,10 @@
       "name": "Theme",
       "url": "https://github.com/NativeScript/theme",
       "description": "Core themes for NativeScript apps.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Styling & Theme Plugins",
       "path": "Plugins / Styling & Theme Plugins",
@@ -3762,6 +4678,10 @@
       "name": "Change Icon",
       "url": "https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/change-icon",
       "description": "A NativeScript plugin that allows dynamic switching of the app icon at runtime on iOS using alternate icons.",
+      "meta": {
+        "authorName": "NativeScript-Use",
+        "authorUrl": "https://github.com/NativeScript-Use"
+      },
       "top": "Plugins",
       "sub": "Styling & Theme Plugins",
       "path": "Plugins / Styling & Theme Plugins",
@@ -3775,6 +4695,10 @@
       "name": "Stripe",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-stripe",
       "description": "Is a financial infrastructure platform that enables businesses to accept and manage online payments, as well as handle recurring billing and other financial operations.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Payment Plugins",
       "path": "Plugins / Payment Plugins",
@@ -3788,6 +4712,10 @@
       "name": "Square In App Payments",
       "url": "https://github.com/NativeScript/payments/tree/main/packages/square-in-app-payments",
       "description": "Build remarkable payments experiences in your own apps with Square's In-App Payments SDK for NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Payment Plugins",
       "path": "Plugins / Payment Plugins",
@@ -3801,6 +4729,10 @@
       "name": "Revenuecat",
       "url": "https://github.com/mleleux-heykiddo/nativescript-plugins/tree/main/packages/nativescript-revenuecat",
       "description": "A powerful and reliable in-app purchase server that makes it easy to build, analyze, and grow your subscriber base whether you're just starting out or already have millions of customers.",
+      "meta": {
+        "authorName": "mleleux-heykiddo",
+        "authorUrl": "https://github.com/mleleux-heykiddo"
+      },
       "top": "Plugins",
       "sub": "Payment Plugins",
       "path": "Plugins / Payment Plugins",
@@ -3814,6 +4746,10 @@
       "name": "Payments",
       "url": "https://github.com/NativeScript/payments/tree/main/packages/payments",
       "description": "A plugin that allows your app to use in-app purchases and subscriptions using Apple AppStore and Google PlayStore purchasing systems.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Payment Plugins",
       "path": "Plugins / Payment Plugins",
@@ -3827,6 +4763,10 @@
       "name": "Google Pay",
       "url": "https://github.com/NativeScript/payments/tree/main/packages/google-pay",
       "description": "A plugin that allows you to offer Google Pay in your Android app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Payment Plugins",
       "path": "Plugins / Payment Plugins",
@@ -3840,6 +4780,10 @@
       "name": "Apple Pay",
       "url": "https://github.com/NativeScript/payments/tree/main/packages/apple-pay",
       "description": "A plugin that allows you to offer Apple Pay in your iOS apps.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Payment Plugins",
       "path": "Plugins / Payment Plugins",
@@ -3853,6 +4797,10 @@
       "name": "websockets",
       "url": "https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-websockets",
       "description": "For web-compatible WebSockets.",
+      "meta": {
+        "authorName": "valor-software",
+        "authorUrl": "https://github.com/valor-software"
+      },
       "top": "Plugins",
       "sub": "Networking Plugins",
       "path": "Plugins / Networking Plugins",
@@ -3866,6 +4814,10 @@
       "name": "Socketio",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio",
       "description": "JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Networking Plugins",
       "path": "Plugins / Networking Plugins",
@@ -3879,6 +4831,10 @@
       "name": "Pusher Channels",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels",
       "description": "Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Networking Plugins",
       "path": "Plugins / Networking Plugins",
@@ -3892,6 +4848,10 @@
       "name": "YouTube Player",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-youtubeplayer",
       "description": "Video Player only for YouTube.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3905,6 +4865,10 @@
       "name": "Video Recorder",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-videorecorder",
       "description": "Video recording plugin for NativeScript.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3918,6 +4882,10 @@
       "name": "Video Editor",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-video-editor",
       "description": "A plugin for editing video.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3931,6 +4899,10 @@
       "name": "Trans Coder",
       "url": "https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-transcoder",
       "description": "This plugin provides a few `audio` or `video` transcoding functions for Android API 21+ and iOS 4+.",
+      "meta": {
+        "authorName": "VoiceThread",
+        "authorUrl": "https://github.com/VoiceThread"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3944,6 +4916,10 @@
       "name": "Drawingpad",
       "url": "https://github.com/nativescript-community/nativescript-drawingpad",
       "description": "NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3957,6 +4933,10 @@
       "name": "Audio Recorder",
       "url": "https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-recorder",
       "description": "This plugin provides an audio recorder for Android and iOS that supports recording of audio from a device microphone input and saved to an MP4/AAC audio file. It also provides a function to merge multiple audio recordings together.",
+      "meta": {
+        "authorName": "VoiceThread",
+        "authorUrl": "https://github.com/VoiceThread"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3970,6 +4950,10 @@
       "name": "Audio Player",
       "url": "https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-player",
       "description": "This plugin provides an audio player for Android and iOS that supports playback of both local files and remote URL audio files.",
+      "meta": {
+        "authorName": "VoiceThread",
+        "authorUrl": "https://github.com/VoiceThread"
+      },
       "top": "Plugins",
       "sub": "Multimedia Plugins",
       "path": "Plugins / Multimedia Plugins",
@@ -3983,6 +4967,10 @@
       "name": "Text Recognition",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition",
       "description": "A plugin used with `@nativescript/mlkit-core` to enable Text Recognition in your app and provide TextResult type for the text recognition event data.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -3996,6 +4984,10 @@
       "name": "Pose Detection",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection",
       "description": "A plugin that is used with `@nativescript/mlkit-core` to enable Pose Detection and provide the PoseResult type for the Pose Detection event data.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -4009,6 +5001,10 @@
       "name": "Object Detection",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-object-detection",
       "description": "A plugin that is used with `@nativescript/mlkit-core` to enable Object Detection and provide the ObjectResult type for the object detection event data.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -4022,6 +5018,10 @@
       "name": "Image Labeling",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-image-labeling",
       "description": "A plugin that is used with `@nativescript/mlkit-core` to enable Image Labeling and provide the ImageLabelingResult type for the image labeling event data.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -4035,6 +5035,10 @@
       "name": "Face Detection",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-face-detection",
       "description": "A plugin that is used with `@nativescript/mlkit-core` to enable face detection and provide the FaceResult type for the data of the face detection event.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -4048,6 +5052,10 @@
       "name": "Core",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-core",
       "description": "A plugin that provides a UI component to access the different functionalities of [Google's ML Kit](https://developers.google.com/ml-kit) SDK.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -4061,6 +5069,10 @@
       "name": "Barcode Scanning",
       "url": "https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning",
       "description": "This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "ML Plugins",
       "path": "Plugins / ML Plugins",
@@ -4074,6 +5086,10 @@
       "name": "Radar.io",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io",
       "description": "Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -4087,6 +5103,10 @@
       "name": "Google Maps",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/google-maps",
       "description": "A plugin that allows you to use the Maps SDK to access Google Maps features.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -4100,6 +5120,10 @@
       "name": "Geo Location",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/geolocation",
       "description": "A geolocation plugin to use for getting current location, monitor movement, etc.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -4113,6 +5137,10 @@
       "name": "Directions",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/directions",
       "description": "A plugin that allows you to launch the Google Maps app, if it's installed on the device, with some directions. For more information, visit [Directions action](https://developers.google.com/maps/documentation/urls/get-started#directions-action).",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -4126,6 +5154,10 @@
       "name": "Carto",
       "url": "https://github.com/nativescript-community/ui-carto",
       "description": "One Location Intelligence platform for all your spatial needs. Streamline your tech stack with an end-to-end geospatial platform built for the enterprise.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Geo Plugins",
       "path": "Plugins / Geo Plugins",
@@ -4139,6 +5171,10 @@
       "name": "Firebase Core",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-core",
       "description": "A plugin to initialize [FirebaseApp](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp) in your app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4152,6 +5188,10 @@
       "name": "SQLite",
       "url": "https://github.com/nativescript-community/sqlite",
       "description": "A SQLite plugin for NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "Client-side Database Plugins",
       "path": "Plugins / Client-side Database Plugins",
@@ -4165,6 +5205,10 @@
       "name": "RxDB",
       "url": "https://github.com/herefishyfish/rxdb-nativescript",
       "description": "Are a set of plugins that enable RxDB support for NativeScript. This set of plugins includes a core plugin and adapters for different databases.",
+      "meta": {
+        "authorName": "herefishyfish",
+        "authorUrl": "https://github.com/herefishyfish"
+      },
       "top": "Plugins",
       "sub": "Client-side Database Plugins",
       "path": "Plugins / Client-side Database Plugins",
@@ -4178,6 +5222,10 @@
       "name": "Couchbase",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase",
       "description": "Is an embedded, NoSQL JSON Document Style database for your mobile apps.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Client-side Database Plugins",
       "path": "Plugins / Client-side Database Plugins",
@@ -4191,6 +5239,10 @@
       "name": "AWS",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk",
       "description": "It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Backend Service Plugins",
       "path": "Plugins / Backend Service Plugins",
@@ -4204,6 +5256,10 @@
       "name": "Appwrite",
       "url": "https://github.com/NativeScript/appwrite",
       "description": "Is an open-source backend as a service server that abstract and simplify complex and repetitive development tasks behind a very simple to use REST API.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Backend Service Plugins",
       "path": "Plugins / Backend Service Plugins",
@@ -4217,6 +5273,10 @@
       "name": "Twitter",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/twitter",
       "description": "A plugin that allows you to authenticate a user with their Twitter account.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Authentication Plugins",
       "path": "Plugins / Authentication Plugins",
@@ -4230,6 +5290,10 @@
       "name": "Google Signin",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/google-signin",
       "description": "A plugin that allows you to authenticate users with Google Sign-In.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Authentication Plugins",
       "path": "Plugins / Authentication Plugins",
@@ -4243,6 +5307,10 @@
       "name": "Facebook",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/facebook",
       "description": "A plugin that allows you to integrate Facebook Login with your app using the Facebook SDK.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Authentication Plugins",
       "path": "Plugins / Authentication Plugins",
@@ -4256,6 +5324,10 @@
       "name": "Descope",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-descope",
       "description": "The Descope SDK for NativeScript provides convenient access to Descope for an application written on top of NativeScript.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "Authentication Plugins",
       "path": "Plugins / Authentication Plugins",
@@ -4269,6 +5341,10 @@
       "name": "Apple Sign In",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/apple-sign-in",
       "description": "A plugin that allows you to authenticate users with Sign In with Apple.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Authentication Plugins",
       "path": "Plugins / Authentication Plugins",
@@ -4282,6 +5358,10 @@
       "name": "Google Mobile Ads",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads",
       "description": "A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Advertising Plugins",
       "path": "Plugins / Advertising Plugins",
@@ -4295,6 +5375,10 @@
       "name": "NativeScript Initializr is a Community tool to quickly generate NativeScript projects with associated plugins.",
       "url": "https://nativescript-initializr.jmarvall.com/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -4327,6 +5411,10 @@
       "name": "JSch",
       "url": "https://github.com/NathanWalker/android-jsch-example",
       "description": "NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.",
+      "meta": {
+        "authorName": "NathanWalker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
       "top": "Background Service",
       "sub": "",
       "path": "Background Service",
@@ -4340,6 +5428,10 @@
       "name": "Web Workers API",
       "url": "https://docs.nativescript.org/guide/multithreading",
       "description": "The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Background Service",
       "sub": "",
       "path": "Background Service",
@@ -4353,6 +5445,10 @@
       "name": "WearOS",
       "url": "https://github.com/bradmartin/nativescript-wear-os",
       "description": "",
+      "meta": {
+        "authorName": "bradmartin",
+        "authorUrl": "https://github.com/bradmartin"
+      },
       "top": "Platforms",
       "sub": "",
       "path": "Platforms",
@@ -4366,6 +5462,10 @@
       "name": "UI Share File",
       "url": "https://github.com/nativescript-community/ui-share-file",
       "description": "Send/share file to other apps.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Utility & Enhancement",
@@ -4379,6 +5479,10 @@
       "name": "UI PullToRefresh",
       "url": "https://github.com/nativescript-community/ui-pulltorefresh",
       "description": "A NativeScript plugin to provide the Pull to Refresh control on any view.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Utility & Enhancement",
@@ -4392,6 +5496,10 @@
       "name": "Star Ratings",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-star-ratings",
       "description": "A NativeScript plugin that provides a customizable star rating component for displaying and collecting user ratings in mobile apps.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -4405,6 +5513,10 @@
       "name": "Image Picker",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/imagepicker",
       "description": "Imagepicker plugin supporting both single and multiple selection.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Media & File Processing",
@@ -4418,6 +5530,10 @@
       "name": "Camera",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/camera",
       "description": "A plugin that allows you to take a picture and optionally save it on the device storage.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -4431,6 +5547,10 @@
       "name": "Brightness",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/brightness",
       "description": "A plugin that get and set the device's brightness level.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -4444,6 +5564,10 @@
       "name": "Biometrics",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/biometrics",
       "description": "A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Utility Plugins",
       "path": "Plugins / Utility Plugins / Device & Hardware Access",
@@ -4457,6 +5581,10 @@
       "name": "Datetime Picker",
       "url": "https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker",
       "description": "A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "UI Plugins",
       "path": "Plugins / UI Plugins / Input & Selection Components",
@@ -4470,6 +5598,10 @@
       "name": "Firebase UI",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-ui",
       "description": "With this plugin, you can use the FirebaseUI for Auth library in your NativeScript app. FirebaseUI for Auth is a library that provides a drop-in auth solution that handles the UI flows for signing up and signing in users with email and password, phone number, Google, Facebook, Twitter, and more.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4483,6 +5615,10 @@
       "name": "Firebase Remote Config",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-remote-config",
       "description": "This plugin allows you to use the Firebase Remote Config API in your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4496,6 +5632,10 @@
       "name": "Firebase Performance",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-performance",
       "description": "This plugin allows you to use the Firebase Performance Monitoring API in your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4509,6 +5649,10 @@
       "name": "Firebase Messaging",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-messaging",
       "description": "This plugin allows you to use Firebase Cloud Messaging in your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4522,6 +5666,10 @@
       "name": "Firebase Installations",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-installations",
       "description": "Provides a Firebase installation ID (FID) for each installed instance of a Firebase app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4535,6 +5683,10 @@
       "name": "Firebase In App Messaging",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-in-app-messaging",
       "description": "This plugin allows you to use the Firebase In-App Messaging SDK in your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4548,6 +5700,10 @@
       "name": "Firebase Functions",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-functions",
       "description": "This plugin allows you to use Firebase Cloud Functions with NativeScript.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4561,6 +5717,10 @@
       "name": "Firebase Firestore",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-firestore",
       "description": "This plugin allows you to add Firebase Cloud Firestore to your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4574,6 +5734,10 @@
       "name": "Firebase Dynamic Links",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-dynamic-links",
       "description": "This plugin allows you to add the Firebase Dynamic Links SDK to your app, create dynamic links and receive links that launch a screen on your app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4587,6 +5751,10 @@
       "name": "Firebase Database",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-database",
       "description": "A plugin that allows you to add Firebase Realtime Databse to your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4600,6 +5768,10 @@
       "name": "Firebase Crashlytics",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-crashlytics",
       "description": "A plugin that allows you to add Firebase Crashlytics to your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4613,6 +5785,10 @@
       "name": "Fontawesome",
       "url": "https://www.kang-cahya.com/2025/07/how-to-install-and-use-font-awesome-in.html",
       "description": "How to Install and Use Fontawesome in NativeScript.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Font & Font Icon",
       "sub": "",
       "path": "Font & Font Icon",
@@ -4626,6 +5802,10 @@
       "name": "Fonts",
       "url": "https://docs.nativescript.org/project-structure/src/fonts",
       "description": "How to add fonts type in NativeScript.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Font & Font Icon",
       "sub": "",
       "path": "Font & Font Icon",
@@ -4639,6 +5819,10 @@
       "name": "Material Design Symbols",
       "url": "https://nstudio.io/blog/using-material-design-symbols-in-nativescript",
       "description": "Using Material Design Symbols in NativeScript.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Font & Font Icon",
       "sub": "",
       "path": "Font & Font Icon",
@@ -4652,6 +5836,10 @@
       "name": "Cross-platform (xplat) tools for Nx workspaces",
       "url": "https://github.com/nstudio/xplat",
       "description": "",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -4665,6 +5853,10 @@
       "name": "Firebase Auth",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-auth",
       "description": "A plugin that allows you to add Firebase Authentification to your NativeScript app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4678,6 +5870,10 @@
       "name": "Firebase App Check",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-app-check",
       "description": "App Check works alongside other Firebase services to help protect your backend resources from abuse, such as billing fraud or phishing.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4691,6 +5887,10 @@
       "name": "Firebase Analytics",
       "url": "https://github.com/NativeScript/firebase/tree/main/packages/firebase-analytics",
       "description": "This plugin allows you to add Google Analytics for Firebase to your app.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Plugins",
       "sub": "Firebase Plugins",
       "path": "Plugins / Firebase Plugins",
@@ -4704,6 +5904,10 @@
       "name": "Crash Reporting with Sentry",
       "url": "https://docs.nativescript.org/guide/crash-reporting-sentry",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -4717,6 +5921,10 @@
       "name": "Nx: Smart Repos and Fast Builds",
       "url": "https://github.com/NativeScript/nx",
       "description": "",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -4730,6 +5938,10 @@
       "name": "NativeScript AI SDK",
       "url": "https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit",
       "description": "Community Plugin for integrating AI models in a NativeScript App.",
+      "meta": {
+        "authorName": "erick-marro",
+        "authorUrl": "https://github.com/erick-marro"
+      },
       "top": "Plugins",
       "sub": "Artificial Intelligence (AI) Plugins",
       "path": "Plugins / Artificial Intelligence (AI) Plugins",
@@ -4743,6 +5955,10 @@
       "name": "Plugin Seed for Build NativeScript Plugins Fast ⚡",
       "url": "https://github.com/NativeScript/plugin-seed",
       "description": "",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -4756,6 +5972,10 @@
       "name": "Yoga Layout by Triniwiz",
       "url": "https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-yogalayout",
       "description": "Facebook's yoga layout engine, ported to NativeScript by Triniwiz.",
+      "meta": {
+        "authorName": "triniwiz",
+        "authorUrl": "https://github.com/triniwiz"
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -4769,6 +5989,10 @@
       "name": "WebView",
       "url": "https://docs.nativescript.org/ui/web-view",
       "description": "UI component for rendering web content.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4782,6 +6006,10 @@
       "name": "TimePicker",
       "url": "https://docs.nativescript.org/ui/time-picker",
       "description": "UI component that lets users select time.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4795,6 +6023,10 @@
       "name": "TextView",
       "url": "https://docs.nativescript.org/ui/text-view",
       "description": "UI component for multi-line text entry.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4808,6 +6040,10 @@
       "name": "TextField",
       "url": "https://docs.nativescript.org/ui/text-field",
       "description": "UI component for single-line text entry.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4821,6 +6057,10 @@
       "name": "TabView",
       "url": "https://docs.nativescript.org/ui/tab-view",
       "description": "UI component for grouping content into tabs and let users switch between them.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4834,6 +6074,10 @@
       "name": "Switch",
       "url": "https://docs.nativescript.org/ui/switch",
       "description": "UI component for toggling state on or off.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4847,6 +6091,10 @@
       "name": "Slider",
       "url": "https://docs.nativescript.org/ui/slider",
       "description": "UI component for picking numeric values from a range.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4860,6 +6108,10 @@
       "name": "SegmentedBar",
       "url": "https://docs.nativescript.org/ui/segmented-bar",
       "description": "UI component for discrete slection.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4873,6 +6125,10 @@
       "name": "SearchBar",
       "url": "https://docs.nativescript.org/ui/search-bar",
       "description": "UI component for entering search queries.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4886,6 +6142,10 @@
       "name": "ScrollView",
       "url": "https://docs.nativescript.org/ui/scroll-view",
       "description": "UI component for rendering scrollable content (horizontal or vertical).",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4899,6 +6159,10 @@
       "name": "Progress",
       "url": "https://docs.nativescript.org/ui/progress",
       "description": "UI component to indicate the progress of a task.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4912,6 +6176,10 @@
       "name": "Placeholder",
       "url": "https://docs.nativescript.org/ui/placeholder",
       "description": "Helper UI component for rendering native views.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4925,6 +6193,10 @@
       "name": "ListView",
       "url": "https://docs.nativescript.org/ui/list-view",
       "description": "UI component for rendering large lists using view recycling.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4938,6 +6210,10 @@
       "name": "ListPicker",
       "url": "https://docs.nativescript.org/ui/list-picker",
       "description": "UI component for selecting a value from a list.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4951,6 +6227,10 @@
       "name": "Label",
       "url": "https://docs.nativescript.org/ui/label",
       "description": "UI component for displaying text.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4964,6 +6244,10 @@
       "name": "Image",
       "url": "https://docs.nativescript.org/ui/image",
       "description": "UI component for rendering images.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4977,6 +6261,10 @@
       "name": "HtmlView",
       "url": "https://docs.nativescript.org/ui/html-view",
       "description": "UI component for rendering simple HTML content.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -4990,6 +6278,10 @@
       "name": "Dialogs",
       "url": "https://docs.nativescript.org/ui/dialogs",
       "description": "UI for grabbing the users attention, prompting for confirmation, choice, input, or credentials.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -5003,6 +6295,10 @@
       "name": "DatePicker",
       "url": "https://docs.nativescript.org/ui/date-picker",
       "description": "UI component for selecting a date.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -5016,6 +6312,10 @@
       "name": "Button",
       "url": "https://docs.nativescript.org/ui/button",
       "description": "A basic native button that reacts to user gestures.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -5029,6 +6329,10 @@
       "name": "ActivityIndicator",
       "url": "https://docs.nativescript.org/ui/activity-indicator",
       "description": "UI component for signaling activity.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Components",
       "sub": "",
       "path": "Components",
@@ -5042,6 +6346,10 @@
       "name": "ActionBar",
       "url": "https://docs.nativescript.org/ui/action-bar",
       "description": "UI component abstracting the Android ActionBar, and the iOS NavigationBar.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Navigations",
       "sub": "",
       "path": "Navigations",
@@ -5055,6 +6363,10 @@
       "name": "Page",
       "url": "https://docs.nativescript.org/ui/page",
       "description": "UI component for representing application screens the users can navigate to.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Navigations",
       "sub": "",
       "path": "Navigations",
@@ -5068,6 +6380,10 @@
       "name": "Frame",
       "url": "https://docs.nativescript.org/ui/frame",
       "description": "UI component for displaying and navigating between Pages.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Navigations",
       "sub": "",
       "path": "Navigations",
@@ -5081,6 +6397,10 @@
       "name": "AbsoluteLayout",
       "url": "https://docs.nativescript.org/ui/absolute-layout",
       "description": "A simple layout container for positioning elements at top/left coordinates.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5094,6 +6414,10 @@
       "name": "DockLayout",
       "url": "https://docs.nativescript.org/ui/dock-layout",
       "description": "Layout container for docking views to the sides or the middle.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5107,6 +6431,10 @@
       "name": "WrapLayout",
       "url": "https://docs.nativescript.org/ui/wrap-layout",
       "description": "Layout Container that wraps it's items once there's no more space to fit them.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5120,6 +6448,10 @@
       "name": "FlexboxLayout",
       "url": "https://docs.nativescript.org/ui/flexbox-layout",
       "description": "A layout container that implements (close-to-spec) CSS Flexbox.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5133,6 +6465,10 @@
       "name": "RootLayout",
       "url": "https://docs.nativescript.org/ui/root-layout",
       "description": "Layout container for dynamically layering views with a programmatic API.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5146,6 +6482,10 @@
       "name": "GridLayout",
       "url": "https://docs.nativescript.org/ui/grid-layout",
       "description": "A layout container that lets you arrange its child elements in a table-like manner.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5159,6 +6499,10 @@
       "name": "StackLayout",
       "url": "https://docs.nativescript.org/ui/stack-layout",
       "description": "A layout container that arranges child views in a horizontal or vertical stack.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5172,6 +6516,10 @@
       "name": "Yoga Layout",
       "url": "https://github.com/nativescript-community/yoga",
       "description": "Facebook's yoga layout engine, ported to NativeScript.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Layouts",
       "sub": "",
       "path": "Layouts",
@@ -5185,6 +6533,10 @@
       "name": "Portal",
       "url": "https://nativescript-vue.org/",
       "description": "Community site for NativeScript-Vue.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5198,6 +6550,10 @@
       "name": "NativeScript online directly on StackBlitz by NativeScript Preview",
       "url": "https://preview.nativescript.org/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -5211,6 +6567,10 @@
       "name": "List & Details Template",
       "url": "https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-master-detail",
       "description": "A template with a ListView and a details screen.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Templates",
       "sub": "",
       "path": "Templates",
@@ -5224,6 +6584,10 @@
       "name": "Tabs Template",
       "url": "https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-tab-navigation",
       "description": "A template with multiple tabs.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Templates",
       "sub": "",
       "path": "Templates",
@@ -5237,6 +6601,10 @@
       "name": "Drawer Template",
       "url": "https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-drawer-navigation",
       "description": "A template with a side drawer.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Templates",
       "sub": "",
       "path": "Templates",
@@ -5250,6 +6618,10 @@
       "name": "Blank Template",
       "url": "https://github.com/NativeScript/nativescript-app-templates/tree/main/packages/template-blank",
       "description": "A basic template with a single page and no custom styles.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Templates",
       "sub": "",
       "path": "Templates",
@@ -5263,6 +6635,10 @@
       "name": "NativeScript on NPM",
       "url": "https://www.npmjs.com/search?page=0&q=nativescript&sortBy=score",
       "description": "Plugin list sorted by popularity.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "More Plugins",
       "sub": "",
       "path": "More Plugins",
@@ -5276,6 +6652,10 @@
       "name": "NativeScript Market",
       "url": "https://market.nativescript.org",
       "description": "Community plugin directory.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "More Plugins",
       "sub": "",
       "path": "More Plugins",
@@ -5289,6 +6669,10 @@
       "name": "Ionic",
       "url": "https://v8.docs.nativescript.org/plugins/ionic-portals.html",
       "description": "Use Ionic Portals inside NativeScript apps.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5302,6 +6686,10 @@
       "name": "Portal",
       "url": "https://capacitor.nativescript.org/",
       "description": "Website for NativeScript-Capacitor integration.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5315,6 +6703,10 @@
       "name": "CapacitorJS",
       "url": "https://github.com/NativeScript/capacitor",
       "description": "Integration of CapacitorJS with NativeScript runtime.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5328,6 +6720,10 @@
       "name": "Portal",
       "url": "https://svelte.nativescript.org/",
       "description": "Official portal for NativeScript-Svelte.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5341,6 +6737,10 @@
       "name": "Svelte",
       "url": "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-svelte",
       "description": "Use Svelte to compile native apps with NativeScript.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5354,6 +6754,10 @@
       "name": "Portal",
       "url": "https://react-nativescript.netlify.app/",
       "description": "Documentation site for React + NativeScript.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5367,6 +6771,10 @@
       "name": "ReactJS",
       "url": "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-react",
       "description": "Use React to build native mobile apps.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5380,6 +6788,10 @@
       "name": "SolidJS",
       "url": "https://github.com/nativescript-community/solid-js",
       "description": "Community-driven integration with SolidJS.",
+      "meta": {
+        "authorName": "nativescript-community",
+        "authorUrl": "https://github.com/nativescript-community"
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5393,6 +6805,10 @@
       "name": "Vue",
       "url": "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-vue",
       "description": "Build apps using Vue.js and NativeScript runtime.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5406,6 +6822,10 @@
       "name": "Angular",
       "url": "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-angular",
       "description": "Popular flavor using Angular framework.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Community Flavors",
       "path": "Flavors / Community Flavors",
@@ -5419,6 +6839,10 @@
       "name": "TypeScript",
       "url": "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-typescript",
       "description": "Official TypeScript flavor with native class support.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Official Flavors",
       "path": "Flavors / Official Flavors",
@@ -5432,6 +6856,10 @@
       "name": "JavaScript",
       "url": "https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript",
       "description": "Official JavaScript flavor with plain JS and no build step.",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Flavors",
       "sub": "Official Flavors",
       "path": "Flavors / Official Flavors",
@@ -5445,6 +6873,10 @@
       "name": "NativeScript Snippets for Visual Studio Code",
       "url": "https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -5458,6 +6890,10 @@
       "name": "NativeScript Snippets for Sublime Text",
       "url": "https://packagecontrol.io/search/nativescript",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Tools",
       "sub": "",
       "path": "Tools",
@@ -5471,6 +6907,10 @@
       "name": "VisionOS",
       "url": "https://docs.nativescript.org/guide/visionos",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Platforms",
       "sub": "",
       "path": "Platforms",
@@ -5484,6 +6924,10 @@
       "name": "iOS",
       "url": "https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Platforms",
       "sub": "",
       "path": "Platforms",
@@ -5497,6 +6941,10 @@
       "name": "Android",
       "url": "https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Platforms",
       "sub": "",
       "path": "Platforms",
@@ -5510,6 +6958,10 @@
       "name": "NativeScript RFC",
       "url": "https://github.com/NativeScript/rfcs/discussions",
       "description": "",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -5523,6 +6975,10 @@
       "name": "NativeScript on GitHub",
       "url": "https://github.com/NativeScript",
       "description": "",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -5536,6 +6992,10 @@
       "name": "NativeScript Show Case Apps",
       "url": "https://www.nativescript.org/showcases",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -5549,6 +7009,10 @@
       "name": "NativeScript Snacks",
       "url": "https://docs.nativescript.org/snacks/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",
@@ -5562,6 +7026,10 @@
       "name": "NativeScript Blog",
       "url": "https://blog.nativescript.org/",
       "description": "",
+      "meta": {
+        "authorName": "",
+        "authorUrl": ""
+      },
       "top": "Official Resources",
       "sub": "",
       "path": "Official Resources",

@@ -402,7 +402,7 @@
 
     @media (min-width: 900px) {
       .controls {
-        grid-template-columns: 1.2fr 0.45fr 0.45fr;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
         align-items: end;
       }
     }
@@ -530,8 +530,115 @@
       }
     }
 
+    .authors-grid {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .author-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .author-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+
+    .author-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--surface-2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      color: var(--accent);
+      border: 2px solid var(--border);
+      flex-shrink: 0;
+      object-fit: cover;
+    }
+
+    .author-info {
+      min-width: 0;
+      flex-grow: 1;
+    }
+
+    .author-name {
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 4px;
+    }
+
+    .author-count {
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .author-count i {
+      font-size: 12px;
+      color: var(--accent);
+    }
+
+    .author-rank {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--subtle);
+      opacity: 0.5;
+    }
+
+    .author-empty-state {
+      grid-column: 1 / -1;
+      padding: 32px;
+      text-align: center;
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .author-empty-state i {
+      font-size: 24px;
+      opacity: 0.5;
+    }
+
+    @media (max-width: 768px) {
+      .authors-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .main-list-card.collapsed .grid,
     .main-list-card.collapsed .pager,
+    .main-list-card.collapsed .authors-grid,
     .main-list-card.collapsed .header-sort {
       display: none;
     }
@@ -1518,6 +1625,12 @@
               <option value="">All</option>
             </select>
           </div>
+          <div>
+            <label for="authorFilter">Author</label>
+            <select id="authorFilter">
+              <option value="">All</option>
+            </select>
+          </div>
         </div>
 
         <div class="meta">
@@ -1545,6 +1658,29 @@
           Contribute via Pull Request
         </a>
       </section>
+
+      <div class="featured-column main-list-card" id="authorsCard">
+        <h3 id="authorsHeading" onclick="toggleAuthors()">
+          <div class="heading-left">
+            <span class="sparkle"><i class="fa-solid fa-medal icon-list"></i></span>
+            <span>Top Author</span>
+          </div>
+          <div id="authorSummary" class="header-summary"></div>
+          <div class="header-sort" onclick="event.stopPropagation()">
+            <select id="authorTypeFilter" aria-label="Filter author by type">
+              <option value="plugin" selected>Plugin</option>
+              <option value="example">Example</option>
+            </select>
+          </div>
+          <button class="toggle-authors" type="button" aria-label="Toggle authors visibility">
+            <i class="fa-solid fa-chevron-up"></i>
+          </button>
+        </h3>
+
+        <div class="authors-grid" id="authorsGrid">
+          <!-- Authors will be rendered here -->
+        </div>
+      </div>
 
       <div class="featured-column main-list-card" id="mainListCard">
         <h3 id="mainListHeading" onclick="toggleMainList()">
@@ -1654,6 +1790,7 @@
       pageNext: document.getElementById("pageNext"),
       pageInfo: document.getElementById("pageInfo"),
       pageSize: document.getElementById("pageSize"),
+      authorFilter: document.getElementById("authorFilter"),
       footerMeta: document.getElementById("footerMeta"),
       themeToggle: document.getElementById("themeToggle"),
       footerYear: document.getElementById("footerYear"),
@@ -1662,26 +1799,89 @@
       headerSummary: document.getElementById("headerSummary"),
       toggleMain: document.querySelector(".toggle-main"),
       actions: document.querySelector(".actions"),
+      authorsCard: document.getElementById("authorsCard"),
+      authorsGrid: document.getElementById("authorsGrid"),
+      authorSummary: document.getElementById("authorSummary"),
+      authorTypeFilter: document.getElementById("authorTypeFilter"),
+      toggleAuthorsBtn: document.querySelector(".toggle-authors"),
+      contributeSection: document.querySelector(".contribute-section"),
+    };
+
+    const authorState = {
+      allAuthors: [],
+      filteredAuthors: [],
+      top7: [],
+      typeFilter: 'plugin'
     };
 
     // Restore collapse states
     if (localStorage.getItem("ns_main_collapsed") === "1") {
       el.mainListCard.classList.add("collapsed");
     }
+    if (localStorage.getItem("ns_authors_collapsed") === "1") {
+      el.authorsCard.classList.add("collapsed");
+    }
 
-    // Set initial icons for all toggle-main buttons
-    document.querySelectorAll(".toggle-main").forEach(btn => {
+    // Set initial icons for all toggle buttons
+    document.querySelectorAll(".toggle-main, .toggle-authors").forEach(btn => {
       btn.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
     });
     if (el.toggleFilters) el.toggleFilters.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
 
     // Initialize summaries
     renderMainListSummary();
+    renderAuthorSummary();
 
     function toggleMainList() {
       const isCollapsed = el.mainListCard.classList.toggle("collapsed");
       safeSetLocalStorage("ns_main_collapsed", isCollapsed ? "1" : "0");
       renderMainListSummary();
+    }
+
+    function toggleAuthors() {
+      const isCollapsed = el.authorsCard.classList.toggle("collapsed");
+      safeSetLocalStorage("ns_authors_collapsed", isCollapsed ? "1" : "0");
+      renderAuthorSummary();
+      updateToggleIcons();
+    }
+
+    function updateToggleIcons() {
+      const authorsCollapsed = el.authorsCard.classList.contains("collapsed");
+      el.toggleAuthorsBtn.innerHTML = authorsCollapsed
+        ? '<i class="fa-solid fa-chevron-down"></i>'
+        : '<i class="fa-solid fa-chevron-up"></i>';
+
+      const mainCollapsed = el.mainListCard.classList.contains("collapsed");
+      el.toggleMain.innerHTML = mainCollapsed
+        ? '<i class="fa-solid fa-chevron-down"></i>'
+        : '<i class="fa-solid fa-chevron-up"></i>';
+    }
+    updateToggleIcons();
+
+    function renderAuthorSummary() {
+      if (!el.authorSummary) return;
+
+      const authors = authorState.allAuthors || [];
+      const total = authors.length;
+
+      if (total === 0) {
+        el.authorSummary.innerHTML = `<span class="summary-count">No authors found</span>`;
+        return;
+      }
+
+      const typeLabel = authorState.typeFilter === 'plugin' ? 'plugin' : 'example';
+
+      // Create badges for the first few authors
+      const maxBadges = 3;
+      const badgesHtml = authors.slice(0, maxBadges).map(author => {
+        const name = author.name;
+        const url = author.url || `https://github.com/search?q=${encodeURIComponent(name)}`;
+        return `<a href="${url}" target="_blank" class="summary-badge" title="${escapeHtml(name)}" onclick="event.stopPropagation()">${escapeHtml(name)}</a>`;
+      }).join("");
+
+      const countHtml = `<span class="summary-count"><i class="fa-solid fa-medal"></i> Total: ${total} ${typeLabel} authors</span>`;
+
+      el.authorSummary.innerHTML = badgesHtml + countHtml;
     }
 
     function renderMainListSummary() {
@@ -1749,6 +1949,7 @@
       const q = (params.get("q") || "").trim();
       const top = (params.get("top") || "").trim();
       const sub = (params.get("sub") || "").trim();
+      const author = (params.get("author") || "").trim();
       const sort = (params.get("sort") || "").trim();
       const collapsed = params.get("collapsed");
       const page = parseInt(params.get("page") || "", 10);
@@ -1757,6 +1958,7 @@
         q,
         top,
         sub,
+        author,
         sort,
         collapsed,
         page: Number.isFinite(page) && page > 0 ? page : null,
@@ -1765,11 +1967,12 @@
     }
 
     function replaceUrlParams() {
-      const { q, top, sub, sort } = getActiveParams();
+      const { q, top, sub, sort, author } = getActiveParams();
       const params = new URLSearchParams();
       if (q) params.set("q", q);
       if (top) params.set("top", top);
       if (sub) params.set("sub", sub);
+      if (author) params.set("author", author);
       if (sort && sort !== "recent") params.set("sort", sort);
       if (state.page > 1) params.set("page", String(state.page));
       if (state.pageSize !== 10) params.set("size", String(state.pageSize));
@@ -1801,16 +2004,18 @@
       const q = el.q.value.trim();
       const top = el.top.value;
       const sub = el.sub.value;
+      const author = el.authorFilter ? el.authorFilter.value : "";
       const sort = el.sort.value;
-      return { q, top, sub, sort };
+      return { q, top, sub, sort, author };
     }
 
     function renderSummary() {
-      const { q, top, sub } = getActiveParams();
+      const { q, top, sub, author } = getActiveParams();
       const chips = [];
       if (q) chips.push(`<span class="chip"><strong>Search</strong> <code>${escapeHtml(q)}</code></span>`);
       if (top) chips.push(`<span class="chip"><strong>Category</strong> <code>${escapeHtml(top)}</code></span>`);
       if (sub) chips.push(`<span class="chip"><strong>Sub category</strong> <code>${escapeHtml(sub)}</code></span>`);
+      if (author) chips.push(`<span class="chip"><strong>Author</strong> <code>${escapeHtml(author)}</code></span>`);
 
       if (el.actions) {
         el.actions.style.display = chips.length > 0 ? "flex" : "none";
@@ -2657,8 +2862,14 @@
       el.pageSize.value = String(size);
     }
 
+    function populateAuthorFilter() {
+      if (!el.authorFilter) return;
+      const authors = uniqueSorted(state.items.map(i => i.meta && i.meta.authorName).filter(Boolean));
+      setSelectOptions(el.authorFilter, authors, true);
+    }
+
     function applyFilters() {
-      const { q, top, sub, sort } = getActiveParams();
+      const { q, top, sub, sort, author } = getActiveParams();
 
       // Handle Relevance option availability
       const optRelevance = document.getElementById("optRelevance");
@@ -2680,7 +2891,8 @@
 
       const base = state.items
         .filter((i) => (top ? i.top === top : true))
-        .filter((i) => (sub ? i.sub === sub : true));
+        .filter((i) => (sub ? i.sub === sub : true))
+        .filter((i) => (author ? i.meta && i.meta.authorName === author : true));
 
       let all = [];
       const currentSort = el.sort.value;
@@ -2724,7 +2936,7 @@
       setStatus(resultText, true);
 
       if (el.mainListHeadingLeft) {
-        if (q || top || sub) {
+        if (q || top || sub || author) {
           el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-magnifying-glass icon-search"></i></span> Found ${state.totalMatches.toLocaleString()} match(es)${suffix}`;
         } else {
           el.mainListHeadingLeft.innerHTML = `<span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span> Directory`;
@@ -2734,8 +2946,18 @@
       replaceUrlParams();
       renderSummary();
 
+      const hasActiveFilters = !!(q || top || sub || author);
+
+      // Hide/show sections based on active filters
+      if (el.contributeSection) {
+        el.contributeSection.style.display = hasActiveFilters ? "none" : "flex";
+      }
+      if (el.authorsCard) {
+        el.authorsCard.style.display = hasActiveFilters ? "none" : "block";
+      }
+
       // Auto-expand directory if searching or filtering
-      if ((q || top || sub) && el.mainListCard.classList.contains("collapsed")) {
+      if (hasActiveFilters && el.mainListCard.classList.contains("collapsed")) {
         el.mainListCard.classList.remove("collapsed");
         safeSetLocalStorage("ns_main_collapsed", "0");
         renderMainListSummary();
@@ -2890,6 +3112,89 @@
       `;
     }
 
+    function extractAuthorsFromData(items) {
+      const authorMap = new Map();
+      const currentType = authorState.typeFilter;
+
+      items.forEach(item => {
+        // Filter by type
+        const kind = getKind(item).toLowerCase();
+        const isExample = kind.includes('example');
+        const isPlugin = kind.includes('plugin');
+
+        if (currentType === 'plugin' && !isPlugin) return;
+        if (currentType === 'example' && !isExample) return;
+
+        if (item.meta && item.meta.authorName) {
+          const authorName = item.meta.authorName;
+          const authorUrl = item.meta.authorUrl || "";
+          if (authorMap.has(authorName)) {
+            const authorData = authorMap.get(authorName);
+            authorMap.set(authorName, {
+              count: authorData.count + 1,
+              url: authorUrl || authorData.url
+            });
+          } else {
+            authorMap.set(authorName, {
+              count: 1,
+              url: authorUrl
+            });
+          }
+        }
+      });
+
+      const sortedAuthors = Array.from(authorMap.entries())
+        .map(([name, data]) => ({ name, count: data.count, url: data.url }))
+        .sort((a, b) => b.count - a.count);
+
+      authorState.allAuthors = sortedAuthors;
+      authorState.top9 = sortedAuthors.slice(0, 9);
+      authorState.filteredAuthors = authorState.top9;
+    }
+
+    function renderAuthors() {
+      if (!el.authorsGrid) return;
+
+      const authors = authorState.filteredAuthors;
+      if (authors.length === 0) {
+        el.authorsGrid.innerHTML = `
+          <div class="author-empty-state">
+            <i class="fa-solid fa-user-slash"></i>
+            <div>No authors found for ${authorState.typeFilter}s.</div>
+          </div>
+        `;
+        return;
+      }
+
+      const typeLabel = authorState.typeFilter === 'plugin' ? 'plugin' : 'example';
+
+      el.authorsGrid.innerHTML = authors.map((author, index) => {
+        const rank = authorState.allAuthors.findIndex(a => a.name === author.name) + 1;
+        const initials = author.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
+
+        return `
+          <div class="author-card" onclick="window.open('${author.url || `https://github.com/search?q=${encodeURIComponent(author.name)}`}', '_blank')">
+            <div class="author-rank">#${rank}</div>
+            <div class="author-avatar">${initials}</div>
+            <div class="author-info">
+              <div class="author-name">${escapeHtml(author.name)}</div>
+              <div class="author-count">
+                <i class="fa-solid fa-${authorState.typeFilter === 'plugin' ? 'cube' : 'lightbulb'}"></i>
+                <span>${author.count} ${author.count === 1 ? typeLabel : typeLabel + 's'}</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    el.authorTypeFilter.addEventListener("change", () => {
+      authorState.typeFilter = el.authorTypeFilter.value;
+      extractAuthorsFromData(state.items);
+      renderAuthors();
+      renderAuthorSummary();
+    });
+
     async function loadAllSources() {
       state.isLoading = true;
       render();
@@ -2918,13 +3223,20 @@
             state.sourcesFailed = 0;
 
             buildFilters(state.items);
+            extractAuthorsFromData(state.items);
+            populateAuthorFilter();
             renderStats();
+            renderAuthors();
+            renderAuthorSummary();
+            updateToggleIcons();
             setSelectOptions(el.top, state.tops, true);
             if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
             syncSubFilter();
             if (state.urlSub) setSelectValueCaseInsensitive(el.sub, state.urlSub);
+            if (state.urlAuthor) setSelectValueCaseInsensitive(el.authorFilter, state.urlAuthor);
             state.urlTop = "";
             state.urlSub = "";
+            state.urlAuthor = "";
             setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
             applyFilters();
             return;
@@ -2980,13 +3292,19 @@
 
       if (indexed.length) {
         buildFilters(indexed);
+        extractAuthorsFromData(indexed);
+        populateAuthorFilter();
         renderStats();
+        renderAuthors();
+        updateToggleIcons();
         setSelectOptions(el.top, state.tops, true);
         if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
         syncSubFilter();
         if (state.urlSub) setSelectValueCaseInsensitive(el.sub, state.urlSub);
+        if (state.urlAuthor) setSelectValueCaseInsensitive(el.authorFilter, state.urlAuthor);
         state.urlTop = "";
         state.urlSub = "";
+        state.urlAuthor = "";
         setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
         applyFilters();
         return;
@@ -3021,6 +3339,12 @@
       state.page = 1;
       applyFilters();
     });
+    if (el.authorFilter) {
+      el.authorFilter.addEventListener("change", () => {
+        state.page = 1;
+        applyFilters();
+      });
+    }
     el.sort.addEventListener("change", () => {
       state.page = 1;
       applyFilters();
@@ -3032,6 +3356,7 @@
     el.clear.addEventListener("click", () => {
       el.q.value = "";
       el.top.value = "";
+      if (el.authorFilter) el.authorFilter.value = "";
       syncSubFilter();
       state.page = 1;
       applyFilters();
@@ -3072,6 +3397,7 @@
     if (urlParams.q) el.q.value = urlParams.q;
     state.urlTop = urlParams.top || "";
     state.urlSub = urlParams.sub || "";
+    state.urlAuthor = urlParams.author || "";
     if (urlParams.sort) setSelectValueCaseInsensitive(el.sort, urlParams.sort);
     if (urlParams.size) state.pageSize = urlParams.size;
     if (urlParams.page) state.page = urlParams.page;

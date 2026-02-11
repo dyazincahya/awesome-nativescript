@@ -66,6 +66,34 @@ function getDomain(url) {
   }
 }
 
+function extractAuthorFromUrl(url) {
+  try {
+    if (!url) return "";
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+
+    if (host === "github.com") {
+      // github.com/author/repo...
+      const parts = u.pathname.split("/").filter(Boolean);
+      return parts[0] || "";
+    } else if (host === "npmjs.com") {
+      // npmjs.com/package/name or npmjs.com/package/@scope/name
+      const parts = u.pathname.split("/").filter(Boolean);
+      if (parts[0] === "package") {
+        const pkgName = parts[1];
+        if (pkgName && pkgName.startsWith("@")) {
+          return pkgName.split("/")[0]; // return @scope
+        }
+        // for non-scoped, npm doesn't easily give author name in URL
+        // but often people use the package name or we can leave it empty
+      }
+    }
+    return "";
+  } catch {
+    return "";
+  }
+}
+
 function getSourceFile(origin) {
   if (!origin) return "";
   return origin.replace(/^\.\//, "").replace(/^\.\.\//, "");
@@ -108,12 +136,20 @@ function parseListItemLine(line) {
     /^\s*-\s+\[([^\]]+)\]\(([^)]+)\)(?:\s*[-:—–]?\s*(.+))?\s*$/,
   );
   if (!m) return null;
+
+  const url = m[2].trim();
+  const authorName = extractAuthorFromUrl(url);
+
   return {
     name: normalizeHeadingText(m[1]).replace("✨", "").trim(),
-    url: m[2].trim(),
+    url: url,
     description: normalizeHeadingText(m[3] || "")
       .replace("✨", "")
       .trim(),
+    meta: {
+      authorName: authorName,
+      authorUrl: authorName ? `https://github.com/${authorName}` : "",
+    },
   };
 }
 
@@ -144,7 +180,11 @@ function parseTableLine(line) {
 
   const platform = normalizeHeadingText(cells[2] || "");
   const source = normalizeHeadingText(cells[4] || "");
-  const { authorName, authorUrl } = parseAuthorCell(cells[3] || "");
+  const { authorName: parsedAuthorName, authorUrl: parsedAuthorUrl } =
+    parseAuthorCell(cells[3] || "");
+  const authorName = parsedAuthorName || extractAuthorFromUrl(url);
+  const authorUrl =
+    parsedAuthorUrl || (authorName ? `https://github.com/${authorName}` : "");
 
   return {
     name,
