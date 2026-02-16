@@ -1,7 +1,330 @@
 {
-  "lastUpdated": "2026-02-11T04:08:45.415Z",
-  "total": 409,
+  "lastUpdated": "2026-02-16T03:35:59.844Z",
+  "total": 428,
   "items": [
+    {
+      "name": "Tracking Transparency",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tracking-transparency",
+      "description": "A NativeScript Library for interacting with the tracking API for iOS 14+.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Utility Plugins",
+      "path": "Plugins / Utility Plugins / Security & Context",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Persona",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-persona",
+      "description": "A NativeScript plugin for [Persona](https://withpersona.com/), a secure identity verification solution.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Utility Plugins",
+      "path": "Plugins / Utility Plugins / Security & Context",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Camera Plus",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-camera-plus",
+      "description": "A NativeScript camera with all the bells and whistles which can be embedded inside a view.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Utility Plugins",
+      "path": "Plugins / Utility Plugins / Device & Hardware Access",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Barcode Scanner",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-barcodescanner",
+      "description": "A NativeScript plugin for scanning barcodes and QR codes.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Utility Plugins",
+      "path": "Plugins / Utility Plugins / Device & Hardware Access",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "QR",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-qr",
+      "description": "A NativeScript plugin to generate QR codes.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Media & Visual Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "ExoPlayer",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer",
+      "description": "A NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Media & Visual Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Blur",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-blur",
+      "description": "A NativeScript plugin that allows you to blur any view.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Media & Visual Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Carousel",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-carousel",
+      "description": "A simple carousel component for NativeScript.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Layout & Container Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Input Mask",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-input-mask",
+      "description": "Format user input and process only the characters valueable to your application.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Input & Selection Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Loading Indicator",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-loading-indicator",
+      "description": "A plugin for NativeScript which overlays a loading indicator on the current page.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Feedback & Notifications",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Fancy Alert",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-fancyalert",
+      "description": "Fancy alerts for NativeScript.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Feedback & Notifications",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "WalletConnect",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-walletconnect",
+      "description": "A NativeScript plugin for [WalletConnect](https://walletconnect.com/), an open protocol for connecting Wallets to Dapps.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Payment Plugins",
+      "path": "Plugins / Payment Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Web Server",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-web-server",
+      "description": "A NativeScript plugin to create a local web server.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Networking Plugins",
+      "path": "Plugins / Networking Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Auth0",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-auth0",
+      "description": "A NativeScript plugin for Auth0 authentication.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Authentication Plugins",
+      "path": "Plugins / Authentication Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Intercom",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-intercom",
+      "description": "A NativeScript plugin for [Intercom](https://www.intercom.com/), a customer service platform.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Analytics, Engagement & Monitoring Plugins",
+      "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Dynatrace",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-dynatrace",
+      "description": "A NativeScript plugin for [Dynatrace](https://www.dynatrace.com/), an observability platform.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Analytics, Engagement & Monitoring Plugins",
+      "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Branch",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-branch",
+      "description": "A NativeScript plugin for [Branch Metrics](https://branch.io/), a deep linking and attribution platform.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Analytics, Engagement & Monitoring Plugins",
+      "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Aptabase",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-aptabase",
+      "description": "A NativeScript plugin for Aptabase, an Open Source, Privacy-First and Simple Analytics platform.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Analytics, Engagement & Monitoring Plugins",
+      "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
+    {
+      "name": "Appcues",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-appcues",
+      "description": "A NativeScript plugin for Appcues, an onboarding and product adoption platform.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Analytics, Engagement & Monitoring Plugins",
+      "path": "Plugins / Analytics, Engagement & Monitoring Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-16 10:35:48 +0700"
+    },
     {
       "name": "NativeScript GitHub Copilot",
       "url": "https://github.com/NathanWalker/ns-gh-copilot",

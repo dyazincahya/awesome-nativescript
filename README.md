@@ -167,8 +167,13 @@ Run NativeScript on the following platforms:
 ### Analytics, Engagement & Monitoring Plugins
 
 - [Adobe Experience Cloud](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-adobe-experience-cloud) - A NativeScript plugin for Adobe Experience Cloud.
+- [Appcues](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-appcues) - A NativeScript plugin for Appcues, an onboarding and product adoption platform.
 - [AppsFlyer](https://github.com/AppsFlyerSDK/appsflyer-nativescript-plugin) - A NativeScript plugin for AppsFlyer mobile attribution and analytics. Track installs, measure user behavior, and optimize marketing performance.
+- [Aptabase](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-aptabase) - A NativeScript plugin for Aptabase, an Open Source, Privacy-First and Simple Analytics platform.
+- [Branch](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-branch) - A NativeScript plugin for [Branch Metrics](https://branch.io/), a deep linking and attribution platform.
+- [Dynatrace](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-dynatrace) - A NativeScript plugin for [Dynatrace](https://www.dynatrace.com/), an observability platform.
 - [IAdvize](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-iadvize) - A NativeScript plugin that integrates the iAdvize SDK, enabling live chat and real-time customer engagement features within NativeScript applications.
+- [Intercom](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-intercom) - A NativeScript plugin for [Intercom](https://www.intercom.com/), a customer service platform.
 - [Medallia](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-medallia) - A NativeScript plugin integrating the Medallia SDK to gather insights and improve customer, employee, and digital experiences.
 - [Sentry](https://github.com/nativescript-community/sentry) - A cross-platform application monitoring tool, with a focus on error reporting.
 - [UXCam](https://github.com/uxcam/nativescript-uxcam) - A NativeScript plugin for UXCam. An analytics platform that offers in-depth dashboards, heatmaps, and session recordings to optimize your product.
@@ -181,6 +186,7 @@ Run NativeScript on the following platforms:
 ### Authentication Plugins
 
 - [Apple Sign In](https://github.com/NativeScript/plugins/blob/main/packages/apple-sign-in) - A plugin that allows you to authenticate users with Sign In with Apple.
+- [Auth0](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-auth0) - A NativeScript plugin for Auth0 authentication.
 - [Descope](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-descope) - The Descope SDK for NativeScript provides convenient access to Descope for an application written on top of NativeScript.
 - [Facebook](https://github.com/NativeScript/plugins/blob/main/packages/facebook) - A plugin that allows you to integrate Facebook Login with your app using the Facebook SDK.
 - [Google Signin](https://github.com/NativeScript/plugins/blob/main/packages/google-signin) - A plugin that allows you to authenticate users with Google Sign-In.
@@ -276,6 +282,7 @@ Run NativeScript on the following platforms:
 - [NativeScript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for NativeScript - iOS/Android.
 - [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
 - [Socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
+- [Web Server](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-web-server) - A NativeScript plugin to create a local web server.
 - [websockets](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-websockets) - For web-compatible WebSockets.
 
 ### Payment Plugins
@@ -286,6 +293,7 @@ Run NativeScript on the following platforms:
 - [Revenuecat](https://github.com/mleleux-heykiddo/nativescript-plugins/tree/main/packages/nativescript-revenuecat) - A powerful and reliable in-app purchase server that makes it easy to build, analyze, and grow your subscriber base whether you're just starting out or already have millions of customers.
 - [Square In App Payments](https://github.com/NativeScript/payments/tree/main/packages/square-in-app-payments) - Build remarkable payments experiences in your own apps with Square's In-App Payments SDK for NativeScript.
 - [Stripe](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-stripe) - Is a financial infrastructure platform that enables businesses to accept and manage online payments, as well as handle recurring billing and other financial operations.
+- [WalletConnect](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-walletconnect) - A NativeScript plugin for [WalletConnect](https://walletconnect.com/), an open protocol for connecting Wallets to Dapps.
 
 ### Styling & Theme Plugins
 
@@ -336,8 +344,10 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 #### Feedback & Notifications
 
+- [Fancy Alert](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-fancyalert) - Fancy alerts for NativeScript.
 - [Feedback](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-feedback) - Non-blocking textual feedback for your NativeScript App.
 - [In App Review](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-in-app-review) - A NativeScript plugin that triggers the native in-app review prompt, allowing users to rate your app without leaving it.
+- [Loading Indicator](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-loading-indicator) - A plugin for NativeScript which overlays a loading indicator on the current page.
 - [Toasty](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-toasty) - A NativeScript plugin to make Toast.
 - [Tooltip](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-tooltip) - A NativeScript plugin to make Tooltip.
 
@@ -347,6 +357,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
 - [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
 - [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection.
+- [Input Mask](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-input-mask) - Format user input and process only the characters valueable to your application.
 - [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - NativeScript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
 - [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for iOS and Android.
 - [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
@@ -360,6 +371,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Layout & Container Components
 
 - [Accordion](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accordion) - A NativeScript plugin for Accordion UI.
+- [Carousel](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-carousel) - A simple carousel component for NativeScript.
 - [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
 - [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
 - [UI Canvas](https://github.com/nativescript-community/ui-canvas) - Implement Canvas into your NativeScript apps.
@@ -373,12 +385,15 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 #### Media & Visual Components
 
+- [Blur](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-blur) - A NativeScript plugin that allows you to blur any view.
 - [Document Scanner](https://github.com/nativescript-community/document-scanner) - A NativeScript plugin to scan documents.
+- [ExoPlayer](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer) - A NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.
 - [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
 - [Image Cache It](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it) - A NativeScript plugin that automatically caches images for faster loading and better performance.
 - [SVG](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg) - A NativeScript plugin that allows you to use SVG images in your NativeScript apps.
 - [nCharts](https://plugins.nstudio.io/ncharts/) - High-performance, fully customizable chart components.
   Line, Bar, Pie, Scatter, Candlestick, Radar and more. Uses [DGCharts](https://github.com/ChartsOrg/Charts) (iOS) and [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) (Android).
+- [QR](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-qr) - A NativeScript plugin to generate QR codes.
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
 - [UI Cameraview](https://github.com/nativescript-community/ui-cameraview) - A CameraView allowing custom live processing for NativeScript.
@@ -453,10 +468,12 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Device & Hardware Access
 
 - [Accelerometer](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accelerometer) - An acceleration sensor measures the acceleration applied to the device, including the force of gravity.
+- [Barcode Scanner](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-barcodescanner) - A NativeScript plugin for scanning barcodes and QR codes.
 - [Biometrics](https://github.com/NativeScript/plugins/blob/main/packages/biometrics) - A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
 - [Ble](https://github.com/nativescript-community/ble) - Connect to and interact with Bluetooth LE peripherals.
 - [Brightness](https://github.com/NativeScript/plugins/blob/main/packages/brightness) - A plugin that get and set the device's brightness level.
 - [Camera](https://github.com/NativeScript/plugins/blob/main/packages/camera) - A plugin that allows you to take a picture and optionally save it on the device storage.
+- [Camera Plus](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-camera-plus) - A NativeScript camera with all the bells and whistles which can be embedded inside a view.
 - [Compass](https://github.com/modos189/nativescript-compass) - A NativeScript plugin that provides native compass functionality for both Android and iOS platforms.
 - [Device Info](https://github.com/DeepakArora76/nativescript-dna-deviceinfo) - The plugin offers cross-platform utility APIs to retrieve or query device-related information.
 - [Flashlight](https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/flashlight) - This plugin allows you to enable/disable the flashlight/torch on your iOS/Android device.
@@ -495,6 +512,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Awarns Framework](https://github.com/GeoTecINIT/awarns-framework) - Easing the development of context-aware apps.
 - [Context APIs](https://github.com/GeoTecINIT/nativescript-context-apis) - A NativeScript plugin to ease the access to mobile phone's real-world context.
 - [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript.
+- [Persona](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-persona) - A NativeScript plugin for [Persona](https://withpersona.com/), a secure identity verification solution.
+- [Tracking Transparency](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tracking-transparency) - A NativeScript Library for interacting with the tracking API for iOS 14+.
 
 #### User Interface & Interaction
 
