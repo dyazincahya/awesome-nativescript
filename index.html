@@ -117,6 +117,17 @@
       text-decoration: underline;
     }
 
+    .desc a {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .desc a .ext-icon {
+      margin-left: 4px;
+      font-size: 0.85em;
+      opacity: 0.85;
+    }
+
     .wrap {
       max-width: var(--max);
       margin: 0 auto;
@@ -2227,6 +2238,29 @@
       return str.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     }
 
+    function renderInlineLinks(raw) {
+      const s = String(raw || "");
+      if (!s) return "";
+      const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+      let out = "";
+      let i = 0;
+      for (const m of s.matchAll(re)) {
+        const j = m.index || 0;
+        if (j > i) out += escapeHtml(s.slice(i, j));
+        const text = m[1] || "";
+        const url = (m[2] || "").trim();
+        const isHttp = /^https?:\/\//i.test(url);
+        if (isHttp) {
+          out += `<a href="${url}" target="_blank" rel="noreferrer">${escapeHtml(text)}<i class="fa-solid fa-arrow-up-right-from-square ext-icon" aria-hidden="true"></i></a>`;
+        } else {
+          out += `${escapeHtml(text)} (${escapeHtml(url)})`;
+        }
+        i = j + m[0].length;
+      }
+      if (i < s.length) out += escapeHtml(s.slice(i));
+      return out;
+    }
+
     function indexItem(item) {
       const name = item.name || "";
       const description = item.description || "";
@@ -2989,7 +3023,8 @@
       const html = state.filtered
         .map((i) => {
           const name = escapeHtml(i.name);
-          const desc = escapeHtml(i.description || "");
+          const descHtml = renderInlineLinks(i.description || "");
+          const descAttr = escapeHtml(i.description || "");
           const path = escapeHtml(i.path || "");
           const sourceLabel = escapeHtml(i.sourceLabel || "");
           const sourceFile =
@@ -3009,7 +3044,7 @@
                       ${name}
                       ${i.isNew ? '<span class="newBadge">New <i class="fa-solid fa-bolt icon-new"></i></span>' : ""}
                     </div>
-                    ${desc ? `<div class="desc">${desc}</div>` : ""}
+                    ${descHtml ? `<div class="desc">${descHtml}</div>` : ""}
                     <div class="badges">
                       <div class="badge badgeTypePrimary"><strong>Type</strong> ${kind}</div>
                       <div class="badge badgeSection"><strong>Section</strong> ${path}</div>
@@ -3029,7 +3064,7 @@
                       title="Share"
                       data-share="1"
                       data-name="${name}"
-                      data-desc="${desc}"
+                      data-desc="${descAttr}"
                       data-url="${url}"
                       data-domain="${domain}"
                       data-kind="${kind}"
