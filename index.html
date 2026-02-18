@@ -286,7 +286,7 @@
 
     .hero {
       position: relative;
-      padding: 20px;
+      padding: 16px;
       border-radius: var(--radius);
       background: var(--hero-bg);
       border: 1px solid var(--border);
@@ -298,16 +298,16 @@
       position: absolute;
       top: 12px;
       right: 12px;
-      width: 38px;
-      height: 38px;
+      width: 32px;
+      height: 32px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      border-radius: 10px;
+      border-radius: 8px;
       border: 1px solid var(--border);
       background: var(--toggle-bg);
       color: var(--text);
-      font-size: 14px;
+      font-size: 12px;
       line-height: 1;
       padding: 0;
       transition: all 0.2s ease;
@@ -319,7 +319,8 @@
     }
 
     .toggle i,
-    .toggle-main i {
+    .toggle-main i,
+    .toggle-authors i {
       transition: transform 0.3s ease;
     }
 
@@ -361,7 +362,9 @@
     }
 
     .hero.collapsed .heroIntro,
-    .hero.collapsed .controls {
+    .hero.collapsed .controls,
+    .hero.collapsed .controls-wrapper,
+    .hero.collapsed .meta {
       display: none;
     }
 
@@ -404,17 +407,101 @@
       overflow-wrap: anywhere;
     }
 
-    .controls {
-      margin-top: 14px;
+    /* Layout Restructuring */
+    .content-wrapper {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
+      grid-template-columns: 4fr 8fr;
+      gap: 20px;
+      align-items: start;
     }
 
-    @media (min-width: 900px) {
-      .controls {
-        grid-template-columns: 1.5fr 1fr 1fr 1fr;
-        align-items: end;
+    @media (max-width: 900px) {
+      .content-wrapper {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Advanced Filters */
+    .controls-wrapper {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-end;
+    }
+
+    .search-input-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btn-advanced-filter {
+      height: 40px !important;
+      padding: 0 16px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 12px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-advanced-filter:hover {
+      background: var(--surface);
+      border-color: var(--accent);
+    }
+
+    .btn-advanced-filter.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .advanced-filters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      animation: slideDown 0.2s ease-out;
+    }
+
+    .advanced-filters.hidden {
+      display: none;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
     }
 
@@ -568,6 +655,21 @@
       box-shadow: var(--shadow);
     }
 
+    .author-card.rank-1 {
+      border: 1px solid #FFD700;
+      background: linear-gradient(to right, rgba(255, 215, 0, 0.05), transparent);
+    }
+
+    .author-card.rank-2 {
+      border: 1px solid #C0C0C0;
+      background: linear-gradient(to right, rgba(192, 192, 192, 0.05), transparent);
+    }
+
+    .author-card.rank-3 {
+      border: 1px solid #CD7F32;
+      background: linear-gradient(to right, rgba(205, 127, 50, 0.05), transparent);
+    }
+
     .author-avatar {
       width: 56px;
       height: 56px;
@@ -656,7 +758,7 @@
 
     .main-list-card {
       transition: all 0.3s ease;
-      margin-bottom: 20px;
+      margin-bottom: 0;
     }
 
     #mainListHeading {
@@ -710,6 +812,30 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 12px;
+    }
+
+    .list-segment {
+      grid-column: 1 / -1;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-top: 24px;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .list-segment:first-child {
+      margin-top: 0;
+    }
+
+    .list-segment i {
+      color: var(--accent);
     }
 
     .card {
@@ -1108,6 +1234,21 @@
       display: none !important;
     }
 
+    .author-card.rank-1 {
+      border: 1px solid #FFD700;
+      background: #FFD70040;
+    }
+
+    .author-card.rank-2 {
+      border: 1px solid #C0C0C0;
+      background: #C0C0C040;
+    }
+
+    .author-card.rank-3 {
+      border: 1px solid #CD7F32;
+      background: #CD7F3240;
+    }
+
     .featured-sections {
       display: block;
     }
@@ -1145,11 +1286,11 @@
       display: none;
       align-items: center;
       gap: 8px;
-      margin-left: auto;
-      margin-right: 12px;
+      margin-left: 12px;
+      margin-right: auto;
       overflow: hidden;
       flex: 1;
-      justify-content: flex-end;
+      justify-content: flex-start;
       min-width: 0;
       padding: 4px 0;
     }
@@ -1196,40 +1337,42 @@
 
     .main-list-card.collapsed .header-summary {
       display: flex;
+      flex: 1;
+      overflow: hidden;
     }
 
     .summary-badge {
       font-size: 11px;
       font-weight: 600;
-      background: var(--surface);
-      color: var(--primary);
-      padding: 4px 10px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      padding: 0;
+      border-radius: 0;
+      border: none;
       white-space: nowrap;
       text-decoration: none;
       transition: all 0.2s ease;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-      max-width: 100px;
+      box-shadow: none;
+      max-width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
     @media (max-width: 768px) {
       .summary-badge {
-        max-width: 80px;
-        padding: 3px 8px;
-        font-size: 10px;
+        max-width: 100%;
+        padding: 0;
+        font-size: 11px;
       }
     }
 
     .summary-badge:hover {
-      background: var(--surface-2);
-      border-color: var(--accent);
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background: transparent;
+      border-color: transparent;
+      transform: none;
+      box-shadow: none;
       text-decoration: none;
-      color: var(--primary);
+      color: var(--text);
     }
 
     @media (max-width: 640px) {
@@ -1459,8 +1602,8 @@
     }
 
     .contribute-section {
-      margin-bottom: 20px;
-      padding: 14px 16px;
+      margin-bottom: 0;
+      padding: 16px !important;
       background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface-1) 100%);
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -1566,6 +1709,262 @@
         display: inline;
       }
     }
+
+    /* Layout Restructuring */
+    .content-wrapper {
+      display: grid;
+      grid-template-columns: 4fr 8fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .content-wrapper {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      min-width: 0;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      min-width: 0;
+    }
+
+    /* Advanced Filters */
+    .controls-wrapper {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-end;
+    }
+
+    .search-input-group {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .search-input-group label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .btn-advanced-filter {
+      height: 44px;
+      padding: 0 16px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+      white-space: nowrap;
+      font-weight: 500;
+    }
+
+    .btn-advanced-filter:hover {
+      background: var(--surface);
+      border-color: var(--accent);
+    }
+
+    .btn-advanced-filter.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .advanced-filters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      animation: slideDown 0.2s ease-out;
+    }
+
+    .advanced-filters.hidden {
+      display: none;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Adjust existing controls */
+    .controls {
+      display: none;
+    }
+
+    /* Refined Layout & Compact Styles */
+    .contribute-section {
+      padding: 10px 12px;
+      gap: 8px;
+      flex-direction: column;
+      align-items: stretch;
+      text-align: left;
+    }
+
+    .contributeCopy h2 {
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+
+    .contributeCopy p {
+      font-size: 11px;
+      line-height: 1.3;
+    }
+
+    .contribute-btn {
+      justify-content: center;
+      padding: 6px 12px;
+      font-size: 12px;
+      margin-top: 4px;
+      height: 32px;
+    }
+
+    /* Compact Author Card */
+    .author-card {
+      padding: 8px 10px;
+      gap: 10px;
+      border-radius: 10px;
+    }
+
+    .author-avatar {
+      width: 36px;
+      height: 36px;
+      font-size: 14px;
+    }
+
+    .author-name {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .author-count {
+      font-size: 11px;
+    }
+
+    .author-rank {
+      font-size: 10px;
+      top: 6px;
+      right: 8px;
+    }
+
+    /* Medals */
+    .medal-gold {
+      color: #FFD700;
+    }
+
+    .medal-silver {
+      color: #C0C0C0;
+    }
+
+    .medal-bronze {
+      color: #CD7F32;
+    }
+
+    /* Standardized Comboboxes & Toggles */
+    .header-sort select {
+      min-width: 100px;
+      height: 32px;
+      padding: 2px 28px 2px 8px;
+      font-size: 12px;
+      background-position: right 8px center;
+    }
+
+    .toggle-authors,
+    .toggle-main {
+      width: 32px !important;
+      height: 32px !important;
+      font-size: 12px !important;
+      background: var(--toggle-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px !important;
+      transition: all 0.2s ease;
+      padding: 0;
+      cursor: pointer;
+    }
+
+    .toggle-authors:hover,
+    .toggle-main:hover {
+      background: var(--surface-2);
+    }
+
+    .main-list-card.collapsed .toggle-authors i,
+    .main-list-card.collapsed .toggle-main i {
+      transform: rotate(-180deg);
+    }
+
+    /* Footer Positioning */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      margin-top: 0;
+    }
+
+    .sidebar .footer {
+      display: block;
+    }
+
+    /* Responsive Footer Ordering */
+    @media (max-width: 900px) {
+      .sidebar {
+        display: contents;
+      }
+
+      .contribute-section {
+        order: 1;
+        grid-column: 1 / -1;
+      }
+
+      #authorsCard {
+        order: 2;
+        grid-column: 1 / -1;
+      }
+
+      .main-content {
+        order: 3;
+        grid-column: 1 / -1;
+      }
+
+      .footer {
+        order: 4;
+        grid-column: 1 / -1;
+        margin-top: 0;
+      }
+    }
   </style>
 </head>
 
@@ -1618,29 +2017,37 @@
 
         <div class="summary" id="summary" aria-live="polite"></div>
 
-        <div class="controls">
-          <div>
-            <label for="q">Search</label>
-            <input id="q" type="text" placeholder="e.g. firebase, pdf, camera, vue, visionOS, stripe..."
-              autocomplete="off" />
+        <div class="controls-wrapper">
+          <div class="search-row">
+            <div class="search-input-group">
+              <label for="q">Search</label>
+              <input id="q" type="text" placeholder="e.g. firebase, pdf, camera, vue, visionOS, stripe..."
+                autocomplete="off" />
+            </div>
+            <button id="toggleAdvancedFilters" class="btn-advanced-filter" type="button">
+              <i class="fa-solid fa-sliders"></i> Advanced Filter
+            </button>
           </div>
-          <div>
-            <label for="top">Category</label>
-            <select id="top">
-              <option value="">All</option>
-            </select>
-          </div>
-          <div>
-            <label for="sub">Sub category</label>
-            <select id="sub" disabled>
-              <option value="">All</option>
-            </select>
-          </div>
-          <div>
-            <label for="authorFilter">Author</label>
-            <select id="authorFilter">
-              <option value="">All</option>
-            </select>
+
+          <div id="advancedFilters" class="advanced-filters hidden">
+            <div>
+              <label for="top">Category</label>
+              <select id="top">
+                <option value="">All</option>
+              </select>
+            </div>
+            <div>
+              <label for="sub">Sub category</label>
+              <select id="sub" disabled>
+                <option value="">All</option>
+              </select>
+            </div>
+            <div>
+              <label for="authorFilter">Author</label>
+              <select id="authorFilter">
+                <option value="">All</option>
+              </select>
+            </div>
           </div>
         </div>
 
@@ -1657,97 +2064,103 @@
 
       </div>
 
-      <section class="contribute-section">
-        <div class="contributeCopy">
-          <h2><i class="fa-solid fa-star icon-contribute"></i> Have a Cool Resource?</h2>
-          <p>
-            Help us enrich the Awesome NativeScript list by adding your own plugins, tutorials, or example projects!
-          </p>
-        </div>
-        <a href="https://github.com/dyazincahya/awesome-nativescript" target="_blank" class="contribute-btn">
-          <i class="fa-brands fa-github"></i>
-          Contribute via Pull Request
-        </a>
-      </section>
+      <div class="content-wrapper">
+        <aside class="sidebar">
+          <section class="contribute-section">
+            <div class="contributeCopy">
+              <h2><i class="fa-solid fa-star icon-contribute"></i> Have a Cool Resource?</h2>
+              <p>
+                Help us enrich the Awesome NativeScript list by adding your own plugins, tutorials, or example projects!
+              </p>
+            </div>
+            <a href="https://github.com/dyazincahya/awesome-nativescript/pulls" target="_blank" class="contribute-btn">
+              <i class="fa-brands fa-github"></i>
+              Submit via Pull Request
+            </a>
+          </section>
 
-      <div class="featured-column main-list-card" id="authorsCard">
-        <h3 id="authorsHeading" onclick="toggleAuthors()">
-          <div class="heading-left">
-            <span class="sparkle"><i class="fa-solid fa-medal icon-list"></i></span>
-            <span>Top Author</span>
-          </div>
-          <div id="authorSummary" class="header-summary"></div>
-          <div class="header-sort" onclick="event.stopPropagation()">
-            <select id="authorTypeFilter" aria-label="Filter author by type">
-              <option value="plugin" selected>Plugin</option>
-              <option value="example">Example</option>
-            </select>
-          </div>
-          <button class="toggle-authors" type="button" aria-label="Toggle authors visibility">
-            <i class="fa-solid fa-chevron-up"></i>
-          </button>
-        </h3>
+          <div class="featured-column main-list-card" id="authorsCard">
+            <h3 id="authorsHeading" onclick="toggleAuthors()">
+              <div class="heading-left">
+                <span class="sparkle"><i class="fa-solid fa-medal icon-list"></i></span>
+                <span>Top Author</span>
+              </div>
+              <div id="authorSummary" class="header-summary"></div>
+              <div class="header-sort" onclick="event.stopPropagation()">
+                <select id="authorTypeFilter" aria-label="Filter author by type">
+                  <option value="plugin" selected>Plugin</option>
+                  <option value="example">Example</option>
+                </select>
+              </div>
+              <button class="toggle-authors" type="button" aria-label="Toggle authors visibility">
+                <i class="fa-solid fa-chevron-up"></i>
+              </button>
+            </h3>
 
-        <div class="authors-grid" id="authorsGrid">
-          <!-- Authors will be rendered here -->
-        </div>
-      </div>
+            <div class="authors-grid" id="authorsGrid">
+              <!-- Authors will be rendered here -->
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="footerRow">
+              <div id="footerMeta"></div>
+            </div>
+            <div class="footerRow">
+              <div class="credit">
+                Made with <i class="fa-solid fa-heart icon-heart"></i> for the <a href="https://nativescript.org"
+                  target="_blank">NativeScript</a> community by <a href="https://github.com/dyazincahya"
+                  target="_blank">Kang
+                  Cahya</a>
+              </div>
+              <div id="footerYear">&copy; 2025-2026 Awesome NativeScript</div>
+            </div>
+          </footer>
+        </aside>
 
-      <div class="featured-column main-list-card" id="mainListCard">
-        <h3 id="mainListHeading" onclick="toggleMainList()">
-          <div class="heading-left" id="mainListHeadingLeft">
-            <span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span>
-            <span id="mainListHeadingText">Directory</span>
-          </div>
-          <div id="headerSummary" class="header-summary"></div>
-          <div class="header-sort" onclick="event.stopPropagation()">
-            <select id="sort" aria-label="Sort by">
-              <option value="relevance" id="optRelevance" disabled>Relevance</option>
-              <option value="recent" selected>Recently Added</option>
-              <option value="oldest">Oldest Added</option>
-              <option value="name_asc">Name (A-Z)</option>
-              <option value="name_desc">Name (Z-A)</option>
-            </select>
-          </div>
-          <button class="toggle-main" type="button" aria-label="Toggle directory visibility">
-            <i class="fa-solid fa-chevron-up"></i>
-          </button>
-        </h3>
-        <div class="grid" id="grid"></div>
+        <div class="main-content">
+          <div class="featured-column main-list-card" id="mainListCard">
+            <h3 id="mainListHeading" onclick="toggleMainList()">
+              <div class="heading-left" id="mainListHeadingLeft">
+                <span class="sparkle"><i class="fa-solid fa-list-check icon-list"></i></span>
+                <span id="mainListHeadingText">Directory</span>
+              </div>
+              <div id="headerSummary" class="header-summary"></div>
+              <div class="header-sort" onclick="event.stopPropagation()">
+                <select id="sort" aria-label="Sort by">
+                  <option value="relevance" id="optRelevance" disabled>Relevance</option>
+                  <option value="recent" selected>Recently Added</option>
+                  <option value="oldest">Oldest Added</option>
+                  <option value="name_asc">Name (A-Z)</option>
+                  <option value="name_desc">Name (Z-A)</option>
+                </select>
+              </div>
+              <button class="toggle-main" type="button" aria-label="Toggle directory visibility">
+                <i class="fa-solid fa-chevron-up"></i>
+              </button>
+            </h3>
+            <div class="grid" id="grid"></div>
 
-        <div class="pager" id="pager">
-          <div class="pagerLeft">
-            <button id="pagePrev" type="button"><i class="fa-solid fa-chevron-left icon-pager"></i> Prev</button>
-            <button id="pageNext" type="button">Next <i class="fa-solid fa-chevron-right icon-pager"></i></button>
-            <div class="pagerInfo" id="pageInfo"></div>
-          </div>
-          <div class="pagerRight">
-            <label class="pagerLabel" for="pageSize">Per page</label>
-            <select id="pageSize">
-              <option value="10">10</option>
-              <option value="25">25</option>
-              <option value="50">50</option>
-              <option value="100">100</option>
-            </select>
+            <div class="pager" id="pager">
+              <div class="pagerLeft">
+                <button id="pagePrev" type="button"><i class="fa-solid fa-chevron-left icon-pager"></i> Prev</button>
+                <button id="pageNext" type="button">Next <i class="fa-solid fa-chevron-right icon-pager"></i></button>
+                <div class="pagerInfo" id="pageInfo"></div>
+              </div>
+              <div class="pagerRight">
+                <label class="pagerLabel" for="pageSize">Per page</label>
+                <select id="pageSize">
+                  <option value="10">10</option>
+                  <option value="25">25</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="footer">
-      <div class="footerRow">
-        <div>Tip: search also matches section path like <code>Plugins / Firebase Plugins</code></div>
-        <div id="footerMeta"></div>
-      </div>
-      <div class="footerRow">
-        <div class="credit">
-          Made with <i class="fa-solid fa-heart icon-heart"></i> for the <a href="https://nativescript.org"
-            target="_blank">NativeScript</a> community by <a href="https://github.com/dyazincahya" target="_blank">Kang
-            Cahya</a>
-        </div>
-        <div id="footerYear">&copy; 2025-2026 Awesome NativeScript</div>
-      </div>
-    </footer>
   </div>
 
   <script>
@@ -1794,6 +2207,8 @@
       searchCard: document.getElementById("searchCard"),
       summary: document.getElementById("summary"),
       toggleFilters: document.getElementById("toggleFilters"),
+      toggleAdvancedFilters: document.getElementById("toggleAdvancedFilters"),
+      advancedFilters: document.getElementById("advancedFilters"),
       clear: document.getElementById("clear"),
       copy: document.getElementById("copy"),
       pager: document.getElementById("pager"),
@@ -1821,7 +2236,7 @@
     const authorState = {
       allAuthors: [],
       filteredAuthors: [],
-      top7: [],
+      top10: [],
       typeFilter: 'plugin'
     };
 
@@ -1853,21 +2268,7 @@
       const isCollapsed = el.authorsCard.classList.toggle("collapsed");
       safeSetLocalStorage("ns_authors_collapsed", isCollapsed ? "1" : "0");
       renderAuthorSummary();
-      updateToggleIcons();
     }
-
-    function updateToggleIcons() {
-      const authorsCollapsed = el.authorsCard.classList.contains("collapsed");
-      el.toggleAuthorsBtn.innerHTML = authorsCollapsed
-        ? '<i class="fa-solid fa-chevron-down"></i>'
-        : '<i class="fa-solid fa-chevron-up"></i>';
-
-      const mainCollapsed = el.mainListCard.classList.contains("collapsed");
-      el.toggleMain.innerHTML = mainCollapsed
-        ? '<i class="fa-solid fa-chevron-down"></i>'
-        : '<i class="fa-solid fa-chevron-up"></i>';
-    }
-    updateToggleIcons();
 
     function renderAuthorSummary() {
       if (!el.authorSummary) return;
@@ -1881,18 +2282,8 @@
       }
 
       const typeLabel = authorState.typeFilter === 'plugin' ? 'plugin' : 'example';
-
-      // Create badges for the first few authors
-      const maxBadges = 3;
-      const badgesHtml = authors.slice(0, maxBadges).map(author => {
-        const name = author.name;
-        const url = author.url || `https://github.com/search?q=${encodeURIComponent(name)}`;
-        return `<a href="${url}" target="_blank" class="summary-badge" title="${escapeHtml(name)}" onclick="event.stopPropagation()">${escapeHtml(name)}</a>`;
-      }).join("");
-
-      const countHtml = `<span class="summary-count"><i class="fa-solid fa-medal"></i> Total: ${total} ${typeLabel} authors</span>`;
-
-      el.authorSummary.innerHTML = badgesHtml + countHtml;
+      const countHtml = `<span class="summary-count">${total} author ${typeLabel}</span>`;
+      el.authorSummary.innerHTML = countHtml;
     }
 
     function renderMainListSummary() {
@@ -2207,11 +2598,26 @@
       return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
     }
 
+    function uniqueSortedWithCounts(values) {
+      const map = new Map();
+      for (const v of values) {
+        if (!v) continue;
+        map.set(v, (map.get(v) || 0) + 1);
+      }
+      return Array.from(map.entries())
+        .map(([value, count]) => ({ value, count }))
+        .sort((a, b) => a.value.localeCompare(b.value, undefined, { sensitivity: "base" }));
+    }
+
     function buildFilters(items) {
-      const tops = uniqueSorted(items.map((i) => i.top));
+      const tops = uniqueSortedWithCounts(items.map((i) => i.top));
+
       const subsByTop = new Map();
-      for (const top of tops) {
-        const subs = uniqueSorted(items.filter((i) => i.top === top).map((i) => i.sub).filter(Boolean));
+      // Get unique top strings to iterate
+      const topStrings = Array.from(new Set(items.map(i => i.top).filter(Boolean)));
+
+      for (const top of topStrings) {
+        const subs = uniqueSortedWithCounts(items.filter((i) => i.top === top).map((i) => i.sub));
         subsByTop.set(top, subs);
       }
       state.tops = tops;
@@ -2228,8 +2634,13 @@
       }
       for (const v of values) {
         const opt = document.createElement("option");
-        opt.value = v;
-        opt.textContent = v;
+        if (typeof v === 'object' && v !== null) {
+          opt.value = v.value;
+          opt.textContent = `${v.value} (${v.count})`;
+        } else {
+          opt.value = v;
+          opt.textContent = v;
+        }
         select.appendChild(opt);
       }
     }
@@ -2321,6 +2732,7 @@
     }
 
     function getKind(item) {
+      if (item.kind) return item.kind;
       const top = (item.top || "").toLowerCase();
       const path = (item.path || "").toLowerCase();
       const sourceFile = (item.sourceFile || "").toLowerCase();
@@ -2830,6 +3242,19 @@
     }
 
     async function shareDirectoryItem(item) {
+      // Try to find full item to get complete metadata
+      const fullItem = state.items.find((i) => i.url === item.url);
+      if (fullItem) {
+        if (!item.meta) item.meta = fullItem.meta;
+        if (!item.kind) item.kind = getKind(fullItem);
+        if (!item.top) item.top = fullItem.top;
+        if (!item.sub) item.sub = fullItem.sub;
+        if (!item.sourceFile) item.sourceFile = fullItem.sourceFile;
+        if (!item.author && item.meta && item.meta.authorName) {
+          item.author = item.meta.authorName;
+        }
+      }
+
       const blob = await buildShareCardBlob(item);
       const filename = `${sanitizeFilename(item.name)}.png`;
       const text = buildShareCaption(item);
@@ -2896,7 +3321,7 @@
 
     function populateAuthorFilter() {
       if (!el.authorFilter) return;
-      const authors = uniqueSorted(state.items.map(i => i.meta && i.meta.authorName).filter(Boolean));
+      const authors = uniqueSortedWithCounts(state.items.map(i => i.meta && i.meta.authorName).filter(Boolean));
       setSelectOptions(el.authorFilter, authors, true);
     }
 
@@ -2980,20 +3405,29 @@
 
       const hasActiveFilters = !!(q || top || sub || author);
 
-      // Hide/show sections based on active filters
-      if (el.contributeSection) {
-        el.contributeSection.style.display = hasActiveFilters ? "none" : "flex";
-      }
-      if (el.authorsCard) {
-        el.authorsCard.style.display = hasActiveFilters ? "none" : "block";
-      }
-
       // Auto-expand directory if searching or filtering
       if (hasActiveFilters && el.mainListCard.classList.contains("collapsed")) {
         el.mainListCard.classList.remove("collapsed");
         safeSetLocalStorage("ns_main_collapsed", "0");
         renderMainListSummary();
       }
+    }
+
+    function getDateSegment(dateStr) {
+      if (!dateStr) return 'Older';
+      const date = new Date(dateStr);
+      const now = new Date();
+      // Reset time to start of day for accurate comparison
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const yesterday = new Date(today);
+      yesterday.setDate(yesterday.getDate() - 1);
+      const sevenDaysAgo = new Date(today);
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+      if (date >= today) return 'Today';
+      if (date >= yesterday) return 'Yesterday';
+      if (date >= sevenDaysAgo) return 'Last 7 Days';
+      return 'Older';
     }
 
     function render() {
@@ -3018,6 +3452,9 @@
         return;
       }
 
+      let lastSegment = null;
+      const isRecentSort = el.sort && el.sort.value === "recent";
+
       const html = state.filtered
         .map((i) => {
           const name = escapeHtml(i.name);
@@ -3038,24 +3475,31 @@
           const rawSourceFile = escapeHtml(i.sourceFile || "");
           const rawAuthor = escapeHtml((i.meta && i.meta.authorName) || "");
 
+          const segment = getDateSegment(i.addedAt);
+          const showNewBadge = i.isNew && segment !== 'Older';
+
+          let segmentHtml = "";
+          if (isRecentSort) {
+            if (segment !== lastSegment) {
+              segmentHtml = `<div class="list-segment"><i class="fa-regular fa-calendar"></i> ${segment}</div>`;
+              lastSegment = segment;
+            }
+          }
+
           return `
-              <div class="card ${i.isNew ? "cardNew" : ""}">
+              ${segmentHtml}
+              <div class="card ${showNewBadge ? "cardNew" : ""}">
                 <div class="row">
                   <div class="main">
                     <div class="name">
                       ${name}
-                      ${i.isNew ? '<span class="newBadge">New <i class="fa-solid fa-bolt icon-new"></i></span>' : ""}
+                      ${showNewBadge ? '<span class="newBadge">New <i class="fa-solid fa-bolt icon-new"></i></span>' : ""}
                     </div>
                     ${descHtml ? `<div class="desc">${descHtml}</div>` : ""}
                     <div class="badges">
                       <div class="badge badgeTypePrimary"><strong>Type</strong> ${kind}</div>
-                      <div class="badge badgeSection"><strong>Section</strong> ${path}</div>
-                      ${sourceLabel ? `<div class="badge"><strong>Source</strong> ${sourceLabel}</div>` : ""}
-                      ${sourceFile ? `<div class="badge"><strong>File</strong> ${sourceFile}</div>` : ""}
                       ${platform ? `<div class="badge"><strong>Platform</strong> ${platform}</div>` : ""}
-                      ${source ? `<div class="badge"><strong>Source</strong> ${source}</div>` : ""}
                       ${authorName ? `<div class="badge"><strong>Author</strong> ${authorName}</div>` : ""}
-                      ${domain ? `<div class="badge"><strong>Domain</strong> ${domain}</div>` : ""}
                     </div>
                   </div>
                   <div class="cardActions">
@@ -3089,13 +3533,7 @@
 
       el.grid.innerHTML = html;
 
-      const srcMeta =
-        state.sourcesLoaded || state.sourcesFailed
-          ? `${state.sourcesLoaded.toLocaleString()} source(s) loaded${state.sourcesFailed ? ` • ${state.sourcesFailed.toLocaleString()} failed` : ""}`
-          : "";
-      const start = (state.page - 1) * state.pageSize + 1;
-      const end = Math.min(state.page * state.pageSize, state.totalMatches);
-      el.footerMeta.textContent = `${start}-${end} of ${state.totalMatches.toLocaleString()} match(es) • ${state.items.length.toLocaleString()} items${srcMeta ? ` • ${srcMeta}` : ""}`;
+      el.footerMeta.textContent = "";
     }
 
     function syncSubFilter() {
@@ -3189,8 +3627,8 @@
         .sort((a, b) => b.count - a.count);
 
       authorState.allAuthors = sortedAuthors;
-      authorState.top9 = sortedAuthors.slice(0, 9);
-      authorState.filteredAuthors = authorState.top9;
+      authorState.top10 = sortedAuthors.slice(0, 10);
+      authorState.filteredAuthors = authorState.top10;
     }
 
     function renderAuthors() {
@@ -3213,9 +3651,22 @@
         const rank = authorState.allAuthors.findIndex(a => a.name === author.name) + 1;
         const initials = author.name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
 
+        let medalHtml = '';
+        let rankClass = '';
+        if (rank === 1) {
+          medalHtml = '<i class="fa-solid fa-medal medal-gold"></i> ';
+          rankClass = 'rank-1';
+        } else if (rank === 2) {
+          medalHtml = '<i class="fa-solid fa-medal medal-silver"></i> ';
+          rankClass = 'rank-2';
+        } else if (rank === 3) {
+          medalHtml = '<i class="fa-solid fa-medal medal-bronze"></i> ';
+          rankClass = 'rank-3';
+        }
+
         return `
-          <div class="author-card" onclick="window.open('${author.url || `https://github.com/search?q=${encodeURIComponent(author.name)}`}', '_blank')">
-            <div class="author-rank">#${rank}</div>
+          <div class="author-card ${rankClass}" onclick="window.open('${author.url || `https://github.com/search?q=${encodeURIComponent(author.name)}`}', '_blank')">
+            <div class="author-rank">${medalHtml}#${rank}</div>
             <div class="author-avatar">${initials}</div>
             <div class="author-info">
               <div class="author-name">${escapeHtml(author.name)}</div>
@@ -3269,7 +3720,6 @@
             renderStats();
             renderAuthors();
             renderAuthorSummary();
-            updateToggleIcons();
             setSelectOptions(el.top, state.tops, true);
             if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
             syncSubFilter();
@@ -3337,7 +3787,6 @@
         populateAuthorFilter();
         renderStats();
         renderAuthors();
-        updateToggleIcons();
         setSelectOptions(el.top, state.tops, true);
         if (state.urlTop) setSelectValueCaseInsensitive(el.top, state.urlTop);
         syncSubFilter();
@@ -3394,6 +3843,11 @@
       const collapsed = el.searchCard.classList.contains("collapsed");
       setCollapsed(!collapsed);
     });
+    el.toggleAdvancedFilters.addEventListener("click", () => {
+      el.advancedFilters.classList.toggle("hidden");
+      el.toggleAdvancedFilters.classList.toggle("active");
+    });
+
     el.clear.addEventListener("click", () => {
       el.q.value = "";
       el.top.value = "";
@@ -3446,6 +3900,10 @@
     if (urlParams.sort) setSelectValueCaseInsensitive(el.sort, urlParams.sort);
     if (urlParams.size) state.pageSize = urlParams.size;
     if (urlParams.page) state.page = urlParams.page;
+    if (state.urlTop || state.urlSub || state.urlAuthor) {
+      el.advancedFilters.classList.remove("hidden");
+      el.toggleAdvancedFilters.classList.add("active");
+    }
     setSelectValueCaseInsensitive(el.pageSize, String(state.pageSize));
     const initialCollapsed =
       urlParams.collapsed != null ? urlParams.collapsed === "1" || urlParams.collapsed === "true" : safeGetLocalStorage("ns_search_collapsed") === "1";
