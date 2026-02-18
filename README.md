@@ -409,6 +409,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [App Tour](https://github.com/hamdiwanis/nativescript-app-tour) - A NativeScript plugin that allows you to create an app tour for your users.
 - [Coachmarks](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks) - A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI.
 - [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - To liven up any standard SegmentedBar control.
+- [Menu](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-menu) - Native anchored menus for NativeScript (support for tap-to-open/long-press context menus).
 - [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.
 
 #### Text & Typography
