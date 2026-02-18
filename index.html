@@ -2333,7 +2333,7 @@
 
     function getShareTypeTag(item) {
       const kind = String(getKind(item) || "");
-      if (/^example\b/i.test(kind)) return "Example";
+      if (/^example\b/i.test(kind)) return kind;
       if (/plugin/i.test(kind)) return "Plugin";
       return "Resource";
     }
@@ -2566,10 +2566,8 @@
       const pills = [];
       const typeTag = getShareTypeTag(item);
       if (typeTag) pills.push({ label: "Type", value: typeTag, tone: "accent" });
-      const path = (item.path || "").trim();
-      if (path) pills.push({ label: "Section", value: path, tone: "neutral" });
-      const domain = (item.domain || "").trim();
-      if (domain) pills.push({ label: "Domain", value: domain, tone: "neutral" });
+      const author = (item.meta && item.meta.authorName) || (item.author || "");
+      if (author) pills.push({ label: "Author", value: author, tone: "neutral" });
 
       const pillY = cardY + cardH - 112;
       let pillX = contentX;
@@ -3035,6 +3033,10 @@
           const domain = escapeHtml(i.domain || "");
           const url = escapeHtml(i.url);
           const kind = escapeHtml(getKind(i));
+          const top = escapeHtml(i.top || "");
+          const sub = escapeHtml(i.sub || "");
+          const rawSourceFile = escapeHtml(i.sourceFile || "");
+          const rawAuthor = escapeHtml((i.meta && i.meta.authorName) || "");
 
           return `
               <div class="card ${i.isNew ? "cardNew" : ""}">
@@ -3069,6 +3071,10 @@
                       data-domain="${domain}"
                       data-kind="${kind}"
                       data-path="${path}"
+                      data-top="${top}"
+                      data-sub="${sub}"
+                      data-source-file="${rawSourceFile}"
+                      data-author="${rawAuthor}"
                     ><i class="fa-solid fa-share-nodes"></i></button>
                     <a class="link" href="${url}" target="_blank" rel="noreferrer">
                       <span>Open ${domain || "link"}</span>
@@ -3422,6 +3428,10 @@
         domain: btn.dataset.domain || "",
         path: btn.dataset.path || "",
         kind: btn.dataset.kind || "",
+        top: btn.dataset.top || "",
+        sub: btn.dataset.sub || "",
+        sourceFile: btn.dataset.sourceFile || "",
+        author: btn.dataset.author || "",
       };
 
       setStatus("Preparing share image…", true);
