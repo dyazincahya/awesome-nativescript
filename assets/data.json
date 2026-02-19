@@ -1,7 +1,24 @@
 {
-  "lastUpdated": "2026-02-18T01:43:29.285Z",
-  "total": 430,
+  "lastUpdated": "2026-02-19T04:01:22.051Z",
+  "total": 431,
   "items": [
+    {
+      "name": "Menu",
+      "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-menu",
+      "description": "Native anchored menus for NativeScript (support for tap-to-open/long-press context menus).",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Navigation & User Guidance",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-18 22:26:15 +0700"
+    },
     {
       "name": "RootLayout Demo",
       "url": "https://github.com/williamjuan027/nativescript-rootlayout-demo/tree/master/demo-ts",

@@ -657,17 +657,158 @@
 
     .author-card.rank-1 {
       border: 1px solid #FFD700;
-      background: linear-gradient(to right, rgba(255, 215, 0, 0.05), transparent);
+      background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.02) 100%);
+      box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+      padding: 8px 16px;
+      gap: 16px;
+    }
+
+    .author-card.rank-1:hover {
+      box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+      border-color: #FFD700;
+    }
+
+    .author-card.rank-1::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: #FFD700;
+    }
+
+    .author-card.rank-1 .author-avatar {
+      border-color: #FFD700;
+      box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+      width: 46px;
+      height: 46px;
+      font-size: 16px;
+    }
+
+    .author-card.rank-1 .author-rank {
+      color: #FFD700;
+      opacity: 1;
+      font-size: 14px;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+    }
+
+    .author-card.rank-1 .author-name {
+      font-size: 16px;
+    }
+
+    .author-card.rank-1 .author-count {
+      font-size: 13px;
     }
 
     .author-card.rank-2 {
       border: 1px solid #C0C0C0;
-      background: linear-gradient(to right, rgba(192, 192, 192, 0.05), transparent);
+      background: linear-gradient(135deg, rgba(192, 192, 192, 0.15) 0%, rgba(192, 192, 192, 0.02) 100%);
+      box-shadow: 0 4px 15px rgba(192, 192, 192, 0.2);
+      position: relative;
+      overflow: hidden;
+      padding: 8px 16px;
+      gap: 16px;
+    }
+
+    .author-card.rank-2:hover {
+      box-shadow: 0 8px 25px rgba(192, 192, 192, 0.4);
+      border-color: #C0C0C0;
+    }
+
+    .author-card.rank-2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: #C0C0C0;
+    }
+
+    .author-card.rank-2 .author-avatar {
+      border-color: #C0C0C0;
+      box-shadow: 0 0 12px rgba(192, 192, 192, 0.3);
+      width: 46px;
+      height: 46px;
+      font-size: 16px;
+    }
+
+    .author-card.rank-2 .author-rank {
+      color: #C0C0C0;
+      opacity: 1;
+      font-size: 14px;
+      text-shadow: 0 0 10px rgba(192, 192, 192, 0.4);
+    }
+
+    .author-card.rank-2 .author-name {
+      font-size: 16px;
+    }
+
+    .author-card.rank-2 .author-count {
+      font-size: 13px;
     }
 
     .author-card.rank-3 {
       border: 1px solid #CD7F32;
-      background: linear-gradient(to right, rgba(205, 127, 50, 0.05), transparent);
+      background: linear-gradient(135deg, rgba(205, 127, 50, 0.15) 0%, rgba(205, 127, 50, 0.02) 100%);
+      box-shadow: 0 4px 15px rgba(205, 127, 50, 0.2);
+      position: relative;
+      overflow: hidden;
+      padding: 8px 16px;
+      gap: 16px;
+    }
+
+    .author-card.rank-3:hover {
+      box-shadow: 0 8px 25px rgba(205, 127, 50, 0.4);
+      border-color: #CD7F32;
+    }
+
+    .author-card.rank-3::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: #CD7F32;
+    }
+
+    .author-card.rank-3 .author-avatar {
+      border-color: #CD7F32;
+      box-shadow: 0 0 12px rgba(205, 127, 50, 0.3);
+      width: 46px;
+      height: 46px;
+      font-size: 16px;
+    }
+
+    .author-card.rank-3 .author-rank {
+      color: #CD7F32;
+      opacity: 1;
+      font-size: 14px;
+      text-shadow: 0 0 10px rgba(205, 127, 50, 0.4);
+    }
+
+    .author-card.rank-3 .author-name {
+      font-size: 16px;
+    }
+
+    .author-card.rank-3 .author-count {
+      font-size: 13px;
+    }
+
+    .author-card.rank-1 .author-count i {
+      color: #FFD700;
+    }
+
+    .author-card.rank-2 .author-count i {
+      color: #C0C0C0;
+    }
+
+    .author-card.rank-3 .author-count i {
+      color: #CD7F32;
     }
 
     .author-avatar {
@@ -706,6 +847,7 @@
       display: flex;
       align-items: center;
       gap: 6px;
+      margin-top: 4px;
     }
 
     .author-count i {
