@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-02-19T04:01:22.051Z",
-  "total": 431,
+  "lastUpdated": "2026-02-26T14:38:52.288Z",
+  "total": 434,
   "items": [
+    {
+      "name": "PoolParty FM",
+      "url": "https://github.com/NewbieScripterRepo/PoolPartyFM",
+      "description": "A homemade, education purpose PoolSuite FM clone for Android built with NativeScript & Vue.",
+      "meta": {
+        "platform": "Android",
+        "source": "Github",
+        "authorName": "NewbieScripter",
+        "authorUrl": "https://github.com/NewbieScripterRepo"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-02-26 21:38:51 +0700"
+    },
+    {
+      "name": "NativeScript Wave",
+      "url": "https://github.com/NathanWalker/ns-ios-wave",
+      "description": "Example using NativeScript with Wave, a spring-based animation engine for iOS, iPadOS, and macOS.",
+      "meta": {
+        "platform": "iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Angular",
+      "path": "Examples / Angular",
+      "domain": "github.com",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
+      "addedAt": "2026-02-26 21:38:49 +0700"
+    },
+    {
+      "name": "Rich Paste",
+      "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-rich-paste",
+      "description": "Rich paste and drag-and-drop support for NativeScript text inputs. Handles images, GIFs, files, and text from the clipboard.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Input & Selection Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-26 21:38:47 +0700"
+    },
     {
       "name": "Menu",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-menu",
