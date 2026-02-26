@@ -1,7 +1,83 @@
 {
-  "lastUpdated": "2026-02-26T14:38:52.288Z",
-  "total": 434,
+  "lastUpdated": "2026-02-26T14:50:01.917Z",
+  "total": 438,
   "items": [
+    {
+      "name": "WebSocket Example",
+      "url": "https://github.com/NewbieScripterRepo/nativescript-websocket-example",
+      "description": "Example of using websocket in NativeScript-Vue.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NewbieScripter",
+        "authorUrl": "https://github.com/NewbieScripterRepo"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-02-26 21:50:01 +0700"
+    },
+    {
+      "name": "Shared Transition",
+      "url": "https://github.com/NewbieScripterRepo/sharedtransition-example",
+      "description": "Example of using shared transition in Nativescript Vue.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NewbieScripter",
+        "authorUrl": "https://github.com/NewbieScripterRepo"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-02-26 21:50:01 +0700"
+    },
+    {
+      "name": "NativeScript Customize",
+      "url": "https://github.com/NewbieScripterRepo/nativescript-customize",
+      "description": "Sample project focus on demonstrate how one can customize NativeScript meta info, and splash screen.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NewbieScripter",
+        "authorUrl": "https://github.com/NewbieScripterRepo"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-02-26 21:50:01 +0700"
+    },
+    {
+      "name": "Geolocation Sample",
+      "url": "https://github.com/NewbieScripterRepo/nativescript-geolocation-sample",
+      "description": "Sample Nativescript-Vue project using @nativescript/geolocation package.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "NewbieScripter",
+        "authorUrl": "https://github.com/NewbieScripterRepo"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-02-26 21:50:01 +0700"
+    },
     {
       "name": "PoolParty FM",
       "url": "https://github.com/NewbieScripterRepo/PoolPartyFM",
@@ -852,44 +928,6 @@
       "addedAt": "2026-01-21 22:11:46 +0700"
     },
     {
-      "name": "Tailwind CSS v4",
-      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-vue",
-      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
-      "meta": {
-        "platform": "Android & iOS",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Vue",
-      "path": "Examples / Vue",
-      "domain": "github.com",
-      "sourceLabel": "Example of Vue",
-      "sourceFile": "examples/vue/README.md",
-      "source": "examples/vue/README.md",
-      "addedAt": "2026-01-21 21:41:26 +0700"
-    },
-    {
-      "name": "Supabase x Platforms",
-      "url": "https://github.com/NathanWalker/supabase-x-platforms/tree/main/apps/nativescript-vue",
-      "description": "Realtime data driving iOS, Android and Vision Pro using NativeScript with Vue.",
-      "meta": {
-        "platform": "iOS & Android",
-        "source": "Github",
-        "authorName": "Nathan Walker",
-        "authorUrl": "https://github.com/NathanWalker"
-      },
-      "top": "Examples",
-      "sub": "Vue",
-      "path": "Examples / Vue",
-      "domain": "github.com",
-      "sourceLabel": "Example of Vue",
-      "sourceFile": "examples/vue/README.md",
-      "source": "examples/vue/README.md",
-      "addedAt": "2026-01-21 21:41:26 +0700"
-    },
-    {
       "name": "Vue2 Demo in NativeScript v9",
       "url": "https://github.com/Devendra0110/ns-vue-demo",
       "description": "Demonstration of NativeScript-Vue 2.0 features and compatibility with NativeScript 9.0.",
@@ -917,6 +955,44 @@
         "source": "Github",
         "authorName": "NativeScript",
         "authorUrl": "https://github.com/NativeScript"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Tailwind CSS v4",
+      "url": "https://github.com/NathanWalker/ns-tailwind-4-examples/tree/main/nativescript-vue",
+      "description": "NativeScript 🎨 Tailwindcss v4 examples.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-01-21 21:41:26 +0700"
+    },
+    {
+      "name": "Supabase x Platforms",
+      "url": "https://github.com/NathanWalker/supabase-x-platforms/tree/main/apps/nativescript-vue",
+      "description": "Realtime data driving iOS, Android and Vision Pro using NativeScript with Vue.",
+      "meta": {
+        "platform": "iOS & Android",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
       },
       "top": "Examples",
       "sub": "Vue",
