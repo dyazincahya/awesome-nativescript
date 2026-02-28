@@ -357,6 +357,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
 - [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
 - [File Picker](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-filepicker) - This file picker plugin exports function filePicker() that supports both single and multiple selection.
+- [Input Accessory](https://github.com/NativeScript/plugins/tree/main/packages/input-accessory) - A NativeScript plugin that moves your input bar into a view docked to the keyboard with smooth transitions and interactive dismiss.
 - [Input Mask](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-input-mask) - Format user input and process only the characters valueable to your application.
 - [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - NativeScript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
 - [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for iOS and Android.
