@@ -353,6 +353,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 #### Input & Selection Components
 
+- [Calendar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-calendar) - A NativeScript plugin that provides various view modes (week, month, year, day) and supports appointments and date selection.
 - [Color Wheel](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-color-wheel) - A NativeScript plugin that allows you to use a color wheel to select colors.
 - [Country Code](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/country-code) - Plugin for NativeScript provides a full list of country codes along with flags.
 - [Datetime Picker](https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker) - A plugin that provides the UI elements DatePickerField, TimePickerField and DateTimePickerFields for picking a date and a time.
