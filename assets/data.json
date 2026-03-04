@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T01:15:42.784Z",
+  "lastUpdated": "2026-03-04T01:20:25.856Z",
   "total": 441,
   "items": [
     {
@@ -13,12 +13,12 @@
         "authorUrl": "https://github.com/NathanWalker"
       },
       "top": "Examples",
-      "sub": "Core",
-      "path": "Examples / Core",
+      "sub": "Angular",
+      "path": "Examples / Angular",
       "domain": "github.com",
-      "sourceLabel": "Example of Core",
-      "sourceFile": "examples/core/README.md",
-      "source": "examples/core/README.md",
+      "sourceLabel": "Example of Angular",
+      "sourceFile": "examples/angular/README.md",
+      "source": "examples/angular/README.md",
       "addedAt": "2026-03-04 08:15:41 +0700"
     },
     {
