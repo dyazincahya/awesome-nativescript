@@ -1,7 +1,60 @@
 {
-  "lastUpdated": "2026-02-26T14:50:01.917Z",
-  "total": 438,
+  "lastUpdated": "2026-03-04T01:15:42.784Z",
+  "total": 441,
   "items": [
+    {
+      "name": "iOS Bottom Sheet Glass",
+      "url": "https://github.com/NathanWalker/ns-sheets",
+      "description": "Creating a polished bottom sheet experience on iOS using NativeScript, including system glass effects.",
+      "meta": {
+        "platform": "iOS",
+        "source": "Github",
+        "authorName": "Nathan Walker",
+        "authorUrl": "https://github.com/NathanWalker"
+      },
+      "top": "Examples",
+      "sub": "Core",
+      "path": "Examples / Core",
+      "domain": "github.com",
+      "sourceLabel": "Example of Core",
+      "sourceFile": "examples/core/README.md",
+      "source": "examples/core/README.md",
+      "addedAt": "2026-03-04 08:15:41 +0700"
+    },
+    {
+      "name": "Calendar",
+      "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-calendar",
+      "description": "A NativeScript plugin that provides various view modes (week, month, year, day) and supports appointments and date selection.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Input & Selection Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-02 22:13:41 +0700"
+    },
+    {
+      "name": "Input Accessory",
+      "url": "https://github.com/NativeScript/plugins/tree/main/packages/input-accessory",
+      "description": "A NativeScript plugin that moves your input bar into a view docked to the keyboard with smooth transitions and interactive dismiss.",
+      "meta": {
+        "authorName": "NativeScript",
+        "authorUrl": "https://github.com/NativeScript"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Input & Selection Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-02-28 15:14:26 +0700"
+    },
     {
       "name": "WebSocket Example",
       "url": "https://github.com/NewbieScripterRepo/nativescript-websocket-example",
