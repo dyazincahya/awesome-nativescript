@@ -414,6 +414,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - To liven up any standard SegmentedBar control.
 - [Menu](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-menu) - Native anchored menus for NativeScript (support for tap-to-open/long-press context menus).
 - [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.
+- [TanStack Router](https://github.com/NativeScript/tanstack/tree/main/packages/tanstack-router) - A powerful, type-safe routing library for NativeScript, adapted from the core TanStack Router.
 - [Toolbar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-toolbar) - A NativeScript plugin that provides a customizable toolbar component for navigation and actions, this plugin is iOS Only.
 
 #### Text & Typography
