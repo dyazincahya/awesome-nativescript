@@ -364,7 +364,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for iOS and Android.
 - [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
 - [Radio Dialog](https://github.com/modos189/nativescript-radio-dialog) - A NativeScript plugin that provides radio button dialogs.
-- [Rich Paste](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-rich-paste) - Rich paste and drag-and-drop support for NativeScript text inputs. Handles images, GIFs, files, and text from the clipboard.
+- [Rich Paste](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-rich-paste) - A NativeScript plugin for rich paste and drag-and-drop support for NativeScript text inputs. Handles images, GIFs, files, and text from the clipboard.
 - [Star Ratings](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-star-ratings) - A NativeScript plugin that provides a customizable star rating component for displaying and collecting user ratings in mobile apps.
 - [Time Range](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range) - A NativeScript plugin for selecting a time range using a time picker.
 - [UI Checkbox](https://github.com/nativescript-community/ui-checkbox) - A NativeScript plugin for checkbox UI component.
