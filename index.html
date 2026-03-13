@@ -2107,6 +2107,12 @@
         margin-top: 0;
       }
     }
+
+    .histats-visitor-counter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   </style>
 </head>
 
@@ -2244,22 +2250,13 @@
             </div>
           </div>
 
-          <div class="histats">
-            <!-- Histats.com  (div with counter) -->
-            <div id="histats_counter"></div>
-            <!-- Histats.com  START  (aync)-->
-            <script type="text/javascript">var _Hasync = _Hasync || [];
-              _Hasync.push(['Histats.start', '1,5014187,4,604,110,55,00011111']);
-              _Hasync.push(['Histats.fasi', '1']);
-              _Hasync.push(['Histats.track_hits', '']);
-              _Hasync.push(['Histats.framed_page', '']);
-              (function () {
-                var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-                hs.src = ('//s10.histats.com/js15_as.js');
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-              })();</script>
-            <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?5014187&101"
-                  alt="hit counter script" border="0"></a></noscript>
+          <div class="histats-visitor-counter">
+            <!-- Histats.com  START (html only)-->
+            <a href="/" alt="page hit counter" target="_blank">
+              <embed src="//s10.histats.com/604.swf" flashvars="jver=1&acsid=5014188&domi=4" quality="high" width="110"
+                height="55" name="604.swf" align="middle" type="application/x-shockwave-flash"
+                pluginspage="//www.macromedia.com/go/getflashplayer" wmode="transparent" /></a>
+            <img src="//sstatic1.histats.com/0.gif?5014188&101" alt="counter free hit invisible" border="0">
             <!-- Histats.com  END  -->
           </div>
 
