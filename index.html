@@ -2107,12 +2107,6 @@
         margin-top: 0;
       }
     }
-
-    .histats-visitor-counter {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
   </style>
 </head>
 
@@ -2248,16 +2242,6 @@
             <div class="authors-grid" id="authorsGrid">
               <!-- Authors will be rendered here -->
             </div>
-          </div>
-
-          <div class="histats-visitor-counter">
-            <!-- Histats.com  START (html only)-->
-            <a href="/" alt="page hit counter" target="_blank">
-              <embed src="//s10.histats.com/604.swf" flashvars="jver=1&acsid=5014188&domi=4" quality="high" width="110"
-                height="55" name="604.swf" align="middle" type="application/x-shockwave-flash"
-                pluginspage="//www.macromedia.com/go/getflashplayer" wmode="transparent" /></a>
-            <img src="//sstatic1.histats.com/0.gif?5014188&101" alt="counter free hit invisible" border="0">
-            <!-- Histats.com  END  -->
           </div>
 
           <footer class="footer">
@@ -4070,6 +4054,20 @@
     updateFooterYear();
     loadAllSources();
   </script>
+
+  <!-- Histats.com  START  (aync)-->
+  <script type="text/javascript">var _Hasync = _Hasync || [];
+    _Hasync.push(['Histats.start', '1,5014188,4,0,0,0,00010000']);
+    _Hasync.push(['Histats.fasi', '1']);
+    _Hasync.push(['Histats.track_hits', '']);
+    (function () {
+      var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+      hs.src = ('//s10.histats.com/js15_as.js');
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+    })();</script>
+  <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?5014188&101"
+        alt="free hit counter script" border="0"></a></noscript>
+  <!-- Histats.com  END  -->
 </body>
 
 </html>
