@@ -241,7 +241,7 @@ Run NativeScript on the following platforms:
 - [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
 - [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @NativeScript/google-maps_.
 - [Launch Navigator](https://github.com/wuilmerj24/nativescript-plugins/blob/main/packages/launch-navigator) - Easily launch turn-by-turn navigation from your NativeScript app using popular mapping apps like Google Maps, Waze, Apple Maps, and more.
-- [Mapbox Navigation](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/mapbox-navigation) - Mapbox navigation for NativeScript.
+- [Mapbox Navigation](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/mapbox-navigation) - Is a NativeScript plugin that provides turn-by-turn navigation powered by Mapbox Directions and Navigation APIs for Android and iOS.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
 - [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.
 - [UI MapLibre](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-maplibre) - NativeScript plugin for MapLibre GL.

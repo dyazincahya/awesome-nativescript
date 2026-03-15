@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T13:58:50.873Z",
+  "lastUpdated": "2026-03-15T14:01:36.351Z",
   "total": 458,
   "items": [
     {
@@ -141,7 +141,7 @@
     {
       "name": "Mapbox Navigation",
       "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/mapbox-navigation",
-      "description": "Mapbox navigation for NativeScript.",
+      "description": "Is a NativeScript plugin that provides turn-by-turn navigation powered by Mapbox Directions and Navigation APIs for Android and iOS.",
       "meta": {
         "authorName": "wuilmerj24",
         "authorUrl": "https://github.com/wuilmerj24"
