@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T14:01:36.351Z",
+  "lastUpdated": "2026-03-15T14:06:42.411Z",
   "total": 458,
   "items": [
     {
@@ -105,9 +105,9 @@
       "addedAt": "2026-03-15 20:57:58 +0700"
     },
     {
-      "name": "Camera TikTok",
+      "name": "TikTok",
       "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tiktok",
-      "description": "NativeScript plugin for TikTok-like camera.",
+      "description": "NativeScript plugin that provides integration with the TikTok Business SDK (App Events).",
       "meta": {
         "authorName": "nstudio",
         "authorUrl": "https://github.com/nstudio"

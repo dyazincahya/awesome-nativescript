@@ -273,7 +273,7 @@ Run NativeScript on the following platforms:
 
 - [Audio Player](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-player) - This plugin provides an audio player for Android and iOS that supports playback of both local files and remote URL audio files.
 - [Audio Recorder](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-recorder) - This plugin provides an audio recorder for Android and iOS that supports recording of audio from a device microphone input and saved to an MP4/AAC audio file. It also provides a function to merge multiple audio recordings together.
-- [Camera TikTok](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tiktok) - NativeScript plugin for TikTok-like camera.
+- [TikTok](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tiktok) - NativeScript plugin that provides integration with the TikTok Business SDK (App Events).
 - [Drawingpad](https://github.com/nativescript-community/nativescript-drawingpad) - NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.
 - [Trans Coder](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-transcoder) - This plugin provides a few `audio` or `video` transcoding functions for Android API 21+ and iOS 4+.
 - [Video Editor](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-video-editor) - A plugin for editing video.
