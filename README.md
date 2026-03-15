@@ -198,10 +198,12 @@ Run NativeScript on the following platforms:
 - [AWS](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-aws-sdk) - It simplifies the process of integrating AWS services by providing language-specific APIs, making it easier for developers to build and deploy applications that leverage AWS resources.
 - [Firebase](https://docs.nativescript.org/plugins/firebase-core) - Modular Firebase 🔥 implementation for NativeScript. Supports both iOS & Android platforms for all Firebase services.
 - [Supabase](https://github.com/NativeScript/supabase) - Start your project with a PostgreSQL, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
+- [Supabase by Eduardo Speroni](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-supabase) - NativeScript plugin for Supabase. Built for performance and ease of use.
 
 ### Client-side Database Plugins
 
 - [Couchbase](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-couchbase) - Is an embedded, NoSQL JSON Document Style database for your mobile apps.
+- [NoSQL](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/nosql) - A simple NoSQL database for NativeScript.
 - [RxDB](https://github.com/herefishyfish/rxdb-nativescript) - Are a set of plugins that enable RxDB support for NativeScript. This set of plugins includes a core plugin and adapters for different databases.
 - [SQLite](https://github.com/nativescript-community/sqlite) - A SQLite plugin for NativeScript.
 - [SQLite Secure](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure) - This a library for NativeScript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.
@@ -232,14 +234,17 @@ Run NativeScript on the following platforms:
 
 - [Carto](https://github.com/nativescript-community/ui-carto) - One Location Intelligence platform for all your spatial needs. Streamline your tech stack with an end-to-end geospatial platform built for the enterprise.
 - [Directions](https://github.com/NativeScript/plugins/blob/main/packages/directions) - A plugin that allows you to launch the Google Maps app, if it's installed on the device, with some directions. For more information, visit [Directions action](https://developers.google.com/maps/documentation/urls/get-started#directions-action).
+- [DNS Lookup](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/dns-lookup) - NativeScript plugin for DNS lookup.
 - [Geo Coding](https://github.com/nativescript-community/geocoding) - Provides access to native geocoding APIs for NativeScript apps (android.location.Geocoder for Android, CLGeocoder for iOS).
 - [Geo Location](https://github.com/NativeScript/plugins/blob/main/packages/geolocation) - A geolocation plugin to use for getting current location, monitor movement, etc.
 - [Geofence Manager](https://github.com/PeterStaev/nativescript-geofence-manager) - A NativeScript plugin to work with Geofences.
 - [Google Maps](https://github.com/NativeScript/plugins/blob/main/packages/google-maps) - A plugin that allows you to use the Maps SDK to access Google Maps features.
 - [Google Maps Utils](https://github.com/NativeScript/plugins/blob/main/packages/google-maps-utils) - You can access the google maps utilities from the GoogleMaps object. _Requires google maps plugin @NativeScript/google-maps_.
 - [Launch Navigator](https://github.com/wuilmerj24/nativescript-plugins/blob/main/packages/launch-navigator) - Easily launch turn-by-turn navigation from your NativeScript app using popular mapping apps like Google Maps, Waze, Apple Maps, and more.
+- [Mapbox Navigation](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/mapbox-navigation) - Mapbox navigation for NativeScript.
 - [Radar.io](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-radar-io) - Geofencing, maps, and geolocation compliance, all in a modern, cost-effective platform. Thousands of companies trust our APIs and SDKs to power location-based experiences across hundreds of millions of devices globally.
 - [UI Mapbox](https://github.com/nativescript-community/ui-mapbox) - Interactive, thoroughly customizable maps powered by vector tiles and OpenGL. Awesome native OpenGL-powered maps - by Mapbox.
+- [UI MapLibre](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-maplibre) - NativeScript plugin for MapLibre GL.
 
 ### Graphics Plugins
 
@@ -268,6 +273,7 @@ Run NativeScript on the following platforms:
 
 - [Audio Player](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-player) - This plugin provides an audio player for Android and iOS that supports playback of both local files and remote URL audio files.
 - [Audio Recorder](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-audio-recorder) - This plugin provides an audio recorder for Android and iOS that supports recording of audio from a device microphone input and saved to an MP4/AAC audio file. It also provides a function to merge multiple audio recordings together.
+- [Camera TikTok](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tiktok) - NativeScript plugin for TikTok-like camera.
 - [Drawingpad](https://github.com/nativescript-community/nativescript-drawingpad) - NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device.
 - [Trans Coder](https://github.com/VoiceThread/nativescript-plugins/tree/main/packages/nativescript-transcoder) - This plugin provides a few `audio` or `video` transcoding functions for Android API 21+ and iOS 4+.
 - [Video Editor](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-video-editor) - A plugin for editing video.
@@ -361,9 +367,11 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Input Mask](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-input-mask) - Format user input and process only the characters valueable to your application.
 - [Multi Select](https://github.com/elgiborsolution/esolution-nativescript-plugins/tree/main/packages/nativescript-multiselect) - NativeScript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
 - [OTP](https://github.com/kefahB/plugins/tree/main/packages/nativescript-otp) - A NativeScript plugin to auto fill the One Time Code OTP for iOS and Android.
+- [Page to PDF](https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-page-to-pdf) - A NativeScript plugin to convert a page to a PDF file.
 - [Picker](https://github.com/NativeScript/plugins/blob/main/packages/picker) - A NativeScript plugin that provides a UI element for picking an object/value from a list opened in a modal popup.
 - [Radio Dialog](https://github.com/modos189/nativescript-radio-dialog) - A NativeScript plugin that provides radio button dialogs.
 - [Rich Paste](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-rich-paste) - A NativeScript plugin for rich paste and drag-and-drop support for NativeScript text inputs. Handles images, GIFs, files, and text from the clipboard.
+- [Searchable Select](https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-searchable-select) - A NativeScript plugin for searchable select.
 - [Star Ratings](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-star-ratings) - A NativeScript plugin that provides a customizable star rating component for displaying and collecting user ratings in mobile apps.
 - [Time Range](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/time-range) - A NativeScript plugin for selecting a time range using a time picker.
 - [UI Checkbox](https://github.com/nativescript-community/ui-checkbox) - A NativeScript plugin for checkbox UI component.
@@ -391,6 +399,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Document Scanner](https://github.com/nativescript-community/document-scanner) - A NativeScript plugin to scan documents.
 - [ExoPlayer](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-exoplayer) - A NativeScript plugin that uses the ExoPlayer video player on Android and AVPlayerViewController on iOS to play local and remote videos.
 - [Gallery View](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/gallery-view) - A NativeScript plugin for viewing gallery assets, currently supports only images.
+- [Image Cache](https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-image-cache) - A NativeScript plugin for image cache.
 - [Image Cache It](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-image-cache-it) - A NativeScript plugin that automatically caches images for faster loading and better performance.
 - [SVG](https://github.com/SergeyMell/nativescript-plugins/tree/main/packages/nativescript-svg) - A NativeScript plugin that allows you to use SVG images in your NativeScript apps.
 - [nCharts](https://plugins.nstudio.io/ncharts/) - High-performance, fully customizable chart components.
@@ -474,6 +483,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Accelerometer](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accelerometer) - An acceleration sensor measures the acceleration applied to the device, including the force of gravity.
 - [Barcode Scanner](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-barcodescanner) - A NativeScript plugin for scanning barcodes and QR codes.
+- [Check Version](https://github.com/Devendra0110/nativescript-check-version) - A NativeScript plugin for checking app version.
 - [Biometrics](https://github.com/NativeScript/plugins/blob/main/packages/biometrics) - A plugin that allows you to authenticate users with biometrics, such as fingerprints, facial recognition, etc.
 - [Ble](https://github.com/nativescript-community/ble) - Connect to and interact with Bluetooth LE peripherals.
 - [Brightness](https://github.com/NativeScript/plugins/blob/main/packages/brightness) - A plugin that get and set the device's brightness level.
@@ -489,6 +499,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Orientation](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/nativescript-orientation) - A NativeScript plugin to control and listen for device screen orientation changes.
 - [Screen Orientation](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/screen-orientation) - This NativeScript plugin provides an easy and effective way to manage screen orientation across platforms. You can both read the current orientation and programmatically set a new orientation (including reverse modes).
 - [Screen Protector](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/screen-protector) - A NativeScript plugin to protect sensitive content from screen capture and recording. This plugin provides API methods to block screenshots and detect screen recording events — with native support for both iOS and Android.
+- [Socket Mobile](https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-socketmobile) - A NativeScript plugin for Socket Mobile scanners.
 - [Sleep Control](https://github.com/AngelEngineering/nativescript-plugins/tree/main/packages/sleepcontrol) - This plugin allows you to keep your device awake while the current app is running.
 - [Store Update](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/store-update) - A NativeScript plugin that provides useful methods to retrieve version information and check for updates in NativeScript applications (Android and iOS).
 - [WearOS Sensors](https://github.com/GeoTecINIT/nativescript-wearos-sensors) - A NativeScript plugin that provides access to various sensors on Wear OS devices.

@@ -1,7 +1,249 @@
 {
-  "lastUpdated": "2026-03-09T15:09:20.171Z",
-  "total": 444,
+  "lastUpdated": "2026-03-15T13:58:50.873Z",
+  "total": 458,
   "items": [
+    {
+      "name": "Supabase by Eduardo Speroni",
+      "url": "https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-supabase",
+      "description": "NativeScript plugin for Supabase. Built for performance and ease of use.",
+      "meta": {
+        "authorName": "edusperoni",
+        "authorUrl": "https://github.com/edusperoni"
+      },
+      "top": "Plugins",
+      "sub": "Backend Service Plugins",
+      "path": "Plugins / Backend Service Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15T13:58:04.460Z"
+    },
+    {
+      "name": "Socket Mobile",
+      "url": "https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-socketmobile",
+      "description": "A NativeScript plugin for Socket Mobile scanners.",
+      "meta": {
+        "authorName": "OPADA-Eng",
+        "authorUrl": "https://github.com/OPADA-Eng"
+      },
+      "top": "Plugins",
+      "sub": "Utility Plugins",
+      "path": "Plugins / Utility Plugins / Device & Hardware Access",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "Check Version",
+      "url": "https://github.com/Devendra0110/nativescript-check-version",
+      "description": "A NativeScript plugin for checking app version.",
+      "meta": {
+        "authorName": "Devendra0110",
+        "authorUrl": "https://github.com/Devendra0110"
+      },
+      "top": "Plugins",
+      "sub": "Utility Plugins",
+      "path": "Plugins / Utility Plugins / Device & Hardware Access",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "Image Cache",
+      "url": "https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-image-cache",
+      "description": "A NativeScript plugin for image cache.",
+      "meta": {
+        "authorName": "OPADA-Eng",
+        "authorUrl": "https://github.com/OPADA-Eng"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Media & Visual Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "Searchable Select",
+      "url": "https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-searchable-select",
+      "description": "A NativeScript plugin for searchable select.",
+      "meta": {
+        "authorName": "OPADA-Eng",
+        "authorUrl": "https://github.com/OPADA-Eng"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Input & Selection Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "Page to PDF",
+      "url": "https://github.com/OPADA-Eng/ticnat-ns-plugins/tree/master/packages/nativescript-page-to-pdf",
+      "description": "A NativeScript plugin to convert a page to a PDF file.",
+      "meta": {
+        "authorName": "OPADA-Eng",
+        "authorUrl": "https://github.com/OPADA-Eng"
+      },
+      "top": "Plugins",
+      "sub": "UI Plugins",
+      "path": "Plugins / UI Plugins / Input & Selection Components",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "Camera TikTok",
+      "url": "https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tiktok",
+      "description": "NativeScript plugin for TikTok-like camera.",
+      "meta": {
+        "authorName": "nstudio",
+        "authorUrl": "https://github.com/nstudio"
+      },
+      "top": "Plugins",
+      "sub": "Multimedia Plugins",
+      "path": "Plugins / Multimedia Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "UI MapLibre",
+      "url": "https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-maplibre",
+      "description": "NativeScript plugin for MapLibre GL.",
+      "meta": {
+        "authorName": "CatchABus",
+        "authorUrl": "https://github.com/CatchABus"
+      },
+      "top": "Plugins",
+      "sub": "Geo Plugins",
+      "path": "Plugins / Geo Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "Mapbox Navigation",
+      "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/mapbox-navigation",
+      "description": "Mapbox navigation for NativeScript.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
+      "top": "Plugins",
+      "sub": "Geo Plugins",
+      "path": "Plugins / Geo Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "DNS Lookup",
+      "url": "https://github.com/CatchABus/nativescript-plugins/tree/master/packages/dns-lookup",
+      "description": "NativeScript plugin for DNS lookup.",
+      "meta": {
+        "authorName": "CatchABus",
+        "authorUrl": "https://github.com/CatchABus"
+      },
+      "top": "Plugins",
+      "sub": "Geo Plugins",
+      "path": "Plugins / Geo Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "NoSQL",
+      "url": "https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/nosql",
+      "description": "A simple NoSQL database for NativeScript.",
+      "meta": {
+        "authorName": "wuilmerj24",
+        "authorUrl": "https://github.com/wuilmerj24"
+      },
+      "top": "Plugins",
+      "sub": "Client-side Database Plugins",
+      "path": "Plugins / Client-side Database Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-15 20:57:58 +0700"
+    },
+    {
+      "name": "NativeScript Forge CLI",
+      "url": "https://github.com/nativescript-forge/cli",
+      "description": "An opinionated interactive wrapper around the NativeScript CLI, designed to streamline your development workflow with a beautiful and intuitive interface.",
+      "meta": {
+        "authorName": "nativescript-forge",
+        "authorUrl": "https://github.com/nativescript-forge"
+      },
+      "top": "Tools",
+      "sub": "",
+      "path": "Tools",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-13 14:25:42 +0700"
+    },
+    {
+      "name": "Vue Portal",
+      "url": "https://github.com/ArthurMJ96/nativescript-vue-portal",
+      "description": "A Portal Component for NativeScript Vue 3, to render elements outside of a component, anywhere in your app.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "ArthurMJ96",
+        "authorUrl": "https://github.com/ArthurMJ96"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-03-11 13:30:47 +0700"
+    },
+    {
+      "name": "Lucide Patch",
+      "url": "https://github.com/ArthurMJ96/lucide-patch-nativescript-vue",
+      "description": "Patches lucide-vue-next to be used in NativeScript Vue 3 via @nativescript-community/ui-svg and @vue/server-renderer.",
+      "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
+        "authorName": "ArthurMJ96",
+        "authorUrl": "https://github.com/ArthurMJ96"
+      },
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
+      "domain": "github.com",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
+      "addedAt": "2026-03-11 13:30:47 +0700"
+    },
     {
       "name": "Solid TanStack Router",
       "url": "https://github.com/NathanWalker/ns-solid-tanstack-router",
@@ -225,7 +467,7 @@
     {
       "name": "Rich Paste",
       "url": "https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-rich-paste",
-      "description": "Rich paste and drag-and-drop support for NativeScript text inputs. Handles images, GIFs, files, and text from the clipboard.",
+      "description": "A NativeScript plugin for rich paste and drag-and-drop support for NativeScript text inputs. Handles images, GIFs, files, and text from the clipboard.",
       "meta": {
         "authorName": "nstudio",
         "authorUrl": "https://github.com/nstudio"
@@ -4185,18 +4427,20 @@
     {
       "name": "TroisJS",
       "url": "https://github.com/ArthurMJ96/nativescript-troisjs",
-      "description": "Use TroisJS for 3D rendering inside NativeScript apps via native canvas integration. Only for `NativeScript-Vue`.",
+      "description": "TroisJS + NativeScript-Vue3 ⚡",
       "meta": {
+        "platform": "Android & iOS",
+        "source": "Github",
         "authorName": "ArthurMJ96",
         "authorUrl": "https://github.com/ArthurMJ96"
       },
-      "top": "Plugins",
-      "sub": "Graphics Plugins",
-      "path": "Plugins / Graphics Plugins",
+      "top": "Examples",
+      "sub": "Vue",
+      "path": "Examples / Vue",
       "domain": "github.com",
-      "sourceLabel": "Main README",
-      "sourceFile": "README.md",
-      "source": "README.md",
+      "sourceLabel": "Example of Vue",
+      "sourceFile": "examples/vue/README.md",
+      "source": "examples/vue/README.md",
       "addedAt": "2025-07-29 21:51:40 +0700"
     },
     {
