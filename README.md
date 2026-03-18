@@ -207,6 +207,7 @@ Run NativeScript on the following platforms:
 - [RxDB](https://github.com/herefishyfish/rxdb-nativescript) - Are a set of plugins that enable RxDB support for NativeScript. This set of plugins includes a core plugin and adapters for different databases.
 - [SQLite](https://github.com/nativescript-community/sqlite) - A SQLite plugin for NativeScript.
 - [SQLite Secure](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/sqlite-secure) - This a library for NativeScript, compatible whit Android and iOS that provides transparent 256-bit AES encryption for SQLite database files. It ensures that data stored in the database is secure and protected from unauthorized access.
+- [Quereus SQLite](https://github.com/gotchoices/quereus/tree/main/packages/quereus-plugin-nativescript-sqlite) - A SQLite storage plugin for Quereus on NativeScript. Provides persistent storage for iOS and Android mobile apps using the `@quereus/store` module.
 
 ### Firebase Plugins
 
