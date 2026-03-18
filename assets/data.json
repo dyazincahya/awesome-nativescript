@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-03-15T14:06:42.411Z",
-  "total": 458,
+  "lastUpdated": "2026-03-18T08:57:25.294Z",
+  "total": 460,
   "items": [
+    {
+      "name": "NativeScript Connectivity Manager",
+      "url": "https://github.com/Pietro-fe01/nativescript-connectivity-manager-plugin",
+      "description": "A NativeScript plugin for checking and managing network connectivity on Android and iOS.",
+      "meta": {
+        "authorName": "Pietro-fe01",
+        "authorUrl": "https://github.com/Pietro-fe01"
+      },
+      "top": "Plugins",
+      "sub": "Networking Plugins",
+      "path": "Plugins / Networking Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-18 15:56:18 +0700"
+    },
+    {
+      "name": "Quereus SQLite",
+      "url": "https://github.com/gotchoices/quereus/tree/main/packages/quereus-plugin-nativescript-sqlite",
+      "description": "A SQLite storage plugin for Quereus on NativeScript. Provides persistent storage for iOS and Android mobile apps using the `@quereus/store` module.",
+      "meta": {
+        "authorName": "gotchoices",
+        "authorUrl": "https://github.com/gotchoices"
+      },
+      "top": "Plugins",
+      "sub": "Client-side Database Plugins",
+      "path": "Plugins / Client-side Database Plugins",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-18 15:49:05 +0700"
+    },
     {
       "name": "Supabase by Eduardo Speroni",
       "url": "https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-supabase",

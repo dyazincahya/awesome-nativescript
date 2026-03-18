@@ -285,6 +285,7 @@ Run NativeScript on the following platforms:
 ### Networking Plugins
 
 - [Klippa NativeScript Http](https://github.com/klippa-app/nativescript-http) - The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.
+- [NativeScript Connectivity Manager](https://github.com/Pietro-fe01/nativescript-connectivity-manager-plugin) - A NativeScript plugin for checking and managing network connectivity on Android and iOS.
 - [NativeScript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for NativeScript - iOS/Android.
 - [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
 - [Socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
