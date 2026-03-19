@@ -1,7 +1,24 @@
 {
-  "lastUpdated": "2026-03-18T08:57:25.294Z",
-  "total": 460,
+  "lastUpdated": "2026-03-19T13:59:16.178Z",
+  "total": 461,
   "items": [
+    {
+      "name": "NativeScript Forge GUI",
+      "url": "https://github.com/nativescript-forge/gui-app",
+      "description": "Visual toolkit for NativeScript developers. Manage projects, configure platforms, and accelerate your development cycle with a beautiful, unified interface.",
+      "meta": {
+        "authorName": "nativescript-forge",
+        "authorUrl": "https://github.com/nativescript-forge"
+      },
+      "top": "Tools",
+      "sub": "",
+      "path": "Tools",
+      "domain": "github.com",
+      "sourceLabel": "Main README",
+      "sourceFile": "README.md",
+      "source": "README.md",
+      "addedAt": "2026-03-19 20:59:12 +0700"
+    },
     {
       "name": "NativeScript Connectivity Manager",
       "url": "https://github.com/Pietro-fe01/nativescript-connectivity-manager-plugin",

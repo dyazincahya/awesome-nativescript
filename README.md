@@ -642,4 +642,5 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
 - [Cursor Editor Rules for NativeScript](https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc)
+- [NativeScript Forge GUI](https://github.com/nativescript-forge/gui-app) - Visual toolkit for NativeScript developers. Manage projects, configure platforms, and accelerate your development cycle with a beautiful, unified interface.
 - [NativeScript Forge CLI](https://github.com/nativescript-forge/cli) - An opinionated interactive wrapper around the NativeScript CLI, designed to streamline your development workflow with a beautiful and intuitive interface.
