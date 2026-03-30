@@ -295,6 +295,7 @@ Run NativeScript on the following platforms:
 ### Payment Plugins
 
 - [Apple Pay](https://github.com/NativeScript/payments/tree/main/packages/apple-pay) - A plugin that allows you to offer Apple Pay in your iOS apps.
+- [Flitt](https://github.com/kakha13/nativescript-plugins/tree/main/packages/nativescript-flitt) - [Flitt](https://flitt.com) Easily accept and manage payments, increase business revenue, and offer the best payment experience to your customers.
 - [Google Pay](https://github.com/NativeScript/payments/tree/main/packages/google-pay) - A plugin that allows you to offer Google Pay in your Android app.
 - [Payments](https://github.com/NativeScript/payments/tree/main/packages/payments) - A plugin that allows your app to use in-app purchases and subscriptions using Apple AppStore and Google PlayStore purchasing systems.
 - [Revenuecat](https://github.com/mleleux-heykiddo/nativescript-plugins/tree/main/packages/nativescript-revenuecat) - A powerful and reliable in-app purchase server that makes it easy to build, analyze, and grow your subscriber base whether you're just starting out or already have millions of customers.
