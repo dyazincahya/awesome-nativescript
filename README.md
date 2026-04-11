@@ -1,10 +1,10 @@
 # Awesome NativeScript [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-<img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" />
+<a href="https://nativescript.org/"><img src="https://raw.githubusercontent.com/dyazincahya/awesome-nativescript/refs/heads/main/awesome-nativescript.png" /></a>
 
-A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
+Framework for building native mobile apps using JavaScript.
 
-> Empower JavaScript with native APIs. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, macOS, visionOS, Android, and Meta Quest—entirely in JavaScript.
+> Native property and feature access for mobile apps using JavaScript. NativeScript provides direct access to platform APIs with strong typing, enabling a powerful TypeScript development experience. Build native apps for iOS, Android, visionOS, macOS, and Meta Quest — entirely in JavaScript.
 
 ## Contents
 
@@ -19,7 +19,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 - [Navigations](#navigations)
 - [Components](#components)
 - [Plugins](#plugins)
-  - [Advertising Plugins](#advertising-plugins)
   - [Analytics, Engagement \& Monitoring Plugins](#analytics-engagement--monitoring-plugins)
   - [Artificial Intelligence (AI) Plugins](#artificial-intelligence-ai-plugins)
   - [Authentication Plugins](#authentication-plugins)
@@ -28,7 +27,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
   - [Firebase Plugins](#firebase-plugins)
   - [Geo Plugins](#geo-plugins)
   - [Graphics Plugins](#graphics-plugins)
-  - [Mason Plugins](#mason-plugins)
   - [ML Plugins](#ml-plugins)
   - [Multimedia Plugins](#multimedia-plugins)
   - [Networking Plugins](#networking-plugins)
@@ -72,8 +70,6 @@ A curated list of awesome plugins, and resources for NativeScript 8 or Newer.
 
 ## Flavors
 
-NativeScript offers various flavors you can try, which are generally divided into two types: the official version and the community-developed version.
-
 ### Official Flavors
 
 - [JavaScript](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-plain-javascript) - Official JavaScript flavor with plain JS and no build step.
@@ -95,11 +91,9 @@ NativeScript offers various flavors you can try, which are generally divided int
 
 ## Platforms
 
-Run NativeScript on the following platforms:
-
 - [Android](https://docs.nativescript.org/guide/extending-classes-and-implementing-interfaces-android)
 - [iOS](https://docs.nativescript.org/guide/extending-classes-and-conforming-to-protocols-ios)
-- [VisionOS](https://docs.nativescript.org/guide/visionos)
+- [visionOS](https://docs.nativescript.org/guide/visionos)
 - [macOS](https://blog.nativescript.org/macos-node-api-preview/)
 - [WearOS](https://github.com/bradmartin/nativescript-wear-os)
 
@@ -148,7 +142,7 @@ Run NativeScript on the following platforms:
 - [Progress](https://docs.nativescript.org/ui/progress) - UI component to indicate the progress of a task.
 - [ScrollView](https://docs.nativescript.org/ui/scroll-view) - UI component for rendering scrollable content (horizontal or vertical).
 - [SearchBar](https://docs.nativescript.org/ui/search-bar) - UI component for entering search queries.
-- [SegmentedBar](https://docs.nativescript.org/ui/segmented-bar) - UI component for discrete slection.
+- [SegmentedBar](https://docs.nativescript.org/ui/segmented-bar) - UI component for discrete selection.
 - [Slider](https://docs.nativescript.org/ui/slider) - UI component for picking numeric values from a range.
 - [SplitView](https://docs.nativescript.org/ui/split-view) - A singular root view component for coordinating up to four column roles. (primary, secondary, supplementary, inspector). This component only available on iOS.
 - [Switch](https://docs.nativescript.org/ui/switch) - UI component for toggling state on or off.
@@ -160,10 +154,6 @@ Run NativeScript on the following platforms:
 
 ## Plugins
 
-### Advertising Plugins
-
-- [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
-
 ### Analytics, Engagement & Monitoring Plugins
 
 - [Adobe Experience Cloud](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-adobe-experience-cloud) - A NativeScript plugin for Adobe Experience Cloud.
@@ -172,6 +162,7 @@ Run NativeScript on the following platforms:
 - [Aptabase](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-aptabase) - A NativeScript plugin for Aptabase, an Open Source, Privacy-First and Simple Analytics platform.
 - [Branch](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-branch) - A NativeScript plugin for [Branch Metrics](https://branch.io/), a deep linking and attribution platform.
 - [Dynatrace](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-dynatrace) - A NativeScript plugin for [Dynatrace](https://www.dynatrace.com/), an observability platform.
+- [Google Mobile Ads](https://github.com/NativeScript/plugins/blob/main/packages/google-mobile-ads) - A plugin that allows you to monetize your NativeScript app by integrating the Google Mobile Ads SDK into the app.
 - [IAdvize](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-iadvize) - A NativeScript plugin that integrates the iAdvize SDK, enabling live chat and real-time customer engagement features within NativeScript applications.
 - [Intercom](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-intercom) - A NativeScript plugin for [Intercom](https://www.intercom.com/), a customer service platform.
 - [Medallia](https://github.com/Essent/nativescript-plugins/tree/main/packages/nativescript-medallia) - A NativeScript plugin integrating the Medallia SDK to gather insights and improve customer, employee, and digital experiences.
@@ -256,10 +247,6 @@ Run NativeScript on the following platforms:
 - [Canvas Polyfill](https://github.com/NativeScript/canvas/tree/master/packages/canvas-polyfill) - DOM-like polyfill for NativeScript canvas, enabling compatibility with standard HTML5 canvas APIs and web libraries.
 - [Canvas Three](https://github.com/NativeScript/canvas/tree/master/packages/canvas-three) - Use Three.js for 3D rendering inside NativeScript apps via native canvas integration.
 
-### Mason Plugins
-
-- [MasonKit](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - This plugin is a wrap of `Taffy` layout engine for NativeScript. It provides a high performance rust-powered UI layout library for NativeScript.
-
 ### ML Plugins
 
 - [Barcode Scanning](https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning) - This plugin is used with `@nativescript/mlkit-core`. It enables barcode scanning and provides the BarcodeResult type for the barcode-scanned data.
@@ -285,9 +272,12 @@ Run NativeScript on the following platforms:
 ### Networking Plugins
 
 - [Klippa NativeScript Http](https://github.com/klippa-app/nativescript-http) - The best way to do HTTP requests in NativeScript, a drop-in replacement for the core HTTP with important improvements and additions like proper connection pooling, form data support and certificate pinning.
-- [NativeScript Connectivity Manager](https://github.com/Pietro-fe01/nativescript-connectivity-manager-plugin) - A NativeScript plugin for checking and managing network connectivity on Android and iOS.
+- [MQTT](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt) - A cross-platform NativeScript plugin for MQTT communication.
+- [MQTT 5](https://github.com/agentep98/nativescript-mqtt5) - A NativeScript MQTT client with full MQTT 5.0 support, built on the [Eclipse Paho](http://www.eclipse.org/paho) library.
 - [NativeScript Community Https](https://github.com/nativescript-community/https) - Secure HTTP client with SSL pinning for NativeScript - iOS/Android.
-- [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com)
+- [NativeScript Connectivity Manager](https://github.com/Pietro-fe01/nativescript-connectivity-manager-plugin) - A NativeScript plugin for checking and managing network connectivity on Android and iOS.
+- [Pusher Channels](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-pusher-channels) - Powering realtime experiences for mobile and web by [pusher.com](https://pusher.com).
+- [SignalR](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/signalr) - A NativeScript plugin that integrates SignalR—Microsoft's real-time communication library—into your mobile apps for iOS and Android.
 - [Socketio](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-socketio) - JavaScript Socket.IO client for real-time event-based communication (works with NativeScript).
 - [Web Server](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-web-server) - A NativeScript plugin to create a local web server.
 - [websockets](https://github.com/valor-software/nativescript-plugins/tree/master/packages/nativescript-websockets) - For web-compatible WebSockets.
@@ -385,15 +375,16 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [Accordion](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-accordion) - A NativeScript plugin for Accordion UI.
 - [Carousel](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-carousel) - A simple carousel component for NativeScript.
+- [MasonKit](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - This plugin is a wrap of `Taffy` layout engine for NativeScript. It provides a high performance rust-powered UI layout library for NativeScript.
 - [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
 - [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
 - [UI Canvas](https://github.com/nativescript-community/ui-canvas) - Implement Canvas into your NativeScript apps.
 - [UI Collectionview](https://github.com/nativescript-community/ui-collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
 - [UI Drawer](https://github.com/nativescript-community/ui-drawer) - A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.
+- [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
 - [UI Pager](https://github.com/nativescript-community/ui-pager) - Pager / Carousel component that allows the user to swipe left and right through pages of data.
 - [UI Persistent Bottomsheet](https://github.com/nativescript-community/ui-persistent-bottomsheet) - A NativeScript plugin that allows you to easily add a persistent bottomsheet to your projects.
 - [UI Popover](https://github.com/nativescript-community/ui-popover) - A NativeScript plugin to make Popover.
-- [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
 - [Windowed Modal](https://github.com/mukaschultze/nativescript-windowed-modal) - Consistent modals for NativeScript in Android and iOS.
 
 #### Media & Visual Components
@@ -457,8 +448,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
 - [InAppBrowser](https://github.com/proyecto26/nativescript-inappbrowser) - A NativeScript plugin that allows you to open URLs in an in-app browser.
 - [Messenger](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger) - A NativeScript plugin for sending SMS or MMS.
-- [MQTT](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-mqtt) - A cross-platform NativeScript plugin for MQTT communication.
-- [SignalR](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/signalr) - This is a NativeScript plugin that integrates SignalR—Microsoft's real-time communication library—into your mobile apps for iOS and Android.
 - [SMS Inbox](https://github.com/edusperoni/nativescript-plugins/tree/main/packages/nativescript-sms-inbox) - A NativeScript plugin to read text messages on Android phone inbox.
 - [SMS Receiver](https://github.com/comporell/nativescript-plugins/tree/master/packages/nativescript-sms-receiver) - A NativeScript plugin to receive SMS messages on Android phone.
 - [Social Share](https://github.com/NativeScript/plugins/blob/main/packages/social-share) - A plugin that allows you to share content to social media.
@@ -552,24 +541,23 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## Font & Font Icon
 
-- [Fontawesome](https://www.kang-cahya.com/2025/07/how-to-install-and-use-font-awesome-in.html) - How to Install and Use Fontawesome in NativeScript.
-- [Material Design Symbols](https://nstudio.io/blog/using-material-design-symbols-in-nativescript) - Using Material Design Symbols in NativeScript.
 - [Fonts](https://docs.nativescript.org/project-structure/src/fonts) - How to add fonts type in NativeScript.
+- [Material Design Symbols](https://nstudio.io/blog/using-material-design-symbols-in-nativescript) - Using Material Design Symbols in NativeScript.
 
 ## Security
 
-- [JavaScript obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - This is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code. ([Tutorial](https://www.kang-cahya.com/2025/07/securing-javascript-code-in.html))
+- [JavaScript obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - A tool for obfuscating JavaScript code to protect application logic and make reverse-engineering more difficult.
 
 ## Testing
 
 ### Unit Testing
 
-- [E2E Testing](https://docs.nativescript.org/guide/testing) - For end-to-end testing, consider using Maestro or the @NativeScript/detox plugin.
 - [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/) - An article on unit testing NativeScript-Vue applications with Vitest.
 - [NativeScript Unit Test Runner v3](https://blog.nativescript.org/unit-testing-with-v3-runner/) - Test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud.
 
 ### End-to-end Integration Testing
 
+- [E2E Testing](https://docs.nativescript.org/guide/testing) - For end-to-end testing, consider using Maestro or the @NativeScript/detox plugin.
 - [Detox](https://docs.nativescript.org/plugins/detox) - Gray box end-to-end testing and automation framework for mobile apps.
 - [Maestro](https://nstudio.io/blog/maestro-ui-testing-nativescript) - This is the simplest and most effective UI testing framework.
 
@@ -580,7 +568,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ## macOS
 
-- [Solidjs for macOS with NativeScript](https://github.com/ammarahm-ed/nativescript-macos-solid)
+- [Solidjs for macOS with NativeScript](https://github.com/ammarahm-ed/nativescript-macos-solid) - Build native macOS desktop applications using SolidJS and the NativeScript runtime.
   - [Try yourself with Solid Desktop on macOS](https://apps.apple.com/us/app/solid-desktop/id6737216890?mt=12)
 
 ## visionOS (Vision Pro)
@@ -639,7 +627,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Nx: Smart Repos and Fast Builds](https://github.com/NativeScript/nx)
 - [Cross-platform (xplat) tools for Nx workspaces](https://github.com/nstudio/xplat)
 - [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
-- [NativeScript Initializr is a Community tool to quickly generate NativeScript projects with associated plugins.](https://nativescript-initializr.jmarvall.com/)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
 - [Cursor Editor Rules for NativeScript](https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc)
