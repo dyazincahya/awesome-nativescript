@@ -60,6 +60,7 @@ Framework for building native mobile apps using JavaScript.
 - [NativeScript Custom Native Elements](https://docs.nativescript.org/guide/create-custom-native-elements)
 - [NativeScript Blog](https://blog.nativescript.org/)
 - [NativeScript Snacks](https://docs.nativescript.org/snacks/)
+- [NativeScript Snippets](https://snippets.nativescript.org/)
 - [NativeScript Show Case Apps](https://www.nativescript.org/showcases)
 - [NativeScript on X](https://x.com/nativescript)
 - [NativeScript on Bsky](https://bsky.app/profile/nativescript.bsky.social)
