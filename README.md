@@ -383,7 +383,10 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [UI Canvas](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-canvas) - Implement Canvas into your NativeScript apps.
 - [UI Canvas Label](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-canvaslabel) - Alternative to the built-in NativeScript Label but uses canvas which allows extreme complexity and customization.
 - [UI Canvas SVG](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-svg) - Adds support for SVGs in your NativeScript apps.
-- [UI Collectionview](https://github.com/nativescript-community/ui-collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
+- [UI Collectionview](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
+- [UI Collectionview Aligned Flow Layout](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/alignedflowlayout) - A NativeScript CollectionView For Custom aligned Layout Plugin.
+- [UI Collectionview Swipe Menu](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/swipemenu) - A NativeScript CollectionView SwipeMenu Plugin.
+- [UI Collectionview Waterfall](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/waterfall) - A NativeScript CollectionView waterfall Plugin.
 - [UI Drawer](https://github.com/nativescript-community/ui-drawer) - A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.
 - [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
 - [UI Pager](https://github.com/nativescript-community/ui-pager) - Pager / Carousel component that allows the user to swipe left and right through pages of data.
