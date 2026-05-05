@@ -380,7 +380,9 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [MasonKit](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - This plugin is a wrap of `Taffy` layout engine for NativeScript. It provides a high performance rust-powered UI layout library for NativeScript.
 - [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
 - [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
-- [UI Canvas](https://github.com/nativescript-community/ui-canvas) - Implement Canvas into your NativeScript apps.
+- [UI Canvas](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-canvas) - Implement Canvas into your NativeScript apps.
+- [UI Canvas Label](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-canvaslabel) - Alternative to the built-in NativeScript Label but uses canvas which allows extreme complexity and customization.
+- [UI Canvas SVG](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-svg) - Adds support for SVGs in your NativeScript apps.
 - [UI Collectionview](https://github.com/nativescript-community/ui-collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
 - [UI Drawer](https://github.com/nativescript-community/ui-drawer) - A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.
 - [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
