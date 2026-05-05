@@ -241,6 +241,7 @@ Framework for building native mobile apps using JavaScript.
 
 ### Graphics Plugins
 
+- [Audio Context](https://github.com/NativeScript/canvas/blob/master/packages/audio-context) - This package provides a native-backed `AudioContext`/`OfflineAudioContext` with common Web Audio nodes so you can keep a familiar Web Audio programming model in NativeScript apps.
 - [Canvas](https://github.com/NativeScript/canvas/tree/master/packages/canvas) - A NativeScript plugin that brings the HTML5 Canvas API to native mobile apps, enabling 2D drawing and animation with high-performance rendering on iOS and Android.
 - [Canvas Phaser](https://github.com/NativeScript/canvas/tree/master/packages/canvas-phaser) - A NativeScript integration for the Phaser game engine using native canvas rendering, enabling high-performance mobile game development with web-like APIs.
 - [Canvas Phaser CE](https://github.com/NativeScript/canvas/tree/master/packages/canvas-phaser-ce) - A NativeScript integration for Phaser CE (Community Edition) using native canvas rendering to build cross-platform mobile games.
