@@ -415,6 +415,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [UI Webview](https://github.com/nativescript-community/ui-webview) - Extended WebView which adds many options such as custom scheme handlers, JavaScript execution, URL capturing, and more.
 - [URL Preview](https://github.com/wuilmerj24/nativescript-plugins/tree/main/packages/url-preview) - This plugin allows you to configure various aspects of the UI, including colors, border radius, and the type of view. Below is a table listing the available attributes and their respective types.
 - [Variable Blur View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-variable-blur-view) - A NativeScript plugin that creates a variable blur view.
+- [WebView X](https://github.com/modos189/nativescript-plugins/tree/master/packages/webview-x) - A NativeScript WebView plugin wrapping the Android system WebView and iOS WKWebView. Built on top of `@nativescript-community/ui-webview` — WebViewX extends AWebView directly, so the full upstream API is available.
+- [WebView X Gecko](https://github.com/modos189/nativescript-plugins/tree/master/packages/webview-x-gecko) - A NativeScript WebView plugin using GeckoView (Mozilla's Gecko engine) on Android and WKWebView on iOS.
 
 #### Navigation & User Guidance
 
