@@ -55,7 +55,6 @@ Framework for building native mobile apps using JavaScript.
 
 ## Official Resources
 
-- [NativeScript Homepage](https://nativescript.org/)
 - [NativeScript Agentic Coding](https://docs.nativescript.org/guide/agentic-coding)
 - [NativeScript Custom Native Elements](https://docs.nativescript.org/guide/create-custom-native-elements)
 - [NativeScript Blog](https://blog.nativescript.org/)
@@ -68,6 +67,7 @@ Framework for building native mobile apps using JavaScript.
 - [NativeScript on GitHub](https://github.com/NativeScript)
 - [NativeScript on Stack Overflow](https://stackoverflow.com/questions/tagged/nativescript)
 - [NativeScript RFC](https://github.com/NativeScript/rfcs/discussions)
+- [NativeScript Homepage](https://nativescript.org/)
 
 ## Flavors
 
@@ -172,7 +172,7 @@ Framework for building native mobile apps using JavaScript.
 
 ### Artificial Intelligence (AI) Plugins
 
-- [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - Community Plugin for integrating AI models in a NativeScript App.
+- [NativeScript AI SDK](https://github.com/erick-marro/ns-ai-plugin/tree/main/packages/ns-ai-kit) - A community plugin for integrating AI models in a NativeScript app.
 - [nstreamdown](https://github.com/nstudio/nstreamdown) - Native streaming markdown for NativeScript apps, inspired by streamdown.ai. Ideal for AI-powered chat interfaces.
 
 ### Authentication Plugins
@@ -225,7 +225,7 @@ Framework for building native mobile apps using JavaScript.
 
 ### Geo Plugins
 
-- [Carto](https://github.com/nativescript-community/ui-carto) - One Location Intelligence platform for all your spatial needs. Streamline your tech stack with an end-to-end geospatial platform built for the enterprise.
+- [Carto](https://github.com/nativescript-community/ui-carto) - A location intelligence platform for all your spatial needs, streamlining your tech stack with an end-to-end geospatial platform built for the enterprise.
 - [Directions](https://github.com/NativeScript/plugins/blob/main/packages/directions) - A plugin that allows you to launch the Google Maps app, if it's installed on the device, with some directions. For more information, visit [Directions action](https://developers.google.com/maps/documentation/urls/get-started#directions-action).
 - [DNS Lookup](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/dns-lookup) - NativeScript plugin for DNS lookup.
 - [Geo Coding](https://github.com/nativescript-community/geocoding) - Provides access to native geocoding APIs for NativeScript apps (android.location.Geocoder for Android, CLGeocoder for iOS).
@@ -298,7 +298,7 @@ Framework for building native mobile apps using JavaScript.
 ### Styling & Theme Plugins
 
 - [Change Icon](https://github.com/NativeScript-Use/NativeScript-Use/tree/main/packages/change-icon) - A NativeScript plugin that allows dynamic switching of the app icon at runtime on iOS using alternate icons.
-- [Tailwind CSS](https://github.com/nativescript-community/tailwindcss) - Use Tailwind CSS utility classes in NativeScript.
+- [Tailwind CSS](https://github.com/NativeScript/tailwind) - Use Tailwind CSS utility classes in NativeScript.
 - [Theme](https://github.com/NativeScript/theme) - Core themes for NativeScript apps.
 
 ### UI Kit Plugins
@@ -379,14 +379,14 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Carousel](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-carousel) - A simple carousel component for NativeScript.
 - [MasonKit](https://github.com/triniwiz/nativescript-mason/tree/main/packages/nativescript-masonkit) - This plugin is a wrap of `Taffy` layout engine for NativeScript. It provides a high performance rust-powered UI layout library for NativeScript.
 - [Nested Scrollview](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-nested-scrollview) - A NativeScript plugin to make Nested Scroll View.
-- [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI Layout support for NativeScript.
+- [RTL UI Layout](https://github.com/nativescript-rtl/ui) - Right-to-left UI layout support for NativeScript.
 - [UI Canvas](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-canvas) - Implement Canvas into your NativeScript apps.
 - [UI Canvas Label](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-canvaslabel) - Alternative to the built-in NativeScript Label but uses canvas which allows extreme complexity and customization.
 - [UI Canvas SVG](https://github.com/nativescript-community/ui-canvas/tree/master/packages/ui-svg) - Adds support for SVGs in your NativeScript apps.
 - [UI Collectionview](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/collectionview) - Allows you to easily add a collection view (grid list view) to your projects. Supports vertical and horizontal modes, templating, and more.
-- [UI Collectionview Aligned Flow Layout](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/alignedflowlayout) - A NativeScript CollectionView For Custom aligned Layout Plugin.
-- [UI Collectionview Swipe Menu](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/swipemenu) - A NativeScript CollectionView SwipeMenu Plugin.
-- [UI Collectionview Waterfall](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/waterfall) - A NativeScript CollectionView waterfall Plugin.
+- [UI Collectionview Aligned Flow Layout](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/alignedflowlayout) - A NativeScript CollectionView plugin for custom aligned layouts.
+- [UI Collectionview Swipe Menu](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/swipemenu) - A swipe menu plugin for UI CollectionView.
+- [UI Collectionview Waterfall](https://github.com/nativescript-community/ui-collectionview/tree/master/packages/waterfall) - A waterfall layout plugin for UI CollectionView.
 - [UI Drawer](https://github.com/nativescript-community/ui-drawer) - A NativeScript plugin that allows you to easily add a side drawer (side menu) to your projects.
 - [UI Neumorphic Layout](https://github.com/CatchABus/nativescript-plugins/tree/master/packages/ui-neumorphiclayout) - A plugin that adds support for neumorphism styling to NativeScript layout containers.
 - [UI Pager](https://github.com/nativescript-community/ui-pager) - Pager / Carousel component that allows the user to swipe left and right through pages of data.
@@ -408,7 +408,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [QR](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-qr) - A NativeScript plugin to generate QR codes.
 - [UI Barcodeview](https://github.com/nativescript-community/ui-barcodeview) - NativeScript QR / barcode view plugin.
 - [UI Blurview](https://github.com/nativescript-community/ui-blurview) - A image blurview plugin.
-- [UI Cameraview](https://github.com/nativescript-community/ui-cameraview) - A CameraView allowing custom live processing for NativeScript.
+- [UI Cameraview](https://github.com/nativescript-community/ui-cameraview) - A camera view allowing custom live processing for NativeScript.
 - [UI Chart](https://github.com/nativescript-community/ui-chart) - A powerful chart / graph plugin, supporting line, bar, pie, radar, bubble, and candlestick charts as well as scaling, panning and animations.
 - [UI Image](https://github.com/nativescript-community/ui-image) - Advanced and efficient image display plugin which uses Fresco (Android) and SDWebImage (iOS) to implement caching, placeholders, image effects, and much more.
 - [UI Lottie](https://github.com/nativescript-community/ui-lottie) - A NativeScript plugin to expose AirBnB Lottie library.
@@ -422,7 +422,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 - [App Tour](https://github.com/hamdiwanis/nativescript-app-tour) - A NativeScript plugin that allows you to create an app tour for your users.
 - [Coachmarks](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-coachmarks) - A NativeScript plugin to display user coach marks utilizing shape cutouts over an existing UI.
-- [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - To liven up any standard SegmentedBar control.
+- [Fluid Segmented Bar](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-fluid-segmented-bar) - A plugin to liven up any standard SegmentedBar control.
 - [Menu](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-menu) - Native anchored menus for NativeScript (support for tap-to-open/long-press context menus).
 - [Native Navigation](https://github.com/atellmer/dark/tree/master/packages/native-navigation) - A NativeScript router by Dark that supports stack, tab, and modal navigation, nested screens, parameter passing, animated transitions, navigation hooks, and has zero dependencies.
 - [TanStack Router](https://github.com/NativeScript/tanstack/tree/main/packages/tanstack-router) - A powerful, type-safe routing library for NativeScript, adapted from the core TanStack Router.
@@ -431,13 +431,13 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Text & Typography
 
 - [Auto Fit Text](https://github.com/NativeScript/plugins/blob/main/packages/auto-fit-text) - A plugin that extends the NativeScript Label with the functionality to adjust the font size according to the label's width.
-- [Label Marquee](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee) - A Label which can scroll with a marquee effect when the text outgrows the available width.
+- [Label Marquee](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-label-marquee) - A label which scrolls with a marquee effect when the text outgrows the available width.
 - [Markdown View](https://github.com/nstudio/nativescript-ui-kit/tree/main/packages/nativescript-markdown-view) - A NativeScript view for displaying natively rendered Markdown.
-- [UI Label](https://github.com/nativescript-community/ui-label) - Alternative to the built-in NativeScript Label but with better performance and additional features such as HTML rendering and more.
+- [UI Label](https://github.com/nativescript-community/ui-label) - An alternative to the built-in NativeScript Label with better performance and additional features like HTML rendering.
 
 #### Utility & Enhancement
 
-- [UI PullToRefresh](https://github.com/nativescript-community/ui-pulltorefresh) - A NativeScript plugin to provide the Pull to Refresh control on any view.
+- [UI PullToRefresh](https://github.com/nativescript-community/ui-pulltorefresh) - A NativeScript plugin to provide pull-to-refresh control on any view.
 - [UI Share File](https://github.com/nativescript-community/ui-share-file) - Send/share file to other apps.
 
 ### Utility Plugins
@@ -453,7 +453,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Communication & Networking
 
 - [Background HTTP](https://github.com/NativeScript/plugins/blob/main/packages/background-http) - A plugin that allows you to make background HTTP uploads.
-- [Downloader](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader) - Is a NativeScript plugin used to download files from the internet directly to the user's device.
+- [Downloader](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-downloader) - A NativeScript plugin to download files from the internet directly to the device.
 - [Email](https://github.com/NativeScript/plugins/blob/main/packages/email) - A plugin to compose an e-mail, have the user edit the draft manually and send it.
 - [InAppBrowser](https://github.com/proyecto26/nativescript-inappbrowser) - A NativeScript plugin that allows you to open URLs in an in-app browser.
 - [Messenger](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-messenger) - A NativeScript plugin for sending SMS or MMS.
@@ -510,7 +510,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Bitmap Factory](https://github.com/oliverphaser/nativescript-bitmap-factory) - A NativeScript plugin for creating and manipulating bitmap images.
 - [FFmpeg](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-ffmpeg) - A NativeScript plugin that allows you to run FFmpeg commands directly on mobile devices.
 - [Image Cropper](https://github.com/bthurlow/nativescript-imagecropper) - A NativeScript image cropping plugin.
-- [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - Is a NativeScript plugin designed to optimize image rendering in applications.
+- [Image Optimize](https://github.com/triniwiz/nativescript-plugins/tree/main/packages/nativescript-imageoptimize) - A NativeScript plugin designed to optimize image rendering in applications.
 - [Image Picker](https://github.com/NativeScript/plugins/blob/main/packages/imagepicker) - Imagepicker plugin supporting both single and multiple selection.
 - [Pdf](https://github.com/NativeScript/plugins/blob/main/packages/pdf) - A simple PDF viewer.
 - [EPUB Reader](https://github.com/kakha13/nativescript-plugins/tree/main/packages/epub-reader) - A NativeScript plugin for reading EPUB books with a native FolioReader-based UI on iOS and Android.
@@ -530,7 +530,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Context APIs](https://github.com/GeoTecINIT/nativescript-context-apis) - A NativeScript plugin to ease the access to mobile phone's real-world context.
 - [iOS Security](https://github.com/NativeScript/plugins/tree/main/packages/ios-security) - IOSSecuritySuite for NativeScript.
 - [Persona](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-persona) - A NativeScript plugin for [Persona](https://withpersona.com/), a secure identity verification solution.
-- [Tracking Transparency](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tracking-transparency) - A NativeScript Library for interacting with the tracking API for iOS 14+.
+- [Tracking Transparency](https://github.com/nstudio/nativescript-plugins/tree/main/packages/nativescript-tracking-transparency) - A NativeScript library for interacting with the tracking API on iOS 14+.
 
 #### User Interface & Interaction
 
@@ -573,7 +573,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 ## Background Service
 
 - [Web Workers API](https://docs.nativescript.org/guide/multithreading) - The Workers API in NativeScript is loosely based on the [`Web Workers API`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and the [`Web Workers Specification`](https://www.w3.org/TR/workers/).
-- [JSch](https://github.com/NathanWalker/android-jsch-example) - NativeScript using Workers for Background Threading - Android example demonstrating a SSH connection via `com.jcraft.JSch`.
+- [JSch](https://github.com/NathanWalker/android-jsch-example) - An Android example using workers for background threading, demonstrating a SSH connection via `com.jcraft.JSch`.
 
 ## macOS
 
@@ -585,7 +585,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [What happens when a SwiftUI and NativeScript developer embrace each other?](https://blog.nativescript.org/swiftui-dev-embraces-ns-dev/)
 - [How to add visionOS to an existing app?](https://blog.nativescript.org/add-visionos-to-existing-nativescript-app/)
 - [Particle Systems via RealityKit and Multiple Scenes during Vision Pro development with NativeScript](https://blog.nativescript.org/particles-and-multiple-scenes-vision-pro-development/)
-- [Fastlane visionOS deployments with NativeScript](https://x.com/NativeScript/status/1923249210343723019)
+- [NativeScript visionOS Fastlane Template](https://github.com/hmallen99/nativescript-visionos-fastlane-template) - A template to automate building and deploying visionOS apps built with NativeScript using Fastlane.
 
 ## Videos & Podcasts
 
@@ -638,6 +638,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [Crash Reporting with Sentry](https://docs.nativescript.org/guide/crash-reporting-sentry)
 - [NativeScript Snippets for Sublime Text](https://packagecontrol.io/search/nativescript)
 - [NativeScript Snippets for Visual Studio Code](https://marketplace.visualstudio.com/search?term=NativeScript&target=VSCode&category=All%20categories&sortBy=Relevance)
-- [Cursor Editor Rules for NativeScript](https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules-new/nativescript.mdc)
-- [NativeScript Forge GUI](https://github.com/nativescript-forge/gui-app) - Visual toolkit for NativeScript developers. Manage projects, configure platforms, and accelerate your development cycle with a beautiful, unified interface.
+- [Cursor Editor Rules for NativeScript](https://github.com/PatrickJS/awesome-cursorrules/blob/main/rules/nativescript-cursorrules-prompt-file.mdc)
+- [NativeScript Forge GUI](https://github.com/nativescript-forge/gui-app) - A visual toolkit for NativeScript developers to manage projects, configure platforms, and accelerate development with a unified interface.
 - [NativeScript Forge CLI](https://github.com/nativescript-forge/cli) - An opinionated interactive wrapper around the NativeScript CLI, designed to streamline your development workflow with a beautiful and intuitive interface.
