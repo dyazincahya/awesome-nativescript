@@ -86,6 +86,7 @@ Framework for building native mobile apps using JavaScript.
   - [Portal](https://react-nativescript.netlify.app/) - Documentation site for React + NativeScript.
 - [Svelte](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-svelte) - Use Svelte to compile native apps with NativeScript.
   - [Portal](https://svelte.nativescript.org/) - Official portal for NativeScript-Svelte.
+- [Octane](https://octanejs.dev) - Ahead-of-time compiled React replacement UI library.
 - [CapacitorJS](https://github.com/NativeScript/capacitor) - Integration of CapacitorJS with NativeScript runtime.
   - [Portal](https://capacitor.nativescript.org/) - Website for NativeScript-Capacitor integration.
 - [Ionic](https://v8.docs.nativescript.org/plugins/ionic-portals.html) - Use Ionic Portals inside NativeScript apps.
@@ -610,6 +611,7 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [React](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/react) - Example using NativeScript with React.
 - [Solid](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/solid) - Example using NativeScript with Solid.
 - [Svelte](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/svelte) - Example using NativeScript with Svelte.
+- [Octane](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/octane) - Example using NativeScript with Octane.
 
 ## Tutorials
 

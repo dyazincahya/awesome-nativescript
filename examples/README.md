@@ -10,4 +10,5 @@ Each example is designed to be self-contained and easy to understand, helping yo
 - [React](react) - Example using NativeScript with React.
 - [Solid](solid) - Example using NativeScript with Solid.
 - [Svelte](svelte) - Example using NativeScript with Svelte.
+- [Octane](octane) - Example using NativeScript with Octane.
 
