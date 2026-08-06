@@ -477,8 +477,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
 - [Cross Code WAMR](https://github.com/listepo/cross-code/tree/main/packages/ns-wamr) - Loads and executes WebAssembly modules with the WAMR (WebAssembly Micro Runtime) interpreter, JIT, AOT, and WASI support.
 - [Cross Code WASM Fixture](https://github.com/listepo/cross-code/tree/main/packages/ns-wasm-fixture) - WebAssembly fixture used to test the NativeScript WASM plugins (@cross-code/ns-wasm3 and @cross-code/ns-wamr).
-- [Cross Code WASM3](https://github.com/listepo/cross-code/tree/main/packages/ns-wasm3) - Loads and executes WebAssembly modules with the wasm3 interpreter for iOS (Swift Package) and Android (Kotlin + Rust JNI).
-- [Cross Code Wry](https://github.com/listepo/cross-code/tree/main/packages/ns-wry) - NativeScript plugin built on Rust + UniFFI with auto-generated Kotlin/Swift bindings via the UniFFI IDL.
+- [Cross Code WASM3](https://github.com/listepo/cross-code/tree/main/packages/ns-wasm3) - Loads and executes WebAssembly modules with the wasm3 interpreter for iOS (Swift Package) and Android (Kotlin + Rust JNI via cargo-ndk).
+- [Cross Code Wry](https://github.com/listepo/cross-code/tree/main/packages/ns-wry) - NativeScript plugin built on Rust + UniFFI (uniffi-rs) with auto-generated Kotlin/Swift bindings, compiled by cargo-ndk for Android and linked into a Swift Package on iOS.
 - [DOM Types](https://github.com/nativescript-dom/types) - Single, centralized TypeScript types for NativeScript web frameworks providing better auto-complete/intellisense for Vue, React, Angular, Svelte, and SolidJS.
 - [Dotenv](https://github.com/ontrackms/nativescript-dotenv) - A NativeScript plugin that enables the use of environment variables in your app.
 - [Licenses](https://github.com/nativescript-community/licenses) - A NativeScript plugin to generate licenses JSON files.
