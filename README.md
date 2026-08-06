@@ -86,7 +86,6 @@ Framework for building native mobile apps using JavaScript.
   - [Portal](https://react-nativescript.netlify.app/) - Documentation site for React + NativeScript.
 - [Svelte](https://docs.nativescript.org/tutorials/build-a-master-detail-app-with-svelte) - Use Svelte to compile native apps with NativeScript.
   - [Portal](https://svelte.nativescript.org/) - Official portal for NativeScript-Svelte.
-- [Octane](https://octanejs.dev) - Ahead-of-time compiled React replacement UI library.
 - [CapacitorJS](https://github.com/NativeScript/capacitor) - Integration of CapacitorJS with NativeScript runtime.
   - [Portal](https://capacitor.nativescript.org/) - Website for NativeScript-Capacitor integration.
 - [Ionic](https://v8.docs.nativescript.org/plugins/ionic-portals.html) - Use Ionic Portals inside NativeScript apps.
@@ -476,6 +475,10 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 #### Development & Configuration
 
 - [App Availability](https://github.com/NativeScript/plugins/tree/main/packages/appavailability) - A plugin that checks if an app is installed on a device.
+- [Cross Code WAMR](https://github.com/listepo/cross-code/tree/main/packages/ns-wamr) - Loads and executes WebAssembly modules with the WAMR (WebAssembly Micro Runtime) interpreter, JIT, AOT, and WASI support.
+- [Cross Code WASM Fixture](https://github.com/listepo/cross-code/tree/main/packages/ns-wasm-fixture) - WebAssembly fixture used to test the NativeScript WASM plugins (@cross-code/ns-wasm3 and @cross-code/ns-wamr).
+- [Cross Code WASM3](https://github.com/listepo/cross-code/tree/main/packages/ns-wasm3) - Loads and executes WebAssembly modules with the wasm3 interpreter for iOS (Swift Package) and Android (Kotlin + Rust JNI).
+- [Cross Code Wry](https://github.com/listepo/cross-code/tree/main/packages/ns-wry) - NativeScript plugin built on Rust + UniFFI with auto-generated Kotlin/Swift bindings via the UniFFI IDL.
 - [DOM Types](https://github.com/nativescript-dom/types) - Single, centralized TypeScript types for NativeScript web frameworks providing better auto-complete/intellisense for Vue, React, Angular, Svelte, and SolidJS.
 - [Dotenv](https://github.com/ontrackms/nativescript-dotenv) - A NativeScript plugin that enables the use of environment variables in your app.
 - [Licenses](https://github.com/nativescript-community/licenses) - A NativeScript plugin to generate licenses JSON files.
@@ -562,6 +565,8 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 
 ### Unit Testing
 
+- [Cross Code Vitest](https://github.com/listepo/cross-code/tree/main/packages/vitest-ns) - Vitest 4 custom pool for running JavaScript/TypeScript unit tests inside real NativeScript runtimes on Android and iOS.
+- [Cross Code Vitest UI](https://github.com/listepo/cross-code/tree/main/packages/vitest-ns-ui) - Optional NativeScript Core results UI for @cross-code/vitest-ns, allowing CI/headless users to avoid UI dependencies.
 - [NativeScript-Vue unit testing with Vitest](https://blog.nativescript.org/nativescript-vue-vitest-testing/) - An article on unit testing NativeScript-Vue applications with Vitest.
 - [NativeScript Unit Test Runner v3](https://blog.nativescript.org/unit-testing-with-v3-runner/) - Test your apps, your plugins, as well as platform APIs 💪 + integration extras like SonarCloud.
 
@@ -611,7 +616,6 @@ Build beautiful, usable products using [Material Design Components](https://m2.m
 - [React](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/react) - Example using NativeScript with React.
 - [Solid](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/solid) - Example using NativeScript with Solid.
 - [Svelte](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/svelte) - Example using NativeScript with Svelte.
-- [Octane](https://github.com/dyazincahya/awesome-nativescript/tree/main/examples/octane) - Example using NativeScript with Octane.
 
 ## Tutorials
 
